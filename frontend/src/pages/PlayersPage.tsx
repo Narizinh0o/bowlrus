@@ -16,14 +16,13 @@ const COLUMNS: { key: SortKey; label: string; title?: string }[] = [
   { key: 'best_game', label: 'Лучшая' },
   { key: 'worst_game', label: 'Худшая' },
   { key: 'score_diff', label: 'Разница' },
-  { key: 'strike_attempts', label: 'X попыток' },
-  { key: 'strikes', label: 'X закрыто' },
+  { key: 'strikes', label: 'X всего' },
   { key: 'strike_percent', label: 'X %' },
-  { key: 'spares', label: 'Спэа' },
-  { key: 'spare_conversion_percent', label: 'Спэа %' },
-  { key: 'singles_left', label: '9-pin попыток' },
-  { key: 'singles_converted', label: '9-pin закрыто' },
-  { key: 'singles_missed', label: '9-pin промах' },
+  { key: 'spares', label: 'Добито' },
+  { key: 'spare_conversion_percent', label: 'Добито %' },
+  { key: 'singles_left', label: 'Осталось одиночек' },
+  { key: 'singles_converted', label: 'Добито одиночек' },
+  { key: 'singles_missed', label: 'Одиночек мимо' },
   { key: 'single_pin_percent', label: '9-pin %' },
 ]
 
@@ -156,7 +155,6 @@ export default function PlayersPage() {
                   <td className={`${tdNum} text-green-400`}>{player.best_game}</td>
                   <td className={`${tdNum} text-red-400`}>{player.worst_game}</td>
                   <td className={tdNum}>{player.score_diff}</td>
-                  <td className={tdNum}>{player.strike_attempts}</td>
                   <td className={tdNum}>{player.strikes}</td>
                   <td className={`${tdNum} text-amber-300`}>{player.strike_percent?.toFixed(2)}%</td>
                   <td className={tdNum}>{player.spares}</td>
@@ -178,7 +176,6 @@ export default function PlayersPage() {
                   <td className={`${tdNum} text-green-400`}>{totals.best_game}</td>
                   <td className={`${tdNum} text-red-400`}>{totals.worst_game}</td>
                   <td className={tdNum}>—</td>
-                  <td className={tdNum}>{totals.strike_attempts}</td>
                   <td className={tdNum}>{totals.strikes}</td>
                   <td className={`${tdNum} text-amber-300`}>{totals.strike_percent.toFixed(2)}%</td>
                   <td className={tdNum}>{totals.spares}</td>
