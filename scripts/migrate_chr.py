@@ -100,35 +100,41 @@ def create_sqlite_schema(sqlite_conn):
     print("  ✓ Схема создана")
 
 
-def copy_table(mysql_conn, sqlite_conn, table, columns):
+def copy_table(mysql_conn, sqlite_conn, table, columns, where=None):
     """
     Копирует таблицу из MySQL в SQLite. Перед вставкой конвертирует
     типы, которые SQLite не понимает (date, time, timedelta, Decimal).
+
+    where: опциональное условие WHERE (без слова WHERE), например
+           "event IN ('doubles', 'doubles mix')".
     """
     import datetime
     from decimal import Decimal
 
-    print(f"→ Копирую таблицу {table}")
+    label = f"{table} (WHERE {where})" if where else table
+    print(f"→ Копирую таблицу {label}")
     mysql_cur = mysql_conn.cursor()
     sqlite_cur = sqlite_conn.cursor()
 
     col_list = ", ".join(columns)
     placeholders = ", ".join(["?"] * len(columns))
 
-    mysql_cur.execute(f"SELECT {col_list} FROM {table}")
+    sql = f"SELECT {col_list} FROM {table}"
+    if where:
+        sql += f" WHERE {where}"
+    mysql_cur.execute(sql)
     rows = mysql_cur.fetchall()
 
     def convert(value):
         if value is None:
             return None
         if isinstance(value, datetime.date) and not isinstance(value, datetime.datetime):
-            return value.isoformat()                  # 2026-05-03
+            return value.isoformat()
         if isinstance(value, datetime.datetime):
-            return value.isoformat(sep=" ")           # 2026-05-03 16:24:00
+            return value.isoformat(sep=" ")
         if isinstance(value, datetime.time):
-            return value.isoformat()                  # 16:24:00
+            return value.isoformat()
         if isinstance(value, datetime.timedelta):
-            # MySQL TIME возвращается как timedelta, конвертируем в HH:MM:SS
             total = int(value.total_seconds())
             h, rem = divmod(total, 3600)
             m, s = divmod(rem, 60)
@@ -360,14 +366,21 @@ def main():
     try:
         create_sqlite_schema(sqlite_conn)
 
+        # Зачёты, которые попадают на сайт. 'single' — черновик с
+        # неполными данными (NULL в lane), его не выгружаем.
+        PUBLIC_EVENTS_SQL = "event IN ('doubles', 'doubles mix')"
+
         copy_table(mysql_conn, sqlite_conn, "players",
                    ["player_id", "player_name"])
         copy_table(mysql_conn, sqlite_conn, "games",
                    ["game_id", "player_name", "player_id", "lane",
                     "game_number", "play_date", "time_start", "time_end",
-                    "total_score", "event"])
+                    "total_score", "event"],
+                   where=PUBLIC_EVENTS_SQL)
+        # Фреймы — только тех игр, что прошли фильтр.
         copy_table(mysql_conn, sqlite_conn, "frames",
-                   ["game_id", "frame_number", "content"])
+                   ["game_id", "frame_number", "content"],
+                   where=f"game_id IN (SELECT game_id FROM games WHERE {PUBLIC_EVENTS_SQL})")
 
         build_player_stats_view(sqlite_conn)
 

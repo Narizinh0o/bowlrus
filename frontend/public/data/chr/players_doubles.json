@@ -1618,7 +1618,7 @@
   },
   {
     "player_id": 111,
-    "player_name": "МУСТАФИН АРТЁМ",
+    "player_name": "МУСТАФИН АРТЕМ",
     "events_played": 1,
     "games_played": 6,
     "total_pins": 10590,
@@ -2205,8 +2205,8 @@
     "single_pin_percent": 84.62
   },
   {
-    "player_id": 29,
-    "player_name": "ГОЛЫЦИНА ЮЛИЯ",
+    "player_id": 256,
+    "player_name": "ГОЛИЦЫНА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
     "total_pins": 10050,
