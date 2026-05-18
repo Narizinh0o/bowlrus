@@ -141,7 +141,7 @@ export default function PlayersPage() {
               {sorted.map((player, i) => (
                 <tr
                   key={player.player_id}
-                  onClick={() => navigate(`/players/${player.player_id}`)}
+                  onClick={() => navigate(`/chr/players/${player.player_id}`)}
                   className={`border-b border-slate-700/50 cursor-pointer transition-colors ${
                     i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'
                   } hover:bg-slate-700/70`}
