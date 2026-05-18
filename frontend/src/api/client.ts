@@ -9,16 +9,19 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 export const fetchTournament = (): Promise<Tournament> =>
-  fetchJson<Tournament>('/data/tournament.json')
+  fetchJson<Tournament>('/data/chr/tournament.json')
 
 export const fetchEvents = (): Promise<EventInfo[]> =>
-  fetchJson<EventInfo[]>('/data/events.json')
+  fetchJson<EventInfo[]>('/data/chr/events.json')
 
+// Без event → агрегат по всем зачётам.
+// С event → отдельный файл: имя зачёта переводится в slug (пробел → подчёркивание).
+// Пример: 'doubles mix' → /data/chr/players_doubles_mix.json
 export const fetchPlayers = (event?: string): Promise<PlayerStats[]> => {
-  if (event === 'doubles') return fetchJson<PlayerStats[]>('/data/players_doubles.json')
-  if (event === 'doubles mix') return fetchJson<PlayerStats[]>('/data/players_doubles_mix.json')
-  return fetchJson<PlayerStats[]>('/data/players.json')
+  if (!event) return fetchJson<PlayerStats[]>('/data/chr/players.json')
+  const slug = event.replace(/\s+/g, '_')
+  return fetchJson<PlayerStats[]>(`/data/chr/players_${slug}.json`)
 }
 
 export const fetchPlayer = (id: number): Promise<PlayerDetail> =>
-  fetchJson<PlayerDetail>(`/data/players/${id}.json`)
+  fetchJson<PlayerDetail>(`/data/chr/players/${id}.json`)

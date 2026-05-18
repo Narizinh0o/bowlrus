@@ -35,7 +35,7 @@ export default function PlayerPage() {
   if (loading) return <LoadingSpinner />
   if (error || !data) return (
     <div className="text-center py-20 text-slate-400">
-      Игрок не найден. <Link to="/players" className="text-amber-500 hover:underline">Вернуться к списку</Link>
+      Игрок не найден. <Link to="/chr/players" className="text-amber-500 hover:underline">Вернуться к списку</Link>
     </div>
   )
 
@@ -53,7 +53,7 @@ export default function PlayerPage() {
   return (
     <div>
       <div className="flex items-center gap-4 mb-6">
-        <Link to="/players" className="text-slate-400 hover:text-amber-500 transition-colors">
+        <Link to="/chr/players" className="text-slate-400 hover:text-amber-500 transition-colors">
           ← Игроки
         </Link>
         <h1 className="text-3xl font-bold text-white">{stats.player_name}</h1>
