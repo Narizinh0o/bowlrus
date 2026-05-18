@@ -1,0 +1,20 @@
+{
+  "player_id": 31,
+  "player_name": "бышенко кирилл",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 203,
+  "avg_total": 192.1,
+  "best_game": 279,
+  "worst_game": 104,
+  "tournaments_played": 11,
+  "quals_games": 188,
+  "quals_avg": 192.3,
+  "rr_games": 13,
+  "rr_avg": 189.2,
+  "po_games": 2,
+  "po_avg": 189.5,
+  "po_best": 202,
+  "rolloff": null
+}

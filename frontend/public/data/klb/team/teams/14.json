@@ -1,0 +1,27 @@
+{
+  "team_id": 14,
+  "team_name": "астероид элен и ребята",
+  "club_id": 1,
+  "club_name": "астероид",
+  "games_total": 276,
+  "avg_total": 188.7,
+  "best_game": 234,
+  "rr_games": 262,
+  "rr_avg": 186.6,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 14,
+  "po_avg": 204.7,
+  "po_best": 234,
+  "seasons_list": "1,2,3",
+  "latest_season": 3,
+  "rolloff": {
+    "team_id": 14,
+    "team_name": "астероид элен и ребята",
+    "throws_count": 12,
+    "throws_avg": 9.08,
+    "matches_total": 5,
+    "matches_won": 2,
+    "winrate": 40.0
+  }
+}

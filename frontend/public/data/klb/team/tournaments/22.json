@@ -1,0 +1,141 @@
+{
+  "tournament": {
+    "tournament_id": 22,
+    "name": "2023.ГрандФинал.Тюмень",
+    "year": 2023,
+    "season": 1,
+    "stage": 7
+  },
+  "results": [
+    {
+      "tournament_id": 22,
+      "team_id": 34,
+      "team_name": "hunters - 1",
+      "club_name": "hunters",
+      "games_total": 40,
+      "avg_total": 120.0,
+      "best_game": 241,
+      "rr_games": 36,
+      "rr_avg": 104.8,
+      "po_games": 4,
+      "po_avg": 211.3
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 37,
+      "team_name": "астероид интернэшнл",
+      "club_name": "астероид",
+      "games_total": 40,
+      "avg_total": 119.7,
+      "best_game": 247,
+      "rr_games": 36,
+      "rr_avg": 99.4,
+      "po_games": 4,
+      "po_avg": 210.8
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 52,
+      "team_name": "кати шары! альянс",
+      "club_name": "кати шары!",
+      "games_total": 40,
+      "avg_total": 119.0,
+      "best_game": 227,
+      "rr_games": 36,
+      "rr_avg": 100.8,
+      "po_games": 4,
+      "po_avg": 201.3
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 20,
+      "team_name": "semurg team",
+      "club_name": "semurg team",
+      "games_total": 40,
+      "avg_total": 114.4,
+      "best_game": 246,
+      "rr_games": 36,
+      "rr_avg": 95.5,
+      "po_games": 4,
+      "po_avg": 228.0
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 3,
+      "team_name": "ultimate team",
+      "club_name": "ultimate team",
+      "games_total": 36,
+      "avg_total": 100.3,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 100.3,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 2,
+      "team_name": "brooklyn bowl red",
+      "club_name": "brooklyn bowl",
+      "games_total": 36,
+      "avg_total": 99.6,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 99.6,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 6,
+      "team_name": "б-69",
+      "club_name": "б-69",
+      "games_total": 36,
+      "avg_total": 98.9,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 98.9,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 53,
+      "team_name": "моравия lucky страйк",
+      "club_name": "моравия",
+      "games_total": 36,
+      "avg_total": 97.6,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 97.6,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 43,
+      "team_name": "hunters - 3",
+      "club_name": "hunters",
+      "games_total": 36,
+      "avg_total": 94.7,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 94.7,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 22,
+      "team_id": 15,
+      "team_name": "brooklyn bowl black",
+      "club_name": "brooklyn bowl",
+      "games_total": 36,
+      "avg_total": 88.4,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 88.4,
+      "po_games": 0,
+      "po_avg": null
+    }
+  ]
+}

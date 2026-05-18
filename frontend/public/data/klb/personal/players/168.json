@@ -1,0 +1,20 @@
+{
+  "player_id": 168,
+  "player_name": "лукманов ильшат",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sure.good",
+  "games_total": 16,
+  "avg_total": 159.4,
+  "best_game": 202,
+  "worst_game": 114,
+  "tournaments_played": 2,
+  "quals_games": 16,
+  "quals_avg": 159.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

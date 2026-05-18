@@ -1,0 +1,28 @@
+{
+  "player_id": 135,
+  "player_name": "кононов александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 305,
+  "avg_total": 201.3,
+  "best_game": 299,
+  "worst_game": 145,
+  "tournaments_played": 17,
+  "quals_games": 248,
+  "quals_avg": 202.1,
+  "rr_games": 33,
+  "rr_avg": 199.5,
+  "po_games": 24,
+  "po_avg": 195.6,
+  "po_best": 247,
+  "rolloff": {
+    "player_id": 135,
+    "player_name": "кононов александр",
+    "throws_count": 8,
+    "throws_avg": 9.0,
+    "matches_total": 6,
+    "matches_won": 4,
+    "winrate": 66.7
+  }
+}

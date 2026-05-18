@@ -1,0 +1,28 @@
+{
+  "player_id": 125,
+  "player_name": "щекачев вячеслав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 390,
+  "avg_total": 199.3,
+  "best_game": 279,
+  "worst_game": 123,
+  "tournaments_played": 22,
+  "quals_games": 296,
+  "quals_avg": 199.0,
+  "rr_games": 58,
+  "rr_avg": 200.9,
+  "po_games": 36,
+  "po_avg": 199.1,
+  "po_best": 277,
+  "rolloff": {
+    "player_id": 125,
+    "player_name": "щекачев вячеслав",
+    "throws_count": 18,
+    "throws_avg": 9.17,
+    "matches_total": 11,
+    "matches_won": 7,
+    "winrate": 63.6
+  }
+}

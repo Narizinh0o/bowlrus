@@ -1,0 +1,19 @@
+{
+  "team_id": 29,
+  "team_name": "semurg team b",
+  "club_id": 13,
+  "club_name": "semurg team",
+  "games_total": 52,
+  "avg_total": 191.1,
+  "best_game": 203,
+  "rr_games": 50,
+  "rr_avg": 191.5,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 2,
+  "po_avg": 188.0,
+  "po_best": 203,
+  "seasons_list": "1,2,3",
+  "latest_season": 3,
+  "rolloff": null
+}

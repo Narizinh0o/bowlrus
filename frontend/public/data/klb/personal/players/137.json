@@ -1,0 +1,28 @@
+{
+  "player_id": 137,
+  "player_name": "степаненко андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 170,
+  "avg_total": 198.8,
+  "best_game": 267,
+  "worst_game": 132,
+  "tournaments_played": 10,
+  "quals_games": 135,
+  "quals_avg": 198.6,
+  "rr_games": 27,
+  "rr_avg": 197.3,
+  "po_games": 8,
+  "po_avg": 207.5,
+  "po_best": 259,
+  "rolloff": {
+    "player_id": 137,
+    "player_name": "степаненко андрей",
+    "throws_count": 3,
+    "throws_avg": 7.67,
+    "matches_total": 3,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

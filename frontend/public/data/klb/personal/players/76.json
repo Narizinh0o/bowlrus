@@ -1,0 +1,20 @@
+{
+  "player_id": 76,
+  "player_name": "чекалкин андрей",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "su-50",
+  "games_total": 280,
+  "avg_total": 179.1,
+  "best_game": 247,
+  "worst_game": 122,
+  "tournaments_played": 22,
+  "quals_games": 280,
+  "quals_avg": 179.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

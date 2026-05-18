@@ -1,0 +1,19 @@
+{
+  "team_id": 55,
+  "team_name": "к 700 еноты",
+  "club_id": 11,
+  "club_name": "к 700",
+  "games_total": 20,
+  "avg_total": 181.4,
+  "best_game": null,
+  "rr_games": 20,
+  "rr_avg": 181.4,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": null
+}

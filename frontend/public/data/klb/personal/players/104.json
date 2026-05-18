@@ -1,0 +1,20 @@
+{
+  "player_id": 104,
+  "player_name": "шарипов тургунбек",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 156,
+  "avg_total": 161.3,
+  "best_game": 227,
+  "worst_game": 103,
+  "tournaments_played": 13,
+  "quals_games": 156,
+  "quals_avg": 161.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

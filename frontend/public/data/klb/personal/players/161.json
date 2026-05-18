@@ -1,0 +1,20 @@
+{
+  "player_id": 161,
+  "player_name": "горбунов виталий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 23,
+  "avg_total": 190.5,
+  "best_game": 269,
+  "worst_game": 143,
+  "tournaments_played": 1,
+  "quals_games": 23,
+  "quals_avg": 190.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

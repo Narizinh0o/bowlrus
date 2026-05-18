@@ -1,0 +1,20 @@
+{
+  "player_id": 16,
+  "player_name": "галочкин алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 206,
+  "avg_total": 185.6,
+  "best_game": 276,
+  "worst_game": 123,
+  "tournaments_played": 14,
+  "quals_games": 206,
+  "quals_avg": 185.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

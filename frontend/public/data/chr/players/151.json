@@ -1,0 +1,143 @@
+{
+  "player_id": 151,
+  "player_name": "СОЛОНКОВА ЕКАТЕРИНА",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 21550,
+  "average_score": 179.58,
+  "best_game": 213,
+  "worst_game": 132,
+  "score_diff": 81,
+  "strike_attempts": 133,
+  "strikes": 51,
+  "strike_percent": 38.35,
+  "spares": 48,
+  "opens": 31,
+  "spare_conversion_percent": 60.76,
+  "singles_left": 36,
+  "singles_converted": 27,
+  "singles_missed": 9,
+  "single_pin_percent": 75.0,
+  "games": [
+    {
+      "game_id": 901,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "08:13:00",
+      "time_end": "08:36:00",
+      "lane": 24,
+      "event": "doubles",
+      "total_score": 200
+    },
+    {
+      "game_id": 902,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "08:41:00",
+      "time_end": "09:06:00",
+      "lane": 25,
+      "event": "doubles",
+      "total_score": 153
+    },
+    {
+      "game_id": 903,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "09:13:00",
+      "time_end": "09:39:00",
+      "lane": 28,
+      "event": "doubles",
+      "total_score": 166
+    },
+    {
+      "game_id": 904,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "09:43:00",
+      "time_end": "10:07:00",
+      "lane": 29,
+      "event": "doubles",
+      "total_score": 185
+    },
+    {
+      "game_id": 905,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "10:13:00",
+      "time_end": "10:38:00",
+      "lane": 20,
+      "event": "doubles",
+      "total_score": 178
+    },
+    {
+      "game_id": 906,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "10:42:00",
+      "time_end": "11:07:00",
+      "lane": 21,
+      "event": "doubles",
+      "total_score": 207
+    },
+    {
+      "game_id": 1873,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "08:12:00",
+      "time_end": "08:36:00",
+      "lane": 19,
+      "event": "doubles mix",
+      "total_score": 132
+    },
+    {
+      "game_id": 1874,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "08:39:00",
+      "time_end": "09:05:00",
+      "lane": 16,
+      "event": "doubles mix",
+      "total_score": 196
+    },
+    {
+      "game_id": 1875,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "09:08:00",
+      "time_end": "09:34:00",
+      "lane": 11,
+      "event": "doubles mix",
+      "total_score": 178
+    },
+    {
+      "game_id": 1876,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "09:39:00",
+      "time_end": "10:02:00",
+      "lane": 8,
+      "event": "doubles mix",
+      "total_score": 213
+    },
+    {
+      "game_id": 1877,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "10:09:00",
+      "time_end": "10:35:00",
+      "lane": 3,
+      "event": "doubles mix",
+      "total_score": 155
+    },
+    {
+      "game_id": 1878,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "10:39:00",
+      "time_end": "11:02:00",
+      "lane": 26,
+      "event": "doubles mix",
+      "total_score": 192
+    }
+  ]
+}

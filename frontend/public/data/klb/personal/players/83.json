@@ -1,0 +1,20 @@
+{
+  "player_id": 83,
+  "player_name": "суркова ольга",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 101,
+  "avg_total": 169.7,
+  "best_game": 245,
+  "worst_game": 120,
+  "tournaments_played": 9,
+  "quals_games": 101,
+  "quals_avg": 169.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

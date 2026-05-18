@@ -1,0 +1,20 @@
+{
+  "player_id": 18,
+  "player_name": "париц дина",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 145,
+  "avg_total": 192.0,
+  "best_game": 250,
+  "worst_game": 112,
+  "tournaments_played": 8,
+  "quals_games": 145,
+  "quals_avg": 192.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 221,
+  "player_name": "саидхаджаев сардор",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 6,
+  "avg_total": 161.5,
+  "best_game": 167,
+  "worst_game": 153,
+  "tournaments_played": 1,
+  "quals_games": 6,
+  "quals_avg": 161.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

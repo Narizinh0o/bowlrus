@@ -1,0 +1,20 @@
+{
+  "player_id": 98,
+  "player_name": "гадельшин артур",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 196,
+  "avg_total": 179.8,
+  "best_game": 265,
+  "worst_game": 115,
+  "tournaments_played": 16,
+  "quals_games": 196,
+  "quals_avg": 179.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

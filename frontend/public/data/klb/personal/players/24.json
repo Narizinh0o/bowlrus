@@ -1,0 +1,20 @@
+{
+  "player_id": 24,
+  "player_name": "кормилицин дмитрий",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "red team",
+  "games_total": 216,
+  "avg_total": 186.2,
+  "best_game": 257,
+  "worst_game": 123,
+  "tournaments_played": 15,
+  "quals_games": 205,
+  "quals_avg": 186.4,
+  "rr_games": 11,
+  "rr_avg": 181.5,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

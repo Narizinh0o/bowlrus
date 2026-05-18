@@ -1,0 +1,27 @@
+{
+  "team_id": 5,
+  "team_name": "red team bulls",
+  "club_id": 5,
+  "club_name": "red team",
+  "games_total": 368,
+  "avg_total": 179.7,
+  "best_game": 232,
+  "rr_games": 358,
+  "rr_avg": 179.3,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 10,
+  "po_avg": 187.7,
+  "po_best": 232,
+  "seasons_list": "1,2,3",
+  "latest_season": 3,
+  "rolloff": {
+    "team_id": 5,
+    "team_name": "red team bulls",
+    "throws_count": 6,
+    "throws_avg": 8.33,
+    "matches_total": 2,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

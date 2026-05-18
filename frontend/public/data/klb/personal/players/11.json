@@ -1,0 +1,28 @@
+{
+  "player_id": 11,
+  "player_name": "кузнецов никита",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 378,
+  "avg_total": 204.6,
+  "best_game": 300,
+  "worst_game": 131,
+  "tournaments_played": 19,
+  "quals_games": 287,
+  "quals_avg": 203.2,
+  "rr_games": 40,
+  "rr_avg": 206.6,
+  "po_games": 51,
+  "po_avg": 210.7,
+  "po_best": 265,
+  "rolloff": {
+    "player_id": 11,
+    "player_name": "кузнецов никита",
+    "throws_count": 16,
+    "throws_avg": 9.38,
+    "matches_total": 10,
+    "matches_won": 7,
+    "winrate": 70.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 237,
+  "player_name": "урчуков альберт",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 6,
+  "avg_total": 169.2,
+  "best_game": 196,
+  "worst_game": 145,
+  "tournaments_played": 1,
+  "quals_games": 6,
+  "quals_avg": 169.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

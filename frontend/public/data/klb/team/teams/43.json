@@ -1,0 +1,27 @@
+{
+  "team_id": 43,
+  "team_name": "hunters - 3",
+  "club_id": 12,
+  "club_name": "hunters",
+  "games_total": 158,
+  "avg_total": 174.7,
+  "best_game": 234,
+  "rr_games": 148,
+  "rr_avg": 170.7,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 10,
+  "po_avg": 204.1,
+  "po_best": 234,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": {
+    "team_id": 43,
+    "team_name": "hunters - 3",
+    "throws_count": 3,
+    "throws_avg": 9.0,
+    "matches_total": 2,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

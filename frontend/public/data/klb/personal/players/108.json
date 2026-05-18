@@ -1,0 +1,28 @@
+{
+  "player_id": 108,
+  "player_name": "сазонов иван",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "б-69",
+  "games_total": 350,
+  "avg_total": 211.7,
+  "best_game": 300,
+  "worst_game": 122,
+  "tournaments_played": 21,
+  "quals_games": 266,
+  "quals_avg": 213.2,
+  "rr_games": 20,
+  "rr_avg": 199.1,
+  "po_games": 64,
+  "po_avg": 209.4,
+  "po_best": 252,
+  "rolloff": {
+    "player_id": 108,
+    "player_name": "сазонов иван",
+    "throws_count": 22,
+    "throws_avg": 9.05,
+    "matches_total": 14,
+    "matches_won": 7,
+    "winrate": 50.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 150,
+  "player_name": "ярославцев алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 233,
+  "avg_total": 194.1,
+  "best_game": 300,
+  "worst_game": 135,
+  "tournaments_played": 14,
+  "quals_games": 209,
+  "quals_avg": 193.4,
+  "rr_games": 18,
+  "rr_avg": 200.9,
+  "po_games": 6,
+  "po_avg": 199.2,
+  "po_best": 228,
+  "rolloff": null
+}

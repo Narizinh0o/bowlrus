@@ -1,0 +1,20 @@
+{
+  "player_id": 153,
+  "player_name": "слабженников владимир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 194,
+  "avg_total": 170.0,
+  "best_game": 259,
+  "worst_game": 101,
+  "tournaments_played": 16,
+  "quals_games": 194,
+  "quals_avg": 170.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 87,
+  "player_name": "логинов константин",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 283,
+  "avg_total": 186.0,
+  "best_game": 276,
+  "worst_game": 116,
+  "tournaments_played": 18,
+  "quals_games": 250,
+  "quals_avg": 186.1,
+  "rr_games": 27,
+  "rr_avg": 182.9,
+  "po_games": 6,
+  "po_avg": 193.2,
+  "po_best": 228,
+  "rolloff": {
+    "player_id": 87,
+    "player_name": "логинов константин",
+    "throws_count": 2,
+    "throws_avg": 9.5,
+    "matches_total": 1,
+    "matches_won": 1,
+    "winrate": 100.0
+  }
+}

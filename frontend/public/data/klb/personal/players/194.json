@@ -1,0 +1,28 @@
+{
+  "player_id": 194,
+  "player_name": "абдужабборов абдуррахим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 171,
+  "avg_total": 208.5,
+  "best_game": 279,
+  "worst_game": 111,
+  "tournaments_played": 10,
+  "quals_games": 147,
+  "quals_avg": 207.8,
+  "rr_games": 12,
+  "rr_avg": 207.5,
+  "po_games": 12,
+  "po_avg": 217.0,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 194,
+    "player_name": "абдужабборов абдуррахим",
+    "throws_count": 4,
+    "throws_avg": 9.25,
+    "matches_total": 3,
+    "matches_won": 1,
+    "winrate": 33.3
+  }
+}

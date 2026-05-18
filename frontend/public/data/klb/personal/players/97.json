@@ -1,0 +1,20 @@
+{
+  "player_id": 97,
+  "player_name": "сизов юрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 66,
+  "avg_total": 179.3,
+  "best_game": 245,
+  "worst_game": 115,
+  "tournaments_played": 6,
+  "quals_games": 66,
+  "quals_avg": 179.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

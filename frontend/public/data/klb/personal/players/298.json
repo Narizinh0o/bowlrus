@@ -1,0 +1,20 @@
+{
+  "player_id": 298,
+  "player_name": "аниховский анатолий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 18,
+  "avg_total": 181.6,
+  "best_game": 221,
+  "worst_game": 128,
+  "tournaments_played": 1,
+  "quals_games": 18,
+  "quals_avg": 181.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

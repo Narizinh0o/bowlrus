@@ -1,0 +1,27 @@
+{
+  "team_id": 24,
+  "team_name": "кати шары! kazuality",
+  "club_id": 7,
+  "club_name": "кати шары!",
+  "games_total": 140,
+  "avg_total": 185.0,
+  "best_game": 213,
+  "rr_games": 116,
+  "rr_avg": 185.5,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 24,
+  "po_avg": 182.0,
+  "po_best": 213,
+  "seasons_list": "3",
+  "latest_season": 3,
+  "rolloff": {
+    "team_id": 24,
+    "team_name": "кати шары! kazuality",
+    "throws_count": 12,
+    "throws_avg": 8.83,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

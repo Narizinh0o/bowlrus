@@ -1,0 +1,27 @@
+{
+  "team_id": 56,
+  "team_name": "барс",
+  "club_id": 17,
+  "club_name": "барс",
+  "games_total": 32,
+  "avg_total": 178.1,
+  "best_game": 219,
+  "rr_games": 30,
+  "rr_avg": 178.9,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 2,
+  "po_avg": 172.0,
+  "po_best": 219,
+  "seasons_list": "4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 56,
+    "team_name": "барс",
+    "throws_count": 5,
+    "throws_avg": 7.2,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

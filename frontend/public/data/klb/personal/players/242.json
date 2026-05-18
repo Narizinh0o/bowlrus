@@ -1,0 +1,20 @@
+{
+  "player_id": 242,
+  "player_name": "тинякова елена",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 66,
+  "avg_total": 184.2,
+  "best_game": 240,
+  "worst_game": 129,
+  "tournaments_played": 4,
+  "quals_games": 66,
+  "quals_avg": 184.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

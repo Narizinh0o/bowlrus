@@ -1,97 +1,262 @@
 """
-Экспортирует все эндпоинты backend API в статические JSON-файлы.
+Экспорт SQLite-витрин в статические JSON-файлы для фронта.
 
-После выполнения файлы лежат в frontend/public/data/ и могут
-быть напрямую загружены фронтендом без работающего backend.
+Запуск из корня репо:
+    python scripts/export_to_json.py
 
-Использование:
-    1. Запусти backend: uvicorn backend.main:app --reload
-    2. В другом терминале: python scripts/export_to_json.py
+Что делает:
+    Для каждого спорта из реестра SPORTS вызывает свой экспортёр, который
+    дёргает функции из backend.queries (без HTTP) и пишет JSON-файлы в
+    frontend/public/data/<sport>/. Запись идёт через временную папку
+    *.staging, потом атомарной подменой заменяет старую — поэтому
+    прерванный экспорт не оставит фронт с полупустыми данными.
+
+Структура вывода:
+    frontend/public/data/
+    ├── klb/
+    │   ├── meta.json
+    │   ├── personal/
+    │   │   ├── players.json
+    │   │   ├── players/{id}.json
+    │   │   ├── tournaments.json
+    │   │   └── tournaments/{id}.json
+    │   ├── team/
+    │   │   ├── teams.json
+    │   │   ├── teams/{id}.json
+    │   │   ├── tournaments.json
+    │   │   └── tournaments/{id}.json
+    │   ├── clubs.json
+    │   └── clubs/{id}.json
+    └── chr/
+        ├── meta.json
+        ├── tournament.json
+        ├── events.json
+        ├── players.json
+        └── players/{id}.json
 """
 
+from __future__ import annotations
+
 import json
+import shutil
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
-
-API_URL = "http://127.0.0.1:8000"
-
+# Добавляем корень репо в sys.path, чтобы импорт backend.* работал
+# при запуске `python scripts/export_to_json.py` из корня.
 ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = ROOT / "frontend" / "public" / "data"
+sys.path.insert(0, str(ROOT))
+
+from backend import queries  # noqa: E402
+from backend.db import SPORTS, get_conn  # noqa: E402
 
 
-def fetch(endpoint):
-    print(f"  → GET {endpoint}")
-    response = requests.get(f"{API_URL}{endpoint}", timeout=30)
-    response.raise_for_status()
-    return response.json()
+# Корневая папка для всех JSON
+OUTPUT_ROOT = ROOT / "frontend" / "public" / "data"
 
 
-def save(filename, data):
-    path = OUT_DIR / filename
+# ──────────────────────────────────────────────────────────────────────────
+# Утилиты записи
+# ──────────────────────────────────────────────────────────────────────────
+
+
+def write_json(path: Path, data) -> None:
+    """Записать JSON с отступами, кириллицей и созданием папок при необходимости."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-    size_kb = path.stat().st_size / 1024
-    print(f"    ✓ {filename} ({size_kb:.1f} KB)")
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def main():
-    print("=" * 60)
-    print(f"Экспорт API → {OUT_DIR}")
-    print("=" * 60)
+def replace_dir(target: Path, staging: Path) -> None:
+    """Атомарно подменить target папкой staging."""
+    if target.exists():
+        shutil.rmtree(target)
+    staging.rename(target)
 
-    # Проверяем что backend жив
+
+# ──────────────────────────────────────────────────────────────────────────
+# Экспорт КЛБ
+# ──────────────────────────────────────────────────────────────────────────
+
+
+def export_klb(out_dir: Path) -> dict:
+    """Сгенерировать JSON-дерево для КЛБ. Возвращает счётчики для meta.json."""
+    conn = get_conn("klb")
     try:
-        requests.get(f"{API_URL}/", timeout=3)
-    except requests.exceptions.RequestException:
-        print(f"✗ Не могу подключиться к {API_URL}")
-        print("  Запусти сначала backend: uvicorn backend.main:app --reload")
-        sys.exit(1)
+        counts = {}
 
-    # Чистим папку перед экспортом
-    if OUT_DIR.exists():
-        for item in OUT_DIR.rglob("*"):
-            if item.is_file():
-                item.unlink()
-        print(f"→ Очистил старые файлы из {OUT_DIR.name}/")
+        # ── Личный зачёт ─────────────────────────────────────────
+        print("    личный зачёт: игроки...")
+        players = queries.klb_personal_players(conn)
+        write_json(out_dir / "personal" / "players.json", players)
+        counts["personal_players"] = len(players)
 
-    # Основные эндпоинты
-    print("\n→ Экспорт основных данных:")
+        for p in players:
+            card = queries.klb_personal_player(conn, p["player_id"])
+            write_json(
+                out_dir / "personal" / "players" / f"{p['player_id']}.json",
+                card,
+            )
 
-    tournament = fetch("/api/tournament")
-    save("tournament.json", tournament)
+        print("    личный зачёт: турниры...")
+        personal_tournaments = queries.klb_personal_tournaments(conn)
+        write_json(out_dir / "personal" / "tournaments.json", personal_tournaments)
+        counts["personal_tournaments"] = len(personal_tournaments)
 
-    events = fetch("/api/events")
-    save("events.json", events)
+        for t in personal_tournaments:
+            card = queries.klb_personal_tournament(conn, t["tournament_id"])
+            write_json(
+                out_dir / "personal" / "tournaments" / f"{t['tournament_id']}.json",
+                card,
+            )
 
-    # Игроки — три варианта: все, doubles, doubles mix
-    players_all = fetch("/api/players")
-    save("players.json", players_all)
+        # ── Командный зачёт ──────────────────────────────────────
+        print("    командный зачёт: команды...")
+        teams = queries.klb_team_teams(conn)
+        write_json(out_dir / "team" / "teams.json", teams)
+        counts["teams"] = len(teams)
 
-    players_doubles = fetch("/api/players?event=doubles")
-    save("players_doubles.json", players_doubles)
+        for t in teams:
+            card = queries.klb_team_team(conn, t["team_id"])
+            write_json(out_dir / "team" / "teams" / f"{t['team_id']}.json", card)
 
-    players_doubles_mix = fetch("/api/players?event=doubles mix")
-    save("players_doubles_mix.json", players_doubles_mix)
+        print("    командный зачёт: турниры...")
+        team_tournaments = queries.klb_team_tournaments(conn)
+        write_json(out_dir / "team" / "tournaments.json", team_tournaments)
+        counts["team_tournaments"] = len(team_tournaments)
 
-    # Карточки игроков
-    print(f"\n→ Экспорт карточек игроков ({len(players_all)} шт.):")
+        for t in team_tournaments:
+            card = queries.klb_team_tournament(conn, t["tournament_id"])
+            write_json(
+                out_dir / "team" / "tournaments" / f"{t['tournament_id']}.json",
+                card,
+            )
 
-    players_dir = OUT_DIR / "players"
-    players_dir.mkdir(parents=True, exist_ok=True)
+        # ── Клубы ────────────────────────────────────────────────
+        print("    клубы...")
+        clubs = queries.klb_clubs(conn)
+        write_json(out_dir / "clubs.json", clubs)
+        counts["clubs"] = len(clubs)
 
-    for i, player in enumerate(players_all, 1):
-        player_id = player["player_id"]
-        try:
-            data = fetch(f"/api/players/{player_id}")
-            save(f"players/{player_id}.json", data)
-        except Exception as e:
-            print(f"    ✗ Игрок {player_id}: {e}")
+        for c in clubs:
+            card = queries.klb_club(conn, c["club_id"])
+            write_json(out_dir / "clubs" / f"{c['club_id']}.json", card)
 
-    print(f"\n✓ Готово. Экспортировано {len(players_all)} игроков.")
-    print(f"  Папка: {OUT_DIR}")
+        return counts
+    finally:
+        conn.close()
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# Экспорт ЧР
+# ──────────────────────────────────────────────────────────────────────────
+
+
+# Метаданные турнира ЧР — конфигурация, не данные. Раньше жили в backend/main.py
+# в TOURNAMENT_INFO; теперь здесь, в точке генерации JSON.
+CHR_TOURNAMENT_META = {
+    "name": "Чемпионат России 2026",
+    "date_start": "2026-05-02",
+    "date_end": "2026-05-07",
+    "slug": "chr2026",
+}
+
+
+def export_chr(out_dir: Path) -> dict:
+    """Сгенерировать JSON-дерево для ЧР."""
+    conn = get_conn("chr")
+    try:
+        counts = {}
+
+        print("    турнир + сводка...")
+        summary = queries.chr_tournament_summary(conn)
+        write_json(
+            out_dir / "tournament.json",
+            {**CHR_TOURNAMENT_META, "summary": summary},
+        )
+
+        print("    зачёты...")
+        events = queries.chr_events(conn)
+        write_json(out_dir / "events.json", events)
+        counts["events"] = len(events)
+
+        print("    игроки...")
+        players = queries.chr_players(conn)
+        write_json(out_dir / "players.json", players)
+        counts["players"] = len(players)
+
+        for p in players:
+            card = queries.chr_player(conn, p["player_id"])
+            write_json(out_dir / "players" / f"{p['player_id']}.json", card)
+
+        return counts
+    finally:
+        conn.close()
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# Главная процедура
+# ──────────────────────────────────────────────────────────────────────────
+
+
+SPORT_EXPORTERS = {
+    "klb": export_klb,
+    "chr": export_chr,
+}
+
+
+def export_sport(sport: str) -> None:
+    """Экспорт одного спорта с атомарной подменой папки."""
+    if sport not in SPORT_EXPORTERS:
+        print(f"  [skip] {sport}: нет экспортёра")
+        return
+
+    db_path = SPORTS[sport]
+    if not db_path.exists():
+        print(f"  [skip] {sport}: SQLite-файл не найден ({db_path})")
+        return
+
+    target = OUTPUT_ROOT / sport
+    staging = OUTPUT_ROOT / f"{sport}.staging"
+
+    # На случай, если предыдущий запуск упал и оставил staging
+    if staging.exists():
+        shutil.rmtree(staging)
+    staging.mkdir(parents=True)
+
+    print(f"\n[{sport}] экспорт в {staging.name}/")
+    counts = SPORT_EXPORTERS[sport](staging)
+
+    # meta.json: фиксируем момент генерации и счётчики
+    meta = {
+        "sport": sport,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "db_mtime": datetime.fromtimestamp(
+            db_path.stat().st_mtime, tz=timezone.utc
+        ).isoformat(),
+        "counts": counts,
+    }
+    write_json(staging / "meta.json", meta)
+
+    # Атомарная подмена
+    replace_dir(target, staging)
+    print(f"[{sport}] готово: {counts}")
+
+
+def main() -> None:
+    print("=" * 60)
+    print(f"Экспорт SQLite → JSON")
+    print(f"Назначение: {OUTPUT_ROOT}")
+    print("=" * 60)
+
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+
+    for sport in SPORTS:
+        export_sport(sport)
+
+    print("\n" + "=" * 60)
+    print("Готово.")
 
 
 if __name__ == "__main__":

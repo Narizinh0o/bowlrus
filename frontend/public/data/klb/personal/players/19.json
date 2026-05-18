@@ -1,0 +1,28 @@
+{
+  "player_id": 19,
+  "player_name": "золотухин ярослав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 312,
+  "avg_total": 197.4,
+  "best_game": 300,
+  "worst_game": 134,
+  "tournaments_played": 17,
+  "quals_games": 261,
+  "quals_avg": 197.2,
+  "rr_games": 33,
+  "rr_avg": 196.8,
+  "po_games": 18,
+  "po_avg": 201.6,
+  "po_best": 244,
+  "rolloff": {
+    "player_id": 19,
+    "player_name": "золотухин ярослав",
+    "throws_count": 9,
+    "throws_avg": 9.11,
+    "matches_total": 5,
+    "matches_won": 3,
+    "winrate": 60.0
+  }
+}

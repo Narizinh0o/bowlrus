@@ -1,0 +1,28 @@
+{
+  "player_id": 134,
+  "player_name": "соболев павел",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 386,
+  "avg_total": 193.8,
+  "best_game": 269,
+  "worst_game": 0,
+  "tournaments_played": 21,
+  "quals_games": 346,
+  "quals_avg": 194.3,
+  "rr_games": 32,
+  "rr_avg": 198.1,
+  "po_games": 8,
+  "po_avg": 156.6,
+  "po_best": 235,
+  "rolloff": {
+    "player_id": 134,
+    "player_name": "соболев павел",
+    "throws_count": 2,
+    "throws_avg": 9.5,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

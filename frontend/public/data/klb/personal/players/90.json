@@ -1,0 +1,20 @@
+{
+  "player_id": 90,
+  "player_name": "глазков юрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 317,
+  "avg_total": 184.9,
+  "best_game": 269,
+  "worst_game": 115,
+  "tournaments_played": 21,
+  "quals_games": 299,
+  "quals_avg": 184.1,
+  "rr_games": 18,
+  "rr_avg": 197.4,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

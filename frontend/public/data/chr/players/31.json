@@ -1,0 +1,143 @@
+{
+  "player_id": 31,
+  "player_name": "ГОНЧАРИДИ ЮЛИЯ",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 19740,
+  "average_score": 164.5,
+  "best_game": 200,
+  "worst_game": 113,
+  "score_diff": 87,
+  "strike_attempts": 127,
+  "strikes": 29,
+  "strike_percent": 22.83,
+  "spares": 60,
+  "opens": 34,
+  "spare_conversion_percent": 63.83,
+  "singles_left": 42,
+  "singles_converted": 33,
+  "singles_missed": 9,
+  "single_pin_percent": 78.57,
+  "games": [
+    {
+      "game_id": 181,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "08:13:00",
+      "time_end": "08:36:00",
+      "lane": 23,
+      "event": "doubles",
+      "total_score": 152
+    },
+    {
+      "game_id": 182,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "08:41:00",
+      "time_end": "09:13:00",
+      "lane": 22,
+      "event": "doubles",
+      "total_score": 174
+    },
+    {
+      "game_id": 183,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "09:13:00",
+      "time_end": "09:40:00",
+      "lane": 19,
+      "event": "doubles",
+      "total_score": 113
+    },
+    {
+      "game_id": 184,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "09:43:00",
+      "time_end": "10:07:00",
+      "lane": 30,
+      "event": "doubles",
+      "total_score": 180
+    },
+    {
+      "game_id": 185,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "10:13:00",
+      "time_end": "10:40:00",
+      "lane": 27,
+      "event": "doubles",
+      "total_score": 181
+    },
+    {
+      "game_id": 186,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "10:40:00",
+      "time_end": "11:08:00",
+      "lane": 26,
+      "event": "doubles",
+      "total_score": 155
+    },
+    {
+      "game_id": 1309,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "12:12:00",
+      "time_end": "12:40:00",
+      "lane": 14,
+      "event": "doubles mix",
+      "total_score": 172
+    },
+    {
+      "game_id": 1310,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "12:41:00",
+      "time_end": "13:10:00",
+      "lane": 17,
+      "event": "doubles mix",
+      "total_score": 154
+    },
+    {
+      "game_id": 1311,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "13:11:00",
+      "time_end": "13:38:00",
+      "lane": 22,
+      "event": "doubles mix",
+      "total_score": 173
+    },
+    {
+      "game_id": 1312,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "13:42:00",
+      "time_end": "14:08:00",
+      "lane": 25,
+      "event": "doubles mix",
+      "total_score": 200
+    },
+    {
+      "game_id": 1313,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "14:11:00",
+      "time_end": "14:38:00",
+      "lane": 4,
+      "event": "doubles mix",
+      "total_score": 149
+    },
+    {
+      "game_id": 1314,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "14:42:00",
+      "time_end": "15:05:00",
+      "lane": 7,
+      "event": "doubles mix",
+      "total_score": 171
+    }
+  ]
+}

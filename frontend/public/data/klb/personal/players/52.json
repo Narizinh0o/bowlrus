@@ -1,0 +1,20 @@
+{
+  "player_id": 52,
+  "player_name": "смирнов станислав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 45,
+  "avg_total": 173.5,
+  "best_game": 216,
+  "worst_game": 110,
+  "tournaments_played": 5,
+  "quals_games": 45,
+  "quals_avg": 173.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

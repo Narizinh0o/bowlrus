@@ -1,0 +1,28 @@
+{
+  "player_id": 26,
+  "player_name": "золотухин глеб",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 345,
+  "avg_total": 202.9,
+  "best_game": 290,
+  "worst_game": 116,
+  "tournaments_played": 19,
+  "quals_games": 273,
+  "quals_avg": 203.8,
+  "rr_games": 40,
+  "rr_avg": 198.2,
+  "po_games": 32,
+  "po_avg": 199.8,
+  "po_best": 253,
+  "rolloff": {
+    "player_id": 26,
+    "player_name": "золотухин глеб",
+    "throws_count": 12,
+    "throws_avg": 9.25,
+    "matches_total": 8,
+    "matches_won": 3,
+    "winrate": 37.5
+  }
+}

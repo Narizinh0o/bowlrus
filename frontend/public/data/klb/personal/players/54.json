@@ -1,0 +1,20 @@
+{
+  "player_id": 54,
+  "player_name": "михеенко станислав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 100,
+  "avg_total": 192.7,
+  "best_game": 268,
+  "worst_game": 140,
+  "tournaments_played": 6,
+  "quals_games": 98,
+  "quals_avg": 192.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 202.0,
+  "po_best": 216,
+  "rolloff": null
+}

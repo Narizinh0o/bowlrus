@@ -1,0 +1,20 @@
+{
+  "player_id": 57,
+  "player_name": "коряков вадим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 394,
+  "avg_total": 191.6,
+  "best_game": 269,
+  "worst_game": 115,
+  "tournaments_played": 24,
+  "quals_games": 346,
+  "quals_avg": 192.3,
+  "rr_games": 38,
+  "rr_avg": 185.5,
+  "po_games": 10,
+  "po_avg": 187.4,
+  "po_best": 222,
+  "rolloff": null
+}

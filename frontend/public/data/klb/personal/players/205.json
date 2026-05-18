@@ -1,0 +1,20 @@
+{
+  "player_id": 205,
+  "player_name": "мухтаров олим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 129,
+  "avg_total": 191.0,
+  "best_game": 247,
+  "worst_game": 127,
+  "tournaments_played": 8,
+  "quals_games": 129,
+  "quals_avg": 191.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

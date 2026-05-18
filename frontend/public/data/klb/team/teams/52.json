@@ -1,0 +1,27 @@
+{
+  "team_id": 52,
+  "team_name": "кати шары! альянс",
+  "club_id": 7,
+  "club_name": "кати шары!",
+  "games_total": 166,
+  "avg_total": 185.6,
+  "best_game": 246,
+  "rr_games": 148,
+  "rr_avg": 182.2,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 18,
+  "po_avg": 199.8,
+  "po_best": 246,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": {
+    "team_id": 52,
+    "team_name": "кати шары! альянс",
+    "throws_count": 8,
+    "throws_avg": 9.25,
+    "matches_total": 5,
+    "matches_won": 2,
+    "winrate": 40.0
+  }
+}

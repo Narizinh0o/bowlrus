@@ -1,0 +1,19 @@
+{
+  "team_id": 36,
+  "team_name": "sibstars",
+  "club_id": 8,
+  "club_name": "sibstars",
+  "games_total": 206,
+  "avg_total": 180.5,
+  "best_game": null,
+  "rr_games": 206,
+  "rr_avg": 180.5,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "1,2,4",
+  "latest_season": 4,
+  "rolloff": null
+}

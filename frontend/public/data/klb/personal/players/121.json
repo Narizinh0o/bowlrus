@@ -1,0 +1,28 @@
+{
+  "player_id": 121,
+  "player_name": "кобельков максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 440,
+  "avg_total": 202.1,
+  "best_game": 289,
+  "worst_game": 30,
+  "tournaments_played": 25,
+  "quals_games": 343,
+  "quals_avg": 202.3,
+  "rr_games": 51,
+  "rr_avg": 199.6,
+  "po_games": 46,
+  "po_avg": 203.0,
+  "po_best": 247,
+  "rolloff": {
+    "player_id": 121,
+    "player_name": "кобельков максим",
+    "throws_count": 12,
+    "throws_avg": 9.5,
+    "matches_total": 9,
+    "matches_won": 6,
+    "winrate": 66.7
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 189,
+  "player_name": "белов андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 45,
+  "avg_total": 178.7,
+  "best_game": 235,
+  "worst_game": 131,
+  "tournaments_played": 3,
+  "quals_games": 45,
+  "quals_avg": 178.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

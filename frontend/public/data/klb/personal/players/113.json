@@ -1,0 +1,28 @@
+{
+  "player_id": 113,
+  "player_name": "белинский александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 417,
+  "avg_total": 209.7,
+  "best_game": 280,
+  "worst_game": 120,
+  "tournaments_played": 24,
+  "quals_games": 305,
+  "quals_avg": 209.6,
+  "rr_games": 27,
+  "rr_avg": 197.4,
+  "po_games": 85,
+  "po_avg": 214.3,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 113,
+    "player_name": "белинский александр",
+    "throws_count": 39,
+    "throws_avg": 9.08,
+    "matches_total": 22,
+    "matches_won": 11,
+    "winrate": 50.0
+  }
+}

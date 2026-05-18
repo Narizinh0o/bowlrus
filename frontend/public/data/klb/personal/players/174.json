@@ -1,0 +1,20 @@
+{
+  "player_id": 174,
+  "player_name": "павленко андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 59,
+  "avg_total": 188.9,
+  "best_game": 247,
+  "worst_game": 124,
+  "tournaments_played": 3,
+  "quals_games": 59,
+  "quals_avg": 188.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 180,
+  "player_name": "камалова нигара",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 60,
+  "avg_total": 162.8,
+  "best_game": 220,
+  "worst_game": 117,
+  "tournaments_played": 6,
+  "quals_games": 60,
+  "quals_avg": 162.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 36,
+  "player_name": "рогов сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 179,
+  "avg_total": 205.4,
+  "best_game": 288,
+  "worst_game": 136,
+  "tournaments_played": 9,
+  "quals_games": 140,
+  "quals_avg": 203.9,
+  "rr_games": 13,
+  "rr_avg": 215.8,
+  "po_games": 26,
+  "po_avg": 208.3,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 36,
+    "player_name": "рогов сергей",
+    "throws_count": 15,
+    "throws_avg": 8.87,
+    "matches_total": 10,
+    "matches_won": 4,
+    "winrate": 40.0
+  }
+}

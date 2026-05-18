@@ -1,0 +1,19 @@
+{
+  "team_id": 40,
+  "team_name": "кати шары!",
+  "club_id": 7,
+  "club_name": "кати шары!",
+  "games_total": 238,
+  "avg_total": 183.4,
+  "best_game": 162,
+  "rr_games": 234,
+  "rr_avg": 184.8,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 4,
+  "po_avg": 143.8,
+  "po_best": 162,
+  "seasons_list": "1,2",
+  "latest_season": 2,
+  "rolloff": null
+}

@@ -1,0 +1,83 @@
+{
+  "player_id": 93,
+  "player_name": "ЛОПИН ЕВГЕНИЙ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 11460,
+  "average_score": 191.0,
+  "best_game": 235,
+  "worst_game": 164,
+  "score_diff": 71,
+  "strike_attempts": 65,
+  "strikes": 30,
+  "strike_percent": 46.15,
+  "spares": 22,
+  "opens": 10,
+  "spare_conversion_percent": 68.75,
+  "singles_left": 13,
+  "singles_converted": 11,
+  "singles_missed": 2,
+  "single_pin_percent": 84.62,
+  "games": [
+    {
+      "game_id": 553,
+      "game_number": 1,
+      "play_date": "2026-05-03",
+      "time_start": "16:24:00",
+      "time_end": "16:49:00",
+      "lane": 11,
+      "event": "doubles",
+      "total_score": 235
+    },
+    {
+      "game_id": 554,
+      "game_number": 2,
+      "play_date": "2026-05-03",
+      "time_start": "16:51:00",
+      "time_end": "17:18:00",
+      "lane": 10,
+      "event": "doubles",
+      "total_score": 173
+    },
+    {
+      "game_id": 555,
+      "game_number": 3,
+      "play_date": "2026-05-03",
+      "time_start": "17:22:00",
+      "time_end": "17:46:00",
+      "lane": 7,
+      "event": "doubles",
+      "total_score": 183
+    },
+    {
+      "game_id": 556,
+      "game_number": 4,
+      "play_date": "2026-05-03",
+      "time_start": "17:47:00",
+      "time_end": "18:12:00",
+      "lane": 6,
+      "event": "doubles",
+      "total_score": 217
+    },
+    {
+      "game_id": 557,
+      "game_number": 5,
+      "play_date": "2026-05-03",
+      "time_start": "18:16:00",
+      "time_end": "18:39:00",
+      "lane": 3,
+      "event": "doubles",
+      "total_score": 164
+    },
+    {
+      "game_id": 558,
+      "game_number": 6,
+      "play_date": "2026-05-03",
+      "time_start": "18:42:00",
+      "time_end": "19:07:00",
+      "lane": 16,
+      "event": "doubles",
+      "total_score": 174
+    }
+  ]
+}

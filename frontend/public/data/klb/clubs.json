@@ -1,0 +1,121 @@
+[
+  {
+    "club_id": 10,
+    "club_name": "brooklyn bowl",
+    "players_count": 33,
+    "teams_count": 3,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 8,
+    "club_name": "sibstars",
+    "players_count": 20,
+    "teams_count": 3,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 6,
+    "club_name": "su-50",
+    "players_count": 19,
+    "teams_count": 3,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 14,
+    "club_name": "sure.good",
+    "players_count": 14,
+    "teams_count": 2,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 4,
+    "club_name": "ultimate team",
+    "players_count": 11,
+    "teams_count": 1,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 1,
+    "club_name": "астероид",
+    "players_count": 40,
+    "teams_count": 4,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 9,
+    "club_name": "б-69",
+    "players_count": 10,
+    "teams_count": 1,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 17,
+    "club_name": "барс",
+    "players_count": 7,
+    "teams_count": 1,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 3,
+    "club_name": "индеаль",
+    "players_count": 42,
+    "teams_count": 6,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 11,
+    "club_name": "к 700",
+    "players_count": 32,
+    "teams_count": 5,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 7,
+    "club_name": "кати шары!",
+    "players_count": 65,
+    "teams_count": 7,
+    "latest_season_with_team": 4
+  },
+  {
+    "club_id": 12,
+    "club_name": "hunters",
+    "players_count": 37,
+    "teams_count": 6,
+    "latest_season_with_team": 3
+  },
+  {
+    "club_id": 5,
+    "club_name": "red team",
+    "players_count": 32,
+    "teams_count": 3,
+    "latest_season_with_team": 3
+  },
+  {
+    "club_id": 13,
+    "club_name": "semurg team",
+    "players_count": 32,
+    "teams_count": 5,
+    "latest_season_with_team": 3
+  },
+  {
+    "club_id": 2,
+    "club_name": "дальний восток",
+    "players_count": 12,
+    "teams_count": 3,
+    "latest_season_with_team": 3
+  },
+  {
+    "club_id": 15,
+    "club_name": "izhevsk strikers",
+    "players_count": 10,
+    "teams_count": 2,
+    "latest_season_with_team": 1
+  },
+  {
+    "club_id": 16,
+    "club_name": "моравия",
+    "players_count": 8,
+    "teams_count": 1,
+    "latest_season_with_team": 1
+  }
+]

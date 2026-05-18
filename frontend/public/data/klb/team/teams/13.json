@@ -1,0 +1,19 @@
+{
+  "team_id": 13,
+  "team_name": "pin hunters",
+  "club_id": 12,
+  "club_name": "hunters",
+  "games_total": 46,
+  "avg_total": null,
+  "best_game": null,
+  "rr_games": 46,
+  "rr_avg": null,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "3",
+  "latest_season": 3,
+  "rolloff": null
+}

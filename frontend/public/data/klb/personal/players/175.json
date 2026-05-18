@@ -1,0 +1,20 @@
+{
+  "player_id": 175,
+  "player_name": "данилин дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 64,
+  "avg_total": 188.2,
+  "best_game": 248,
+  "worst_game": 136,
+  "tournaments_played": 3,
+  "quals_games": 60,
+  "quals_avg": 188.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 184.5,
+  "po_best": 197,
+  "rolloff": null
+}

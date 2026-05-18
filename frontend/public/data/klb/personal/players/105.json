@@ -1,0 +1,20 @@
+{
+  "player_id": 105,
+  "player_name": "воронина екатерина",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 44,
+  "avg_total": 151.2,
+  "best_game": 220,
+  "worst_game": 99,
+  "tournaments_played": 5,
+  "quals_games": 44,
+  "quals_avg": 151.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

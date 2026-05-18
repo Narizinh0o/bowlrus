@@ -1,286 +1,242 @@
 """
-BowlRus Stats — backend API.
+FastAPI-приложение для BowlRus.
 
-Эндпоинты:
-  GET /api/tournament       — общая информация о текущем турнире
-  GET /api/players          — список игроков с полной статистикой
-                              (опциональный фильтр ?event=doubles)
-  GET /api/players/{id}     — карточка игрока: статистика + список всех его игр
-  GET /api/events           — список зачётов (doubles, doubles mix)
-
-Запуск:
-    uvicorn backend.main:app --reload
+Тонкие роуты поверх backend.queries. Сам runtime нужен только для локальной
+разработки и для запуска scripts/export_to_json.py: на проде Vercel отдаёт
+статические JSON-файлы, FastAPI там не работает.
 """
 
+from __future__ import annotations
+
 import sqlite3
-from pathlib import Path
-from typing import Optional
+from typing import Iterator
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Path
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
+from backend import queries
+from backend.db import UnknownSportError, get_conn, list_sports
 
-# ---------- Настройки ----------
-
-ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = ROOT / "data" / "chr2026.db"
-
-# Метаданные турнира (захардкожены — это БД ЧР 2026)
-TOURNAMENT_INFO = {
-    "name": "Чемпионат России 2026",
-    "date_start": "2026-05-02",
-    "date_end": "2026-05-07",
-    "slug": "chr2026",
-}
-
-
-# ---------- Приложение ----------
 
 app = FastAPI(
-    title="BowlRus Stats API",
-    description="API статистики турниров по боулингу",
-    version="0.1.0",
+    title="BowlRus API",
+    description="Локальный API поверх SQLite-витрин. На проде не используется.",
+    version="1.2.0",
 )
 
-# CORS: разрешаем фронтенду (на другом порту) обращаться к API
+# CORS для локального фронта (Vite по умолчанию на 5173).
+# На проде это не нужно — фронт читает статику с того же домена.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # на проде ограничим
-    allow_methods=["*"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_methods=["GET"],
     allow_headers=["*"],
 )
 
 
-# ---------- Подключение к БД ----------
-
-def get_db():
-    """
-    Новое подключение на каждый запрос. SQLite быстрый, можно не пулить.
-    row_factory=Row позволяет обращаться к колонкам по имени.
-    """
-    if not DB_PATH.exists():
-        raise HTTPException(
-            status_code=500,
-            detail=f"База {DB_PATH} не найдена. Запусти scripts/migrate_chr.py",
-        )
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+# ──────────────────────────────────────────────────────────────────────────
+# Зависимости
+# ──────────────────────────────────────────────────────────────────────────
 
 
-def rows_to_dicts(rows):
-    return [dict(row) for row in rows]
+def klb_conn() -> Iterator[sqlite3.Connection]:
+    """Соединение к БД КЛБ на время запроса. Закрывается автоматически."""
+    conn = get_conn("klb")
+    try:
+        yield conn
+    finally:
+        conn.close()
 
 
-# ---------- Эндпоинты ----------
+def chr_conn() -> Iterator[sqlite3.Connection]:
+    """Соединение к БД ЧР на время запроса."""
+    conn = get_conn("chr")
+    try:
+        yield conn
+    finally:
+        conn.close()
 
-@app.get("/")
-def root():
-    """Заглушка чтобы сразу видеть, что сервер жив."""
+
+# ──────────────────────────────────────────────────────────────────────────
+# Сервисные эндпоинты
+# ──────────────────────────────────────────────────────────────────────────
+
+
+@app.get("/", tags=["service"])
+def root() -> dict:
+    """Корень — чтобы сразу видеть, что сервер жив."""
     return {
-        "service": "BowlRus Stats API",
-        "tournament": TOURNAMENT_INFO["name"],
+        "service": "BowlRus API",
         "docs": "/docs",
+        "sports": list_sports(),
     }
 
 
-@app.get("/api/tournament")
-def get_tournament():
-    """Общая информация о турнире + сводные цифры."""
-    conn = get_db()
-    try:
-        cur = conn.cursor()
-        cur.execute("""
-            SELECT
-                COUNT(DISTINCT player_id) AS players_count,
-                COUNT(*)                  AS games_count,
-                SUM(total_score)          AS total_pins,
-                ROUND(AVG(total_score), 2) AS avg_score
-            FROM games
-        """)
-        summary = dict(cur.fetchone())
-        return {**TOURNAMENT_INFO, "summary": summary}
-    finally:
-        conn.close()
+@app.get("/healthz", tags=["service"])
+def healthz() -> dict:
+    """Пинг — для самопроверки."""
+    return {"status": "ok"}
 
 
-@app.get("/api/events")
-def get_events():
-    """Список зачётов (event) с количеством игр."""
-    conn = get_db()
-    try:
-        cur = conn.cursor()
-        cur.execute("""
-            SELECT event, COUNT(*) AS games_count
-            FROM games
-            GROUP BY event
-            ORDER BY event
-        """)
-        return rows_to_dicts(cur.fetchall())
-    finally:
-        conn.close()
+@app.get("/api/sports", tags=["service"])
+def get_sports() -> list[str]:
+    """Список доступных спортов. Фронт использует на главной."""
+    return list_sports()
 
 
-@app.get("/api/players")
-def get_players(event: Optional[str] = Query(None, description="Фильтр по зачёту")):
-    """
-    Список игроков с полной статистикой.
-
-    Без фильтра — берём готовую витрину v_player_stats (быстро).
-    С фильтром по event — считаем агрегаты на лету по подмножеству.
-    """
-    conn = get_db()
-    try:
-        cur = conn.cursor()
-
-        if event is None:
-            cur.execute("""
-                SELECT *
-                FROM v_player_stats
-                ORDER BY average_score DESC, player_name
-            """)
-            return rows_to_dicts(cur.fetchall())
-
-        # С фильтром — повторяем логику витрины, но только по выбранному event
-        cur.execute("""
-            WITH normalized AS (
-                SELECT
-                    g.game_id, g.player_id, g.player_name, g.event,
-                    g.total_score,
-                    f.frame_number,
-                    REPLACE(f.content, 'S', '') AS frame_content
-                FROM games g
-                LEFT JOIN frames f ON f.game_id = g.game_id
-                WHERE g.event = ?
-            ),
-            fs AS (
-                SELECT
-                    game_id, player_id, player_name, event, total_score,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9 AND frame_content = 'X' THEN 1
-                        WHEN frame_number = 10 THEN length(frame_content) - length(replace(frame_content, 'X', ''))
-                        ELSE 0
-                    END AS strikes_count,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9
-                             AND length(frame_content) = 2
-                             AND substr(frame_content, 2, 1) = '/' THEN 1
-                        WHEN frame_number = 10 THEN length(frame_content) - length(replace(frame_content, '/', ''))
-                        ELSE 0
-                    END AS spares_count,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9
-                             AND frame_content <> 'X'
-                             AND NOT (length(frame_content) = 2 AND substr(frame_content, 2, 1) = '/') THEN 1
-                        WHEN frame_number = 10
-                             AND ((substr(frame_content, 1, 1) <> 'X' AND substr(frame_content, 2, 1) <> '/')
-                                  OR (substr(frame_content, 1, 1) = 'X' AND substr(frame_content, 2, 1) <> 'X'
-                                      AND substr(frame_content, 3, 1) <> '/'))
-                            THEN 1
-                        ELSE 0
-                    END AS opens_count,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9 THEN 1
-                        WHEN frame_number = 10 AND substr(frame_content, 1, 1) = 'X'
-                             AND substr(frame_content, 2, 1) = 'X' THEN 3
-                        WHEN frame_number = 10 AND substr(frame_content, 1, 1) = 'X'
-                             AND substr(frame_content, 2, 1) <> 'X' THEN 2
-                        WHEN frame_number = 10 AND substr(frame_content, 1, 1) <> 'X'
-                             AND substr(frame_content, 2, 1) <> '/' THEN 1
-                        WHEN frame_number = 10 AND substr(frame_content, 1, 1) <> 'X'
-                             AND substr(frame_content, 2, 1) = '/' THEN 2
-                        ELSE 0
-                    END AS strike_attempts,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9
-                             AND substr(frame_content, 1, 1) = '9'
-                             AND length(frame_content) = 2
-                             AND substr(frame_content, 2, 1) IN ('-', '/', 'F') THEN 1
-                        WHEN frame_number = 10
-                             AND ((substr(frame_content, 1, 1) = '9'
-                                   AND substr(frame_content, 2, 1) IN ('-', '/', 'F'))
-                                  OR (substr(frame_content, 1, 1) = 'X'
-                                      AND substr(frame_content, 2, 1) = '9'
-                                      AND substr(frame_content, 3, 1) IN ('-', '/', 'F'))) THEN 1
-                        ELSE 0
-                    END AS singles_left,
-
-                    CASE
-                        WHEN frame_number BETWEEN 1 AND 9
-                             AND substr(frame_content, 1, 1) = '9'
-                             AND substr(frame_content, 2, 1) = '/' THEN 1
-                        WHEN frame_number = 10
-                             AND ((substr(frame_content, 1, 1) = '9'
-                                   AND substr(frame_content, 2, 1) = '/')
-                                  OR (substr(frame_content, 1, 1) = 'X'
-                                      AND substr(frame_content, 2, 1) = '9'
-                                      AND substr(frame_content, 3, 1) = '/')) THEN 1
-                        ELSE 0
-                    END AS singles_converted
-
-                FROM normalized
-            )
-            SELECT
-                player_id,
-                MAX(player_name)             AS player_name,
-                COUNT(DISTINCT event)         AS events_played,
-                COUNT(DISTINCT game_id)       AS games_played,
-                SUM(total_score)              AS total_pins,
-                ROUND(AVG(total_score), 2)    AS average_score,
-                MAX(total_score)              AS best_game,
-                MIN(total_score)              AS worst_game,
-                MAX(total_score) - MIN(total_score) AS score_diff,
-                SUM(strike_attempts)          AS strike_attempts,
-                SUM(strikes_count)            AS strikes,
-                ROUND(CAST(SUM(strikes_count) AS REAL) * 100.0
-                      / NULLIF(SUM(strike_attempts), 0), 2)         AS strike_percent,
-                SUM(spares_count)             AS spares,
-                SUM(opens_count)              AS opens,
-                ROUND(CAST(SUM(spares_count) AS REAL) * 100.0
-                      / NULLIF(SUM(spares_count) + SUM(opens_count), 0), 2) AS spare_conversion_percent,
-                SUM(singles_left)             AS singles_left,
-                SUM(singles_converted)        AS singles_converted,
-                SUM(singles_left) - SUM(singles_converted) AS singles_missed,
-                ROUND(CAST(SUM(singles_converted) AS REAL) * 100.0
-                      / NULLIF(SUM(singles_left), 0), 2) AS single_pin_percent
-            FROM fs
-            GROUP BY player_id
-            ORDER BY average_score DESC, player_name
-        """, (event,))
-        return rows_to_dicts(cur.fetchall())
-    finally:
-        conn.close()
+# ──────────────────────────────────────────────────────────────────────────
+# КЛБ — личный зачёт
+# ──────────────────────────────────────────────────────────────────────────
 
 
-@app.get("/api/players/{player_id}")
-def get_player(player_id: int):
-    """Карточка одного игрока: его сводная статистика + список всех его игр."""
-    conn = get_db()
-    try:
-        cur = conn.cursor()
+@app.get("/api/klb/personal/players", tags=["klb-personal"])
+def klb_personal_players(conn: sqlite3.Connection = Depends(klb_conn)) -> list[dict]:
+    """Список игроков с агрегатами личного зачёта."""
+    return queries.klb_personal_players(conn)
 
-        cur.execute("SELECT * FROM v_player_stats WHERE player_id = ?", (player_id,))
-        stats = cur.fetchone()
-        if stats is None:
-            raise HTTPException(status_code=404, detail="Игрок не найден")
 
-        cur.execute("""
-            SELECT game_id, game_number, play_date, time_start, time_end,
-                   lane, event, total_score
-            FROM games
-            WHERE player_id = ?
-            ORDER BY play_date, time_start
-        """, (player_id,))
-        games = rows_to_dicts(cur.fetchall())
+@app.get("/api/klb/personal/players/{player_id}", tags=["klb-personal"])
+def klb_personal_player(
+    player_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(klb_conn),
+) -> dict:
+    """Карточка игрока: статистика + ролл-офф."""
+    player = queries.klb_personal_player(conn, player_id)
+    if player is None:
+        raise HTTPException(status_code=404, detail="Player not found")
+    return player
 
-        return {
-            "stats": dict(stats),
-            "games": games,
-        }
-    finally:
-        conn.close()
+
+@app.get("/api/klb/personal/tournaments", tags=["klb-personal"])
+def klb_personal_tournaments(conn: sqlite3.Connection = Depends(klb_conn)) -> list[dict]:
+    """Список турниров."""
+    return queries.klb_personal_tournaments(conn)
+
+
+@app.get("/api/klb/personal/tournaments/{tournament_id}", tags=["klb-personal"])
+def klb_personal_tournament(
+    tournament_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(klb_conn),
+) -> dict:
+    """Личные результаты конкретного турнира."""
+    result = queries.klb_personal_tournament(conn, tournament_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Tournament not found")
+    return result
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# КЛБ — командный зачёт
+# ──────────────────────────────────────────────────────────────────────────
+
+
+@app.get("/api/klb/team/teams", tags=["klb-team"])
+def klb_team_teams(conn: sqlite3.Connection = Depends(klb_conn)) -> list[dict]:
+    """Список команд."""
+    return queries.klb_team_teams(conn)
+
+
+@app.get("/api/klb/team/teams/{team_id}", tags=["klb-team"])
+def klb_team_team(
+    team_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(klb_conn),
+) -> dict:
+    """Карточка команды: статистика + ролл-офф."""
+    team = queries.klb_team_team(conn, team_id)
+    if team is None:
+        raise HTTPException(status_code=404, detail="Team not found")
+    return team
+
+
+@app.get("/api/klb/team/tournaments", tags=["klb-team"])
+def klb_team_tournaments(conn: sqlite3.Connection = Depends(klb_conn)) -> list[dict]:
+    """Турниры, где были командные результаты."""
+    return queries.klb_team_tournaments(conn)
+
+
+@app.get("/api/klb/team/tournaments/{tournament_id}", tags=["klb-team"])
+def klb_team_tournament(
+    tournament_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(klb_conn),
+) -> dict:
+    """Командные результаты конкретного турнира."""
+    result = queries.klb_team_tournament(conn, tournament_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Tournament not found")
+    return result
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# КЛБ — клубы (общие для обоих режимов)
+# ──────────────────────────────────────────────────────────────────────────
+
+
+@app.get("/api/klb/clubs", tags=["klb-clubs"])
+def klb_clubs(conn: sqlite3.Connection = Depends(klb_conn)) -> list[dict]:
+    """Список клубов."""
+    return queries.klb_clubs(conn)
+
+
+@app.get("/api/klb/clubs/{club_id}", tags=["klb-clubs"])
+def klb_club(
+    club_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(klb_conn),
+) -> dict:
+    """Карточка клуба: агрегаты + игроки + команды."""
+    club = queries.klb_club(conn, club_id)
+    if club is None:
+        raise HTTPException(status_code=404, detail="Club not found")
+    return club
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# ЧР
+# ──────────────────────────────────────────────────────────────────────────
+
+
+@app.get("/api/chr/tournament", tags=["chr"])
+def chr_tournament(conn: sqlite3.Connection = Depends(chr_conn)) -> dict:
+    """Сводка по турниру ЧР: игроки, игры, общая сумма, среднее."""
+    return queries.chr_tournament_summary(conn)
+
+
+@app.get("/api/chr/events", tags=["chr"])
+def chr_events(conn: sqlite3.Connection = Depends(chr_conn)) -> list[dict]:
+    """Список зачётов ЧР с количеством игр."""
+    return queries.chr_events(conn)
+
+
+@app.get("/api/chr/players", tags=["chr"])
+def chr_players(conn: sqlite3.Connection = Depends(chr_conn)) -> list[dict]:
+    """Список игроков ЧР."""
+    return queries.chr_players(conn)
+
+
+@app.get("/api/chr/players/{player_id}", tags=["chr"])
+def chr_player(
+    player_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(chr_conn),
+) -> dict:
+    """Карточка игрока ЧР: статистика + список всех игр."""
+    player = queries.chr_player(conn, player_id)
+    if player is None:
+        raise HTTPException(status_code=404, detail="Player not found")
+    return player
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# Глобальные обработчики ошибок
+# ──────────────────────────────────────────────────────────────────────────
+
+
+@app.exception_handler(UnknownSportError)
+def _unknown_sport_handler(_request, exc: UnknownSportError):
+    """Если спорт неизвестен — 404, а не 500."""
+    return JSONResponse(status_code=404, content={"detail": str(exc)})
+
+
+@app.exception_handler(FileNotFoundError)
+def _missing_db_handler(_request, exc: FileNotFoundError):
+    """Если SQLite-файл отсутствует — 503, чтобы было видно, что миграция не запущена."""
+    return JSONResponse(status_code=503, content={"detail": str(exc)})

@@ -1,0 +1,28 @@
+{
+  "player_id": 146,
+  "player_name": "бродюк иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 125,
+  "avg_total": 191.1,
+  "best_game": 258,
+  "worst_game": 131,
+  "tournaments_played": 6,
+  "quals_games": 119,
+  "quals_avg": 190.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 6,
+  "po_avg": 211.5,
+  "po_best": 246,
+  "rolloff": {
+    "player_id": 146,
+    "player_name": "бродюк иван",
+    "throws_count": 2,
+    "throws_avg": 9.0,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

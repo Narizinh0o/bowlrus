@@ -1,0 +1,20 @@
+{
+  "player_id": 169,
+  "player_name": "кетов андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sure.good",
+  "games_total": 8,
+  "avg_total": 160.9,
+  "best_game": 183,
+  "worst_game": 124,
+  "tournaments_played": 1,
+  "quals_games": 8,
+  "quals_avg": 160.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

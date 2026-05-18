@@ -1,0 +1,28 @@
+{
+  "player_id": 254,
+  "player_name": "устинов михаил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 120,
+  "avg_total": 216.6,
+  "best_game": 287,
+  "worst_game": 146,
+  "tournaments_played": 6,
+  "quals_games": 96,
+  "quals_avg": 216.5,
+  "rr_games": 7,
+  "rr_avg": null,
+  "po_games": 17,
+  "po_avg": 217.1,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 254,
+    "player_name": "устинов михаил",
+    "throws_count": 10,
+    "throws_avg": 9.6,
+    "matches_total": 3,
+    "matches_won": 1,
+    "winrate": 33.3
+  }
+}

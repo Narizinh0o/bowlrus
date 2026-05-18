@@ -1,0 +1,20 @@
+{
+  "player_id": 101,
+  "player_name": "суханова галина",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 42,
+  "avg_total": 175.4,
+  "best_game": 218,
+  "worst_game": 142,
+  "tournaments_played": 6,
+  "quals_games": 42,
+  "quals_avg": 175.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

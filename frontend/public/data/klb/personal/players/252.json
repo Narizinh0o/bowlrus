@@ -1,0 +1,20 @@
+{
+  "player_id": 252,
+  "player_name": "кряжок светлана",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 108,
+  "avg_total": 155.7,
+  "best_game": 232,
+  "worst_game": 112,
+  "tournaments_played": 7,
+  "quals_games": 108,
+  "quals_avg": 155.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

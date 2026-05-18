@@ -1,0 +1,28 @@
+{
+  "player_id": 127,
+  "player_name": "медведицков александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 323,
+  "avg_total": 212.5,
+  "best_game": 300,
+  "worst_game": 132,
+  "tournaments_played": 18,
+  "quals_games": 249,
+  "quals_avg": 211.0,
+  "rr_games": 18,
+  "rr_avg": 206.9,
+  "po_games": 56,
+  "po_avg": 220.9,
+  "po_best": 300,
+  "rolloff": {
+    "player_id": 127,
+    "player_name": "медведицков александр",
+    "throws_count": 18,
+    "throws_avg": 9.11,
+    "matches_total": 13,
+    "matches_won": 7,
+    "winrate": 53.8
+  }
+}

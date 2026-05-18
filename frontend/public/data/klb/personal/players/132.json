@@ -1,0 +1,28 @@
+{
+  "player_id": 132,
+  "player_name": "егунов николай",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 400,
+  "avg_total": 203.2,
+  "best_game": 289,
+  "worst_game": 126,
+  "tournaments_played": 24,
+  "quals_games": 327,
+  "quals_avg": 202.5,
+  "rr_games": 37,
+  "rr_avg": 208.6,
+  "po_games": 36,
+  "po_avg": 204.1,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 132,
+    "player_name": "егунов николай",
+    "throws_count": 17,
+    "throws_avg": 9.06,
+    "matches_total": 10,
+    "matches_won": 4,
+    "winrate": 40.0
+  }
+}

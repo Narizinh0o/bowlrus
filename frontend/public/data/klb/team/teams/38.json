@@ -1,0 +1,27 @@
+{
+  "team_id": 38,
+  "team_name": "индеаль - 1",
+  "club_id": 3,
+  "club_name": "индеаль",
+  "games_total": 176,
+  "avg_total": 176.0,
+  "best_game": 223,
+  "rr_games": 158,
+  "rr_avg": 173.3,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 18,
+  "po_avg": 187.6,
+  "po_best": 223,
+  "seasons_list": "2",
+  "latest_season": 2,
+  "rolloff": {
+    "team_id": 38,
+    "team_name": "индеаль - 1",
+    "throws_count": 6,
+    "throws_avg": 9.0,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

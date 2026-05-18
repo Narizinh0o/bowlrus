@@ -1,0 +1,28 @@
+{
+  "player_id": 119,
+  "player_name": "богачев сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 341,
+  "avg_total": 206.4,
+  "best_game": 300,
+  "worst_game": 139,
+  "tournaments_played": 19,
+  "quals_games": 246,
+  "quals_avg": 206.9,
+  "rr_games": 47,
+  "rr_avg": 205.9,
+  "po_games": 48,
+  "po_avg": 204.5,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 119,
+    "player_name": "богачев сергей",
+    "throws_count": 19,
+    "throws_avg": 9.32,
+    "matches_total": 12,
+    "matches_won": 7,
+    "winrate": 58.3
+  }
+}

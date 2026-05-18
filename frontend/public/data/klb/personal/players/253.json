@@ -1,0 +1,28 @@
+{
+  "player_id": 253,
+  "player_name": "семенов иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 77,
+  "avg_total": 206.8,
+  "best_game": 298,
+  "worst_game": 140,
+  "tournaments_played": 4,
+  "quals_games": 60,
+  "quals_avg": 207.1,
+  "rr_games": 7,
+  "rr_avg": 207.9,
+  "po_games": 10,
+  "po_avg": 204.3,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 253,
+    "player_name": "семенов иван",
+    "throws_count": 4,
+    "throws_avg": 9.25,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

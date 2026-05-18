@@ -1,0 +1,28 @@
+{
+  "player_id": 196,
+  "player_name": "абдусамадов равшан",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 150,
+  "avg_total": 204.1,
+  "best_game": 289,
+  "worst_game": 133,
+  "tournaments_played": 8,
+  "quals_games": 117,
+  "quals_avg": 205.8,
+  "rr_games": 19,
+  "rr_avg": 198.4,
+  "po_games": 14,
+  "po_avg": 197.5,
+  "po_best": 247,
+  "rolloff": {
+    "player_id": 196,
+    "player_name": "абдусамадов равшан",
+    "throws_count": 7,
+    "throws_avg": 9.57,
+    "matches_total": 6,
+    "matches_won": 3,
+    "winrate": 50.0
+  }
+}

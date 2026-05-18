@@ -1,0 +1,20 @@
+{
+  "player_id": 226,
+  "player_name": "галаев эдуард",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 21,
+  "avg_total": 188.0,
+  "best_game": 238,
+  "worst_game": 149,
+  "tournaments_played": 1,
+  "quals_games": 21,
+  "quals_avg": 188.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

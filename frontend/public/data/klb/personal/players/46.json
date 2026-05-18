@@ -1,0 +1,28 @@
+{
+  "player_id": 46,
+  "player_name": "тилемисов аманжол",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 117,
+  "avg_total": 196.4,
+  "best_game": 279,
+  "worst_game": 146,
+  "tournaments_played": 7,
+  "quals_games": 84,
+  "quals_avg": 198.5,
+  "rr_games": 27,
+  "rr_avg": 190.5,
+  "po_games": 6,
+  "po_avg": 192.3,
+  "po_best": 260,
+  "rolloff": {
+    "player_id": 46,
+    "player_name": "тилемисов аманжол",
+    "throws_count": 4,
+    "throws_avg": 9.5,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

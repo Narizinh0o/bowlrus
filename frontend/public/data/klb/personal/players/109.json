@@ -1,0 +1,28 @@
+{
+  "player_id": 109,
+  "player_name": "дрожбин алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 414,
+  "avg_total": 208.8,
+  "best_game": 290,
+  "worst_game": 131,
+  "tournaments_played": 24,
+  "quals_games": 315,
+  "quals_avg": 207.7,
+  "rr_games": 26,
+  "rr_avg": 202.4,
+  "po_games": 73,
+  "po_avg": 216.1,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 109,
+    "player_name": "дрожбин алексей",
+    "throws_count": 25,
+    "throws_avg": 9.24,
+    "matches_total": 16,
+    "matches_won": 7,
+    "winrate": 43.8
+  }
+}

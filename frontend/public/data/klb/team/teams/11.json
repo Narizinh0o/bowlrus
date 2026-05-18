@@ -1,0 +1,19 @@
+{
+  "team_id": 11,
+  "team_name": "кати шары! кино",
+  "club_id": 7,
+  "club_name": "кати шары!",
+  "games_total": 98,
+  "avg_total": 180.9,
+  "best_game": null,
+  "rr_games": 98,
+  "rr_avg": 180.9,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "3,4",
+  "latest_season": 4,
+  "rolloff": null
+}

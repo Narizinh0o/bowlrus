@@ -1,0 +1,28 @@
+{
+  "player_id": 124,
+  "player_name": "зеленкова евгения",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 395,
+  "avg_total": 204.8,
+  "best_game": 308,
+  "worst_game": 142,
+  "tournaments_played": 22,
+  "quals_games": 319,
+  "quals_avg": 204.7,
+  "rr_games": 27,
+  "rr_avg": 199.5,
+  "po_games": 49,
+  "po_avg": 208.5,
+  "po_best": 264,
+  "rolloff": {
+    "player_id": 124,
+    "player_name": "зеленкова евгения",
+    "throws_count": 14,
+    "throws_avg": 9.14,
+    "matches_total": 10,
+    "matches_won": 7,
+    "winrate": 70.0
+  }
+}

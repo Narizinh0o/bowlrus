@@ -1,0 +1,20 @@
+{
+  "player_id": 42,
+  "player_name": "кириллов иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 155,
+  "avg_total": 190.2,
+  "best_game": 257,
+  "worst_game": 134,
+  "tournaments_played": 10,
+  "quals_games": 155,
+  "quals_avg": 190.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

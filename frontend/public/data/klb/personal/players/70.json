@@ -1,0 +1,20 @@
+{
+  "player_id": 70,
+  "player_name": "кумицкий владимир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "дальний восток",
+  "games_total": 90,
+  "avg_total": 187.2,
+  "best_game": 256,
+  "worst_game": 118,
+  "tournaments_played": 6,
+  "quals_games": 90,
+  "quals_avg": 187.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

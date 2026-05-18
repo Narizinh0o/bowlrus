@@ -1,0 +1,28 @@
+{
+  "player_id": 56,
+  "player_name": "сазонов юрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 290,
+  "avg_total": 203.5,
+  "best_game": 278,
+  "worst_game": 128,
+  "tournaments_played": 16,
+  "quals_games": 202,
+  "quals_avg": 202.4,
+  "rr_games": 40,
+  "rr_avg": 205.9,
+  "po_games": 48,
+  "po_avg": 206.4,
+  "po_best": 248,
+  "rolloff": {
+    "player_id": 56,
+    "player_name": "сазонов юрий",
+    "throws_count": 18,
+    "throws_avg": 9.28,
+    "matches_total": 10,
+    "matches_won": 6,
+    "winrate": 60.0
+  }
+}

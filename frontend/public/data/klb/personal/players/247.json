@@ -1,0 +1,28 @@
+{
+  "player_id": 247,
+  "player_name": "мохирева юлия",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 205,
+  "avg_total": 200.5,
+  "best_game": 274,
+  "worst_game": 134,
+  "tournaments_played": 12,
+  "quals_games": 150,
+  "quals_avg": 202.1,
+  "rr_games": 39,
+  "rr_avg": 196.6,
+  "po_games": 16,
+  "po_avg": 195.6,
+  "po_best": 244,
+  "rolloff": {
+    "player_id": 247,
+    "player_name": "мохирева юлия",
+    "throws_count": 13,
+    "throws_avg": 8.69,
+    "matches_total": 6,
+    "matches_won": 1,
+    "winrate": 16.7
+  }
+}

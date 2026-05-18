@@ -1,0 +1,28 @@
+{
+  "player_id": 12,
+  "player_name": "вологин геннадий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 417,
+  "avg_total": 193.7,
+  "best_game": 279,
+  "worst_game": 134,
+  "tournaments_played": 23,
+  "quals_games": 374,
+  "quals_avg": 193.8,
+  "rr_games": 37,
+  "rr_avg": 192.9,
+  "po_games": 6,
+  "po_avg": 188.8,
+  "po_best": 218,
+  "rolloff": {
+    "player_id": 12,
+    "player_name": "вологин геннадий",
+    "throws_count": 1,
+    "throws_avg": 10.0,
+    "matches_total": 1,
+    "matches_won": 1,
+    "winrate": 100.0
+  }
+}

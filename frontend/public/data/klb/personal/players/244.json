@@ -1,0 +1,20 @@
+{
+  "player_id": 244,
+  "player_name": "максимов артем",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 12,
+  "avg_total": 169.8,
+  "best_game": 221,
+  "worst_game": 124,
+  "tournaments_played": 1,
+  "quals_games": 12,
+  "quals_avg": 169.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 14,
+  "player_name": "демьяшев александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 68,
+  "avg_total": 185.5,
+  "best_game": 264,
+  "worst_game": 135,
+  "tournaments_played": 4,
+  "quals_games": 68,
+  "quals_avg": 185.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

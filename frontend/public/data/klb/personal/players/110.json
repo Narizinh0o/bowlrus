@@ -1,0 +1,28 @@
+{
+  "player_id": 110,
+  "player_name": "еременко максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 291,
+  "avg_total": 215.1,
+  "best_game": 290,
+  "worst_game": 144,
+  "tournaments_played": 17,
+  "quals_games": 231,
+  "quals_avg": 215.8,
+  "rr_games": 7,
+  "rr_avg": 208.3,
+  "po_games": 53,
+  "po_avg": 212.7,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 110,
+    "player_name": "еременко максим",
+    "throws_count": 21,
+    "throws_avg": 8.57,
+    "matches_total": 14,
+    "matches_won": 3,
+    "winrate": 21.4
+  }
+}

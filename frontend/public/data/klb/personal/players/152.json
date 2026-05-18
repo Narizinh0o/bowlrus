@@ -1,0 +1,20 @@
+{
+  "player_id": 152,
+  "player_name": "хасанов искандер",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 27,
+  "avg_total": 176.4,
+  "best_game": 203,
+  "worst_game": 140,
+  "tournaments_played": 2,
+  "quals_games": 27,
+  "quals_avg": 176.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

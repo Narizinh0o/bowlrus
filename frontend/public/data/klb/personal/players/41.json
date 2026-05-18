@@ -1,0 +1,20 @@
+{
+  "player_id": 41,
+  "player_name": "луговой геннадий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 93,
+  "avg_total": 189.1,
+  "best_game": 278,
+  "worst_game": 137,
+  "tournaments_played": 6,
+  "quals_games": 93,
+  "quals_avg": 189.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

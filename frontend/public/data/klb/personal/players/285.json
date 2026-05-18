@@ -1,0 +1,20 @@
+{
+  "player_id": 285,
+  "player_name": "кафлевская анна",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 72,
+  "avg_total": 173.2,
+  "best_game": 233,
+  "worst_game": 125,
+  "tournaments_played": 4,
+  "quals_games": 72,
+  "quals_avg": 173.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

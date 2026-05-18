@@ -1,0 +1,20 @@
+{
+  "player_id": 199,
+  "player_name": "быстров валентин",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 90,
+  "avg_total": 191.3,
+  "best_game": 247,
+  "worst_game": 137,
+  "tournaments_played": 6,
+  "quals_games": 90,
+  "quals_avg": 191.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 286,
+  "player_name": "перепелкина ольга",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 72,
+  "avg_total": 167.8,
+  "best_game": 232,
+  "worst_game": 124,
+  "tournaments_played": 4,
+  "quals_games": 72,
+  "quals_avg": 167.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

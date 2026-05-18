@@ -1,0 +1,28 @@
+{
+  "player_id": 3,
+  "player_name": "криворучко роман",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "индеаль",
+  "games_total": 117,
+  "avg_total": 202.7,
+  "best_game": 289,
+  "worst_game": 150,
+  "tournaments_played": 6,
+  "quals_games": 99,
+  "quals_avg": 201.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 18,
+  "po_avg": 208.9,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 3,
+    "player_name": "криворучко роман",
+    "throws_count": 4,
+    "throws_avg": 9.5,
+    "matches_total": 3,
+    "matches_won": 2,
+    "winrate": 66.7
+  }
+}

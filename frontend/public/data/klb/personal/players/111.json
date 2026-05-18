@@ -1,0 +1,28 @@
+{
+  "player_id": 111,
+  "player_name": "ландау максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 277,
+  "avg_total": 214.1,
+  "best_game": 300,
+  "worst_game": 153,
+  "tournaments_played": 14,
+  "quals_games": 186,
+  "quals_avg": 213.8,
+  "rr_games": 38,
+  "rr_avg": 212.4,
+  "po_games": 53,
+  "po_avg": 216.4,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 111,
+    "player_name": "ландау максим",
+    "throws_count": 24,
+    "throws_avg": 9.12,
+    "matches_total": 13,
+    "matches_won": 7,
+    "winrate": 53.8
+  }
+}

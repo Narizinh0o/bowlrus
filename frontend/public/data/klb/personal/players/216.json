@@ -1,0 +1,20 @@
+{
+  "player_id": 216,
+  "player_name": "комилов иззатилла",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 6,
+  "avg_total": 167.0,
+  "best_game": 194,
+  "worst_game": 136,
+  "tournaments_played": 1,
+  "quals_games": 6,
+  "quals_avg": 167.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

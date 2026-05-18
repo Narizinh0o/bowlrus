@@ -1,0 +1,143 @@
+{
+  "player_id": 132,
+  "player_name": "ПРАЖАК НАТАЛЬЯ",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 20520,
+  "average_score": 171.0,
+  "best_game": 191,
+  "worst_game": 136,
+  "score_diff": 55,
+  "strike_attempts": 128,
+  "strikes": 39,
+  "strike_percent": 30.47,
+  "spares": 55,
+  "opens": 29,
+  "spare_conversion_percent": 65.48,
+  "singles_left": 38,
+  "singles_converted": 28,
+  "singles_missed": 10,
+  "single_pin_percent": 73.68,
+  "games": [
+    {
+      "game_id": 787,
+      "game_number": 1,
+      "play_date": "2026-05-03",
+      "time_start": "16:24:00",
+      "time_end": "16:50:00",
+      "lane": 26,
+      "event": "doubles",
+      "total_score": 150
+    },
+    {
+      "game_id": 788,
+      "game_number": 2,
+      "play_date": "2026-05-03",
+      "time_start": "16:52:00",
+      "time_end": "17:16:00",
+      "lane": 27,
+      "event": "doubles",
+      "total_score": 174
+    },
+    {
+      "game_id": 789,
+      "game_number": 3,
+      "play_date": "2026-05-03",
+      "time_start": "17:20:00",
+      "time_end": "17:48:00",
+      "lane": 20,
+      "event": "doubles",
+      "total_score": 184
+    },
+    {
+      "game_id": 790,
+      "game_number": 4,
+      "play_date": "2026-05-03",
+      "time_start": "17:50:00",
+      "time_end": "18:19:00",
+      "lane": 21,
+      "event": "doubles",
+      "total_score": 159
+    },
+    {
+      "game_id": 791,
+      "game_number": 5,
+      "play_date": "2026-05-03",
+      "time_start": "18:21:00",
+      "time_end": "18:48:00",
+      "lane": 24,
+      "event": "doubles",
+      "total_score": 190
+    },
+    {
+      "game_id": 792,
+      "game_number": 6,
+      "play_date": "2026-05-03",
+      "time_start": "18:50:00",
+      "time_end": "19:17:00",
+      "lane": 25,
+      "event": "doubles",
+      "total_score": 136
+    },
+    {
+      "game_id": 1789,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "16:15:00",
+      "time_end": "16:41:00",
+      "lane": 7,
+      "event": "doubles mix",
+      "total_score": 191
+    },
+    {
+      "game_id": 1790,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "16:43:00",
+      "time_end": "17:08:00",
+      "lane": 4,
+      "event": "doubles mix",
+      "total_score": 153
+    },
+    {
+      "game_id": 1791,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "17:13:00",
+      "time_end": "17:39:00",
+      "lane": 25,
+      "event": "doubles mix",
+      "total_score": 183
+    },
+    {
+      "game_id": 1792,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "17:41:00",
+      "time_end": "18:10:00",
+      "lane": 22,
+      "event": "doubles mix",
+      "total_score": 190
+    },
+    {
+      "game_id": 1793,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "18:12:00",
+      "time_end": "18:40:00",
+      "lane": 17,
+      "event": "doubles mix",
+      "total_score": 174
+    },
+    {
+      "game_id": 1794,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "18:41:00",
+      "time_end": "19:08:00",
+      "lane": 14,
+      "event": "doubles mix",
+      "total_score": 168
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 192,
+  "player_name": "суслов степан",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 45,
+  "avg_total": 223.6,
+  "best_game": 299,
+  "worst_game": 152,
+  "tournaments_played": 2,
+  "quals_games": 33,
+  "quals_avg": 223.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 12,
+  "po_avg": 224.2,
+  "po_best": 257,
+  "rolloff": {
+    "player_id": 192,
+    "player_name": "суслов степан",
+    "throws_count": 2,
+    "throws_avg": 10.0,
+    "matches_total": 2,
+    "matches_won": 2,
+    "winrate": 100.0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "player_id": 59,
+  "player_name": "ИЛЬИН СТАНИСЛАВ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 11460,
+  "average_score": 191.0,
+  "best_game": 220,
+  "worst_game": 158,
+  "score_diff": 62,
+  "strike_attempts": 69,
+  "strikes": 27,
+  "strike_percent": 39.13,
+  "spares": 22,
+  "opens": 16,
+  "spare_conversion_percent": 57.89,
+  "singles_left": 14,
+  "singles_converted": 12,
+  "singles_missed": 2,
+  "single_pin_percent": 85.71,
+  "games": [
+    {
+      "game_id": 349,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "08:13:00",
+      "time_end": "08:33:00",
+      "lane": 4,
+      "event": "doubles",
+      "total_score": 220
+    },
+    {
+      "game_id": 350,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "08:36:00",
+      "time_end": "09:03:00",
+      "lane": 5,
+      "event": "doubles",
+      "total_score": 193
+    },
+    {
+      "game_id": 351,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "09:03:00",
+      "time_end": "09:25:00",
+      "lane": 8,
+      "event": "doubles",
+      "total_score": 204
+    },
+    {
+      "game_id": 352,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "09:31:00",
+      "time_end": "09:56:00",
+      "lane": 9,
+      "event": "doubles",
+      "total_score": 207
+    },
+    {
+      "game_id": 353,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "09:57:00",
+      "time_end": "10:21:00",
+      "lane": 12,
+      "event": "doubles",
+      "total_score": 158
+    },
+    {
+      "game_id": 354,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "10:21:00",
+      "time_end": "10:45:00",
+      "lane": 13,
+      "event": "doubles",
+      "total_score": 164
+    }
+  ]
+}

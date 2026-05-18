@@ -1,0 +1,28 @@
+{
+  "player_id": 20,
+  "player_name": "мухлынин александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 317,
+  "avg_total": 194.2,
+  "best_game": 278,
+  "worst_game": 108,
+  "tournaments_played": 19,
+  "quals_games": 274,
+  "quals_avg": 192.0,
+  "rr_games": 31,
+  "rr_avg": 204.4,
+  "po_games": 12,
+  "po_avg": 216.2,
+  "po_best": 268,
+  "rolloff": {
+    "player_id": 20,
+    "player_name": "мухлынин александр",
+    "throws_count": 7,
+    "throws_avg": 9.71,
+    "matches_total": 3,
+    "matches_won": 2,
+    "winrate": 66.7
+  }
+}

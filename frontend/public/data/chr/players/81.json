@@ -1,0 +1,143 @@
+{
+  "player_id": 81,
+  "player_name": "КРАВЧЕНКО МАРИНА",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 22920,
+  "average_score": 191.0,
+  "best_game": 239,
+  "worst_game": 140,
+  "score_diff": 99,
+  "strike_attempts": 130,
+  "strikes": 55,
+  "strike_percent": 42.31,
+  "spares": 50,
+  "opens": 20,
+  "spare_conversion_percent": 71.43,
+  "singles_left": 39,
+  "singles_converted": 35,
+  "singles_missed": 4,
+  "single_pin_percent": 89.74,
+  "games": [
+    {
+      "game_id": 481,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "12:19:00",
+      "time_end": "12:40:00",
+      "lane": 27,
+      "event": "doubles",
+      "total_score": 183
+    },
+    {
+      "game_id": 482,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "12:46:00",
+      "time_end": "13:11:00",
+      "lane": 26,
+      "event": "doubles",
+      "total_score": 178
+    },
+    {
+      "game_id": 483,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "13:14:00",
+      "time_end": "13:40:00",
+      "lane": 23,
+      "event": "doubles",
+      "total_score": 192
+    },
+    {
+      "game_id": 484,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "13:42:00",
+      "time_end": "14:08:00",
+      "lane": 22,
+      "event": "doubles",
+      "total_score": 140
+    },
+    {
+      "game_id": 485,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "14:10:00",
+      "time_end": "14:35:00",
+      "lane": 19,
+      "event": "doubles",
+      "total_score": 172
+    },
+    {
+      "game_id": 486,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "14:38:00",
+      "time_end": "15:00:00",
+      "lane": 30,
+      "event": "doubles",
+      "total_score": 239
+    },
+    {
+      "game_id": 1543,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "12:13:00",
+      "time_end": "12:40:00",
+      "lane": 10,
+      "event": "doubles mix",
+      "total_score": 214
+    },
+    {
+      "game_id": 1544,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "12:42:00",
+      "time_end": "13:07:00",
+      "lane": 13,
+      "event": "doubles mix",
+      "total_score": 193
+    },
+    {
+      "game_id": 1545,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "13:12:00",
+      "time_end": "13:34:00",
+      "lane": 18,
+      "event": "doubles mix",
+      "total_score": 191
+    },
+    {
+      "game_id": 1546,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "13:42:00",
+      "time_end": "14:06:00",
+      "lane": 21,
+      "event": "doubles mix",
+      "total_score": 194
+    },
+    {
+      "game_id": 1547,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "14:11:00",
+      "time_end": "14:40:00",
+      "lane": 26,
+      "event": "doubles mix",
+      "total_score": 191
+    },
+    {
+      "game_id": 1548,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "14:44:00",
+      "time_end": "15:09:00",
+      "lane": 3,
+      "event": "doubles mix",
+      "total_score": 205
+    }
+  ]
+}

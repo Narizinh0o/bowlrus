@@ -1,0 +1,20 @@
+{
+  "player_id": 154,
+  "player_name": "четвертных денис",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 67,
+  "avg_total": 168.6,
+  "best_game": 243,
+  "worst_game": 115,
+  "tournaments_played": 6,
+  "quals_games": 67,
+  "quals_avg": 168.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

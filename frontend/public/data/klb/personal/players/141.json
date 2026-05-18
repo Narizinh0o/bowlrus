@@ -1,0 +1,20 @@
+{
+  "player_id": 141,
+  "player_name": "панасенко максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 161,
+  "avg_total": 192.2,
+  "best_game": 279,
+  "worst_game": 115,
+  "tournaments_played": 8,
+  "quals_games": 161,
+  "quals_avg": 192.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

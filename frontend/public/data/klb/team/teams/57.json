@@ -1,0 +1,27 @@
+{
+  "team_id": 57,
+  "team_name": "su-50 plus",
+  "club_id": 6,
+  "club_name": "su-50",
+  "games_total": 30,
+  "avg_total": 194.4,
+  "best_game": 228,
+  "rr_games": 28,
+  "rr_avg": 191.2,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 2,
+  "po_avg": 217.0,
+  "po_best": 228,
+  "seasons_list": "4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 57,
+    "team_name": "su-50 plus",
+    "throws_count": 5,
+    "throws_avg": 6.4,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

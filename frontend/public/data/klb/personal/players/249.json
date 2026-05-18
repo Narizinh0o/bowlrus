@@ -1,0 +1,20 @@
+{
+  "player_id": 249,
+  "player_name": "коробко алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 114,
+  "avg_total": 189.7,
+  "best_game": 257,
+  "worst_game": 113,
+  "tournaments_played": 7,
+  "quals_games": 114,
+  "quals_avg": 189.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

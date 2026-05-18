@@ -1,0 +1,83 @@
+{
+  "player_id": 64,
+  "player_name": "КЕВРУХ ЛЕОНИД",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 10640,
+  "average_score": 177.33,
+  "best_game": 215,
+  "worst_game": 156,
+  "score_diff": 59,
+  "strike_attempts": 66,
+  "strikes": 27,
+  "strike_percent": 40.91,
+  "spares": 21,
+  "opens": 16,
+  "spare_conversion_percent": 56.76,
+  "singles_left": 11,
+  "singles_converted": 8,
+  "singles_missed": 3,
+  "single_pin_percent": 72.73,
+  "games": [
+    {
+      "game_id": 379,
+      "game_number": 1,
+      "play_date": "2026-05-03",
+      "time_start": "20:18:00",
+      "time_end": "20:41:00",
+      "lane": 11,
+      "event": "doubles",
+      "total_score": 156
+    },
+    {
+      "game_id": 380,
+      "game_number": 2,
+      "play_date": "2026-05-03",
+      "time_start": "20:44:00",
+      "time_end": "21:08:00",
+      "lane": 10,
+      "event": "doubles",
+      "total_score": 179
+    },
+    {
+      "game_id": 381,
+      "game_number": 3,
+      "play_date": "2026-05-03",
+      "time_start": "21:13:00",
+      "time_end": "21:37:00",
+      "lane": 7,
+      "event": "doubles",
+      "total_score": 169
+    },
+    {
+      "game_id": 382,
+      "game_number": 4,
+      "play_date": "2026-05-03",
+      "time_start": "21:40:00",
+      "time_end": "22:07:00",
+      "lane": 6,
+      "event": "doubles",
+      "total_score": 215
+    },
+    {
+      "game_id": 383,
+      "game_number": 5,
+      "play_date": "2026-05-03",
+      "time_start": "22:12:00",
+      "time_end": "22:36:00",
+      "lane": 3,
+      "event": "doubles",
+      "total_score": 179
+    },
+    {
+      "game_id": 384,
+      "game_number": 6,
+      "play_date": "2026-05-03",
+      "time_start": "22:41:00",
+      "time_end": "23:02:00",
+      "lane": 16,
+      "event": "doubles",
+      "total_score": 166
+    }
+  ]
+}

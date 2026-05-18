@@ -1,0 +1,28 @@
+{
+  "player_id": 112,
+  "player_name": "муравьев иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 380,
+  "avg_total": 206.0,
+  "best_game": 300,
+  "worst_game": 110,
+  "tournaments_played": 23,
+  "quals_games": 297,
+  "quals_avg": 205.2,
+  "rr_games": 38,
+  "rr_avg": 201.2,
+  "po_games": 45,
+  "po_avg": 215.3,
+  "po_best": 286,
+  "rolloff": {
+    "player_id": 112,
+    "player_name": "муравьев иван",
+    "throws_count": 26,
+    "throws_avg": 9.04,
+    "matches_total": 14,
+    "matches_won": 6,
+    "winrate": 42.9
+  }
+}

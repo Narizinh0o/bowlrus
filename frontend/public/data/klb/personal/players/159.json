@@ -1,0 +1,28 @@
+{
+  "player_id": 159,
+  "player_name": "акопян арсен",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 163,
+  "avg_total": 195.0,
+  "best_game": 259,
+  "worst_game": 145,
+  "tournaments_played": 8,
+  "quals_games": 157,
+  "quals_avg": 195.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 6,
+  "po_avg": 192.5,
+  "po_best": 224,
+  "rolloff": {
+    "player_id": 159,
+    "player_name": "акопян арсен",
+    "throws_count": 2,
+    "throws_avg": 8.5,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

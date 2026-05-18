@@ -1,0 +1,28 @@
+{
+  "player_id": 245,
+  "player_name": "окороков максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 159,
+  "avg_total": 212.8,
+  "best_game": 279,
+  "worst_game": 133,
+  "tournaments_played": 9,
+  "quals_games": 126,
+  "quals_avg": 212.3,
+  "rr_games": 12,
+  "rr_avg": 202.3,
+  "po_games": 21,
+  "po_avg": 221.4,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 245,
+    "player_name": "окороков максим",
+    "throws_count": 11,
+    "throws_avg": 9.0,
+    "matches_total": 6,
+    "matches_won": 3,
+    "winrate": 50.0
+  }
+}

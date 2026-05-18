@@ -1,0 +1,20 @@
+{
+  "player_id": 217,
+  "player_name": "нормухамедов омил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 27,
+  "avg_total": 187.9,
+  "best_game": 259,
+  "worst_game": 136,
+  "tournaments_played": 2,
+  "quals_games": 18,
+  "quals_avg": 188.8,
+  "rr_games": 7,
+  "rr_avg": 188.7,
+  "po_games": 2,
+  "po_avg": 177.5,
+  "po_best": 207,
+  "rolloff": null
+}

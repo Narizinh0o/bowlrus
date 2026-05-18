@@ -1,0 +1,20 @@
+{
+  "player_id": 195,
+  "player_name": "эгамбердиев зокир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 40,
+  "avg_total": 198.4,
+  "best_game": 246,
+  "worst_game": 130,
+  "tournaments_played": 2,
+  "quals_games": 33,
+  "quals_avg": 199.8,
+  "rr_games": 7,
+  "rr_avg": 191.6,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

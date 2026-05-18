@@ -1,0 +1,20 @@
+{
+  "player_id": 183,
+  "player_name": "мартиросян атом",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "su-50",
+  "games_total": 21,
+  "avg_total": 180.1,
+  "best_game": 219,
+  "worst_game": 138,
+  "tournaments_played": 1,
+  "quals_games": 21,
+  "quals_avg": 180.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

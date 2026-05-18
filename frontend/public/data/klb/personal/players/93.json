@@ -1,0 +1,20 @@
+{
+  "player_id": 93,
+  "player_name": "агузарова людмила",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 309,
+  "avg_total": 182.5,
+  "best_game": 254,
+  "worst_game": 125,
+  "tournaments_played": 22,
+  "quals_games": 307,
+  "quals_avg": 182.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 176.5,
+  "po_best": 196,
+  "rolloff": null
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 65,
+  "player_name": "суслов андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 191,
+  "avg_total": 208.4,
+  "best_game": 299,
+  "worst_game": 146,
+  "tournaments_played": 11,
+  "quals_games": 153,
+  "quals_avg": 207.4,
+  "rr_games": 18,
+  "rr_avg": 213.3,
+  "po_games": 20,
+  "po_avg": 211.7,
+  "po_best": 267,
+  "rolloff": {
+    "player_id": 65,
+    "player_name": "суслов андрей",
+    "throws_count": 9,
+    "throws_avg": 9.33,
+    "matches_total": 6,
+    "matches_won": 3,
+    "winrate": 50.0
+  }
+}

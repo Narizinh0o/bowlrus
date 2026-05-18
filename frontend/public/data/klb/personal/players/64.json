@@ -1,0 +1,20 @@
+{
+  "player_id": 64,
+  "player_name": "бут андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 265,
+  "avg_total": 191.3,
+  "best_game": 299,
+  "worst_game": 128,
+  "tournaments_played": 19,
+  "quals_games": 251,
+  "quals_avg": 190.8,
+  "rr_games": 14,
+  "rr_avg": 199.1,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

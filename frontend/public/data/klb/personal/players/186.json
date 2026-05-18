@@ -1,0 +1,20 @@
+{
+  "player_id": 186,
+  "player_name": "дедов александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 12,
+  "avg_total": 165.3,
+  "best_game": 198,
+  "worst_game": 136,
+  "tournaments_played": 2,
+  "quals_games": 12,
+  "quals_avg": 165.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

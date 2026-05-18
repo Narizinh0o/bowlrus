@@ -1,0 +1,20 @@
+{
+  "player_id": 211,
+  "player_name": "сагатов санджар",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 54,
+  "avg_total": 186.7,
+  "best_game": 284,
+  "worst_game": 139,
+  "tournaments_played": 5,
+  "quals_games": 54,
+  "quals_avg": 186.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

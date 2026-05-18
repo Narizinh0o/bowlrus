@@ -1,0 +1,20 @@
+{
+  "player_id": 89,
+  "player_name": "романова кира",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 51,
+  "avg_total": 180.2,
+  "best_game": 231,
+  "worst_game": 142,
+  "tournaments_played": 6,
+  "quals_games": 51,
+  "quals_avg": 180.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

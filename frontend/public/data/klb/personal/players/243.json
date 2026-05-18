@@ -1,0 +1,20 @@
+{
+  "player_id": 243,
+  "player_name": "пименов вадим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 0,
+  "avg_total": null,
+  "best_game": null,
+  "worst_game": null,
+  "tournaments_played": 0,
+  "quals_games": 0,
+  "quals_avg": null,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

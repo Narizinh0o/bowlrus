@@ -1,0 +1,28 @@
+{
+  "player_id": 128,
+  "player_name": "аржанов владислав",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "астероид",
+  "games_total": 168,
+  "avg_total": 200.4,
+  "best_game": 269,
+  "worst_game": 126,
+  "tournaments_played": 11,
+  "quals_games": 122,
+  "quals_avg": 196.0,
+  "rr_games": 14,
+  "rr_avg": 224.9,
+  "po_games": 32,
+  "po_avg": 206.4,
+  "po_best": 269,
+  "rolloff": {
+    "player_id": 128,
+    "player_name": "аржанов владислав",
+    "throws_count": 12,
+    "throws_avg": 9.42,
+    "matches_total": 7,
+    "matches_won": 5,
+    "winrate": 71.4
+  }
+}

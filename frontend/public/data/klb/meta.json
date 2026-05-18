@@ -1,0 +1,12 @@
+{
+  "sport": "klb",
+  "generated_at": "2026-05-18T13:08:02.060992+00:00",
+  "db_mtime": "2026-05-15T15:13:20.900230+00:00",
+  "counts": {
+    "personal_players": 319,
+    "personal_tournaments": 25,
+    "teams": 56,
+    "team_tournaments": 25,
+    "clubs": 17
+  }
+}

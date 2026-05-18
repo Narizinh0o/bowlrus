@@ -1,0 +1,143 @@
+{
+  "player_id": 91,
+  "player_name": "ЛИПКИНА СВЕТЛАНА",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 20010,
+  "average_score": 166.75,
+  "best_game": 201,
+  "worst_game": 139,
+  "score_diff": 62,
+  "strike_attempts": 130,
+  "strikes": 40,
+  "strike_percent": 30.77,
+  "spares": 50,
+  "opens": 35,
+  "spare_conversion_percent": 58.82,
+  "singles_left": 32,
+  "singles_converted": 26,
+  "singles_missed": 6,
+  "single_pin_percent": 81.25,
+  "games": [
+    {
+      "game_id": 541,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "08:13:00",
+      "time_end": "08:39:00",
+      "lane": 26,
+      "event": "doubles",
+      "total_score": 173
+    },
+    {
+      "game_id": 542,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "08:40:00",
+      "time_end": "09:05:00",
+      "lane": 27,
+      "event": "doubles",
+      "total_score": 201
+    },
+    {
+      "game_id": 543,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "09:13:00",
+      "time_end": "09:39:00",
+      "lane": 30,
+      "event": "doubles",
+      "total_score": 139
+    },
+    {
+      "game_id": 544,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "09:43:00",
+      "time_end": "10:07:00",
+      "lane": 19,
+      "event": "doubles",
+      "total_score": 157
+    },
+    {
+      "game_id": 545,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "10:13:00",
+      "time_end": "10:37:00",
+      "lane": 22,
+      "event": "doubles",
+      "total_score": 168
+    },
+    {
+      "game_id": 546,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "10:40:00",
+      "time_end": "11:06:00",
+      "lane": 23,
+      "event": "doubles",
+      "total_score": 145
+    },
+    {
+      "game_id": 1603,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "16:14:00",
+      "time_end": "16:42:00",
+      "lane": 15,
+      "event": "doubles mix",
+      "total_score": 155
+    },
+    {
+      "game_id": 1604,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "16:43:00",
+      "time_end": "17:08:00",
+      "lane": 12,
+      "event": "doubles mix",
+      "total_score": 156
+    },
+    {
+      "game_id": 1605,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "17:11:00",
+      "time_end": "17:31:00",
+      "lane": 7,
+      "event": "doubles mix",
+      "total_score": 194
+    },
+    {
+      "game_id": 1606,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "17:41:00",
+      "time_end": "18:05:00",
+      "lane": 4,
+      "event": "doubles mix",
+      "total_score": 170
+    },
+    {
+      "game_id": 1607,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "18:11:00",
+      "time_end": "18:35:00",
+      "lane": 25,
+      "event": "doubles mix",
+      "total_score": 188
+    },
+    {
+      "game_id": 1608,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "18:41:00",
+      "time_end": "19:06:00",
+      "lane": 22,
+      "event": "doubles mix",
+      "total_score": 155
+    }
+  ]
+}

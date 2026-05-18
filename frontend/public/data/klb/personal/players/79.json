@@ -1,0 +1,20 @@
+{
+  "player_id": 79,
+  "player_name": "муравьев юрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 191,
+  "avg_total": 174.1,
+  "best_game": 269,
+  "worst_game": 114,
+  "tournaments_played": 14,
+  "quals_games": 191,
+  "quals_avg": 174.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

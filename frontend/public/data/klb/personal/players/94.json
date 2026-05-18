@@ -1,0 +1,20 @@
+{
+  "player_id": 94,
+  "player_name": "мандрица наталья",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 75,
+  "avg_total": 192.1,
+  "best_game": 244,
+  "worst_game": 133,
+  "tournaments_played": 6,
+  "quals_games": 75,
+  "quals_avg": 192.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

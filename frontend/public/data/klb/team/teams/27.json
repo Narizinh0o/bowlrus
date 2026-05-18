@@ -1,0 +1,19 @@
+{
+  "team_id": 27,
+  "team_name": "к 700",
+  "club_id": 11,
+  "club_name": "к 700",
+  "games_total": 290,
+  "avg_total": 183.9,
+  "best_game": 195,
+  "rr_games": 272,
+  "rr_avg": 185.6,
+  "quals_games": 12,
+  "quals_avg": 171.8,
+  "po_games": 6,
+  "po_avg": 183.2,
+  "po_best": 195,
+  "seasons_list": "1,2,3,4",
+  "latest_season": 4,
+  "rolloff": null
+}

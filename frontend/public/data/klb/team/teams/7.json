@@ -1,0 +1,27 @@
+{
+  "team_id": 7,
+  "team_name": "астероид сплит 7-10",
+  "club_id": 1,
+  "club_name": "астероид",
+  "games_total": 224,
+  "avg_total": 196.2,
+  "best_game": 244,
+  "rr_games": 200,
+  "rr_avg": 195.4,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 24,
+  "po_avg": 199.3,
+  "po_best": 244,
+  "seasons_list": "2,3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 7,
+    "team_name": "астероид сплит 7-10",
+    "throws_count": 32,
+    "throws_avg": 8.75,
+    "matches_total": 9,
+    "matches_won": 5,
+    "winrate": 55.6
+  }
+}

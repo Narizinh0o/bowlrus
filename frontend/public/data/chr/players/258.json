@@ -1,0 +1,83 @@
+{
+  "player_id": 258,
+  "player_name": "МУСТАФИН АРТЕМ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 11600,
+  "average_score": 193.33,
+  "best_game": 227,
+  "worst_game": 168,
+  "score_diff": 59,
+  "strike_attempts": 66,
+  "strikes": 27,
+  "strike_percent": 40.91,
+  "spares": 28,
+  "opens": 9,
+  "spare_conversion_percent": 75.68,
+  "singles_left": 16,
+  "singles_converted": 15,
+  "singles_missed": 1,
+  "single_pin_percent": 93.75,
+  "games": [
+    {
+      "game_id": 1693,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "08:12:00",
+      "time_end": "08:37:00",
+      "lane": 21,
+      "event": "doubles mix",
+      "total_score": 227
+    },
+    {
+      "game_id": 1694,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "08:39:00",
+      "time_end": "09:05:00",
+      "lane": 18,
+      "event": "doubles mix",
+      "total_score": 195
+    },
+    {
+      "game_id": 1695,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "09:09:00",
+      "time_end": "09:29:00",
+      "lane": 13,
+      "event": "doubles mix",
+      "total_score": 168
+    },
+    {
+      "game_id": 1696,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "09:39:00",
+      "time_end": "10:02:00",
+      "lane": 10,
+      "event": "doubles mix",
+      "total_score": 200
+    },
+    {
+      "game_id": 1697,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "10:10:00",
+      "time_end": "10:37:00",
+      "lane": 5,
+      "event": "doubles mix",
+      "total_score": 193
+    },
+    {
+      "game_id": 1698,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "10:39:00",
+      "time_end": "11:02:00",
+      "lane": 28,
+      "event": "doubles mix",
+      "total_score": 177
+    }
+  ]
+}

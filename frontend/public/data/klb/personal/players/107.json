@@ -1,0 +1,28 @@
+{
+  "player_id": 107,
+  "player_name": "кошель мария",
+  "gender": "Ж",
+  "hand": "L",
+  "current_club_name": "индеаль",
+  "games_total": 396,
+  "avg_total": 212.4,
+  "best_game": 297,
+  "worst_game": 140,
+  "tournaments_played": 23,
+  "quals_games": 300,
+  "quals_avg": 213.1,
+  "rr_games": 11,
+  "rr_avg": 209.9,
+  "po_games": 85,
+  "po_avg": 210.3,
+  "po_best": 264,
+  "rolloff": {
+    "player_id": 107,
+    "player_name": "кошель мария",
+    "throws_count": 42,
+    "throws_avg": 9.31,
+    "matches_total": 20,
+    "matches_won": 9,
+    "winrate": 45.0
+  }
+}

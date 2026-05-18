@@ -1,0 +1,28 @@
+{
+  "player_id": 17,
+  "player_name": "алимпиев дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 400,
+  "avg_total": 197.7,
+  "best_game": 280,
+  "worst_game": 126,
+  "tournaments_played": 23,
+  "quals_games": 371,
+  "quals_avg": 197.4,
+  "rr_games": 13,
+  "rr_avg": 177.3,
+  "po_games": 16,
+  "po_avg": 221.6,
+  "po_best": 257,
+  "rolloff": {
+    "player_id": 17,
+    "player_name": "алимпиев дмитрий",
+    "throws_count": 4,
+    "throws_avg": 9.0,
+    "matches_total": 3,
+    "matches_won": 2,
+    "winrate": 66.7
+  }
+}

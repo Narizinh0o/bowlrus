@@ -1,0 +1,20 @@
+{
+  "player_id": 197,
+  "player_name": "разживин александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 40,
+  "avg_total": 201.3,
+  "best_game": 245,
+  "worst_game": 157,
+  "tournaments_played": 2,
+  "quals_games": 33,
+  "quals_avg": 201.9,
+  "rr_games": 7,
+  "rr_avg": 198.3,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

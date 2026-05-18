@@ -1,0 +1,28 @@
+{
+  "player_id": 77,
+  "player_name": "ильичев станислав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 219,
+  "avg_total": 180.8,
+  "best_game": 258,
+  "worst_game": 40,
+  "tournaments_played": 13,
+  "quals_games": 217,
+  "quals_avg": 180.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 199.5,
+  "po_best": 214,
+  "rolloff": {
+    "player_id": 77,
+    "player_name": "ильичев станислав",
+    "throws_count": 1,
+    "throws_avg": 9.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

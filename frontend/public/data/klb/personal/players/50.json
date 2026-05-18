@@ -1,0 +1,20 @@
+{
+  "player_id": 50,
+  "player_name": "лавров евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "барс",
+  "games_total": 96,
+  "avg_total": 199.9,
+  "best_game": 266,
+  "worst_game": 144,
+  "tournaments_played": 7,
+  "quals_games": 96,
+  "quals_avg": 199.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

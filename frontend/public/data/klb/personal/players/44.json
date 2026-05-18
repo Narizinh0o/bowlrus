@@ -1,0 +1,20 @@
+{
+  "player_id": 44,
+  "player_name": "ермаков денис",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 118,
+  "avg_total": 187.0,
+  "best_game": 257,
+  "worst_game": 119,
+  "tournaments_played": 9,
+  "quals_games": 118,
+  "quals_avg": 187.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

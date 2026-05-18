@@ -1,0 +1,28 @@
+{
+  "player_id": 163,
+  "player_name": "савченко алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 62,
+  "avg_total": 186.6,
+  "best_game": 266,
+  "worst_game": 121,
+  "tournaments_played": 3,
+  "quals_games": 60,
+  "quals_avg": 186.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 201.0,
+  "po_best": 223,
+  "rolloff": {
+    "player_id": 163,
+    "player_name": "савченко алексей",
+    "throws_count": 1,
+    "throws_avg": 9.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

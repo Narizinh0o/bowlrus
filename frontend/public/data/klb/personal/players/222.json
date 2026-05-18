@@ -1,0 +1,20 @@
+{
+  "player_id": 222,
+  "player_name": "кунц инна",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 6,
+  "avg_total": 160.7,
+  "best_game": 184,
+  "worst_game": 147,
+  "tournaments_played": 1,
+  "quals_games": 6,
+  "quals_avg": 160.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

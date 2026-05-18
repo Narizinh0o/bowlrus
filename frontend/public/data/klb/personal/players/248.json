@@ -1,0 +1,20 @@
+{
+  "player_id": 248,
+  "player_name": "сулейманян арамаис",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 60,
+  "avg_total": 178.3,
+  "best_game": 214,
+  "worst_game": 79,
+  "tournaments_played": 5,
+  "quals_games": 60,
+  "quals_avg": 178.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

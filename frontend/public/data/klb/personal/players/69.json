@@ -1,0 +1,20 @@
+{
+  "player_id": 69,
+  "player_name": "верхова маргарита",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 54,
+  "avg_total": 182.2,
+  "best_game": 236,
+  "worst_game": 126,
+  "tournaments_played": 4,
+  "quals_games": 54,
+  "quals_avg": 182.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

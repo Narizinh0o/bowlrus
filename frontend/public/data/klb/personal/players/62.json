@@ -1,0 +1,20 @@
+{
+  "player_id": 62,
+  "player_name": "абдуллин артур",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 90,
+  "avg_total": 183.8,
+  "best_game": 245,
+  "worst_game": 134,
+  "tournaments_played": 8,
+  "quals_games": 90,
+  "quals_avg": 183.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

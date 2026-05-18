@@ -1,0 +1,20 @@
+{
+  "player_id": 67,
+  "player_name": "гребенников виктор",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 232,
+  "avg_total": 194.8,
+  "best_game": 289,
+  "worst_game": 135,
+  "tournaments_played": 14,
+  "quals_games": 208,
+  "quals_avg": 196.1,
+  "rr_games": 20,
+  "rr_avg": 182.1,
+  "po_games": 4,
+  "po_avg": 193.5,
+  "po_best": 230,
+  "rolloff": null
+}

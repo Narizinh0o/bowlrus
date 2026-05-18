@@ -1,0 +1,20 @@
+{
+  "player_id": 43,
+  "player_name": "федорова анастасия",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 48,
+  "avg_total": 180.6,
+  "best_game": 264,
+  "worst_game": 143,
+  "tournaments_played": 5,
+  "quals_games": 48,
+  "quals_avg": 180.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

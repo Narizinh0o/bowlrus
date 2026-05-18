@@ -1,0 +1,28 @@
+{
+  "player_id": 129,
+  "player_name": "недосеева дарья",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 249,
+  "avg_total": 200.1,
+  "best_game": 308,
+  "worst_game": 124,
+  "tournaments_played": 15,
+  "quals_games": 201,
+  "quals_avg": 200.7,
+  "rr_games": 26,
+  "rr_avg": 201.9,
+  "po_games": 22,
+  "po_avg": 192.2,
+  "po_best": 229,
+  "rolloff": {
+    "player_id": 129,
+    "player_name": "недосеева дарья",
+    "throws_count": 6,
+    "throws_avg": 8.83,
+    "matches_total": 5,
+    "matches_won": 2,
+    "winrate": 40.0
+  }
+}

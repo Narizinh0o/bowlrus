@@ -1,0 +1,48 @@
+{
+  "club_id": 16,
+  "club_name": "моравия",
+  "players_count": 8,
+  "teams_count": 1,
+  "latest_season_with_team": 1,
+  "players": [
+    {
+      "player_id": 302,
+      "player_name": "альчакова наталья",
+      "gender": "Ж",
+      "hand": "R",
+      "current_club_name": "моравия",
+      "games_total": 18,
+      "avg_total": 149.8,
+      "best_game": 192,
+      "worst_game": 123,
+      "tournaments_played": 1,
+      "quals_games": 18,
+      "quals_avg": 149.8,
+      "rr_games": 0,
+      "rr_avg": null,
+      "po_games": 0,
+      "po_avg": null,
+      "po_best": null
+    }
+  ],
+  "teams": [
+    {
+      "team_id": 53,
+      "team_name": "моравия lucky страйк",
+      "club_id": 16,
+      "club_name": "моравия",
+      "games_total": 166,
+      "avg_total": 180.1,
+      "best_game": 247,
+      "rr_games": 146,
+      "rr_avg": 173.8,
+      "quals_games": 0,
+      "quals_avg": null,
+      "po_games": 20,
+      "po_avg": 203.1,
+      "po_best": 247,
+      "seasons_list": "1",
+      "latest_season": 1
+    }
+  ]
+}

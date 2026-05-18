@@ -1,0 +1,20 @@
+{
+  "player_id": 156,
+  "player_name": "байтулаева ажар",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 162,
+  "avg_total": 179.0,
+  "best_game": 264,
+  "worst_game": 119,
+  "tournaments_played": 12,
+  "quals_games": 150,
+  "quals_avg": 179.6,
+  "rr_games": 12,
+  "rr_avg": 171.0,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

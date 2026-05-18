@@ -1,0 +1,20 @@
+{
+  "player_id": 39,
+  "player_name": "щелкунов станислав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 217,
+  "avg_total": 189.1,
+  "best_game": 265,
+  "worst_game": 118,
+  "tournaments_played": 13,
+  "quals_games": 217,
+  "quals_avg": 189.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

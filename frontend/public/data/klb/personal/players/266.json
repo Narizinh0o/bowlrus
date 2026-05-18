@@ -1,0 +1,20 @@
+{
+  "player_id": 266,
+  "player_name": "иванов антон",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "дальний восток",
+  "games_total": 30,
+  "avg_total": 190.4,
+  "best_game": 251,
+  "worst_game": 130,
+  "tournaments_played": 2,
+  "quals_games": 30,
+  "quals_avg": 190.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,83 @@
+{
+  "player_id": 25,
+  "player_name": "ГАДЕЛЬШИН ТИМУР",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 10240,
+  "average_score": 170.67,
+  "best_game": 207,
+  "worst_game": 139,
+  "score_diff": 68,
+  "strike_attempts": 62,
+  "strikes": 27,
+  "strike_percent": 43.55,
+  "spares": 15,
+  "opens": 20,
+  "spare_conversion_percent": 42.86,
+  "singles_left": 10,
+  "singles_converted": 7,
+  "singles_missed": 3,
+  "single_pin_percent": 70.0,
+  "games": [
+    {
+      "game_id": 145,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "12:19:00",
+      "time_end": "12:45:00",
+      "lane": 9,
+      "event": "doubles",
+      "total_score": 139
+    },
+    {
+      "game_id": 146,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "12:48:00",
+      "time_end": "13:17:00",
+      "lane": 8,
+      "event": "doubles",
+      "total_score": 153
+    },
+    {
+      "game_id": 147,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "13:18:00",
+      "time_end": "13:45:00",
+      "lane": 5,
+      "event": "doubles",
+      "total_score": 189
+    },
+    {
+      "game_id": 148,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "13:47:00",
+      "time_end": "14:10:00",
+      "lane": 4,
+      "event": "doubles",
+      "total_score": 207
+    },
+    {
+      "game_id": 149,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "14:15:00",
+      "time_end": "14:42:00",
+      "lane": 15,
+      "event": "doubles",
+      "total_score": 175
+    },
+    {
+      "game_id": 150,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "14:44:00",
+      "time_end": "15:06:00",
+      "lane": 14,
+      "event": "doubles",
+      "total_score": 161
+    }
+  ]
+}

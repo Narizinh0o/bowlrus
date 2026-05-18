@@ -1,0 +1,27 @@
+{
+  "team_id": 53,
+  "team_name": "моравия lucky страйк",
+  "club_id": 16,
+  "club_name": "моравия",
+  "games_total": 166,
+  "avg_total": 180.1,
+  "best_game": 247,
+  "rr_games": 146,
+  "rr_avg": 173.8,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 20,
+  "po_avg": 203.1,
+  "po_best": 247,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": {
+    "team_id": 53,
+    "team_name": "моравия lucky страйк",
+    "throws_count": 6,
+    "throws_avg": 8.67,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

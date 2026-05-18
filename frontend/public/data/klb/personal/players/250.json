@@ -1,0 +1,20 @@
+{
+  "player_id": 250,
+  "player_name": "редько евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 45,
+  "avg_total": 193.5,
+  "best_game": 247,
+  "worst_game": 133,
+  "tournaments_played": 3,
+  "quals_games": 36,
+  "quals_avg": 190.9,
+  "rr_games": 7,
+  "rr_avg": 211.0,
+  "po_games": 2,
+  "po_avg": 178.5,
+  "po_best": 202,
+  "rolloff": null
+}

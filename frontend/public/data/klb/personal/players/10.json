@@ -1,0 +1,28 @@
+{
+  "player_id": 10,
+  "player_name": "леденев иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 170,
+  "avg_total": 196.0,
+  "best_game": 280,
+  "worst_game": 108,
+  "tournaments_played": 9,
+  "quals_games": 149,
+  "quals_avg": 196.1,
+  "rr_games": 13,
+  "rr_avg": 197.3,
+  "po_games": 8,
+  "po_avg": 191.3,
+  "po_best": 230,
+  "rolloff": {
+    "player_id": 10,
+    "player_name": "леденев иван",
+    "throws_count": 3,
+    "throws_avg": 8.33,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

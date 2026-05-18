@@ -1,0 +1,28 @@
+{
+  "player_id": 37,
+  "player_name": "сверчков владимир",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "индеаль",
+  "games_total": 160,
+  "avg_total": 201.8,
+  "best_game": 278,
+  "worst_game": 116,
+  "tournaments_played": 9,
+  "quals_games": 129,
+  "quals_avg": 201.6,
+  "rr_games": 13,
+  "rr_avg": 207.4,
+  "po_games": 18,
+  "po_avg": 198.9,
+  "po_best": 278,
+  "rolloff": {
+    "player_id": 37,
+    "player_name": "сверчков владимир",
+    "throws_count": 7,
+    "throws_avg": 8.86,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "team_id": 22,
+  "team_name": "brooklyn bowl black&red",
+  "club_id": 10,
+  "club_name": "brooklyn bowl",
+  "games_total": 140,
+  "avg_total": 186.0,
+  "best_game": 226,
+  "rr_games": 134,
+  "rr_avg": 185.9,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 6,
+  "po_avg": 186.7,
+  "po_best": 226,
+  "seasons_list": "1,3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 22,
+    "team_name": "brooklyn bowl black&red",
+    "throws_count": 9,
+    "throws_avg": 8.11,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

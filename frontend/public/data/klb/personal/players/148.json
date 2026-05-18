@@ -1,0 +1,28 @@
+{
+  "player_id": 148,
+  "player_name": "большаков даниил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 99,
+  "avg_total": 186.8,
+  "best_game": 279,
+  "worst_game": 126,
+  "tournaments_played": 6,
+  "quals_games": 95,
+  "quals_avg": 186.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 204.3,
+  "po_best": 246,
+  "rolloff": {
+    "player_id": 148,
+    "player_name": "большаков даниил",
+    "throws_count": 1,
+    "throws_avg": 8.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

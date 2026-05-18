@@ -1,0 +1,20 @@
+{
+  "player_id": 99,
+  "player_name": "захаров сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 118,
+  "avg_total": 192.9,
+  "best_game": 264,
+  "worst_game": 67,
+  "tournaments_played": 7,
+  "quals_games": 105,
+  "quals_avg": 192.4,
+  "rr_games": 13,
+  "rr_avg": 197.2,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

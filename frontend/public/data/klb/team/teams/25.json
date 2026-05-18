@@ -1,0 +1,19 @@
+{
+  "team_id": 25,
+  "team_name": "sure.good - сургут",
+  "club_id": 14,
+  "club_name": "sure.good",
+  "games_total": 30,
+  "avg_total": 166.9,
+  "best_game": null,
+  "rr_games": 30,
+  "rr_avg": 166.9,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "3,4",
+  "latest_season": 4,
+  "rolloff": null
+}

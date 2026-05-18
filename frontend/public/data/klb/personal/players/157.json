@@ -1,0 +1,20 @@
+{
+  "player_id": 157,
+  "player_name": "торба людмила",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 66,
+  "avg_total": 164.4,
+  "best_game": 216,
+  "worst_game": 121,
+  "tournaments_played": 6,
+  "quals_games": 66,
+  "quals_avg": 164.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

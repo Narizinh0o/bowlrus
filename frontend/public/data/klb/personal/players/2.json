@@ -1,0 +1,28 @@
+{
+  "player_id": 2,
+  "player_name": "аврамчик михаил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "барс",
+  "games_total": 134,
+  "avg_total": 203.2,
+  "best_game": 279,
+  "worst_game": 148,
+  "tournaments_played": 7,
+  "quals_games": 126,
+  "quals_avg": 202.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 8,
+  "po_avg": 208.3,
+  "po_best": 267,
+  "rolloff": {
+    "player_id": 2,
+    "player_name": "аврамчик михаил",
+    "throws_count": 4,
+    "throws_avg": 9.25,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

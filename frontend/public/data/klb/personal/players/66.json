@@ -1,0 +1,20 @@
+{
+  "player_id": 66,
+  "player_name": "хавченко дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 75,
+  "avg_total": 187.9,
+  "best_game": 266,
+  "worst_game": 120,
+  "tournaments_played": 5,
+  "quals_games": 75,
+  "quals_avg": 187.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

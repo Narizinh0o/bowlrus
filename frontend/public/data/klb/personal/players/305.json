@@ -1,0 +1,20 @@
+{
+  "player_id": 305,
+  "player_name": "дьяков александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 26,
+  "avg_total": 188.7,
+  "best_game": 244,
+  "worst_game": 162,
+  "tournaments_played": 2,
+  "quals_games": 26,
+  "quals_avg": 188.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

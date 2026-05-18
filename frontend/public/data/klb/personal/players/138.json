@@ -1,0 +1,28 @@
+{
+  "player_id": 138,
+  "player_name": "григорьев владимир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 163,
+  "avg_total": 203.3,
+  "best_game": 264,
+  "worst_game": 121,
+  "tournaments_played": 9,
+  "quals_games": 142,
+  "quals_avg": 203.4,
+  "rr_games": 13,
+  "rr_avg": 203.8,
+  "po_games": 8,
+  "po_avg": 200.1,
+  "po_best": 244,
+  "rolloff": {
+    "player_id": 138,
+    "player_name": "григорьев владимир",
+    "throws_count": 7,
+    "throws_avg": 8.0,
+    "matches_total": 3,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 206,
+  "player_name": "якубов уткир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 36,
+  "avg_total": 185.9,
+  "best_game": 242,
+  "worst_game": 138,
+  "tournaments_played": 3,
+  "quals_games": 36,
+  "quals_avg": 185.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

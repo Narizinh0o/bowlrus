@@ -1,0 +1,28 @@
+{
+  "player_id": 115,
+  "player_name": "зеленков антон",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 455,
+  "avg_total": 210.1,
+  "best_game": 289,
+  "worst_game": 117,
+  "tournaments_played": 25,
+  "quals_games": 327,
+  "quals_avg": 209.0,
+  "rr_games": 58,
+  "rr_avg": 208.7,
+  "po_games": 70,
+  "po_avg": 216.9,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 115,
+    "player_name": "зеленков антон",
+    "throws_count": 43,
+    "throws_avg": 8.95,
+    "matches_total": 22,
+    "matches_won": 9,
+    "winrate": 40.9
+  }
+}

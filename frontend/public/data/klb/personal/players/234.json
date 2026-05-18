@@ -1,0 +1,20 @@
+{
+  "player_id": 234,
+  "player_name": "бойко ростислав",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 6,
+  "avg_total": 174.2,
+  "best_game": 197,
+  "worst_game": 137,
+  "tournaments_played": 1,
+  "quals_games": 6,
+  "quals_avg": 174.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

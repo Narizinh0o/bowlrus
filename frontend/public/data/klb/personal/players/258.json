@@ -1,0 +1,20 @@
+{
+  "player_id": 258,
+  "player_name": "макаров антон",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 72,
+  "avg_total": 177.6,
+  "best_game": 246,
+  "worst_game": 128,
+  "tournaments_played": 4,
+  "quals_games": 72,
+  "quals_avg": 177.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 274,
+  "player_name": "ефремов александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "hunters",
+  "games_total": 102,
+  "avg_total": 209.3,
+  "best_game": 279,
+  "worst_game": 137,
+  "tournaments_played": 5,
+  "quals_games": 90,
+  "quals_avg": 207.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 12,
+  "po_avg": 222.5,
+  "po_best": 267,
+  "rolloff": {
+    "player_id": 274,
+    "player_name": "ефремов александр",
+    "throws_count": 5,
+    "throws_avg": 9.6,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

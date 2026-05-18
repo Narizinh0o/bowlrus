@@ -1,0 +1,20 @@
+{
+  "player_id": 58,
+  "player_name": "сусликов семен",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 81,
+  "avg_total": 174.6,
+  "best_game": 238,
+  "worst_game": 120,
+  "tournaments_played": 6,
+  "quals_games": 81,
+  "quals_avg": 174.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

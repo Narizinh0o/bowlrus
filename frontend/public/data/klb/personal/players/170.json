@@ -1,0 +1,20 @@
+{
+  "player_id": 170,
+  "player_name": "ополев дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sure.good",
+  "games_total": 8,
+  "avg_total": 154.1,
+  "best_game": 228,
+  "worst_game": 116,
+  "tournaments_played": 1,
+  "quals_games": 8,
+  "quals_avg": 154.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

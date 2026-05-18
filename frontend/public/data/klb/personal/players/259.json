@@ -1,0 +1,20 @@
+{
+  "player_id": 259,
+  "player_name": "шарапова алена",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 12,
+  "avg_total": 175.2,
+  "best_game": 212,
+  "worst_game": 126,
+  "tournaments_played": 1,
+  "quals_games": 12,
+  "quals_avg": 175.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

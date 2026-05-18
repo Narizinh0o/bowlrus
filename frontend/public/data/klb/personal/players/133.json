@@ -1,0 +1,28 @@
+{
+  "player_id": 133,
+  "player_name": "коршак ян",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 410,
+  "avg_total": 206.8,
+  "best_game": 297,
+  "worst_game": 114,
+  "tournaments_played": 20,
+  "quals_games": 281,
+  "quals_avg": 206.0,
+  "rr_games": 65,
+  "rr_avg": 206.6,
+  "po_games": 64,
+  "po_avg": 210.5,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 133,
+    "player_name": "коршак ян",
+    "throws_count": 14,
+    "throws_avg": 8.43,
+    "matches_total": 10,
+    "matches_won": 4,
+    "winrate": 40.0
+  }
+}

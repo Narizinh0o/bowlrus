@@ -1,0 +1,28 @@
+{
+  "player_id": 63,
+  "player_name": "леванюк дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 223,
+  "avg_total": 195.2,
+  "best_game": 275,
+  "worst_game": 134,
+  "tournaments_played": 14,
+  "quals_games": 207,
+  "quals_avg": 193.8,
+  "rr_games": 12,
+  "rr_avg": 217.9,
+  "po_games": 4,
+  "po_avg": 196.8,
+  "po_best": 215,
+  "rolloff": {
+    "player_id": 63,
+    "player_name": "леванюк дмитрий",
+    "throws_count": 2,
+    "throws_avg": 9.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

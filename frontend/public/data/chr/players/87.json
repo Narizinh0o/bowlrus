@@ -1,0 +1,143 @@
+{
+  "player_id": 87,
+  "player_name": "КУЗНЕЦОВ НИКИТА",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 21100,
+  "average_score": 175.83,
+  "best_game": 200,
+  "worst_game": 153,
+  "score_diff": 47,
+  "strike_attempts": 133,
+  "strikes": 49,
+  "strike_percent": 36.84,
+  "spares": 51,
+  "opens": 28,
+  "spare_conversion_percent": 64.56,
+  "singles_left": 34,
+  "singles_converted": 30,
+  "singles_missed": 4,
+  "single_pin_percent": 88.24,
+  "games": [
+    {
+      "game_id": 517,
+      "game_number": 1,
+      "play_date": "2026-05-03",
+      "time_start": "20:18:00",
+      "time_end": "20:43:00",
+      "lane": 4,
+      "event": "doubles",
+      "total_score": 200
+    },
+    {
+      "game_id": 518,
+      "game_number": 2,
+      "play_date": "2026-05-03",
+      "time_start": "20:45:00",
+      "time_end": "21:13:00",
+      "lane": 5,
+      "event": "doubles",
+      "total_score": 153
+    },
+    {
+      "game_id": 519,
+      "game_number": 3,
+      "play_date": "2026-05-03",
+      "time_start": "21:14:00",
+      "time_end": "21:37:00",
+      "lane": 8,
+      "event": "doubles",
+      "total_score": 174
+    },
+    {
+      "game_id": 520,
+      "game_number": 4,
+      "play_date": "2026-05-03",
+      "time_start": "21:41:00",
+      "time_end": "22:07:00",
+      "lane": 9,
+      "event": "doubles",
+      "total_score": 193
+    },
+    {
+      "game_id": 521,
+      "game_number": 5,
+      "play_date": "2026-05-03",
+      "time_start": "22:11:00",
+      "time_end": "22:39:00",
+      "lane": 12,
+      "event": "doubles",
+      "total_score": 188
+    },
+    {
+      "game_id": 522,
+      "game_number": 6,
+      "play_date": "2026-05-03",
+      "time_start": "22:40:00",
+      "time_end": "23:09:00",
+      "lane": 13,
+      "event": "doubles",
+      "total_score": 173
+    },
+    {
+      "game_id": 1579,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "16:16:00",
+      "time_end": "16:42:00",
+      "lane": 18,
+      "event": "doubles mix",
+      "total_score": 159
+    },
+    {
+      "game_id": 1580,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "16:43:00",
+      "time_end": "17:05:00",
+      "lane": 21,
+      "event": "doubles mix",
+      "total_score": 179
+    },
+    {
+      "game_id": 1581,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "17:12:00",
+      "time_end": "17:39:00",
+      "lane": 26,
+      "event": "doubles mix",
+      "total_score": 157
+    },
+    {
+      "game_id": 1582,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "17:41:00",
+      "time_end": "18:05:00",
+      "lane": 3,
+      "event": "doubles mix",
+      "total_score": 159
+    },
+    {
+      "game_id": 1583,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "18:11:00",
+      "time_end": "18:35:00",
+      "lane": 8,
+      "event": "doubles mix",
+      "total_score": 177
+    },
+    {
+      "game_id": 1584,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "18:41:00",
+      "time_end": "19:07:00",
+      "lane": 11,
+      "event": "doubles mix",
+      "total_score": 198
+    }
+  ]
+}

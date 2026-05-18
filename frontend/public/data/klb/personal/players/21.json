@@ -1,0 +1,28 @@
+{
+  "player_id": 21,
+  "player_name": "шукаев максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 191,
+  "avg_total": 202.4,
+  "best_game": 269,
+  "worst_game": 138,
+  "tournaments_played": 9,
+  "quals_games": 170,
+  "quals_avg": 203.1,
+  "rr_games": 13,
+  "rr_avg": 201.1,
+  "po_games": 8,
+  "po_avg": 190.1,
+  "po_best": 217,
+  "rolloff": {
+    "player_id": 21,
+    "player_name": "шукаев максим",
+    "throws_count": 7,
+    "throws_avg": 9.29,
+    "matches_total": 2,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

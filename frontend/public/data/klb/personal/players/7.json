@@ -1,0 +1,20 @@
+{
+  "player_id": 7,
+  "player_name": "коломеец дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "дальний восток",
+  "games_total": 21,
+  "avg_total": 202.3,
+  "best_game": 264,
+  "worst_game": 150,
+  "tournaments_played": 1,
+  "quals_games": 21,
+  "quals_avg": 202.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

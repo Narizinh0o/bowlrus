@@ -1,0 +1,28 @@
+{
+  "player_id": 117,
+  "player_name": "кряжок данил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 384,
+  "avg_total": 203.3,
+  "best_game": 300,
+  "worst_game": 132,
+  "tournaments_played": 23,
+  "quals_games": 299,
+  "quals_avg": 203.9,
+  "rr_games": 52,
+  "rr_avg": 192.2,
+  "po_games": 33,
+  "po_avg": 215.6,
+  "po_best": 269,
+  "rolloff": {
+    "player_id": 117,
+    "player_name": "кряжок данил",
+    "throws_count": 9,
+    "throws_avg": 8.67,
+    "matches_total": 7,
+    "matches_won": 2,
+    "winrate": 28.6
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 118,
+  "player_name": "андреев сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 462,
+  "avg_total": 209.8,
+  "best_game": 289,
+  "worst_game": 142,
+  "tournaments_played": 25,
+  "quals_games": 327,
+  "quals_avg": 210.4,
+  "rr_games": 32,
+  "rr_avg": 200.3,
+  "po_games": 103,
+  "po_avg": 210.6,
+  "po_best": 283,
+  "rolloff": {
+    "player_id": 118,
+    "player_name": "андреев сергей",
+    "throws_count": 39,
+    "throws_avg": 9.21,
+    "matches_total": 25,
+    "matches_won": 14,
+    "winrate": 56.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 74,
+  "player_name": "мельниченко михаил",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "дальний восток",
+  "games_total": 50,
+  "avg_total": 199.6,
+  "best_game": 268,
+  "worst_game": 163,
+  "tournaments_played": 4,
+  "quals_games": 48,
+  "quals_avg": 200.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 187.0,
+  "po_best": 192,
+  "rolloff": {
+    "player_id": 74,
+    "player_name": "мельниченко михаил",
+    "throws_count": 1,
+    "throws_avg": 8.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

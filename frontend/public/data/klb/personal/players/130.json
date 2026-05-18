@@ -1,0 +1,28 @@
+{
+  "player_id": 130,
+  "player_name": "калинин константин",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 407,
+  "avg_total": 197.5,
+  "best_game": 289,
+  "worst_game": 106,
+  "tournaments_played": 23,
+  "quals_games": 338,
+  "quals_avg": 197.0,
+  "rr_games": 45,
+  "rr_avg": 199.5,
+  "po_games": 24,
+  "po_avg": 201.6,
+  "po_best": 244,
+  "rolloff": {
+    "player_id": 130,
+    "player_name": "калинин константин",
+    "throws_count": 5,
+    "throws_avg": 9.0,
+    "matches_total": 4,
+    "matches_won": 3,
+    "winrate": 75.0
+  }
+}

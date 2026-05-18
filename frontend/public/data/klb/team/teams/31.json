@@ -1,0 +1,27 @@
+{
+  "team_id": 31,
+  "team_name": "semurg team a",
+  "club_id": 13,
+  "club_name": "semurg team",
+  "games_total": 54,
+  "avg_total": 194.1,
+  "best_game": 203,
+  "rr_games": 50,
+  "rr_avg": 195.0,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 4,
+  "po_avg": 186.5,
+  "po_best": 203,
+  "seasons_list": "1,2,3",
+  "latest_season": 3,
+  "rolloff": {
+    "team_id": 31,
+    "team_name": "semurg team a",
+    "throws_count": 1,
+    "throws_avg": 6.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

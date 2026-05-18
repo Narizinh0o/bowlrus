@@ -1,0 +1,28 @@
+{
+  "player_id": 143,
+  "player_name": "кудрина полина",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 362,
+  "avg_total": 200.1,
+  "best_game": 277,
+  "worst_game": 137,
+  "tournaments_played": 21,
+  "quals_games": 296,
+  "quals_avg": 200.0,
+  "rr_games": 38,
+  "rr_avg": 197.0,
+  "po_games": 28,
+  "po_avg": 205.0,
+  "po_best": 266,
+  "rolloff": {
+    "player_id": 143,
+    "player_name": "кудрина полина",
+    "throws_count": 9,
+    "throws_avg": 8.78,
+    "matches_total": 7,
+    "matches_won": 5,
+    "winrate": 71.4
+  }
+}

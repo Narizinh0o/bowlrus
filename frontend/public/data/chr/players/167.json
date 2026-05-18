@@ -1,0 +1,83 @@
+{
+  "player_id": 167,
+  "player_name": "УСЕНКО ЖАННА",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 8500,
+  "average_score": 141.67,
+  "best_game": 166,
+  "worst_game": 113,
+  "score_diff": 53,
+  "strike_attempts": 63,
+  "strikes": 13,
+  "strike_percent": 20.63,
+  "spares": 20,
+  "opens": 29,
+  "spare_conversion_percent": 40.82,
+  "singles_left": 15,
+  "singles_converted": 7,
+  "singles_missed": 8,
+  "single_pin_percent": 46.67,
+  "games": [
+    {
+      "game_id": 997,
+      "game_number": 1,
+      "play_date": "2026-05-04",
+      "time_start": "08:13:00",
+      "time_end": "08:36:00",
+      "lane": 27,
+      "event": "doubles",
+      "total_score": 139
+    },
+    {
+      "game_id": 998,
+      "game_number": 2,
+      "play_date": "2026-05-04",
+      "time_start": "08:41:00",
+      "time_end": "09:06:00",
+      "lane": 26,
+      "event": "doubles",
+      "total_score": 144
+    },
+    {
+      "game_id": 999,
+      "game_number": 3,
+      "play_date": "2026-05-04",
+      "time_start": "09:14:00",
+      "time_end": "09:42:00",
+      "lane": 23,
+      "event": "doubles",
+      "total_score": 113
+    },
+    {
+      "game_id": 1000,
+      "game_number": 4,
+      "play_date": "2026-05-04",
+      "time_start": "09:44:00",
+      "time_end": "10:10:00",
+      "lane": 22,
+      "event": "doubles",
+      "total_score": 164
+    },
+    {
+      "game_id": 1001,
+      "game_number": 5,
+      "play_date": "2026-05-04",
+      "time_start": "10:13:00",
+      "time_end": "10:38:00",
+      "lane": 19,
+      "event": "doubles",
+      "total_score": 166
+    },
+    {
+      "game_id": 1002,
+      "game_number": 6,
+      "play_date": "2026-05-04",
+      "time_start": "10:41:00",
+      "time_end": "11:08:00",
+      "lane": 30,
+      "event": "doubles",
+      "total_score": 124
+    }
+  ]
+}

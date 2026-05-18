@@ -1,0 +1,28 @@
+{
+  "player_id": 304,
+  "player_name": "кропачев евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 32,
+  "avg_total": 194.7,
+  "best_game": 257,
+  "worst_game": 145,
+  "tournaments_played": 2,
+  "quals_games": 30,
+  "quals_avg": 195.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 189.0,
+  "po_best": 190,
+  "rolloff": {
+    "player_id": 304,
+    "player_name": "кропачев евгений",
+    "throws_count": 2,
+    "throws_avg": 8.5,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

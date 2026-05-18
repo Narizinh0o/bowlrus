@@ -1,0 +1,20 @@
+{
+  "player_id": 263,
+  "player_name": "кряжок владимир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 78,
+  "avg_total": 149.7,
+  "best_game": 212,
+  "worst_game": 102,
+  "tournaments_played": 5,
+  "quals_games": 78,
+  "quals_avg": 149.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

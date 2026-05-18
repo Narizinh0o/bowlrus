@@ -1,0 +1,27 @@
+{
+  "team_id": 21,
+  "team_name": "кати шары! ультра",
+  "club_id": 7,
+  "club_name": "кати шары!",
+  "games_total": 382,
+  "avg_total": 185.4,
+  "best_game": 210,
+  "rr_games": 358,
+  "rr_avg": 186.0,
+  "quals_games": 12,
+  "quals_avg": 183.0,
+  "po_games": 12,
+  "po_avg": 181.4,
+  "po_best": 210,
+  "seasons_list": "1,2,3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 21,
+    "team_name": "кати шары! ультра",
+    "throws_count": 9,
+    "throws_avg": 9.33,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

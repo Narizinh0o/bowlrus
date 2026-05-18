@@ -1,0 +1,20 @@
+{
+  "player_id": 178,
+  "player_name": "крыль игорь",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 12,
+  "avg_total": 174.3,
+  "best_game": 202,
+  "worst_game": 140,
+  "tournaments_played": 2,
+  "quals_games": 12,
+  "quals_avg": 174.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

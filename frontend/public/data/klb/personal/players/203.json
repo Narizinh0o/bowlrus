@@ -1,0 +1,28 @@
+{
+  "player_id": 203,
+  "player_name": "тохиров ойбек",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "semurg team",
+  "games_total": 103,
+  "avg_total": 191.3,
+  "best_game": 279,
+  "worst_game": 48,
+  "tournaments_played": 6,
+  "quals_games": 99,
+  "quals_avg": 190.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 206.8,
+  "po_best": 238,
+  "rolloff": {
+    "player_id": 203,
+    "player_name": "тохиров ойбек",
+    "throws_count": 1,
+    "throws_avg": 7.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "player_id": 8,
+  "player_name": "челпанов дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 275,
+  "avg_total": 189.8,
+  "best_game": 268,
+  "worst_game": 114,
+  "tournaments_played": 17,
+  "quals_games": 266,
+  "quals_avg": 190.1,
+  "rr_games": 7,
+  "rr_avg": 170.7,
+  "po_games": 2,
+  "po_avg": 221.5,
+  "po_best": 253,
+  "rolloff": {
+    "player_id": 8,
+    "player_name": "челпанов дмитрий",
+    "throws_count": 4,
+    "throws_avg": 9.5,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

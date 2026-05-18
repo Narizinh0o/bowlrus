@@ -1,0 +1,20 @@
+{
+  "player_id": 188,
+  "player_name": "сагатов алишер",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 42,
+  "avg_total": 158.3,
+  "best_game": 202,
+  "worst_game": 114,
+  "tournaments_played": 4,
+  "quals_games": 42,
+  "quals_avg": 158.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 240,
+  "player_name": "сусликова елена",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 12,
+  "avg_total": 152.0,
+  "best_game": 180,
+  "worst_game": 117,
+  "tournaments_played": 2,
+  "quals_games": 12,
+  "quals_avg": 152.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

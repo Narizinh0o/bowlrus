@@ -1,0 +1,20 @@
+{
+  "player_id": 28,
+  "player_name": "хостегян ашот",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 81,
+  "avg_total": 175.9,
+  "best_game": 235,
+  "worst_game": 120,
+  "tournaments_played": 6,
+  "quals_games": 81,
+  "quals_avg": 175.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

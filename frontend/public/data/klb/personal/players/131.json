@@ -1,0 +1,28 @@
+{
+  "player_id": 131,
+  "player_name": "беленький михаил",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 371,
+  "avg_total": 199.1,
+  "best_game": 278,
+  "worst_game": 134,
+  "tournaments_played": 21,
+  "quals_games": 319,
+  "quals_avg": 200.5,
+  "rr_games": 34,
+  "rr_avg": 185.1,
+  "po_games": 18,
+  "po_avg": 202.1,
+  "po_best": 257,
+  "rolloff": {
+    "player_id": 131,
+    "player_name": "беленький михаил",
+    "throws_count": 5,
+    "throws_avg": 9.4,
+    "matches_total": 3,
+    "matches_won": 1,
+    "winrate": 33.3
+  }
+}

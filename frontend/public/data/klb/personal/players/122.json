@@ -1,0 +1,28 @@
+{
+  "player_id": 122,
+  "player_name": "федоров федор",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 340,
+  "avg_total": 205.1,
+  "best_game": 299,
+  "worst_game": 129,
+  "tournaments_played": 19,
+  "quals_games": 251,
+  "quals_avg": 206.2,
+  "rr_games": 27,
+  "rr_avg": 195.0,
+  "po_games": 62,
+  "po_avg": 205.4,
+  "po_best": 258,
+  "rolloff": {
+    "player_id": 122,
+    "player_name": "федоров федор",
+    "throws_count": 27,
+    "throws_avg": 9.52,
+    "matches_total": 17,
+    "matches_won": 13,
+    "winrate": 76.5
+  }
+}

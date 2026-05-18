@@ -1,0 +1,20 @@
+{
+  "player_id": 267,
+  "player_name": "гришененко елена",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 42,
+  "avg_total": 200.5,
+  "best_game": 275,
+  "worst_game": 124,
+  "tournaments_played": 3,
+  "quals_games": 42,
+  "quals_avg": 200.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

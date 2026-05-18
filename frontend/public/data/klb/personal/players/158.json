@@ -1,0 +1,20 @@
+{
+  "player_id": 158,
+  "player_name": "кусков виктор",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 14,
+  "avg_total": 153.5,
+  "best_game": 189,
+  "worst_game": 132,
+  "tournaments_played": 2,
+  "quals_games": 14,
+  "quals_avg": 153.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

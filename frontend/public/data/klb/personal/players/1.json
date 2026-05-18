@@ -1,0 +1,28 @@
+{
+  "player_id": 1,
+  "player_name": "степин алексей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 218,
+  "avg_total": 201.2,
+  "best_game": 279,
+  "worst_game": 139,
+  "tournaments_played": 13,
+  "quals_games": 189,
+  "quals_avg": 200.0,
+  "rr_games": 13,
+  "rr_avg": 200.9,
+  "po_games": 16,
+  "po_avg": 215.0,
+  "po_best": 255,
+  "rolloff": {
+    "player_id": 1,
+    "player_name": "степин алексей",
+    "throws_count": 6,
+    "throws_avg": 9.33,
+    "matches_total": 4,
+    "matches_won": 1,
+    "winrate": 25.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 51,
+  "player_name": "жабановский дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 84,
+  "avg_total": 173.8,
+  "best_game": 231,
+  "worst_game": 124,
+  "tournaments_played": 8,
+  "quals_games": 84,
+  "quals_avg": 173.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

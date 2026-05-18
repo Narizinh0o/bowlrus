@@ -1,0 +1,20 @@
+{
+  "player_id": 241,
+  "player_name": "судат максим",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 72,
+  "avg_total": 180.8,
+  "best_game": 233,
+  "worst_game": 126,
+  "tournaments_played": 4,
+  "quals_games": 72,
+  "quals_avg": 180.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

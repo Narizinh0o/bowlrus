@@ -1,0 +1,20 @@
+{
+  "player_id": 239,
+  "player_name": "носенко денис",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 12,
+  "avg_total": 164.7,
+  "best_game": 219,
+  "worst_game": 122,
+  "tournaments_played": 2,
+  "quals_games": 12,
+  "quals_avg": 164.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

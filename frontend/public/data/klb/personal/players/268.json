@@ -1,0 +1,20 @@
+{
+  "player_id": 268,
+  "player_name": "абинаев абдрахман",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 31,
+  "avg_total": 188.9,
+  "best_game": 258,
+  "worst_game": 146,
+  "tournaments_played": 2,
+  "quals_games": 24,
+  "quals_avg": 192.9,
+  "rr_games": 7,
+  "rr_avg": 175.1,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

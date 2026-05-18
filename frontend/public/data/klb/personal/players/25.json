@@ -1,0 +1,28 @@
+{
+  "player_id": 25,
+  "player_name": "рошонок герман",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 286,
+  "avg_total": 194.1,
+  "best_game": 277,
+  "worst_game": 126,
+  "tournaments_played": 18,
+  "quals_games": 240,
+  "quals_avg": 194.4,
+  "rr_games": 38,
+  "rr_avg": 192.9,
+  "po_games": 8,
+  "po_avg": 190.9,
+  "po_best": 245,
+  "rolloff": {
+    "player_id": 25,
+    "player_name": "рошонок герман",
+    "throws_count": 4,
+    "throws_avg": 9.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

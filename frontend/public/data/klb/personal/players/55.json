@@ -1,0 +1,28 @@
+{
+  "player_id": 55,
+  "player_name": "середенко иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 289,
+  "avg_total": 189.6,
+  "best_game": 300,
+  "worst_game": 120,
+  "tournaments_played": 20,
+  "quals_games": 268,
+  "quals_avg": 188.3,
+  "rr_games": 13,
+  "rr_avg": 202.4,
+  "po_games": 8,
+  "po_avg": 212.0,
+  "po_best": 300,
+  "rolloff": {
+    "player_id": 55,
+    "player_name": "середенко иван",
+    "throws_count": 3,
+    "throws_avg": 9.67,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

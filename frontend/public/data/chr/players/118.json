@@ -1,0 +1,143 @@
+{
+  "player_id": 118,
+  "player_name": "НОВОСЕЛОВ СЕРГЕЙ",
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 20580,
+  "average_score": 171.5,
+  "best_game": 253,
+  "worst_game": 124,
+  "score_diff": 129,
+  "strike_attempts": 132,
+  "strikes": 46,
+  "strike_percent": 34.85,
+  "spares": 46,
+  "opens": 35,
+  "spare_conversion_percent": 56.79,
+  "singles_left": 26,
+  "singles_converted": 19,
+  "singles_missed": 7,
+  "single_pin_percent": 73.08,
+  "games": [
+    {
+      "game_id": 703,
+      "game_number": 1,
+      "play_date": "2026-05-03",
+      "time_start": "16:24:00",
+      "time_end": "16:47:00",
+      "lane": 7,
+      "event": "doubles",
+      "total_score": 177
+    },
+    {
+      "game_id": 704,
+      "game_number": 2,
+      "play_date": "2026-05-03",
+      "time_start": "16:51:00",
+      "time_end": "17:16:00",
+      "lane": 6,
+      "event": "doubles",
+      "total_score": 149
+    },
+    {
+      "game_id": 705,
+      "game_number": 3,
+      "play_date": "2026-05-03",
+      "time_start": "17:21:00",
+      "time_end": "17:42:00",
+      "lane": 3,
+      "event": "doubles",
+      "total_score": 153
+    },
+    {
+      "game_id": 706,
+      "game_number": 4,
+      "play_date": "2026-05-03",
+      "time_start": "17:49:00",
+      "time_end": "18:12:00",
+      "lane": 16,
+      "event": "doubles",
+      "total_score": 166
+    },
+    {
+      "game_id": 707,
+      "game_number": 5,
+      "play_date": "2026-05-03",
+      "time_start": "18:15:00",
+      "time_end": "18:38:00",
+      "lane": 13,
+      "event": "doubles",
+      "total_score": 253
+    },
+    {
+      "game_id": 708,
+      "game_number": 6,
+      "play_date": "2026-05-03",
+      "time_start": "18:43:00",
+      "time_end": "19:04:00",
+      "lane": 12,
+      "event": "doubles",
+      "total_score": 148
+    },
+    {
+      "game_id": 1729,
+      "game_number": 1,
+      "play_date": "2026-05-07",
+      "time_start": "16:15:00",
+      "time_end": "16:38:00",
+      "lane": 20,
+      "event": "doubles mix",
+      "total_score": 124
+    },
+    {
+      "game_id": 1730,
+      "game_number": 2,
+      "play_date": "2026-05-07",
+      "time_start": "16:42:00",
+      "time_end": "17:10:00",
+      "lane": 23,
+      "event": "doubles mix",
+      "total_score": 202
+    },
+    {
+      "game_id": 1731,
+      "game_number": 3,
+      "play_date": "2026-05-07",
+      "time_start": "17:12:00",
+      "time_end": "17:39:00",
+      "lane": 28,
+      "event": "doubles mix",
+      "total_score": 163
+    },
+    {
+      "game_id": 1732,
+      "game_number": 4,
+      "play_date": "2026-05-07",
+      "time_start": "17:42:00",
+      "time_end": "18:07:00",
+      "lane": 5,
+      "event": "doubles mix",
+      "total_score": 191
+    },
+    {
+      "game_id": 1733,
+      "game_number": 5,
+      "play_date": "2026-05-07",
+      "time_start": "18:11:00",
+      "time_end": "18:36:00",
+      "lane": 10,
+      "event": "doubles mix",
+      "total_score": 168
+    },
+    {
+      "game_id": 1734,
+      "game_number": 6,
+      "play_date": "2026-05-07",
+      "time_start": "18:41:00",
+      "time_end": "19:08:00",
+      "lane": 13,
+      "event": "doubles mix",
+      "total_score": 164
+    }
+  ]
+}

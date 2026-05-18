@@ -1,0 +1,28 @@
+{
+  "player_id": 140,
+  "player_name": "кузнецов евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 420,
+  "avg_total": 205.9,
+  "best_game": 300,
+  "worst_game": 112,
+  "tournaments_played": 22,
+  "quals_games": 296,
+  "quals_avg": 206.0,
+  "rr_games": 52,
+  "rr_avg": 203.8,
+  "po_games": 72,
+  "po_avg": 207.1,
+  "po_best": 255,
+  "rolloff": {
+    "player_id": 140,
+    "player_name": "кузнецов евгений",
+    "throws_count": 22,
+    "throws_avg": 9.36,
+    "matches_total": 13,
+    "matches_won": 8,
+    "winrate": 61.5
+  }
+}

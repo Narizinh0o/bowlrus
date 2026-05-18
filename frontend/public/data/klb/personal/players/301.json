@@ -1,0 +1,20 @@
+{
+  "player_id": 301,
+  "player_name": "кондратенко игорь",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 20,
+  "avg_total": 198.7,
+  "best_game": 244,
+  "worst_game": 158,
+  "tournaments_played": 1,
+  "quals_games": 18,
+  "quals_avg": 200.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 181.5,
+  "po_best": 199,
+  "rolloff": null
+}

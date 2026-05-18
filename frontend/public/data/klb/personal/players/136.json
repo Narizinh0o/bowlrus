@@ -1,0 +1,28 @@
+{
+  "player_id": 136,
+  "player_name": "апанякина ксения",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 385,
+  "avg_total": 211.9,
+  "best_game": 286,
+  "worst_game": 142,
+  "tournaments_played": 19,
+  "quals_games": 269,
+  "quals_avg": 211.3,
+  "rr_games": 59,
+  "rr_avg": 211.7,
+  "po_games": 57,
+  "po_avg": 214.8,
+  "po_best": 284,
+  "rolloff": {
+    "player_id": 136,
+    "player_name": "апанякина ксения",
+    "throws_count": 19,
+    "throws_avg": 8.68,
+    "matches_total": 13,
+    "matches_won": 5,
+    "winrate": 38.5
+  }
+}

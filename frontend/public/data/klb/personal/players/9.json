@@ -1,0 +1,28 @@
+{
+  "player_id": 9,
+  "player_name": "царенко степан",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 192,
+  "avg_total": 200.4,
+  "best_game": 279,
+  "worst_game": 131,
+  "tournaments_played": 10,
+  "quals_games": 175,
+  "quals_avg": 201.1,
+  "rr_games": 13,
+  "rr_avg": 192.9,
+  "po_games": 4,
+  "po_avg": 193.8,
+  "po_best": 258,
+  "rolloff": {
+    "player_id": 9,
+    "player_name": "царенко степан",
+    "throws_count": 1,
+    "throws_avg": 6.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

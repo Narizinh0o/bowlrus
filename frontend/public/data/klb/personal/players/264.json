@@ -1,0 +1,28 @@
+{
+  "player_id": 264,
+  "player_name": "гаврилов степан",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 135,
+  "avg_total": 196.7,
+  "best_game": 266,
+  "worst_game": 126,
+  "tournaments_played": 8,
+  "quals_games": 120,
+  "quals_avg": 197.1,
+  "rr_games": 7,
+  "rr_avg": 192.3,
+  "po_games": 8,
+  "po_avg": 193.8,
+  "po_best": 234,
+  "rolloff": {
+    "player_id": 264,
+    "player_name": "гаврилов степан",
+    "throws_count": 2,
+    "throws_avg": 8.5,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

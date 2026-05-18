@@ -1,0 +1,28 @@
+{
+  "player_id": 6,
+  "player_name": "ефимов андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 238,
+  "avg_total": 201.4,
+  "best_game": 289,
+  "worst_game": 132,
+  "tournaments_played": 13,
+  "quals_games": 207,
+  "quals_avg": 202.2,
+  "rr_games": 13,
+  "rr_avg": 198.3,
+  "po_games": 18,
+  "po_avg": 193.9,
+  "po_best": 245,
+  "rolloff": {
+    "player_id": 6,
+    "player_name": "ефимов андрей",
+    "throws_count": 13,
+    "throws_avg": 9.15,
+    "matches_total": 6,
+    "matches_won": 1,
+    "winrate": 16.7
+  }
+}

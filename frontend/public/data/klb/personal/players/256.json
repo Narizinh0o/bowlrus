@@ -1,0 +1,28 @@
+{
+  "player_id": 256,
+  "player_name": "кузнецов дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 221,
+  "avg_total": 196.9,
+  "best_game": 267,
+  "worst_game": 125,
+  "tournaments_played": 13,
+  "quals_games": 192,
+  "quals_avg": 198.8,
+  "rr_games": 27,
+  "rr_avg": 183.3,
+  "po_games": 2,
+  "po_avg": 200.5,
+  "po_best": 224,
+  "rolloff": {
+    "player_id": 256,
+    "player_name": "кузнецов дмитрий",
+    "throws_count": 1,
+    "throws_avg": 9.0,
+    "matches_total": 1,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

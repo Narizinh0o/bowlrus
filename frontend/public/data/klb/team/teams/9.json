@@ -1,0 +1,27 @@
+{
+  "team_id": 9,
+  "team_name": "индеаль дельта δ δ",
+  "club_id": 3,
+  "club_name": "индеаль",
+  "games_total": 150,
+  "avg_total": 193.9,
+  "best_game": 245,
+  "rr_games": 132,
+  "rr_avg": 192.1,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 18,
+  "po_avg": 201.7,
+  "po_best": 245,
+  "seasons_list": "3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 9,
+    "team_name": "индеаль дельта δ δ",
+    "throws_count": 30,
+    "throws_avg": 8.43,
+    "matches_total": 8,
+    "matches_won": 4,
+    "winrate": 50.0
+  }
+}

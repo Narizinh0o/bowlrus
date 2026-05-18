@@ -1,0 +1,20 @@
+{
+  "player_id": 86,
+  "player_name": "лесюк борис",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 125,
+  "avg_total": 171.8,
+  "best_game": 255,
+  "worst_game": 123,
+  "tournaments_played": 11,
+  "quals_games": 125,
+  "quals_avg": 171.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

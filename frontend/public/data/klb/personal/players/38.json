@@ -1,0 +1,20 @@
+{
+  "player_id": 38,
+  "player_name": "кузнецов владимир",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 201,
+  "avg_total": 186.0,
+  "best_game": 278,
+  "worst_game": 122,
+  "tournaments_played": 15,
+  "quals_games": 194,
+  "quals_avg": 185.9,
+  "rr_games": 7,
+  "rr_avg": 187.9,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

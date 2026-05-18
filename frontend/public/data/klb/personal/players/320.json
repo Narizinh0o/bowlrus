@@ -1,0 +1,20 @@
+{
+  "player_id": 320,
+  "player_name": "рупасов евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "барс",
+  "games_total": 8,
+  "avg_total": 171.0,
+  "best_game": 201,
+  "worst_game": 143,
+  "tournaments_played": 1,
+  "quals_games": 8,
+  "quals_avg": 171.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

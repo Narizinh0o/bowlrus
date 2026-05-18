@@ -1,0 +1,19 @@
+{
+  "team_id": 19,
+  "team_name": "su-50",
+  "club_id": 6,
+  "club_name": "su-50",
+  "games_total": 108,
+  "avg_total": 177.0,
+  "best_game": null,
+  "rr_games": 96,
+  "rr_avg": null,
+  "quals_games": 12,
+  "quals_avg": 177.0,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "3",
+  "latest_season": 3,
+  "rolloff": null
+}

@@ -1,0 +1,46 @@
+{
+  "club_id": 15,
+  "club_name": "izhevsk strikers",
+  "players_count": 10,
+  "teams_count": 2,
+  "latest_season_with_team": 1,
+  "players": [],
+  "teams": [
+    {
+      "team_id": 46,
+      "team_name": "izhevsk strikers -1",
+      "club_id": 15,
+      "club_name": "izhevsk strikers",
+      "games_total": 112,
+      "avg_total": 196.6,
+      "best_game": 219,
+      "rr_games": 108,
+      "rr_avg": 196.6,
+      "quals_games": 0,
+      "quals_avg": null,
+      "po_games": 4,
+      "po_avg": 197.5,
+      "po_best": 219,
+      "seasons_list": "1",
+      "latest_season": 1
+    },
+    {
+      "team_id": 47,
+      "team_name": "izhevsk strikers -2",
+      "club_id": 15,
+      "club_name": "izhevsk strikers",
+      "games_total": 62,
+      "avg_total": 182.1,
+      "best_game": null,
+      "rr_games": 62,
+      "rr_avg": 182.1,
+      "quals_games": 0,
+      "quals_avg": null,
+      "po_games": 0,
+      "po_avg": null,
+      "po_best": null,
+      "seasons_list": "1",
+      "latest_season": 1
+    }
+  ]
+}

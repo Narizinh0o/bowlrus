@@ -1,0 +1,20 @@
+{
+  "player_id": 151,
+  "player_name": "фоломин андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 18,
+  "avg_total": 168.6,
+  "best_game": 229,
+  "worst_game": 118,
+  "tournaments_played": 3,
+  "quals_games": 18,
+  "quals_avg": 168.6,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

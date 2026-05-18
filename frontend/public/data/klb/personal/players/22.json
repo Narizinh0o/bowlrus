@@ -1,0 +1,28 @@
+{
+  "player_id": 22,
+  "player_name": "дукшанин андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 236,
+  "avg_total": 204.5,
+  "best_game": 276,
+  "worst_game": 128,
+  "tournaments_played": 13,
+  "quals_games": 188,
+  "quals_avg": 205.2,
+  "rr_games": 20,
+  "rr_avg": 200.6,
+  "po_games": 28,
+  "po_avg": 203.0,
+  "po_best": 256,
+  "rolloff": {
+    "player_id": 22,
+    "player_name": "дукшанин андрей",
+    "throws_count": 18,
+    "throws_avg": 9.11,
+    "matches_total": 8,
+    "matches_won": 5,
+    "winrate": 62.5
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "player_id": 85,
+  "player_name": "королев юрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 115,
+  "avg_total": 186.9,
+  "best_game": 253,
+  "worst_game": 128,
+  "tournaments_played": 9,
+  "quals_games": 115,
+  "quals_avg": 186.9,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

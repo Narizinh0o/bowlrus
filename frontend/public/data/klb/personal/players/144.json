@@ -1,0 +1,28 @@
+{
+  "player_id": 144,
+  "player_name": "мустафин артем",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 228,
+  "avg_total": 199.4,
+  "best_game": 300,
+  "worst_game": 121,
+  "tournaments_played": 13,
+  "quals_games": 191,
+  "quals_avg": 199.6,
+  "rr_games": 27,
+  "rr_avg": 193.6,
+  "po_games": 10,
+  "po_avg": 210.9,
+  "po_best": 256,
+  "rolloff": {
+    "player_id": 144,
+    "player_name": "мустафин артем",
+    "throws_count": 4,
+    "throws_avg": 9.75,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

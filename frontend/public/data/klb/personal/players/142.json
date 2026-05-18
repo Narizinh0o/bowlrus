@@ -1,0 +1,20 @@
+{
+  "player_id": 142,
+  "player_name": "плотников андрей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 44,
+  "avg_total": 177.0,
+  "best_game": 255,
+  "worst_game": 117,
+  "tournaments_played": 2,
+  "quals_games": 44,
+  "quals_avg": 177.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

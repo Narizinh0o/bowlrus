@@ -1,0 +1,28 @@
+{
+  "player_id": 126,
+  "player_name": "зубков артемий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 437,
+  "avg_total": 209.3,
+  "best_game": 299,
+  "worst_game": 113,
+  "tournaments_played": 24,
+  "quals_games": 321,
+  "quals_avg": 210.3,
+  "rr_games": 27,
+  "rr_avg": 211.4,
+  "po_games": 89,
+  "po_avg": 205.5,
+  "po_best": 289,
+  "rolloff": {
+    "player_id": 126,
+    "player_name": "зубков артемий",
+    "throws_count": 35,
+    "throws_avg": 8.66,
+    "matches_total": 21,
+    "matches_won": 11,
+    "winrate": 52.4
+  }
+}

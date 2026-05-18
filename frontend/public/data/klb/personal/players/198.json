@@ -1,0 +1,28 @@
+{
+  "player_id": 198,
+  "player_name": "туйчиев даврон",
+  "gender": "М",
+  "hand": "L",
+  "current_club_name": "semurg team",
+  "games_total": 114,
+  "avg_total": 212.9,
+  "best_game": 299,
+  "worst_game": 143,
+  "tournaments_played": 6,
+  "quals_games": 93,
+  "quals_avg": 212.0,
+  "rr_games": 7,
+  "rr_avg": 201.1,
+  "po_games": 14,
+  "po_avg": 225.0,
+  "po_best": 248,
+  "rolloff": {
+    "player_id": 198,
+    "player_name": "туйчиев даврон",
+    "throws_count": 6,
+    "throws_avg": 8.67,
+    "matches_total": 3,
+    "matches_won": 1,
+    "winrate": 33.3
+  }
+}

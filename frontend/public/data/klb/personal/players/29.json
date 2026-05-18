@@ -1,0 +1,28 @@
+{
+  "player_id": 29,
+  "player_name": "эккель руслан",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 310,
+  "avg_total": 190.3,
+  "best_game": 278,
+  "worst_game": 112,
+  "tournaments_played": 19,
+  "quals_games": 273,
+  "quals_avg": 188.5,
+  "rr_games": 25,
+  "rr_avg": 198.5,
+  "po_games": 12,
+  "po_avg": 214.1,
+  "po_best": 257,
+  "rolloff": {
+    "player_id": 29,
+    "player_name": "эккель руслан",
+    "throws_count": 4,
+    "throws_avg": 9.0,
+    "matches_total": 3,
+    "matches_won": 2,
+    "winrate": 66.7
+  }
+}

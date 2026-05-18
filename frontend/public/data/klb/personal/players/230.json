@@ -1,0 +1,20 @@
+{
+  "player_id": 230,
+  "player_name": "соленова надежда",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "кати шары!",
+  "games_total": 27,
+  "avg_total": 171.3,
+  "best_game": 244,
+  "worst_game": 129,
+  "tournaments_played": 2,
+  "quals_games": 27,
+  "quals_avg": 171.3,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

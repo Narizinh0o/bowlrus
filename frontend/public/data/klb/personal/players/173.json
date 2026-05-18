@@ -1,0 +1,20 @@
+{
+  "player_id": 173,
+  "player_name": "требухин сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 171,
+  "avg_total": 185.4,
+  "best_game": 260,
+  "worst_game": 120,
+  "tournaments_played": 11,
+  "quals_games": 171,
+  "quals_avg": 185.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

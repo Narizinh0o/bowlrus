@@ -1,0 +1,20 @@
+{
+  "player_id": 47,
+  "player_name": "скрипников дмитрий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "ultimate team",
+  "games_total": 109,
+  "avg_total": 179.8,
+  "best_game": 246,
+  "worst_game": 120,
+  "tournaments_played": 8,
+  "quals_games": 109,
+  "quals_avg": 179.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

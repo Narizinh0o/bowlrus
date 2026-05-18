@@ -1,0 +1,28 @@
+{
+  "player_id": 303,
+  "player_name": "грязин евгений",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "sibstars",
+  "games_total": 34,
+  "avg_total": 197.6,
+  "best_game": 259,
+  "worst_game": 143,
+  "tournaments_played": 2,
+  "quals_games": 30,
+  "quals_avg": 197.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 196.3,
+  "po_best": 211,
+  "rolloff": {
+    "player_id": 303,
+    "player_name": "грязин евгений",
+    "throws_count": 1,
+    "throws_avg": 10.0,
+    "matches_total": 1,
+    "matches_won": 1,
+    "winrate": 100.0
+  }
+}

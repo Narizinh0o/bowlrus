@@ -1,0 +1,20 @@
+{
+  "player_id": 96,
+  "player_name": "жапаров даулет",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 24,
+  "avg_total": 177.8,
+  "best_game": 233,
+  "worst_game": 140,
+  "tournaments_played": 4,
+  "quals_games": 24,
+  "quals_avg": 177.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

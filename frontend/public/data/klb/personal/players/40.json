@@ -1,0 +1,28 @@
+{
+  "player_id": 40,
+  "player_name": "баранов василий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 429,
+  "avg_total": 197.8,
+  "best_game": 297,
+  "worst_game": 118,
+  "tournaments_played": 25,
+  "quals_games": 364,
+  "quals_avg": 198.2,
+  "rr_games": 37,
+  "rr_avg": 192.8,
+  "po_games": 28,
+  "po_avg": 198.4,
+  "po_best": 279,
+  "rolloff": {
+    "player_id": 40,
+    "player_name": "баранов василий",
+    "throws_count": 18,
+    "throws_avg": 9.44,
+    "matches_total": 8,
+    "matches_won": 4,
+    "winrate": 50.0
+  }
+}

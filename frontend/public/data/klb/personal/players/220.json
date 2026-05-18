@@ -1,0 +1,20 @@
+{
+  "player_id": 220,
+  "player_name": "баракатова шолпан",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 48,
+  "avg_total": 175.0,
+  "best_game": 236,
+  "worst_game": 132,
+  "tournaments_played": 4,
+  "quals_games": 48,
+  "quals_avg": 175.0,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

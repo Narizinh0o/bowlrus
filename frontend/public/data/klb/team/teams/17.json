@@ -1,0 +1,27 @@
+{
+  "team_id": 17,
+  "team_name": "strike hunters",
+  "club_id": 12,
+  "club_name": "hunters",
+  "games_total": 150,
+  "avg_total": 182.5,
+  "best_game": null,
+  "rr_games": 134,
+  "rr_avg": 182.5,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 16,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "3",
+  "latest_season": 3,
+  "rolloff": {
+    "team_id": 17,
+    "team_name": "strike hunters",
+    "throws_count": 13,
+    "throws_avg": 8.85,
+    "matches_total": 3,
+    "matches_won": 1,
+    "winrate": 33.3
+  }
+}

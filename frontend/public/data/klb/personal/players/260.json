@@ -1,0 +1,20 @@
+{
+  "player_id": 260,
+  "player_name": "овчинников олег",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 78,
+  "avg_total": 180.2,
+  "best_game": 248,
+  "worst_game": 123,
+  "tournaments_played": 5,
+  "quals_games": 78,
+  "quals_avg": 180.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

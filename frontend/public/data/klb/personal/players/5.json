@@ -1,0 +1,28 @@
+{
+  "player_id": 5,
+  "player_name": "орлов илья",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "индеаль",
+  "games_total": 264,
+  "avg_total": 195.1,
+  "best_game": 286,
+  "worst_game": 141,
+  "tournaments_played": 14,
+  "quals_games": 203,
+  "quals_avg": 193.7,
+  "rr_games": 47,
+  "rr_avg": 200.7,
+  "po_games": 14,
+  "po_avg": 196.5,
+  "po_best": 269,
+  "rolloff": {
+    "player_id": 5,
+    "player_name": "орлов илья",
+    "throws_count": 4,
+    "throws_avg": 9.0,
+    "matches_total": 4,
+    "matches_won": 2,
+    "winrate": 50.0
+  }
+}

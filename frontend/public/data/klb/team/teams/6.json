@@ -1,0 +1,27 @@
+{
+  "team_id": 6,
+  "team_name": "б-69",
+  "club_id": 9,
+  "club_name": "б-69",
+  "games_total": 544,
+  "avg_total": 186.8,
+  "best_game": 299,
+  "rr_games": 458,
+  "rr_avg": 181.9,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 86,
+  "po_avg": 201.4,
+  "po_best": 299,
+  "seasons_list": "1,2,3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 6,
+    "team_name": "б-69",
+    "throws_count": 47,
+    "throws_avg": 9.13,
+    "matches_total": 16,
+    "matches_won": 11,
+    "winrate": 68.8
+  }
+}

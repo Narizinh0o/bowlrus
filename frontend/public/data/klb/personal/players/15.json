@@ -1,0 +1,28 @@
+{
+  "player_id": 15,
+  "player_name": "куделя сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 144,
+  "avg_total": 196.0,
+  "best_game": 279,
+  "worst_game": 135,
+  "tournaments_played": 8,
+  "quals_games": 140,
+  "quals_avg": 195.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 203.8,
+  "po_best": 245,
+  "rolloff": {
+    "player_id": 15,
+    "player_name": "куделя сергей",
+    "throws_count": 2,
+    "throws_avg": 8.5,
+    "matches_total": 2,
+    "matches_won": 1,
+    "winrate": 50.0
+  }
+}

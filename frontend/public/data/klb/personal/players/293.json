@@ -1,0 +1,28 @@
+{
+  "player_id": 293,
+  "player_name": "шин джонг хен",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 22,
+  "avg_total": 209.7,
+  "best_game": 279,
+  "worst_game": 154,
+  "tournaments_played": 1,
+  "quals_games": 18,
+  "quals_avg": 213.7,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 4,
+  "po_avg": 192.0,
+  "po_best": 228,
+  "rolloff": {
+    "player_id": 293,
+    "player_name": "шин джонг хен",
+    "throws_count": 1,
+    "throws_avg": 10.0,
+    "matches_total": 1,
+    "matches_won": 1,
+    "winrate": 100.0
+  }
+}

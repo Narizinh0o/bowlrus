@@ -1,0 +1,28 @@
+{
+  "player_id": 73,
+  "player_name": "иванов анатолий",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 227,
+  "avg_total": 195.1,
+  "best_game": 278,
+  "worst_game": 116,
+  "tournaments_played": 15,
+  "quals_games": 216,
+  "quals_avg": 194.7,
+  "rr_games": 7,
+  "rr_avg": 203.7,
+  "po_games": 4,
+  "po_avg": 203.3,
+  "po_best": 220,
+  "rolloff": {
+    "player_id": 73,
+    "player_name": "иванов анатолий",
+    "throws_count": 3,
+    "throws_avg": 8.67,
+    "matches_total": 2,
+    "matches_won": 0,
+    "winrate": 0.0
+  }
+}

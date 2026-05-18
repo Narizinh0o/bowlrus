@@ -1,0 +1,19 @@
+{
+  "team_id": 44,
+  "team_name": "hunters - 4",
+  "club_id": 12,
+  "club_name": "hunters",
+  "games_total": 42,
+  "avg_total": 176.8,
+  "best_game": null,
+  "rr_games": 42,
+  "rr_avg": 176.8,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": null
+}

@@ -1,0 +1,19 @@
+{
+  "team_id": 60,
+  "team_name": "астероид всех",
+  "club_id": 1,
+  "club_name": "астероид",
+  "games_total": 28,
+  "avg_total": 186.8,
+  "best_game": null,
+  "rr_games": 28,
+  "rr_avg": 186.8,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "4",
+  "latest_season": 4,
+  "rolloff": null
+}

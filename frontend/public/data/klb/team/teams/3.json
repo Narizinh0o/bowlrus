@@ -1,0 +1,27 @@
+{
+  "team_id": 3,
+  "team_name": "ultimate team",
+  "club_id": 4,
+  "club_name": "ultimate team",
+  "games_total": 526,
+  "avg_total": 189.6,
+  "best_game": 268,
+  "rr_games": 440,
+  "rr_avg": 182.8,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 86,
+  "po_avg": 208.2,
+  "po_best": 268,
+  "seasons_list": "1,2,3,4",
+  "latest_season": 4,
+  "rolloff": {
+    "team_id": 3,
+    "team_name": "ultimate team",
+    "throws_count": 18,
+    "throws_avg": 9.44,
+    "matches_total": 13,
+    "matches_won": 8,
+    "winrate": 61.5
+  }
+}

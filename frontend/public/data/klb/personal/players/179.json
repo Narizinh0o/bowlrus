@@ -1,0 +1,20 @@
+{
+  "player_id": 179,
+  "player_name": "кононов александр - мл",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 44,
+  "avg_total": 182.1,
+  "best_game": 277,
+  "worst_game": 135,
+  "tournaments_played": 3,
+  "quals_games": 44,
+  "quals_avg": 182.1,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

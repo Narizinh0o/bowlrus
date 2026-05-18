@@ -1,0 +1,20 @@
+{
+  "player_id": 246,
+  "player_name": "прохан сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "б-69",
+  "games_total": 14,
+  "avg_total": 209.1,
+  "best_game": 258,
+  "worst_game": 172,
+  "tournaments_played": 1,
+  "quals_games": 12,
+  "quals_avg": 212.5,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 2,
+  "po_avg": 188.5,
+  "po_best": 205,
+  "rolloff": null
+}

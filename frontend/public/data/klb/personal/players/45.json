@@ -1,0 +1,20 @@
+{
+  "player_id": 45,
+  "player_name": "пашковский александр",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "brooklyn bowl",
+  "games_total": 258,
+  "avg_total": 187.6,
+  "best_game": 267,
+  "worst_game": 124,
+  "tournaments_played": 18,
+  "quals_games": 241,
+  "quals_avg": 188.4,
+  "rr_games": 13,
+  "rr_avg": 171.6,
+  "po_games": 4,
+  "po_avg": 189.8,
+  "po_best": 223,
+  "rolloff": null
+}

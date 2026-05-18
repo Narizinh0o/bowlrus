@@ -1,0 +1,20 @@
+{
+  "player_id": 172,
+  "player_name": "туча оксана",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "sure.good",
+  "games_total": 8,
+  "avg_total": 150.4,
+  "best_game": 173,
+  "worst_game": 130,
+  "tournaments_played": 1,
+  "quals_games": 8,
+  "quals_avg": 150.4,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

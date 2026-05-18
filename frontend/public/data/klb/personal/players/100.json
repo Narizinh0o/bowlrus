@@ -1,0 +1,20 @@
+{
+  "player_id": 100,
+  "player_name": "мартынов сергей",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "su-50",
+  "games_total": 183,
+  "avg_total": 182.5,
+  "best_game": 256,
+  "worst_game": 126,
+  "tournaments_played": 13,
+  "quals_games": 170,
+  "quals_avg": 184.0,
+  "rr_games": 13,
+  "rr_avg": 162.9,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

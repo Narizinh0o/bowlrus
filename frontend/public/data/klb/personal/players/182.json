@@ -1,0 +1,20 @@
+{
+  "player_id": 182,
+  "player_name": "сагатова гульчихра",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "к 700",
+  "games_total": 69,
+  "avg_total": 166.8,
+  "best_game": 217,
+  "worst_game": 104,
+  "tournaments_played": 5,
+  "quals_games": 69,
+  "quals_avg": 166.8,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

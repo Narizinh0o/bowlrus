@@ -1,0 +1,177 @@
+[
+  {
+    "tournament_id": 31,
+    "name": "2026.1этап.Краснодар",
+    "year": 2026,
+    "season": 4,
+    "stage": 1
+  },
+  {
+    "tournament_id": 32,
+    "name": "2026.2этап.Сургут",
+    "year": 2026,
+    "season": 4,
+    "stage": 2
+  },
+  {
+    "tournament_id": 1,
+    "name": "2025.1этап.Тюмень",
+    "year": 2025,
+    "season": 3,
+    "stage": 1
+  },
+  {
+    "tournament_id": 2,
+    "name": "2025.2этап.Ижевск",
+    "year": 2025,
+    "season": 3,
+    "stage": 2
+  },
+  {
+    "tournament_id": 3,
+    "name": "2025.3этап.Сургут",
+    "year": 2025,
+    "season": 3,
+    "stage": 3
+  },
+  {
+    "tournament_id": 4,
+    "name": "2025.4этап.Тюмень",
+    "year": 2025,
+    "season": 3,
+    "stage": 4
+  },
+  {
+    "tournament_id": 5,
+    "name": "2025.5этап.Самара",
+    "year": 2025,
+    "season": 3,
+    "stage": 5
+  },
+  {
+    "tournament_id": 6,
+    "name": "2025.6этап.Ташкент",
+    "year": 2025,
+    "season": 3,
+    "stage": 6
+  },
+  {
+    "tournament_id": 7,
+    "name": "2025.7этап.Краснодар",
+    "year": 2025,
+    "season": 3,
+    "stage": 7
+  },
+  {
+    "tournament_id": 15,
+    "name": "2025.ГрандФинал.Тюмень",
+    "year": 2025,
+    "season": 3,
+    "stage": 8
+  },
+  {
+    "tournament_id": 23,
+    "name": "2024.1этап.Омск",
+    "year": 2024,
+    "season": 2,
+    "stage": 1
+  },
+  {
+    "tournament_id": 24,
+    "name": "2024.2этап.Тюмень",
+    "year": 2024,
+    "season": 2,
+    "stage": 2
+  },
+  {
+    "tournament_id": 25,
+    "name": "2024.3этап.Ижевск",
+    "year": 2024,
+    "season": 2,
+    "stage": 3
+  },
+  {
+    "tournament_id": 26,
+    "name": "2024.4этап.Алматы",
+    "year": 2024,
+    "season": 2,
+    "stage": 4
+  },
+  {
+    "tournament_id": 27,
+    "name": "2024.5этап.Ташкент",
+    "year": 2024,
+    "season": 2,
+    "stage": 5
+  },
+  {
+    "tournament_id": 28,
+    "name": "2024.6этап.Тюмень",
+    "year": 2024,
+    "season": 2,
+    "stage": 6
+  },
+  {
+    "tournament_id": 29,
+    "name": "2024.7этап.Ижевск",
+    "year": 2024,
+    "season": 2,
+    "stage": 7
+  },
+  {
+    "tournament_id": 30,
+    "name": "2024.ГрандФинал.Тюмень",
+    "year": 2024,
+    "season": 2,
+    "stage": 8
+  },
+  {
+    "tournament_id": 16,
+    "name": "2023.1этап.Тюмень",
+    "year": 2023,
+    "season": 1,
+    "stage": 1
+  },
+  {
+    "tournament_id": 17,
+    "name": "2023.2этап.Екатеринбург",
+    "year": 2023,
+    "season": 1,
+    "stage": 2
+  },
+  {
+    "tournament_id": 18,
+    "name": "2023.3этап.Алматы",
+    "year": 2023,
+    "season": 1,
+    "stage": 3
+  },
+  {
+    "tournament_id": 19,
+    "name": "2023.4этап.Омск",
+    "year": 2023,
+    "season": 1,
+    "stage": 4
+  },
+  {
+    "tournament_id": 20,
+    "name": "2023.5этап.Тюмень",
+    "year": 2023,
+    "season": 1,
+    "stage": 5
+  },
+  {
+    "tournament_id": 21,
+    "name": "2023.6этап.Красноярск",
+    "year": 2023,
+    "season": 1,
+    "stage": 6
+  },
+  {
+    "tournament_id": 22,
+    "name": "2023.ГрандФинал.Тюмень",
+    "year": 2023,
+    "season": 1,
+    "stage": 7
+  }
+]

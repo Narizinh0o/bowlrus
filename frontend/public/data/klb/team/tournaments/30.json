@@ -1,0 +1,141 @@
+{
+  "tournament": {
+    "tournament_id": 30,
+    "name": "2024.ГрандФинал.Тюмень",
+    "year": 2024,
+    "season": 2,
+    "stage": 8
+  },
+  "results": [
+    {
+      "tournament_id": 30,
+      "team_id": 6,
+      "team_name": "б-69",
+      "club_name": "б-69",
+      "games_total": 40,
+      "avg_total": 118.1,
+      "best_game": 235,
+      "rr_games": 36,
+      "rr_avg": 102.3,
+      "po_games": 4,
+      "po_avg": 189.0
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 39,
+      "team_name": "индеаль - 2",
+      "club_name": "индеаль",
+      "games_total": 40,
+      "avg_total": 115.8,
+      "best_game": 213,
+      "rr_games": 36,
+      "rr_avg": 97.7,
+      "po_games": 4,
+      "po_avg": 197.5
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 3,
+      "team_name": "ultimate team",
+      "club_name": "ultimate team",
+      "games_total": 40,
+      "avg_total": 111.9,
+      "best_game": 193,
+      "rr_games": 36,
+      "rr_avg": 97.6,
+      "po_games": 4,
+      "po_avg": 176.3
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 15,
+      "team_name": "brooklyn bowl black",
+      "club_name": "brooklyn bowl",
+      "games_total": 40,
+      "avg_total": 108.3,
+      "best_game": 203,
+      "rr_games": 36,
+      "rr_avg": 90.7,
+      "po_games": 4,
+      "po_avg": 187.5
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 5,
+      "team_name": "red team bulls",
+      "club_name": "red team",
+      "games_total": 36,
+      "avg_total": 93.3,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 93.3,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 35,
+      "team_name": "hunters - 2",
+      "club_name": "hunters",
+      "games_total": 36,
+      "avg_total": 92.0,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 92.0,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 2,
+      "team_name": "brooklyn bowl red",
+      "club_name": "brooklyn bowl",
+      "games_total": 36,
+      "avg_total": 91.5,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 91.5,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 38,
+      "team_name": "индеаль - 1",
+      "club_name": "индеаль",
+      "games_total": 36,
+      "avg_total": 88.8,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 88.8,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 34,
+      "team_name": "hunters - 1",
+      "club_name": "hunters",
+      "games_total": 36,
+      "avg_total": 87.9,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 87.9,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 30,
+      "team_id": 23,
+      "team_name": "red team - dragons",
+      "club_name": "red team",
+      "games_total": 36,
+      "avg_total": 86.8,
+      "best_game": null,
+      "rr_games": 36,
+      "rr_avg": 86.8,
+      "po_games": 0,
+      "po_avg": null
+    }
+  ]
+}

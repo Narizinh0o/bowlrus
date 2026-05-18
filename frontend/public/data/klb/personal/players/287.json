@@ -1,0 +1,20 @@
+{
+  "player_id": 287,
+  "player_name": "иванова валентина",
+  "gender": "Ж",
+  "hand": "R",
+  "current_club_name": "астероид",
+  "games_total": 72,
+  "avg_total": 157.2,
+  "best_game": 239,
+  "worst_game": 108,
+  "tournaments_played": 4,
+  "quals_games": 72,
+  "quals_avg": 157.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

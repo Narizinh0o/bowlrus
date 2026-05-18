@@ -1,0 +1,20 @@
+{
+  "player_id": 80,
+  "player_name": "андреев иван",
+  "gender": "М",
+  "hand": "R",
+  "current_club_name": "red team",
+  "games_total": 108,
+  "avg_total": 180.2,
+  "best_game": 266,
+  "worst_game": 133,
+  "tournaments_played": 8,
+  "quals_games": 108,
+  "quals_avg": 180.2,
+  "rr_games": 0,
+  "rr_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "rolloff": null
+}

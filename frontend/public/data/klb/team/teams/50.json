@@ -1,0 +1,19 @@
+{
+  "team_id": 50,
+  "team_name": "дальний восток-2",
+  "club_id": 2,
+  "club_name": "дальний восток",
+  "games_total": 20,
+  "avg_total": 182.1,
+  "best_game": null,
+  "rr_games": 20,
+  "rr_avg": 182.1,
+  "quals_games": 0,
+  "quals_avg": null,
+  "po_games": 0,
+  "po_avg": null,
+  "po_best": null,
+  "seasons_list": "1",
+  "latest_season": 1,
+  "rolloff": null
+}
