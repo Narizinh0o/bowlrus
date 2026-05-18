@@ -264,55 +264,43 @@ npm run dev
 
 
 
+## Принципы работы с кодом
 
-1. Think Before Coding
-Don't assume. Don't hide confusion. Surface tradeoffs.
+Эти правила — для меня (Claude и Claude Code), когда я пишу или меняю код в этом репо.
 
-Before implementing:
+### 1. Сначала подумать, потом писать
 
-State your assumptions explicitly. If uncertain, ask.
-If multiple interpretations exist, present them - don't pick silently.
-If a simpler approach exists, say so. Push back when warranted.
-If something is unclear, stop. Name what's confusing. Ask.
-2. Simplicity First
-Minimum code that solves the problem. Nothing speculative.
+- Явно проговорить допущения. Если что-то неясно — остановиться и спросить, не угадывать.
+- Если у задачи несколько разумных трактовок — показать их Анастасии, не выбирать молча.
+- Если есть способ проще — сказать об этом, даже если уже начат сложный.
 
-No features beyond what was asked.
-No abstractions for single-use code.
-No "flexibility" or "configurability" that wasn't requested.
-No error handling for impossible scenarios.
-If you write 200 lines and it could be 50, rewrite it.
-Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
+### 2. Простота
 
-3. Surgical Changes
-Touch only what you must. Clean up only your own mess.
+- Минимум кода, который решает задачу. Никакой «гибкости на будущее», которую не просили.
+- Никаких абстракций ради одного использования.
+- Никакой обработки ошибок для невозможных сценариев.
+- Если получилось 200 строк, а можно 50 — переписать.
 
-When editing existing code:
+### 3. Точечные правки
 
-Don't "improve" adjacent code, comments, or formatting.
-Don't refactor things that aren't broken.
-Match existing style, even if you'd do it differently.
-If you notice unrelated dead code, mention it - don't delete it.
-When your changes create orphans:
+- Трогать только то, что нужно для задачи. Не «улучшать» соседний код, форматирование, комментарии.
+- Не рефакторить то, что не сломано.
+- Подстраиваться под существующий стиль файла, даже если сам бы написал иначе.
+- Заметил мёртвый код рядом — сказать, не удалять самовольно.
+- Каждая изменённая строка должна объясняться через исходный запрос.
 
-Remove imports/variables/functions that YOUR changes made unused.
-Don't remove pre-existing dead code unless asked.
-The test: Every changed line should trace directly to the user's request.
+### 4. Проверяемый результат
 
-4. Goal-Driven Execution
-Define success criteria. Loop until verified.
+Перед многошаговой работой — короткий нумерованный план с критериями проверки на каждом шаге:
+1. [Шаг] → проверка: [что должно быть видно/работать]
+2. [Шаг] → проверка: …
 
-Transform tasks into verifiable goals:
+Не «сделать чтобы работало», а «после шага X в /docs должен появиться эндпоинт Y, возвращающий N строк».
 
-"Add validation" → "Write tests for invalid inputs, then make them pass"
-"Fix the bug" → "Write a test that reproduces it, then make it pass"
-"Refactor X" → "Ensure tests pass before and after"
-For multi-step tasks, state a brief plan:
+### 5. Решать проблемы, а не маскировать
 
-1. [Step] → verify: [check]
-2. [Step] → verify: [check]
-3. [Step] → verify: [check]
-Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+Когда что-то не работает:
+1. Сначала диагностика: найти причину (логи, запросы к БД, проверка данных).
+2. Потом фикс.
 
-These guidelines are working if: fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
-Но!!! учти, что нужна не просто "заглушка" для проблемы, необходимо НАЙТИ проблему и решить, если проблему решить не удается, то спроси "можно ли использовать костыли для решения" и расскажи какими методами планируешь решать.
+**Заглушки и `try/except: pass` запрещены без явного согласования.** Если настоящее решение не получается, остановиться и спросить: «вижу проблему X, корректно решить не выходит из-за Y, могу обойти костылём Z — окей?». Анастасия должна узнать о костыле до того, как он попадёт в репо, а не после.
