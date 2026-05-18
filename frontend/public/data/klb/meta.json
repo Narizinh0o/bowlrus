@@ -1,8 +1,9 @@
 {
   "sport": "klb",
-  "generated_at": "2026-05-18T21:29:09.064826+00:00",
+  "generated_at": "2026-05-18T21:43:36.323268+00:00",
   "db_mtime": "2026-05-15T15:13:20.900230+00:00",
   "counts": {
+    "seasons": 4,
     "personal_players": 319,
     "personal_tournaments": 25,
     "teams": 56,

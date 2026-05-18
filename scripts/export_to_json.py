@@ -85,6 +85,13 @@ def export_klb(out_dir: Path) -> dict:
     conn = get_conn("klb")
     try:
         counts = {}
+        
+         # Количество уникальных сезонов — для отображения на главной странице
+        seasons_row = conn.execute(
+            "SELECT COUNT(DISTINCT year || '-' || season) AS n FROM tournaments"
+        ).fetchone()
+        counts["seasons"] = seasons_row["n"]
+
 
         # ── Личный зачёт ─────────────────────────────────────────
         print("    личный зачёт: игроки...")
