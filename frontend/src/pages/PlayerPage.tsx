@@ -39,13 +39,13 @@ export default function PlayerPage() {
     </div>
   )
 
-  const { stats, games } = data
+  const { games } = data
   const chartData = games.map((g, i) => ({
     name: `#${i + 1}`,
     score: g.total_score,
     event: g.event,
   }))
-  const avgLine = stats.average_score
+  const avgLine = data.average_score
 
   const tdCls = 'px-3 py-2 text-sm border-b border-slate-700/50'
   const tdNumCls = 'px-3 py-2 text-sm text-right tabular-nums border-b border-slate-700/50'
@@ -56,19 +56,19 @@ export default function PlayerPage() {
         <Link to="/chr/players" className="text-slate-400 hover:text-amber-500 transition-colors">
           ← Игроки
         </Link>
-        <h1 className="text-3xl font-bold text-white">{stats.player_name}</h1>
+        <h1 className="text-3xl font-bold text-white">{data.player_name}</h1>
       </div>
 
       {/* Key metrics */}
       <div className="grid grid-cols-4 gap-4 mb-8">
-        <StatCard label="Средний" value={stats.average_score.toFixed(2)} sub={`${stats.games_played} игр`} />
-        <StatCard label="Лучшая игра" value={stats.best_game} />
-        <StatCard label="Страйк %" value={`${stats.strike_percent?.toFixed(2)}%`} sub={`${stats.strikes} из ${stats.strike_attempts}`} />
-        <StatCard label="Спэа %" value={`${stats.spare_conversion_percent?.toFixed(2)}%`} sub={`${stats.spares} спэа`} />
-        <StatCard label="Single pin %" value={`${stats.single_pin_percent?.toFixed(2)}%`} sub={`${stats.singles_converted} из ${stats.singles_left}`} />
-        <StatCard label="Худшая игра" value={stats.worst_game} />
-        <StatCard label="Разброс" value={stats.score_diff} sub="лучшая − худшая" />
-        <StatCard label="Зачётов" value={stats.events_played} />
+        <StatCard label="Средний" value={data.average_score.toFixed(2)} sub={`${data.games_played} игр`} />
+        <StatCard label="Лучшая игра" value={data.best_game} />
+        <StatCard label="Страйк %" value={`${data.strike_percent?.toFixed(2)}%`} sub={`${data.strikes} из ${data.strike_attempts}`} />
+        <StatCard label="Спэа %" value={`${data.spare_conversion_percent?.toFixed(2)}%`} sub={`${data.spares} спэа`} />
+        <StatCard label="Single pin %" value={`${data.single_pin_percent?.toFixed(2)}%`} sub={`${data.singles_converted} из ${data.singles_left}`} />
+        <StatCard label="Худшая игра" value={data.worst_game} />
+        <StatCard label="Разброс" value={data.score_diff} sub="лучшая − худшая" />
+        <StatCard label="Зачётов" value={data.events_played} />
       </div>
 
       {/* Chart */}

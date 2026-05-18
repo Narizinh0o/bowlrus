@@ -46,8 +46,7 @@ export interface PlayerGame {
   total_score: number
 }
 
-export interface PlayerDetail {
-  stats: PlayerStats
+export interface PlayerDetail extends PlayerStats {
   games: PlayerGame[]
 }
 
