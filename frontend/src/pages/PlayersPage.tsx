@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, type ReactNode } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { fetchPlayers, fetchEvents } from '../api/client'
 import type { PlayerStats, EventInfo, SortDirection } from '../types'
@@ -8,7 +8,7 @@ import SortIcon from '../components/SortIcon'
 
 type SortKey = keyof PlayerStats
 
-const COLUMNS: { key: SortKey; label: string; title?: string }[] = [
+const COLUMNS: { key: SortKey; label: ReactNode; title?: string }[] = [
   { key: 'player_name', label: 'Имя' },
   { key: 'games_played', label: 'Игр' },
   { key: 'events_played', label: 'Зачётов' },
@@ -20,9 +20,9 @@ const COLUMNS: { key: SortKey; label: string; title?: string }[] = [
   { key: 'strike_percent', label: 'X %' },
   { key: 'spares', label: 'Добито' },
   { key: 'spare_conversion_percent', label: 'Добито %' },
-  { key: 'singles_left', label: 'Осталось одиночек' },
-  { key: 'singles_converted', label: 'Добито одиночек' },
-  { key: 'singles_missed', label: 'Одиночек мимо' },
+  { key: 'singles_left', label: <>Одиночек<br />осталось</> },
+  { key: 'singles_converted', label: <>Одиночек<br />добито</> },
+  { key: 'singles_missed', label: <>Одиночек<br />мимо</> },
   { key: 'single_pin_percent', label: '9-pin %' },
 ]
 
