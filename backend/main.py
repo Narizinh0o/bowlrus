@@ -11,7 +11,7 @@ from __future__ import annotations
 import sqlite3
 from typing import Iterator
 
-from fastapi import Depends, FastAPI, HTTPException, Path
+from fastapi import Depends, FastAPI, HTTPException, Path, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
@@ -208,9 +208,19 @@ def chr_events(conn: sqlite3.Connection = Depends(chr_conn)) -> list[dict]:
 
 
 @app.get("/api/chr/players", tags=["chr"])
-def chr_players(conn: sqlite3.Connection = Depends(chr_conn)) -> list[dict]:
-    """Список игроков ЧР."""
-    return queries.chr_players(conn)
+def chr_players(
+    event: str | None = None,
+    conn: sqlite3.Connection = Depends(chr_conn),
+) -> list[dict]:
+    """
+    Список игроков ЧР.
+
+    Без параметра — агрегат по всем играм (быстро, из витрины).
+    С параметром event — срез по конкретному зачёту (пересчёт на лету).
+    """
+    if event is None:
+        return queries.chr_players(conn)
+    return queries.chr_players_by_event(conn, event)
 
 
 @app.get("/api/chr/players/{player_id}", tags=["chr"])

@@ -181,11 +181,22 @@ def export_chr(out_dir: Path) -> dict:
         write_json(out_dir / "events.json", events)
         counts["events"] = len(events)
 
-        print("    игроки...")
+        print("    игроки (агрегат)...")
         players = queries.chr_players(conn)
         write_json(out_dir / "players.json", players)
         counts["players"] = len(players)
 
+        # Срезы по зачётам: для каждого event пишем отдельный JSON.
+        # Фронт переключает источник одной строчкой при клике на фильтр.
+        for event_row in events:
+            event_name = event_row["event"]
+            # Имя файла: 'doubles' → players_doubles.json, 'doubles mix' → players_doubles_mix.json
+            safe_name = event_name.replace(" ", "_")
+            print(f"    игроки (срез: {event_name})...")
+            sliced = queries.chr_players_by_event(conn, event_name)
+            write_json(out_dir / f"players_{safe_name}.json", sliced)
+
+        print("    карточки игроков...")
         for p in players:
             card = queries.chr_player(conn, p["player_id"])
             write_json(out_dir / "players" / f"{p['player_id']}.json", card)

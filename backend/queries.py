@@ -255,6 +255,130 @@ def chr_players(conn: sqlite3.Connection) -> list[dict]:
     return _rows(conn, "SELECT * FROM v_player_stats ORDER BY player_name")
 
 
+def chr_players_by_event(conn: sqlite3.Connection, event: str) -> list[dict]:
+    """
+    Статистика игроков ЧР, отфильтрованная по конкретному зачёту.
+
+    Витрина v_player_stats считает агрегаты по всем играм игрока. Для среза
+    по event нужно пересчитать ту же логику на подмножестве games, поэтому
+    запрос длинный — это копия логики витрины с фильтром в normalized CTE.
+
+    event: например 'doubles' или 'doubles mix'.
+    """
+    sql = """
+        WITH normalized AS (
+            SELECT
+                g.game_id, g.player_id, g.player_name, g.event,
+                g.total_score,
+                f.frame_number,
+                REPLACE(f.content, 'S', '') AS frame_content
+            FROM games g
+            LEFT JOIN frames f ON f.game_id = g.game_id
+            WHERE g.event = ?
+        ),
+        fs AS (
+            SELECT
+                game_id, player_id, player_name, event, total_score,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9 AND frame_content = 'X' THEN 1
+                    WHEN frame_number = 10
+                        THEN length(frame_content) - length(replace(frame_content, 'X', ''))
+                    ELSE 0
+                END AS strikes_count,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9
+                         AND length(frame_content) = 2
+                         AND substr(frame_content, 2, 1) = '/' THEN 1
+                    WHEN frame_number = 10
+                        THEN length(frame_content) - length(replace(frame_content, '/', ''))
+                    ELSE 0
+                END AS spares_count,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9
+                         AND frame_content <> 'X'
+                         AND NOT (length(frame_content) = 2 AND substr(frame_content, 2, 1) = '/') THEN 1
+                    WHEN frame_number = 10
+                         AND ((substr(frame_content, 1, 1) <> 'X' AND substr(frame_content, 2, 1) <> '/')
+                              OR (substr(frame_content, 1, 1) = 'X' AND substr(frame_content, 2, 1) <> 'X'
+                                  AND substr(frame_content, 3, 1) <> '/'))
+                        THEN 1
+                    ELSE 0
+                END AS opens_count,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9 THEN 1
+                    WHEN frame_number = 10 AND substr(frame_content, 1, 1) = 'X'
+                         AND substr(frame_content, 2, 1) = 'X' THEN 3
+                    WHEN frame_number = 10 AND substr(frame_content, 1, 1) = 'X'
+                         AND substr(frame_content, 2, 1) <> 'X' THEN 2
+                    WHEN frame_number = 10 AND substr(frame_content, 1, 1) <> 'X'
+                         AND substr(frame_content, 2, 1) <> '/' THEN 1
+                    WHEN frame_number = 10 AND substr(frame_content, 1, 1) <> 'X'
+                         AND substr(frame_content, 2, 1) = '/' THEN 2
+                    ELSE 0
+                END AS strike_attempts,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9
+                         AND substr(frame_content, 1, 1) = '9'
+                         AND length(frame_content) = 2
+                         AND substr(frame_content, 2, 1) IN ('-', '/', 'F') THEN 1
+                    WHEN frame_number = 10
+                         AND ((substr(frame_content, 1, 1) = '9'
+                               AND substr(frame_content, 2, 1) IN ('-', '/', 'F'))
+                              OR (substr(frame_content, 1, 1) = 'X'
+                                  AND substr(frame_content, 2, 1) = '9'
+                                  AND substr(frame_content, 3, 1) IN ('-', '/', 'F'))) THEN 1
+                    ELSE 0
+                END AS singles_left,
+
+                CASE
+                    WHEN frame_number BETWEEN 1 AND 9
+                         AND substr(frame_content, 1, 1) = '9'
+                         AND substr(frame_content, 2, 1) = '/' THEN 1
+                    WHEN frame_number = 10
+                         AND ((substr(frame_content, 1, 1) = '9'
+                               AND substr(frame_content, 2, 1) = '/')
+                              OR (substr(frame_content, 1, 1) = 'X'
+                                  AND substr(frame_content, 2, 1) = '9'
+                                  AND substr(frame_content, 3, 1) = '/')) THEN 1
+                    ELSE 0
+                END AS singles_converted
+
+            FROM normalized
+        )
+        SELECT
+            player_id,
+            MAX(player_name)                          AS player_name,
+            COUNT(DISTINCT event)                     AS events_played,
+            COUNT(DISTINCT game_id)                   AS games_played,
+            SUM(total_score)                          AS total_pins,
+            ROUND(AVG(total_score), 2)                AS average_score,
+            MAX(total_score)                          AS best_game,
+            MIN(total_score)                          AS worst_game,
+            MAX(total_score) - MIN(total_score)       AS score_diff,
+            SUM(strike_attempts)                      AS strike_attempts,
+            SUM(strikes_count)                        AS strikes,
+            ROUND(CAST(SUM(strikes_count) AS REAL) * 100.0
+                  / NULLIF(SUM(strike_attempts), 0), 2) AS strike_percent,
+            SUM(spares_count)                         AS spares,
+            SUM(opens_count)                          AS opens,
+            ROUND(CAST(SUM(spares_count) AS REAL) * 100.0
+                  / NULLIF(SUM(spares_count) + SUM(opens_count), 0), 2) AS spare_conversion_percent,
+            SUM(singles_left)                         AS singles_left,
+            SUM(singles_converted)                    AS singles_converted,
+            SUM(singles_left) - SUM(singles_converted) AS singles_missed,
+            ROUND(CAST(SUM(singles_converted) AS REAL) * 100.0
+                  / NULLIF(SUM(singles_left), 0), 2)  AS single_pin_percent
+        FROM fs
+        GROUP BY player_id
+        ORDER BY average_score DESC NULLS LAST, player_name
+    """
+    return _rows(conn, sql, (event,))
+
 def chr_player(conn: sqlite3.Connection, player_id: int) -> dict | None:
     """Карточка игрока ЧР: статистика + список всех игр."""
     stats = _one(
