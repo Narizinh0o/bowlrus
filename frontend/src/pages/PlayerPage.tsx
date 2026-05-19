@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine
 } from 'recharts'
@@ -19,6 +19,7 @@ function StatCard({ label, value, sub }: { label: string; value: string | number
 
 export default function PlayerPage() {
   const { id } = useParams<{ id: string }>()
+  const navigate = useNavigate()
   const [data, setData] = useState<PlayerDetail | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
@@ -115,7 +116,13 @@ export default function PlayerPage() {
           </thead>
           <tbody>
             {games.map((g, i) => (
-              <tr key={g.game_id} className={i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'}>
+              <tr
+                key={g.game_id}
+                onClick={() => navigate(`/chr/games/${g.game_id}`)}
+                className={`cursor-pointer transition-colors hover:bg-slate-700/70 ${
+                  i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'
+                }`}
+              >
                 <td className={tdCls}>{g.play_date}</td>
                 <td className={tdCls}>{g.event}</td>
                 <td className={tdNumCls}>{g.game_number}</td>
