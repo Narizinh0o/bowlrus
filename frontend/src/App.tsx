@@ -4,6 +4,7 @@ import ChrLayout from './components/ChrLayout'
 import HomePage from './pages/HomePage'
 import PlayersPage from './pages/PlayersPage'
 import PlayerPage from './pages/PlayerPage'
+import GamePage from './pages/GamePage'
 import TournamentPage from './pages/TournamentPage'
 
 function PlayerIdRedirect() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/chr" element={<Navigate to="/chr/players" replace />} />
         <Route path="/chr/players" element={<PlayersPage />} />
         <Route path="/chr/players/:id" element={<PlayerPage />} />
+        <Route path="/chr/games/:id" element={<GamePage />} />
         <Route path="/chr/tournament" element={<TournamentPage />} />
       </Route>
 

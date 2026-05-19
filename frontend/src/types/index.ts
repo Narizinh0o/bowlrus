@@ -55,4 +55,24 @@ export interface EventInfo {
   games_count: number
 }
 
+export interface Frame {
+  frame_number: number
+  throws: string[]
+  splits: boolean[]
+}
+
+export interface Game {
+  game_id: number
+  player_id: number
+  player_name: string
+  event: string
+  game_number: number
+  play_date: string
+  time_start: string | null
+  time_end: string | null
+  lane: number | null
+  total_score: number
+  frames: Frame[]
+}
+
 export type SortDirection = 'asc' | 'desc'

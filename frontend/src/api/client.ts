@@ -1,4 +1,4 @@
-import type { Tournament, PlayerStats, PlayerDetail, EventInfo } from '../types'
+import type { Tournament, PlayerStats, PlayerDetail, EventInfo, Game } from '../types'
 
 async function fetchJson<T>(path: string): Promise<T> {
   const res = await fetch(path)
@@ -25,3 +25,6 @@ export const fetchPlayers = (event?: string): Promise<PlayerStats[]> => {
 
 export const fetchPlayer = (id: number): Promise<PlayerDetail> =>
   fetchJson<PlayerDetail>(`/data/chr/players/${id}.json`)
+
+export const fetchGame = (id: number): Promise<Game> =>
+  fetchJson<Game>(`/data/chr/games/${id}.json`)
