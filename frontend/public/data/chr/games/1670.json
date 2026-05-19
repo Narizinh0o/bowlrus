@@ -1,0 +1,114 @@
+{
+  "game_id": 1670,
+  "player_id": 107,
+  "player_name": "МИНГАЛИЕВ РАИЛЬ",
+  "event": "doubles mix",
+  "game_number": 2,
+  "play_date": "2026-05-07",
+  "time_start": "08:38:00",
+  "time_end": "09:03:00",
+  "lane": 11,
+  "total_score": 214,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "8",
+        "-"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "4",
+        "4"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "7",
+        "/",
+        "X"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

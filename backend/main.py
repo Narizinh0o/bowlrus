@@ -235,6 +235,17 @@ def chr_player(
     return player
 
 
+@app.get("/api/chr/games/{game_id}", tags=["chr"])
+def chr_game(
+    game_id: int = Path(..., ge=1),
+    conn: sqlite3.Connection = Depends(chr_conn),
+) -> dict:
+    """Карточка игры ЧР: метаданные + фреймы."""
+    game = queries.chr_game(conn, game_id)
+    if game is None:
+        raise HTTPException(status_code=404, detail="Game not found")
+    return game
+
 # ──────────────────────────────────────────────────────────────────────────
 # Глобальные обработчики ошибок
 # ──────────────────────────────────────────────────────────────────────────

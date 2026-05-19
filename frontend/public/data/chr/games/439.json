@@ -1,0 +1,118 @@
+{
+  "game_id": 439,
+  "player_id": 74,
+  "player_name": "КОЛОМЕЕЦ ЕЛЕНА",
+  "event": "doubles",
+  "game_number": 1,
+  "play_date": "2026-05-04",
+  "time_start": "12:19:00",
+  "time_end": "12:42:00",
+  "lane": 25,
+  "total_score": 163,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "6",
+        "3"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "5",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

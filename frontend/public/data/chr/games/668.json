@@ -1,0 +1,124 @@
+{
+  "game_id": 668,
+  "player_id": 112,
+  "player_name": "МУХАМЕТОВ РАФИЛЬ",
+  "event": "doubles",
+  "game_number": 2,
+  "play_date": "2026-05-03",
+  "time_start": "16:51:00",
+  "time_end": "17:18:00",
+  "lane": 9,
+  "total_score": 116,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "6",
+        "3"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "8",
+        "-"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "6",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "7",
+        "1"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "3",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

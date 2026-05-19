@@ -1,0 +1,120 @@
+{
+  "game_id": 2049,
+  "player_id": 186,
+  "player_name": "ШУБЫРЕВА МАРИЯ",
+  "event": "doubles mix",
+  "game_number": 3,
+  "play_date": "2026-05-07",
+  "time_start": "17:12:00",
+  "time_end": "17:36:00",
+  "lane": 15,
+  "total_score": 192,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "7",
+        "1"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "9",
+        "/",
+        "X"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

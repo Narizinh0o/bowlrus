@@ -1,0 +1,120 @@
+{
+  "game_id": 298,
+  "player_id": 50,
+  "player_name": "ЗЕМЕЛЕВ АНТОН",
+  "event": "doubles",
+  "game_number": 4,
+  "play_date": "2026-05-03",
+  "time_start": "21:40:00",
+  "time_end": "22:07:00",
+  "lane": 13,
+  "total_score": 146,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "6",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

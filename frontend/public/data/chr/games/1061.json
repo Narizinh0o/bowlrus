@@ -1,0 +1,120 @@
+{
+  "game_id": 1061,
+  "player_id": 177,
+  "player_name": "ЦЕГЕЛЬНИК АЛЕВТИНА",
+  "event": "doubles",
+  "game_number": 5,
+  "play_date": "2026-05-03",
+  "time_start": "18:20:00",
+  "time_end": "18:46:00",
+  "lane": 25,
+  "total_score": 153,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "7",
+        "1"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "6",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "5",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "6",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "X",
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

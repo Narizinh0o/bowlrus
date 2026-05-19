@@ -1,0 +1,120 @@
+{
+  "game_id": 2010,
+  "player_id": 178,
+  "player_name": "ЦЕГЕЛЬНИК АЛЕКСЕЙ",
+  "event": "doubles mix",
+  "game_number": 6,
+  "play_date": "2026-05-07",
+  "time_start": "14:41:00",
+  "time_end": "15:00:00",
+  "lane": 12,
+  "total_score": 213,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "X",
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

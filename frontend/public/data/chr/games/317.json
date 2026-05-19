@@ -1,0 +1,126 @@
+{
+  "game_id": 317,
+  "player_id": 53,
+  "player_name": "ЗЮЗИНА ЕЛЕНА",
+  "event": "doubles",
+  "game_number": 5,
+  "play_date": "2026-05-04",
+  "time_start": "14:10:00",
+  "time_end": "14:35:00",
+  "lane": 19,
+  "total_score": 132,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "6",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "7",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "8",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "X",
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "game_id": 949,
+  "player_id": 159,
+  "player_name": "СУВОРОВ ЮРИЙ",
+  "event": "doubles",
+  "game_number": 1,
+  "play_date": "2026-05-04",
+  "time_start": "08:13:00",
+  "time_end": "08:35:00",
+  "lane": 14,
+  "total_score": 192,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "9",
+        "/",
+        "X"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

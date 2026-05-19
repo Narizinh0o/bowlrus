@@ -1,0 +1,122 @@
+{
+  "game_id": 124,
+  "player_id": 21,
+  "player_name": "ВАСИЛЬЕВ АНДРЕЙ",
+  "event": "doubles",
+  "game_number": 4,
+  "play_date": "2026-05-03",
+  "time_start": "21:41:00",
+  "time_end": "22:07:00",
+  "lane": 9,
+  "total_score": 150,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "8",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

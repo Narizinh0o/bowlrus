@@ -207,7 +207,17 @@ def export_chr(out_dir: Path) -> dict:
         for p in players:
             card = queries.chr_player(conn, p["player_id"])
             write_json(out_dir / "players" / f"{p['player_id']}.json", card)
+            
+        print("    карточки игр...")
+        game_id_rows = conn.execute(
+            "SELECT game_id FROM games ORDER BY game_id"
+        ).fetchall()
+        game_ids = [row["game_id"] for row in game_id_rows]
+        counts["games"] = len(game_ids)
 
+        for gid in game_ids:
+            card = queries.chr_game(conn, gid)
+            write_json(out_dir / "games" / f"{gid}.json", card)
         return counts
     finally:
         conn.close()

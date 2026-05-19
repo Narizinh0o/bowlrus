@@ -1,0 +1,116 @@
+{
+  "game_id": 709,
+  "player_id": 119,
+  "player_name": "ОБУХОВ АЛЕКСАНДР",
+  "event": "doubles",
+  "game_number": 1,
+  "play_date": "2026-05-04",
+  "time_start": "12:19:00",
+  "time_end": "12:46:00",
+  "lane": 6,
+  "total_score": 149,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "7",
+        "-"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "6",
+        "2"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "7",
+        "2"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "6",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "7",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

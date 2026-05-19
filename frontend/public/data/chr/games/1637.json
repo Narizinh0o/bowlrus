@@ -1,0 +1,116 @@
+{
+  "game_id": 1637,
+  "player_id": 99,
+  "player_name": "МАРКАШОВА КСЕНИЯ",
+  "event": "doubles mix",
+  "game_number": 5,
+  "play_date": "2026-05-07",
+  "time_start": "10:11:00",
+  "time_end": "10:34:00",
+  "lane": 13,
+  "total_score": 117,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "8",
+        "-"
+      ],
+      "splits": [
+        true,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "6",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "-",
+        "7"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "-",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}

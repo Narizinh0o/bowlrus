@@ -14,6 +14,67 @@ import sqlite3
 from typing import Any
 
 
+
+# ──────────────────────────────────────────────────────────────────────────
+# Парсер фреймов боулинга
+# ──────────────────────────────────────────────────────────────────────────
+#
+# В таблице frames поле content хранит фрейм как короткую строку:
+#   '9/'      — 9 + спэа
+#   'X'       — страйк
+#   'S8/'     — после 1-го броска (8 кеглей) остался сплит, потом закрыл
+#   'XXS7'    — 10-й фрейм: страйк, страйк, потом сплит после 3-го броска
+#
+# Символы:
+#   X       — страйк
+#   /       — спэа
+#   -       — промах (0 кеглей)
+#   F       — фол
+#   1..9    — количество сбитых кеглей одним броском
+#   S       — префикс: следующий бросок ОСТАВИЛ сплит-расстановку
+#             (т.е. S относится к броску, который её создал)
+#
+# Парсер превращает строку в два параллельных массива:
+#   throws  — что игрок бросал ('X' / '/' / '-' / 'F' / '1'..'9')
+#   splits  — флаг сплита для каждого броска (bool того же размера)
+
+
+_THROW_CHARS = set("X/-F0123456789")
+
+
+def parse_frame_content(content: str) -> dict:
+    """
+    Разбирает строку content одного фрейма в структуру {throws, splits}.
+
+    Не зависит от номера фрейма: 10-й фрейм отличается только тем, что
+    в нём может быть до 3 элементов в массивах. Сам парсер просто читает
+    последовательность токенов до конца строки.
+    """
+    throws: list[str] = []
+    splits: list[bool] = []
+    pending_split = False
+
+    for ch in content:
+        if ch == "S":
+            # Следующий бросок создаст сплит-расстановку
+            pending_split = True
+            continue
+        if ch in _THROW_CHARS:
+            throws.append(ch)
+            splits.append(pending_split)
+            pending_split = False
+            continue
+        # Неизвестный символ — игнорируем, но это сигнал о грязных данных
+        raise ValueError(
+            f"Unknown frame symbol {ch!r} in content {content!r}"
+        )
+
+    if pending_split:
+        # Строка кончилась на 'S' без следующего символа — данные битые
+        raise ValueError(f"Trailing 'S' without throw in content {content!r}")
+
+    return {"throws": throws, "splits": splits}
+
 # ──────────────────────────────────────────────────────────────────────────
 # Утилиты
 # ──────────────────────────────────────────────────────────────────────────
@@ -403,6 +464,63 @@ def chr_player(conn: sqlite3.Connection, player_id: int) -> dict | None:
     stats["games"] = games
     return stats
 
+
+def chr_game(conn: sqlite3.Connection, game_id: int) -> dict | None:
+    """
+    Карточка одной игры ЧР: метаданные + все фреймы с разобранной структурой.
+
+    Каждый фрейм возвращается как {frame_number, throws, splits}, где throws
+    и splits — параллельные массивы. См. parse_frame_content.
+
+    Возвращает None, если игры с таким id нет.
+    """
+    game = _one(
+        conn,
+        """
+        SELECT
+            game_id, player_id, player_name, event,
+            game_number, play_date, time_start, time_end,
+            lane, total_score
+        FROM games
+        WHERE game_id = ?
+        """,
+        (game_id,),
+    )
+    if game is None:
+        return None
+
+    raw_frames = _rows(
+        conn,
+        """
+        SELECT frame_number, content
+        FROM frames
+        WHERE game_id = ?
+        ORDER BY frame_number
+        """,
+        (game_id,),
+    )
+
+    frames = []
+    for raw in raw_frames:
+        parsed = parse_frame_content(raw["content"])
+        # Валидация: во фреймах 1-9 сплит возможен ТОЛЬКО на первом броске.
+        # Спорные контенты типа '8S1' — это битые данные.
+        if raw["frame_number"] < 10:
+            for i, is_split in enumerate(parsed["splits"]):
+                if is_split and i != 0:
+                    raise ValueError(
+                        f"Invalid split position in game {game_id}, "
+                        f"frame {raw['frame_number']}: content={raw['content']!r}. "
+                        f"Split on throw #{i + 1} is impossible in frames 1-9."
+                    )
+        frames.append({
+            "frame_number": raw["frame_number"],
+            "throws": parsed["throws"],
+            "splits": parsed["splits"],
+        })
+
+    game["frames"] = frames
+    return game
 
 def chr_tournament_summary(conn: sqlite3.Connection) -> dict:
     """

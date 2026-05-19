@@ -1,0 +1,124 @@
+{
+  "game_id": 563,
+  "player_id": 94,
+  "player_name": "МАЙЕР ЕСЕНИЯ",
+  "event": "doubles",
+  "game_number": 5,
+  "play_date": "2026-05-04",
+  "time_start": "10:13:00",
+  "time_end": "10:35:00",
+  "lane": 26,
+  "total_score": 113,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "6",
+        "3"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "9",
+        "-"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "7",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "5",
+        "3"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "7",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "5",
+        "3"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "8",
+        "1"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    }
+  ]
+}
