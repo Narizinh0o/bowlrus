@@ -221,13 +221,14 @@ export function RangeSlider({
 
 // ── Переключатель разбивки ────────────────────────────────────────────
 
-export type Breakdown = 'none' | 'season' | 'tid'
+export type Breakdown = 'none' | 'season' | 'tid' | 'st'
 
 export function BreakdownToggle({ value, onChange }: { value: Breakdown; onChange: (b: Breakdown) => void }) {
   const opts: { value: Breakdown; label: string }[] = [
     { value: 'none', label: 'нет' },
     { value: 'season', label: 'Сезон' },
     { value: 'tid', label: 'Турнир' },
+    { value: 'st', label: 'Стадия' },
   ]
   return (
     <div className="inline-flex items-center gap-1 rounded border border-slate-700 bg-slate-800 p-0.5">

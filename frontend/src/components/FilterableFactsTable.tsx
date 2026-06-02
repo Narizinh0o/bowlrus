@@ -51,10 +51,15 @@ const round1 = (x: number) => Math.round(x * 10) / 10
 const fmtAvg = (v: number | null) => (v == null ? '—' : v.toFixed(2))
 const fmtInt = (v: number | null) => (v == null ? '—' : String(v))
 
+// Нормализация стадии для отображения: все RR-группы (RR, RR_A, RR_B, RR_C, …)
+// — это один этап «Round Robin». Сырое stage_type в данных не меняется,
+// нормализация только на уровне UI/группировки.
+const displayStage = (st: string) => (st.startsWith('RR') ? 'Round Robin' : st)
+
 // Порядок стадий для удобной сортировки в фильтре
 const STAGE_ORDER = [
   'PTQ', 'Основная квалификация', 'VPTQ',
-  'RR', 'RR_A', 'RR_B', 'RR_C',
+  'Round Robin',
   '1 этап', '2 этап', 'double elimination',
   'Четвертьфинал', 'Полуфинал', 'Финал', 'Матч за 3 место', 'Степледдер',
 ]
@@ -196,7 +201,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
     for (const r of rows) {
       seasonSet.add(r.season)
       tidSet.add(r.tid)
-      stageSet.add(r.st)
+      stageSet.add(displayStage(r.st))
       if (r.patt != null) pattSet.add(r.patt)
       if (r.club) clubSet.add(r.club)
       if (mode === 'personal') {
@@ -239,7 +244,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
     return rows.filter(r => {
       if (seasons.size && !seasons.has(String(r.season))) return false
       if (tids.size && !tids.has(String(r.tid))) return false
-      if (stages.size && !stages.has(r.st)) return false
+      if (stages.size && !stages.has(displayStage(r.st))) return false
       if (patts.size && (r.patt == null || !patts.has(String(r.patt)))) return false
       if (clubs.size && (!r.club || !clubs.has(r.club))) return false
       if (players.size && !players.has(String(r.entityId))) return false
@@ -259,6 +264,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
       name: string
       season: number | null
       tid: number | null
+      stage: string | null
       ss: number
       g: number
       bg: number | null
@@ -275,7 +281,9 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
           ? String(r.entityId)
           : breakdown === 'season'
             ? `${r.entityId}|s${r.season}`
-            : `${r.entityId}|t${r.tid}`
+            : breakdown === 'tid'
+              ? `${r.entityId}|t${r.tid}`
+              : `${r.entityId}|st${displayStage(r.st)}`
       let a = groups.get(key)
       if (!a) {
         a = {
@@ -283,6 +291,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
           name: r.name,
           season: breakdown === 'season' ? r.season : null,
           tid: breakdown === 'tid' ? r.tid : null,
+          stage: breakdown === 'st' ? displayStage(r.st) : null,
           ss: 0,
           g: 0,
           bg: null,
@@ -315,6 +324,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
         name: a.name,
         club: a.clubAtMax,
         season: a.season,
+        stage: a.stage,
         tname: a.tid != null ? tmeta[String(a.tid)]?.name ?? `Турнир ${a.tid}` : null,
         seasonsList,
         games: a.g,
@@ -347,6 +357,12 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
         key: 'tname',
         label: 'Турнир',
         render: r => <span className="text-slate-300 text-xs">{(r.tname as string) ?? '—'}</span>,
+      })
+    } else if (breakdown === 'st') {
+      cols.push({
+        key: 'stage',
+        label: 'Стадия',
+        render: r => <span className="text-slate-300">{(r.stage as string) ?? '—'}</span>,
       })
     } else if (mode === 'team') {
       cols.push({

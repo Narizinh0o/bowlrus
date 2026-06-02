@@ -11,13 +11,27 @@ function OilIcon() {
 }
 
 function PatternModal({ pattern, title, onClose }: { pattern: KlbPattern; title: string; onClose: () => void }) {
+  // Пока лайтбокс открыт: блокируем скролл фона и ловим Esc.
+  useEffect(() => {
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = prev
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [onClose])
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
       onClick={onClose}
     >
       <div
-        className="max-w-3xl w-full rounded-lg border border-slate-700 bg-slate-900 p-5"
+        className="max-w-3xl w-full max-h-[90vh] overflow-y-auto rounded-lg border border-slate-700 bg-slate-900 p-5"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4 mb-3">
@@ -41,7 +55,7 @@ function PatternModal({ pattern, title, onClose }: { pattern: KlbPattern; title:
           <img
             src={pattern.photo}
             alt={pattern.name}
-            className="w-full rounded border border-slate-700 bg-slate-800"
+            className="max-w-full h-auto rounded border border-slate-700 bg-slate-800"
           />
         ) : (
           <div className="text-slate-500 text-sm py-10 text-center">Фото программы не загружено.</div>
