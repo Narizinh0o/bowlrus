@@ -143,15 +143,27 @@ def create_sqlite_schema(conn):
         DROP TABLE IF EXISTS teams;
         DROP TABLE IF EXISTS clubs;
         DROP TABLE IF EXISTS players;
+        DROP TABLE IF EXISTS oil_patterns;
         DROP TABLE IF EXISTS tournaments;
 
         CREATE TABLE tournaments (
-            tournament_id INTEGER PRIMARY KEY,
-            name          TEXT NOT NULL,
-            file_name     TEXT,
-            year          INTEGER,
-            season        INTEGER,
-            stage         INTEGER NOT NULL DEFAULT 1
+            tournament_id      INTEGER PRIMARY KEY,
+            name               TEXT NOT NULL,
+            file_name          TEXT,
+            year               INTEGER,
+            season             INTEGER,
+            stage              INTEGER NOT NULL DEFAULT 1,
+            oil_pattern_id     INTEGER,
+            oil_pattern_ptq_id INTEGER
+        );
+
+        CREATE TABLE oil_patterns (
+            id          INTEGER PRIMARY KEY,
+            pattern_name TEXT NOT NULL,
+            distance_ft INTEGER,
+            volume_ml   REAL,
+            ratio       REAL,
+            photo_file  TEXT
         );
 
         CREATE TABLE clubs (
@@ -305,6 +317,7 @@ def build_player_personal(conn):
             FROM games
             WHERE event = 'личный'
               AND player_id IS NOT NULL
+              AND raw_score IS NOT NULL
             GROUP BY player_id
         )
         SELECT
@@ -353,28 +366,26 @@ def build_team_stats(conn):
                 /* Общий счёт игр: в RR счёт = сумма двоих, считаем как 2 игры */
                 SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 1 END) AS games_total,
 
-                /* В RR делим raw_score на 2 для среднего */
-                ROUND(AVG(
-                    CASE
-                        WHEN g.stage_type IN ({RR_SQL}) THEN (g.raw_score + g.hcp) / 2.0
-                        ELSE g.raw_score + g.hcp
-                    END
-                ), 1) AS avg_total,
+                /* Средний на игру: сумма счёта (hcp NULL = 0) делить на число игр (RR×2) */
+                ROUND(CAST(SUM(g.raw_score + COALESCE(g.hcp, 0)) AS REAL)
+                      / SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 1 END), 1) AS avg_total,
 
-                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END) AS best_game,
+                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END) AS best_game,
 
                 SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 0 END) AS rr_games,
-                ROUND(AVG(CASE WHEN g.stage_type IN ({RR_SQL}) THEN (g.raw_score + g.hcp) / 2.0 END), 1) AS rr_avg,
+                ROUND(CAST(SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END) AS REAL)
+                      / NULLIF(SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 0 END), 0), 1) AS rr_avg,
 
                 SUM(CASE WHEN g.stage_type = 'PTQ' THEN 1 ELSE 0 END) AS quals_games,
-                ROUND(AVG(CASE WHEN g.stage_type = 'PTQ' THEN g.raw_score + g.hcp END), 1) AS quals_avg,
+                ROUND(AVG(CASE WHEN g.stage_type = 'PTQ' THEN g.raw_score + COALESCE(g.hcp, 0) END), 1) AS quals_avg,
 
                 SUM(CASE WHEN g.stage_type IN ({PO_SQL}) THEN 1 ELSE 0 END) AS po_games,
-                ROUND(AVG(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END), 1) AS po_avg,
-                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END) AS po_best
+                ROUND(AVG(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END), 1) AS po_avg,
+                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END) AS po_best
             FROM games g
             WHERE g.event = 'командный'
               AND g.team_id IS NOT NULL
+              AND g.raw_score IS NOT NULL
             GROUP BY g.team_id
         ),
                seasons_raw AS (
@@ -634,6 +645,7 @@ def build_tournament_personal(conn):
                 ROUND(AVG(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END), 1) AS po_avg
             FROM games g
             WHERE g.event = 'личный' AND g.player_id IS NOT NULL
+              AND g.raw_score IS NOT NULL
             GROUP BY g.tournament_id, g.player_id
         ),
         team_at_tournament AS (
@@ -685,21 +697,19 @@ def build_tournament_team(conn):
                 g.team_id,
 
                 SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 1 END) AS games_total,
-                ROUND(AVG(
-                    CASE
-                        WHEN g.stage_type IN ({RR_SQL}) THEN (g.raw_score + g.hcp) / 2.0
-                        ELSE g.raw_score + g.hcp
-                    END
-                ), 1) AS avg_total,
-                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END) AS best_game,
+                ROUND(CAST(SUM(g.raw_score + COALESCE(g.hcp, 0)) AS REAL)
+                      / SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 1 END), 1) AS avg_total,
+                MAX(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END) AS best_game,
 
                 SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 0 END) AS rr_games,
-                ROUND(AVG(CASE WHEN g.stage_type IN ({RR_SQL}) THEN (g.raw_score + g.hcp) / 2.0 END), 1) AS rr_avg,
+                ROUND(CAST(SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END) AS REAL)
+                      / NULLIF(SUM(CASE WHEN g.stage_type IN ({RR_SQL}) THEN 2 ELSE 0 END), 0), 1) AS rr_avg,
 
                 SUM(CASE WHEN g.stage_type IN ({PO_SQL}) THEN 1 ELSE 0 END) AS po_games,
-                ROUND(AVG(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + g.hcp END), 1) AS po_avg
+                ROUND(AVG(CASE WHEN g.stage_type IN ({PO_SQL}) THEN g.raw_score + COALESCE(g.hcp, 0) END), 1) AS po_avg
             FROM games g
             WHERE g.event = 'командный' AND g.team_id IS NOT NULL
+              AND g.raw_score IS NOT NULL
             GROUP BY g.tournament_id, g.team_id
         )
         SELECT
@@ -726,6 +736,100 @@ def build_tournament_team(conn):
     print(f"  ✓ {n} строк (турнир × команда)")
 
 
+# ---------- Факт-витрины (для фильтруемых таблиц на фронте) ----------
+
+# Разрешение программы масла для конкретной стадии.
+# PTQ/VPTQ и весь ветеранский зачёт идут на PTQ-проге (если она задана),
+# иначе — на основной. Остальное — основная прога турнира.
+PATTERN_CASE = """
+    CASE WHEN gm.stage_type IN ('PTQ','VPTQ') OR gm.event = 'ветераны'
+         THEN COALESCE(t.oil_pattern_ptq_id, t.oil_pattern_id)
+         ELSE t.oil_pattern_id
+    END
+"""
+
+
+def build_player_facts(conn):
+    """
+    v_player_facts — зерно «игрок × турнир × стадия», только личный зачёт.
+    Счёт с гандикапом (raw_score + hcp). Клуб — на момент турнира из
+    player_club_history (не текущий). Фронт суммирует эти факты под фильтром.
+    """
+    print("→ v_player_facts")
+    cur = conn.cursor()
+
+    cur.executescript(f"""
+        DROP TABLE IF EXISTS v_player_facts;
+
+        CREATE TABLE v_player_facts AS
+        SELECT
+            gm.player_id      AS pid,
+            gm.tournament_id  AS tid,
+            t.season          AS season,
+            gm.stage_type     AS st,
+            c.club_name       AS club,
+            COUNT(*)                       AS g,
+            SUM(gm.raw_score + gm.hcp)     AS ss,
+            MAX(gm.raw_score + gm.hcp)     AS bg,
+            MIN(gm.raw_score + gm.hcp)     AS wg,
+            {PATTERN_CASE}                 AS patt
+        FROM games gm
+        JOIN tournaments t           ON t.tournament_id = gm.tournament_id
+        LEFT JOIN player_club_history pch
+               ON pch.player_id = gm.player_id
+              AND pch.tournament_id = gm.tournament_id
+        LEFT JOIN clubs c            ON c.club_id = pch.club_id
+        WHERE gm.event = 'личный' AND gm.player_id IS NOT NULL
+          AND gm.raw_score IS NOT NULL
+        GROUP BY gm.player_id, gm.tournament_id, gm.stage_type;
+
+        CREATE INDEX idx_vpf_pid ON v_player_facts(pid);
+    """)
+    conn.commit()
+
+    cur.execute("SELECT COUNT(*) FROM v_player_facts")
+    print(f"  ✓ {cur.fetchone()[0]} строк (игрок × турнир × стадия)")
+
+
+def build_team_facts(conn):
+    """
+    v_team_facts — зерно «команда × турнир × стадия», только командный зачёт.
+
+    В RR строка games = сумма двух игроков за матч → считаем как 2 игры (g),
+    ss хранит сумму (raw_score + hcp); средний на фронте = Σss / Σg даёт
+    счёт на игрока. Лучшая/худшая берутся ТОЛЬКО из плей-офф стадий.
+    """
+    print("→ v_team_facts")
+    cur = conn.cursor()
+
+    cur.executescript(f"""
+        DROP TABLE IF EXISTS v_team_facts;
+
+        CREATE TABLE v_team_facts AS
+        SELECT
+            gm.team_id        AS teamid,
+            gm.tournament_id  AS tid,
+            t.season          AS season,
+            gm.stage_type     AS st,
+            SUM(CASE WHEN gm.stage_type IN ({RR_SQL}) THEN 2 ELSE 1 END) AS g,
+            SUM(gm.raw_score + COALESCE(gm.hcp, 0))                      AS ss,
+            MAX(CASE WHEN gm.stage_type IN ({PO_SQL}) THEN gm.raw_score + COALESCE(gm.hcp, 0) END) AS bg,
+            MIN(CASE WHEN gm.stage_type IN ({PO_SQL}) THEN gm.raw_score + COALESCE(gm.hcp, 0) END) AS wg,
+            {PATTERN_CASE}                                               AS patt
+        FROM games gm
+        JOIN tournaments t ON t.tournament_id = gm.tournament_id
+        WHERE gm.event = 'командный' AND gm.team_id IS NOT NULL
+          AND gm.raw_score IS NOT NULL
+        GROUP BY gm.team_id, gm.tournament_id, gm.stage_type;
+
+        CREATE INDEX idx_vtf_teamid ON v_team_facts(teamid);
+    """)
+    conn.commit()
+
+    cur.execute("SELECT COUNT(*) FROM v_team_facts")
+    print(f"  ✓ {cur.fetchone()[0]} строк (команда × турнир × стадия)")
+
+
 # ---------- Main ----------
 
 def main():
@@ -744,7 +848,10 @@ def main():
         create_sqlite_schema(sqlite_conn)
 
         copy_table(mysql_conn, sqlite_conn, "tournaments",
-                   ["tournament_id", "name", "file_name", "year", "season", "stage"])
+                   ["tournament_id", "name", "file_name", "year", "season", "stage",
+                    "oil_pattern_id", "oil_pattern_ptq_id"])
+        copy_table(mysql_conn, sqlite_conn, "oil_patterns",
+                   ["id", "pattern_name", "distance_ft", "volume_ml", "ratio", "photo_file"])
         copy_table(mysql_conn, sqlite_conn, "clubs",
                    ["club_id", "club_name"])
         copy_table(mysql_conn, sqlite_conn, "players",
@@ -773,6 +880,8 @@ def main():
         build_rolloff_stats(sqlite_conn)
         build_tournament_personal(sqlite_conn)
         build_tournament_team(sqlite_conn)
+        build_player_facts(sqlite_conn)
+        build_team_facts(sqlite_conn)
 
         # Контрольные проверки
         print()

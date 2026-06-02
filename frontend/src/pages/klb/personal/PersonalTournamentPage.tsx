@@ -4,6 +4,7 @@ import { fetchKlbPersonalTournament } from '../../../api/klb'
 import type { KlbPersonalTournament, KlbPersonalResult } from '../../../types/klb'
 import SortableTable, { type Column } from '../../../components/SortableTable'
 import LoadingSpinner from '../../../components/LoadingSpinner'
+import TournamentPatterns from '../../../components/TournamentPatterns'
 
 function fmt(v: number | null | undefined, decimals = 2): string {
   if (v == null) return '—'
@@ -30,7 +31,7 @@ const columns: Column<KlbPersonalResult & Record<string, unknown>>[] = [
   { key: 'games_total', label: 'Игр', numeric: true },
   {
     key: 'avg_total',
-    label: 'Средняя',
+    label: 'Средний',
     numeric: true,
     render: row => (
       <span className="font-semibold text-amber-400">{fmt(row.avg_total as number | null)}</span>
@@ -46,19 +47,19 @@ const columns: Column<KlbPersonalResult & Record<string, unknown>>[] = [
   },
   {
     key: 'quals_avg',
-    label: <>Квал.<br />средняя</>,
+    label: <>Квал.<br />средний</>,
     numeric: true,
     render: row => <span>{fmt(row.quals_avg as number | null)}</span>,
   },
   {
     key: 'rr_avg',
-    label: <>RR<br />средняя</>,
+    label: <>RR<br />средний</>,
     numeric: true,
     render: row => <span>{fmt(row.rr_avg as number | null)}</span>,
   },
   {
     key: 'po_avg',
-    label: <>ПО<br />средняя</>,
+    label: <>ПО<br />средний</>,
     numeric: true,
     render: row => <span>{fmt(row.po_avg as number | null)}</span>,
   },
@@ -99,6 +100,7 @@ export default function PersonalTournamentPage() {
           ← Турниры
         </Link>
         <h1 className="text-2xl font-bold text-white">{tournament.name}</h1>
+        <TournamentPatterns tid={tournament.tournament_id} />
       </div>
       <p className="text-slate-500 text-sm mb-6 ml-16">
         Сезон {tournament.season} · Этап {tournament.stage} · {tournament.year} г. · {results.length} участников

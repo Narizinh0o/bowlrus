@@ -307,6 +307,67 @@ def klb_club(conn: sqlite3.Connection, club_id: int) -> dict | None:
 
 
 # ──────────────────────────────────────────────────────────────────────────
+# КЛБ — факт-витрины и справочники (для фильтруемых таблиц на фронте)
+# ──────────────────────────────────────────────────────────────────────────
+#
+# Факты отдаются «как есть» — фронт сам фильтрует и суммирует. Справочники
+# (программы, турниры, игроки, команды) фронт держит отдельно: стабильные
+# атрибуты (пол/рука/название программы) не дублируются в каждой строке факта.
+
+
+def klb_player_facts(conn: sqlite3.Connection) -> list[dict]:
+    """Все факты личного зачёта: игрок × турнир × стадия."""
+    return _rows(conn, "SELECT pid, tid, season, st, club, g, ss, bg, wg, patt FROM v_player_facts")
+
+
+def klb_team_facts(conn: sqlite3.Connection) -> list[dict]:
+    """Все факты командного зачёта: команда × турнир × стадия."""
+    return _rows(conn, "SELECT teamid, tid, season, st, g, ss, bg, wg, patt FROM v_team_facts")
+
+
+def klb_patterns(conn: sqlite3.Connection) -> list[dict]:
+    """Справочник программ масла."""
+    return _rows(
+        conn,
+        "SELECT id, pattern_name, distance_ft, volume_ml, ratio, photo_file FROM oil_patterns ORDER BY id",
+    )
+
+
+def klb_tournaments_meta(conn: sqlite3.Connection) -> list[dict]:
+    """Справочник турниров: id, название, год/сезон, основная и PTQ программы."""
+    return _rows(
+        conn,
+        """
+        SELECT tournament_id, name, year, season,
+               oil_pattern_id AS main, oil_pattern_ptq_id AS ptq
+        FROM tournaments
+        ORDER BY year, season, stage
+        """,
+    )
+
+
+def klb_players_lookup(conn: sqlite3.Connection) -> list[dict]:
+    """Справочник игроков: стабильные атрибуты (пол/рука). Клуб историчен — в фактах."""
+    return _rows(
+        conn,
+        "SELECT player_id, full_name AS name, gender, hand FROM players ORDER BY player_id",
+    )
+
+
+def klb_teams_lookup(conn: sqlite3.Connection) -> list[dict]:
+    """Справочник команд: название и (текущий) клуб."""
+    return _rows(
+        conn,
+        """
+        SELECT t.team_id, t.team_name AS name, c.club_name AS club
+        FROM teams t
+        LEFT JOIN clubs c ON c.club_id = t.club_id
+        ORDER BY t.team_id
+        """,
+    )
+
+
+# ──────────────────────────────────────────────────────────────────────────
 # ЧР — заглушки на будущее (реализуем, когда дойдём до миграции под новый API)
 # ──────────────────────────────────────────────────────────────────────────
 

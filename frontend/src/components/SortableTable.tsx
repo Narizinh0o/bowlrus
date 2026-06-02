@@ -54,14 +54,14 @@ export default function SortableTable<T extends Record<string, unknown>>({
     }
   }
 
-  const thCls = 'px-3 py-2 text-xs font-semibold text-slate-400 uppercase tracking-wide select-none whitespace-nowrap'
+  const thCls = 'bg-slate-800 px-3 py-2 text-xs font-semibold text-slate-400 uppercase tracking-wide select-none whitespace-nowrap'
   const tdCls = 'px-3 py-2 text-sm'
   const tdNumCls = 'px-3 py-2 text-sm text-right tabular-nums'
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-slate-700">
+    <div className="rounded-lg border border-slate-700">
       <table className="w-full border-collapse">
-        <thead>
+        <thead className="sticky top-[61px] z-10">
           <tr className="bg-slate-800 border-b border-slate-700">
             {showMedals && <th className={`${thCls} w-8 text-left`}>#</th>}
             {columns.map(col => (
