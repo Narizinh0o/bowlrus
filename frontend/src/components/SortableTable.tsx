@@ -18,7 +18,19 @@ interface Props<T extends Record<string, unknown>> {
   defaultSortDir?: 'asc' | 'desc'
   onRowClick?: (row: T) => void
   showMedals?: boolean
+  /**
+   * Мобильный режим: на узком экране таблица скроллится по горизонтали
+   * внутри контейнера, шапка липнет сверху, а первый столбец — слева
+   * (с угловой ячейкой). На десктопе (md+) поведение прежнее: страничный
+   * скролл, липкая только шапка, горизонтального скролла нет.
+   */
+  mobileSticky?: boolean
 }
+
+// Непрозрачные эквиваленты «зебры» (bg-slate-800/30 и /60 поверх slate-900) —
+// нужны липкому первому столбцу на мобиле, чтобы под ним не просвечивали строки.
+const STICKY_BG_EVEN = 'bg-[#141c2f]'
+const STICKY_BG_ODD = 'bg-[#182234]'
 
 export default function SortableTable<T extends Record<string, unknown>>({
   rows,
@@ -28,6 +40,7 @@ export default function SortableTable<T extends Record<string, unknown>>({
   defaultSortDir = 'desc',
   onRowClick,
   showMedals = true,
+  mobileSticky = false,
 }: Props<T>) {
   const [sortKey, setSortKey] = useState(defaultSortKey)
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>(defaultSortDir)
@@ -58,16 +71,35 @@ export default function SortableTable<T extends Record<string, unknown>>({
   const tdCls = 'px-3 py-2 text-sm'
   const tdNumCls = 'px-3 py-2 text-sm text-right tabular-nums'
 
+  // На мобиле контейнер сам скроллится (обе оси) и ограничен по высоте, чтобы
+  // sticky-шапка липла к его верху. На десктопе — без ограничений (страничный
+  // скролл, шапка липнет к top-[61px] под шапкой сайта, как раньше).
+  const wrapCls = mobileSticky
+    ? 'rounded-lg border border-slate-700 overflow-auto max-h-[78vh] md:max-h-none md:overflow-visible'
+    : 'rounded-lg border border-slate-700'
+  const theadCls = mobileSticky ? 'sticky top-0 md:top-[61px] z-20' : 'sticky top-[61px] z-20'
+
+  // Классы для медальной колонки (на мобиле прячем, чтобы первым липким
+  // столбцом стало имя/команда).
+  const medalHide = mobileSticky ? 'hidden md:table-cell' : ''
+  // Угловая ячейка (заголовок первого столбца): липкая по двум осям, z выше всех.
+  const cornerCls = mobileSticky ? 'sticky left-0 z-30 md:static md:z-auto' : ''
+  // Тело первого столбца: липкое слева, непрозрачный фон, z ниже шапки.
+  const firstColCls = (i: number) =>
+    mobileSticky
+      ? `sticky left-0 z-10 ${i % 2 === 0 ? STICKY_BG_EVEN : STICKY_BG_ODD} md:static md:z-auto md:bg-transparent`
+      : ''
+
   return (
-    <div className="rounded-lg border border-slate-700">
+    <div className={wrapCls}>
       <table className="w-full border-collapse">
-        <thead className="sticky top-[61px] z-10">
+        <thead className={theadCls}>
           <tr className="bg-slate-800 border-b border-slate-700">
-            {showMedals && <th className={`${thCls} w-8 text-left`}>#</th>}
-            {columns.map(col => (
+            {showMedals && <th className={`${thCls} ${medalHide} w-8 text-left`}>#</th>}
+            {columns.map((col, idx) => (
               <th
                 key={col.key}
-                className={`${thCls} ${col.numeric ? 'text-right' : 'text-left'} ${col.sortable !== false ? 'cursor-pointer hover:text-white' : ''}`}
+                className={`${thCls} ${idx === 0 ? cornerCls : ''} ${col.numeric ? 'text-right' : 'text-left'} ${col.sortable !== false ? 'cursor-pointer hover:text-white' : ''}`}
                 onClick={() => col.sortable !== false && handleSort(col.key, !!col.numeric)}
               >
                 {col.label}
@@ -88,12 +120,15 @@ export default function SortableTable<T extends Record<string, unknown>>({
               } ${i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'} hover:bg-slate-700/70`}
             >
               {showMedals && (
-                <td className={`${tdCls} text-center`}>
+                <td className={`${tdCls} ${medalHide} text-center`}>
                   <MedalBadge rank={i + 1} />
                 </td>
               )}
-              {columns.map(col => (
-                <td key={col.key} className={col.numeric ? tdNumCls : tdCls}>
+              {columns.map((col, idx) => (
+                <td
+                  key={col.key}
+                  className={`${col.numeric ? tdNumCls : tdCls} ${mobileSticky ? 'whitespace-nowrap md:whitespace-normal' : ''} ${idx === 0 ? firstColCls(i) : ''}`}
+                >
                   {col.render
                     ? col.render(row)
                     : col.numeric

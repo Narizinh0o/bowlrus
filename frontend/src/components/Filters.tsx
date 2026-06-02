@@ -1,5 +1,54 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 
+// ── Мобильный bottom sheet ────────────────────────────────────────────
+
+export function MobileSheet({
+  title,
+  onClose,
+  footer,
+  children,
+}: {
+  title: string
+  onClose: () => void
+  footer?: ReactNode
+  children: ReactNode
+}) {
+  useEffect(() => {
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = prev
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [onClose])
+
+  return (
+    <div className="fixed inset-0 z-40 md:hidden">
+      <div className="absolute inset-0 bg-black/60" onClick={onClose} />
+      <div className="absolute inset-x-0 bottom-0 flex max-h-[88vh] flex-col rounded-t-2xl border-t border-slate-700 bg-slate-900">
+        <div className="flex items-center justify-between border-b border-slate-700 px-4 py-3">
+          <span className="text-base font-semibold text-white">{title}</span>
+          <button
+            onClick={onClose}
+            className="flex h-9 w-9 items-center justify-center rounded text-2xl leading-none text-slate-400 hover:text-white"
+            aria-label="Закрыть"
+          >
+            ×
+          </button>
+        </div>
+        <div className="overflow-y-auto px-4 py-4">{children}</div>
+        {footer && (
+          <div className="border-t border-slate-700 px-4 py-3">{footer}</div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 // ── Общая обёртка дропдауна с закрытием по клику вне ───────────────────
 
 function Dropdown({ label, count, children }: { label: string; count: number; children: ReactNode }) {

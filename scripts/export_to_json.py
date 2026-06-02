@@ -180,6 +180,10 @@ def export_klb(out_dir: Path) -> dict:
                 "name": t["name"],
                 "year": t["year"],
                 "season": t["season"],
+                # seq — монотонный хронологический порядок турнира:
+                # season*100 + stage (stage = порядковый номер внутри сезона,
+                # грандфинал = 8). Нужен, т.к. tournament_id не по времени.
+                "seq": (t["season"] or 0) * 100 + (t["stage"] or 0),
                 "main": t["main"],
                 "ptq": t["ptq"],
             }

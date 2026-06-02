@@ -338,7 +338,7 @@ def klb_tournaments_meta(conn: sqlite3.Connection) -> list[dict]:
     return _rows(
         conn,
         """
-        SELECT tournament_id, name, year, season,
+        SELECT tournament_id, name, year, season, stage,
                oil_pattern_id AS main, oil_pattern_ptq_id AS ptq
         FROM tournaments
         ORDER BY year, season, stage
