@@ -8,6 +8,12 @@ import type {
   KlbTournamentInfo,
   KlbPersonalTournament,
   KlbTeamTournament,
+  KlbPatterns,
+  KlbTournamentsMeta,
+  KlbPlayerFact,
+  KlbTeamFact,
+  KlbPlayersLookup,
+  KlbTeamsLookup,
 } from '../types/klb'
 
 async function fetchJson<T>(path: string): Promise<T> {
@@ -48,3 +54,23 @@ export const fetchKlbClubs = () =>
 
 export const fetchKlbClub = (id: number) =>
   fetchJson<KlbClub>(`/data/klb/clubs/${id}.json`)
+
+// ── Программы масла, факты, справочники (фильтруемые таблицы) ──────────
+
+export const fetchKlbPatterns = () =>
+  fetchJson<KlbPatterns>('/data/klb/patterns.json')
+
+export const fetchKlbTournamentsMeta = () =>
+  fetchJson<KlbTournamentsMeta>('/data/klb/tournaments.json')
+
+export const fetchKlbPlayerFacts = () =>
+  fetchJson<KlbPlayerFact[]>('/data/klb/player_facts.json')
+
+export const fetchKlbTeamFacts = () =>
+  fetchJson<KlbTeamFact[]>('/data/klb/team_facts.json')
+
+export const fetchKlbPlayersLookup = () =>
+  fetchJson<KlbPlayersLookup>('/data/klb/players_lookup.json')
+
+export const fetchKlbTeamsLookup = () =>
+  fetchJson<KlbTeamsLookup>('/data/klb/teams_lookup.json')

@@ -150,6 +150,57 @@ def export_klb(out_dir: Path) -> dict:
             card = queries.klb_club(conn, c["club_id"])
             write_json(out_dir / "clubs" / f"{c['club_id']}.json", card)
 
+        # ── Факт-витрины + справочники (фильтруемые таблицы) ─────
+        print("    факты + справочники...")
+        player_facts = queries.klb_player_facts(conn)
+        write_json(out_dir / "player_facts.json", player_facts)
+        counts["player_facts"] = len(player_facts)
+
+        team_facts = queries.klb_team_facts(conn)
+        write_json(out_dir / "team_facts.json", team_facts)
+        counts["team_facts"] = len(team_facts)
+
+        # patterns.json — словарь {id: {...}}; путь к фото собираем здесь.
+        patterns = {
+            str(p["id"]): {
+                "name": p["pattern_name"],
+                "length": p["distance_ft"],
+                "volume": p["volume_ml"],
+                "ratio": p["ratio"],
+                "photo": f"/data/klb/patterns/{p['photo_file']}" if p["photo_file"] else None,
+            }
+            for p in queries.klb_patterns(conn)
+        }
+        write_json(out_dir / "patterns.json", patterns)
+        counts["patterns"] = len(patterns)
+
+        # tournaments.json — словарь {tid: {...}}
+        tournaments = {
+            str(t["tournament_id"]): {
+                "name": t["name"],
+                "year": t["year"],
+                "season": t["season"],
+                "main": t["main"],
+                "ptq": t["ptq"],
+            }
+            for t in queries.klb_tournaments_meta(conn)
+        }
+        write_json(out_dir / "tournaments.json", tournaments)
+
+        # players_lookup.json — словарь {pid: {...}}
+        players_lookup = {
+            str(p["player_id"]): {"name": p["name"], "gender": p["gender"], "hand": p["hand"]}
+            for p in queries.klb_players_lookup(conn)
+        }
+        write_json(out_dir / "players_lookup.json", players_lookup)
+
+        # teams_lookup.json — словарь {teamid: {...}}
+        teams_lookup = {
+            str(t["team_id"]): {"name": t["name"], "club": t["club"]}
+            for t in queries.klb_teams_lookup(conn)
+        }
+        write_json(out_dir / "teams_lookup.json", teams_lookup)
+
         return counts
     finally:
         conn.close()

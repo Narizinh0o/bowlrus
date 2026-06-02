@@ -113,3 +113,61 @@ export interface KlbTeamTournament {
   tournament: KlbTournamentInfo
   results: KlbTeamResult[]
 }
+
+// ── Программы масла и справочники для фильтруемых таблиц ──────────────
+
+export interface KlbPattern {
+  name: string
+  length: number
+  volume: number
+  ratio: number | null
+  photo: string | null
+}
+export type KlbPatterns = Record<string, KlbPattern>
+
+export interface KlbTournamentMeta {
+  name: string
+  year: number
+  season: number
+  main: number | null
+  ptq: number | null
+}
+export type KlbTournamentsMeta = Record<string, KlbTournamentMeta>
+
+export interface KlbPlayerFact {
+  pid: number
+  tid: number
+  season: number
+  st: string
+  club: string | null
+  g: number
+  ss: number
+  bg: number | null
+  wg: number | null
+  patt: number | null
+}
+
+export interface KlbTeamFact {
+  teamid: number
+  tid: number
+  season: number
+  st: string
+  g: number
+  ss: number
+  bg: number | null
+  wg: number | null
+  patt: number | null
+}
+
+export interface KlbPlayerLookup {
+  name: string
+  gender: string
+  hand: string
+}
+export type KlbPlayersLookup = Record<string, KlbPlayerLookup>
+
+export interface KlbTeamLookup {
+  name: string
+  club: string | null
+}
+export type KlbTeamsLookup = Record<string, KlbTeamLookup>

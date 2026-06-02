@@ -19,7 +19,7 @@ const playerColumns: Column<KlbPlayerBase & Record<string, unknown>>[] = [
   { key: 'games_total', label: 'Игр', numeric: true },
   {
     key: 'avg_total',
-    label: 'Средняя',
+    label: 'Средний',
     numeric: true,
     render: row => (
       <span className="font-semibold text-amber-400">{fmt(row.avg_total as number | null)}</span>
@@ -48,7 +48,7 @@ const teamColumns: Column<KlbTeamBase & Record<string, unknown>>[] = [
   { key: 'games_total', label: 'Игр', numeric: true },
   {
     key: 'avg_total',
-    label: 'Средняя',
+    label: 'Средний',
     numeric: true,
     render: row => (
       <span className="font-semibold text-amber-400">{fmt(row.avg_total as number | null)}</span>
@@ -56,7 +56,7 @@ const teamColumns: Column<KlbTeamBase & Record<string, unknown>>[] = [
   },
   {
     key: 'best_game',
-    label: 'Лучшая',
+    label: 'Лучшая (плейофф)',
     numeric: true,
     render: row => <span className="text-green-400">{fmt(row.best_game as number | null, 0)}</span>,
   },

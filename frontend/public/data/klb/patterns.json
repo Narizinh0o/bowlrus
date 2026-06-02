@@ -1,0 +1,170 @@
+{
+  "1": {
+    "name": "ABT #2",
+    "length": 40,
+    "volume": 23.95,
+    "ratio": 9.55,
+    "photo": "/data/klb/patterns/ABT_No2.jpg"
+  },
+  "2": {
+    "name": "2022 USBC Youth Open Championships",
+    "length": 41,
+    "volume": 27.05,
+    "ratio": 7.35,
+    "photo": "/data/klb/patterns/2022_USBC_Youth_Open_Championships.jpg"
+  },
+  "3": {
+    "name": "2008 EBT Istanbul Open",
+    "length": 45,
+    "volume": 23.3,
+    "ratio": 3.67,
+    "photo": "/data/klb/patterns/2008_EBT_Istanbul_Open.jpg"
+  },
+  "4": {
+    "name": "BC3-BW",
+    "length": 37,
+    "volume": 23.33,
+    "ratio": 3.6,
+    "photo": "/data/klb/patterns/BC3-BW.jpg"
+  },
+  "5": {
+    "name": "PWBA Regional Arlington TX",
+    "length": 37,
+    "volume": 23.895,
+    "ratio": 5.0,
+    "photo": "/data/klb/patterns/PWBA_Regional_Arlington_TX.jpg"
+  },
+  "6": {
+    "name": "Beaten Path V2",
+    "length": 41,
+    "volume": 26.05,
+    "ratio": 5.71,
+    "photo": "/data/klb/patterns/Beaten_Path_V2.jpeg"
+  },
+  "7": {
+    "name": "High Street",
+    "length": 44,
+    "volume": 21.1,
+    "ratio": 11.0,
+    "photo": "/data/klb/patterns/High_Street.jpeg"
+  },
+  "8": {
+    "name": "BREDD382021",
+    "length": 38,
+    "volume": 23.75,
+    "ratio": 6.56,
+    "photo": "/data/klb/patterns/BREDD382021.jpeg"
+  },
+  "9": {
+    "name": "2008 EBT Ebonite English Open",
+    "length": 40,
+    "volume": 26.24,
+    "ratio": 4.09,
+    "photo": "/data/klb/patterns/2008_EBT_Ebonite_English_Open.png"
+  },
+  "10": {
+    "name": "2008 EBT Hammer Bronzen Schietspoel",
+    "length": 44,
+    "volume": 22.45,
+    "ratio": 3.5,
+    "photo": "/data/klb/patterns/2008_EBT_Hammer_Bronzen_Schietspoel.png"
+  },
+  "11": {
+    "name": "2021 SYC Rohnert Park Short",
+    "length": 36,
+    "volume": 24.95,
+    "ratio": 3.8,
+    "photo": "/data/klb/patterns/2021_SYC_Rohnert_Park_Short.png"
+  },
+  "12": {
+    "name": "Tashkent KLB Pro-Tour 2024 (Yur.Gagarin.) V.3",
+    "length": 41,
+    "volume": 24.38,
+    "ratio": 3.93,
+    "photo": "/data/klb/patterns/Tashkent_KLB_Yur_Gagarin_V3_2024.png"
+  },
+  "13": {
+    "name": "Tyumen KLB Pro-Tour 2024 (Val.Chekalov) V.3",
+    "length": 39,
+    "volume": 23.88,
+    "ratio": 3.91,
+    "photo": "/data/klb/patterns/Tyumen_KLB_Val_Chekalov_V3_2024.png"
+  },
+  "14": {
+    "name": "Izhevsk KLB Pro-Tour 2024 (M.Kalashnikov) V.3",
+    "length": 43,
+    "volume": 25.15,
+    "ratio": 3.83,
+    "photo": "/data/klb/patterns/Izhevsk_KLB_M_Kalashnikov_V3_2024.png"
+  },
+  "15": {
+    "name": "Tyumen KLB Pro-Tour 2024 (D.Mendeleev) V.3",
+    "length": 37,
+    "volume": 22.25,
+    "ratio": 3.15,
+    "photo": "/data/klb/patterns/Tyumen_KLB_D_Mendeleev_V3_2024.jpeg"
+  },
+  "16": {
+    "name": "Chromium",
+    "length": 42,
+    "volume": 25.56,
+    "ratio": 6.71,
+    "photo": "/data/klb/patterns/Chromium.jpeg"
+  },
+  "17": {
+    "name": "Петр Чайковский 39ft",
+    "length": 39,
+    "volume": 29.2,
+    "ratio": 3.24,
+    "photo": "/data/klb/patterns/Petr_Tchaikovsky_39ft.png"
+  },
+  "18": {
+    "name": "Юрга 2025",
+    "length": 41,
+    "volume": 30.915,
+    "ratio": 2.55,
+    "photo": "/data/klb/patterns/Yurga_2025_Surgut.png"
+  },
+  "19": {
+    "name": "80 лет Победы",
+    "length": 46,
+    "volume": 20.64,
+    "ratio": 2.8,
+    "photo": "/data/klb/patterns/80_let_Pobedy.jpeg"
+  },
+  "20": {
+    "name": "Эльдар Рязанов",
+    "length": 35,
+    "volume": 18.84,
+    "ratio": 2.56,
+    "photo": "/data/klb/patterns/Eldar_Ryazanov.png"
+  },
+  "21": {
+    "name": "Tashkent 2025",
+    "length": 40,
+    "volume": 24.65,
+    "ratio": 5.53,
+    "photo": "/data/klb/patterns/Tashkent_2025.jpg"
+  },
+  "22": {
+    "name": "KLB Krasnodar 7-10",
+    "length": 42,
+    "volume": 32.85,
+    "ratio": 2.66,
+    "photo": "/data/klb/patterns/KLB_Krasnodar_7-10.png"
+  },
+  "23": {
+    "name": "Ютэйр Тюмень 2026",
+    "length": 43,
+    "volume": 20.85,
+    "ratio": 1.77,
+    "photo": "/data/klb/patterns/Yutair_Tyumen_2026.png"
+  },
+  "24": {
+    "name": "Махеев 7-10 Краснодар",
+    "length": 44,
+    "volume": 22.41,
+    "ratio": 2.13,
+    "photo": "/data/klb/patterns/Maheev_7-10_Krasnodar_2026.png"
+  }
+}

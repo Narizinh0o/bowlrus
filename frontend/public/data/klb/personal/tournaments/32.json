@@ -504,6 +504,21 @@
     },
     {
       "tournament_id": 32,
+      "player_id": 134,
+      "player_name": "соболев павел",
+      "team_name_at_tournament": "астероид всех",
+      "games_total": 20,
+      "avg_total": 204.3,
+      "best_game": 248,
+      "quals_games": 20,
+      "quals_avg": 204.3,
+      "rr_games": 0,
+      "rr_avg": null,
+      "po_games": 0,
+      "po_avg": null
+    },
+    {
+      "tournament_id": 32,
       "player_id": 316,
       "player_name": "куликова ксения",
       "team_name_at_tournament": "su-50 plus",
@@ -981,21 +996,6 @@
       "rr_avg": null,
       "po_games": 0,
       "po_avg": null
-    },
-    {
-      "tournament_id": 32,
-      "player_id": 134,
-      "player_name": "соболев павел",
-      "team_name_at_tournament": "астероид всех",
-      "games_total": 22,
-      "avg_total": 185.7,
-      "best_game": 248,
-      "quals_games": 20,
-      "quals_avg": 204.3,
-      "rr_games": 0,
-      "rr_avg": null,
-      "po_games": 2,
-      "po_avg": 0.0
     },
     {
       "tournament_id": 32,

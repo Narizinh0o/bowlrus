@@ -67,8 +67,8 @@ export default function TeamPage() {
       <h2 className="text-lg font-semibold text-slate-300 mb-3">Итого</h2>
       <div className="grid grid-cols-3 gap-3 mb-6">
         <StatCard label="Игр" value={data.games_total} />
-        <StatCard label="Средняя" value={fmt(data.avg_total)} />
-        <StatCard label="Лучшая" value={fmt(data.best_game, 0)} />
+        <StatCard label="Средний" value={fmt(data.avg_total)} />
+        <StatCard label="Лучшая (плейофф)" value={fmt(data.best_game, 0)} />
       </div>
 
       {/* Квалификация */}
@@ -77,7 +77,7 @@ export default function TeamPage() {
           <h2 className="text-lg font-semibold text-slate-300 mb-3">Квалификация</h2>
           <div className="grid grid-cols-2 gap-3 mb-6">
             <StatCard label="Игр" value={data.quals_games} />
-            <StatCard label="Средняя" value={fmt(data.quals_avg)} />
+            <StatCard label="Средний" value={fmt(data.quals_avg)} />
           </div>
         </>
       )}
@@ -88,7 +88,7 @@ export default function TeamPage() {
           <h2 className="text-lg font-semibold text-slate-300 mb-3">Round Robin</h2>
           <div className="grid grid-cols-2 gap-3 mb-6">
             <StatCard label="Игр" value={data.rr_games} />
-            <StatCard label="Средняя" value={fmt(data.rr_avg)} />
+            <StatCard label="Средний" value={fmt(data.rr_avg)} />
           </div>
         </>
       )}
@@ -99,7 +99,7 @@ export default function TeamPage() {
           <h2 className="text-lg font-semibold text-slate-300 mb-3">Плей-офф</h2>
           <div className="grid grid-cols-3 gap-3 mb-6">
             <StatCard label="Игр" value={data.po_games} />
-            <StatCard label="Средняя" value={fmt(data.po_avg)} />
+            <StatCard label="Средний" value={fmt(data.po_avg)} />
             <StatCard label="Лучшая" value={fmt(data.po_best, 0)} />
           </div>
         </>
