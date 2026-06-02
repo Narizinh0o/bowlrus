@@ -350,7 +350,27 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
     cols.push({
       key: 'name',
       label: mode === 'personal' ? 'Имя' : 'Команда',
-      render: r => <span className="font-medium text-white capitalize">{r.name as string}</span>,
+      render: r => {
+        const name = r.name as string
+        // Команды не разбиваем — это не «Фамилия Имя».
+        if (mode === 'team') {
+          return <span className="font-medium text-white capitalize">{name}</span>
+        }
+        // На мобиле «Фамилия Имя» — на две строки (по первому пробелу):
+        // фамилия сверху, имя снизу, плотный межстрочный. На десктопе — одной строкой.
+        const sp = name.indexOf(' ')
+        const surname = sp === -1 ? name : name.slice(0, sp)
+        const given = sp === -1 ? '' : name.slice(sp + 1)
+        return (
+          <>
+            <span className="md:hidden flex flex-col leading-tight font-medium text-white capitalize">
+              <span className="break-words">{surname}</span>
+              {given && <span className="break-words">{given}</span>}
+            </span>
+            <span className="hidden md:inline font-medium text-white capitalize">{name}</span>
+          </>
+        )
+      },
     })
     cols.push({
       key: 'club',

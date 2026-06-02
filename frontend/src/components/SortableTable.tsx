@@ -67,9 +67,9 @@ export default function SortableTable<T extends Record<string, unknown>>({
     }
   }
 
-  const thCls = 'bg-slate-800 px-3 py-2 text-xs font-semibold text-slate-400 uppercase tracking-wide select-none whitespace-nowrap'
-  const tdCls = 'px-3 py-2 text-sm'
-  const tdNumCls = 'px-3 py-2 text-sm text-right tabular-nums'
+  const thCls = 'bg-slate-800 px-2 py-2 md:px-3 text-xs font-semibold text-slate-400 uppercase tracking-wide select-none whitespace-nowrap'
+  const tdCls = 'px-2 py-2 text-xs md:px-3 md:text-sm'
+  const tdNumCls = 'px-2 py-2 text-xs text-right tabular-nums md:px-3 md:text-sm'
 
   // На мобиле контейнер сам скроллится (обе оси) и ограничен по высоте, чтобы
   // sticky-шапка липла к его верху. На десктопе — без ограничений (страничный
@@ -85,9 +85,11 @@ export default function SortableTable<T extends Record<string, unknown>>({
   // Угловая ячейка (заголовок первого столбца): липкая по двум осям, z выше всех.
   const cornerCls = mobileSticky ? 'sticky left-0 z-30 md:static md:z-auto' : ''
   // Тело первого столбца: липкое слева, непрозрачный фон, z ниже шапки.
+  // На мобиле ширина ограничена (max-w), чтобы длинные имена не съедали экран —
+  // не влезающий текст переносится на доп. строку (см. whitespace-normal ниже).
   const firstColCls = (i: number) =>
     mobileSticky
-      ? `sticky left-0 z-10 ${i % 2 === 0 ? STICKY_BG_EVEN : STICKY_BG_ODD} md:static md:z-auto md:bg-transparent`
+      ? `sticky left-0 z-10 max-w-[140px] md:max-w-none ${i % 2 === 0 ? STICKY_BG_EVEN : STICKY_BG_ODD} md:static md:z-auto md:bg-transparent`
       : ''
 
   return (
@@ -127,7 +129,7 @@ export default function SortableTable<T extends Record<string, unknown>>({
               {columns.map((col, idx) => (
                 <td
                   key={col.key}
-                  className={`${col.numeric ? tdNumCls : tdCls} ${mobileSticky ? 'whitespace-nowrap md:whitespace-normal' : ''} ${idx === 0 ? firstColCls(i) : ''}`}
+                  className={`${col.numeric ? tdNumCls : tdCls} ${mobileSticky ? (idx === 0 ? 'whitespace-normal' : 'whitespace-nowrap md:whitespace-normal') : ''} ${idx === 0 ? firstColCls(i) : ''}`}
                 >
                   {col.render
                     ? col.render(row)

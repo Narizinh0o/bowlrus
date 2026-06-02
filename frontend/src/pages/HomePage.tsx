@@ -26,10 +26,10 @@ export default function HomePage() {
         </p>
       </div>
 
-      <div className="flex gap-6 mt-2">
+      <div className="flex flex-col md:flex-row gap-6 mt-2 w-full max-w-xs md:w-auto md:max-w-none">
         <Link
           to="/klb"
-          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-80 hover:border-amber-500 transition-all duration-200"
+          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-full md:w-80 hover:border-amber-500 transition-all duration-200"
         >
           <div className="text-4xl mb-4">🏆</div>
           <h2 className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors mb-1">
@@ -53,7 +53,7 @@ export default function HomePage() {
 
         <Link
           to="/chr"
-          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-80 hover:border-amber-500 transition-all duration-200"
+          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-full md:w-80 hover:border-amber-500 transition-all duration-200"
         >
           <div className="text-4xl mb-4">🥇</div>
           <h2 className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors mb-1">
