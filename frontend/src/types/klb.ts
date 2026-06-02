@@ -129,6 +129,7 @@ export interface KlbTournamentMeta {
   name: string
   year: number
   season: number
+  seq: number
   main: number | null
   ptq: number | null
 }

@@ -19,6 +19,7 @@ import {
   SearchableMultiSelect,
   RangeSlider,
   BreakdownToggle,
+  MobileSheet,
   type Breakdown,
   type Option,
 } from './Filters'
@@ -33,6 +34,7 @@ interface ERow {
   gender: string | null
   hand: string | null
   tid: number
+  seq: number
   season: number
   st: string
   g: number
@@ -90,6 +92,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
   const [lenR, setLenR] = useState<[number, number] | null>(null)
   const [volR, setVolR] = useState<[number, number] | null>(null)
   const [ratioR, setRatioR] = useState<[number, number] | null>(null)
+  const [sheetOpen, setSheetOpen] = useState(false)
 
   // ── Загрузка ────────────────────────────────────────────────────────
   useEffect(() => {
@@ -111,6 +114,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
                 gender: l?.gender ?? null,
                 hand: l?.hand ?? null,
                 tid: f.tid,
+                seq: tm[String(f.tid)]?.seq ?? f.tid,
                 season: f.season,
                 st: f.st,
                 g: f.g,
@@ -143,6 +147,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
                 gender: null,
                 hand: null,
                 tid: f.tid,
+                seq: tm[String(f.tid)]?.seq ?? f.tid,
                 season: f.season,
                 st: f.st,
                 g: f.g,
@@ -271,7 +276,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
       wg: number | null
       tidSet: Set<number>
       seasonSet: Set<number>
-      maxTid: number
+      maxSeq: number
       clubAtMax: string | null
     }
     const groups = new Map<string, Acc>()
@@ -298,7 +303,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
           wg: null,
           tidSet: new Set(),
           seasonSet: new Set(),
-          maxTid: -1,
+          maxSeq: -1,
           clubAtMax: null,
         }
         groups.set(key, a)
@@ -309,8 +314,10 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
       if (r.wg != null) a.wg = a.wg == null ? r.wg : Math.min(a.wg, r.wg)
       a.tidSet.add(r.tid)
       a.seasonSet.add(r.season)
-      if (r.tid >= a.maxTid) {
-        a.maxTid = r.tid
+      // Отображаемый клуб — из хронологически последнего турнира игрока
+      // (макс. seq = season*100+stage), а НЕ по tournament_id (он не по времени).
+      if (r.seq >= a.maxSeq) {
+        a.maxSeq = r.seq
         a.clubAtMax = r.club
       }
     }
@@ -419,67 +426,124 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
 
   if (loading) return <LoadingSpinner />
 
+  // Фрагменты контролов — переиспользуются и в десктопной панели, и в
+  // мобильном bottom sheet (состояние фильтров поднято в этот компонент).
+  const dropdownsFrag = (
+    <>
+      <MultiSelect label="Сезоны" options={opts.seasonOpts} selected={seasons} onChange={setSeasons} />
+      <MultiSelect label="Турниры" options={opts.tidOpts} selected={tids} onChange={setTids} />
+      <MultiSelect label="Стадии" options={opts.stageOpts} selected={stages} onChange={setStages} />
+      <MultiSelect label="Программа" options={opts.pattOpts} selected={patts} onChange={setPatts} />
+      <MultiSelect label="Клуб" options={opts.clubOpts} selected={clubs} onChange={setClubs} />
+      {mode === 'personal' && (
+        <>
+          <SearchableMultiSelect label="Игроки" options={opts.playerOpts} selected={players} onChange={setPlayers} />
+          <MultiSelect label="Пол" options={opts.genderOpts} selected={genders} onChange={setGenders} />
+          <MultiSelect label="Рука" options={opts.handOpts} selected={hands} onChange={setHands} />
+        </>
+      )}
+    </>
+  )
+
+  const slidersFrag = (
+    <>
+      {lenR && (
+        <RangeSlider
+          label="Длина"
+          min={bounds.len[0]}
+          max={bounds.len[1]}
+          lo={lenR[0]}
+          hi={lenR[1]}
+          unit=" фт"
+          onChange={(lo, hi) => setLenR([lo, hi])}
+        />
+      )}
+      {volR && (
+        <RangeSlider
+          label="Объём"
+          min={bounds.vol[0]}
+          max={bounds.vol[1]}
+          lo={volR[0]}
+          hi={volR[1]}
+          step={0.01}
+          unit=" мл"
+          onChange={(lo, hi) => setVolR([lo, hi])}
+        />
+      )}
+      {ratioR && (
+        <RangeSlider
+          label="Ратио"
+          min={bounds.ratio[0]}
+          max={bounds.ratio[1]}
+          lo={ratioR[0]}
+          hi={ratioR[1]}
+          step={0.01}
+          onChange={(lo, hi) => setRatioR([lo, hi])}
+        />
+      )}
+      <BreakdownToggle value={breakdown} onChange={setBreakdown} />
+    </>
+  )
+
   return (
     <div>
-      {/* Панель фильтров */}
-      <div className="flex flex-wrap items-start gap-2 mb-3">
-        <MultiSelect label="Сезоны" options={opts.seasonOpts} selected={seasons} onChange={setSeasons} />
-        <MultiSelect label="Турниры" options={opts.tidOpts} selected={tids} onChange={setTids} />
-        <MultiSelect label="Стадии" options={opts.stageOpts} selected={stages} onChange={setStages} />
-        <MultiSelect label="Программа" options={opts.pattOpts} selected={patts} onChange={setPatts} />
-        <MultiSelect label="Клуб" options={opts.clubOpts} selected={clubs} onChange={setClubs} />
-        {mode === 'personal' && (
-          <>
-            <SearchableMultiSelect label="Игроки" options={opts.playerOpts} selected={players} onChange={setPlayers} />
-            <MultiSelect label="Пол" options={opts.genderOpts} selected={genders} onChange={setGenders} />
-            <MultiSelect label="Рука" options={opts.handOpts} selected={hands} onChange={setHands} />
-          </>
-        )}
+      {/* Десктоп: инлайн-панель фильтров (как раньше) */}
+      <div className="hidden md:block">
+        <div className="flex flex-wrap items-start gap-2 mb-3">{dropdownsFrag}</div>
+        <div className="flex flex-wrap items-center gap-3 mb-4">
+          {slidersFrag}
+          {(activeFilters > 0 || breakdown !== 'none') && (
+            <button onClick={resetAll} className="text-xs text-amber-400 hover:underline">
+              Сбросить всё
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* Бегунки + разбивка */}
-      <div className="flex flex-wrap items-center gap-3 mb-4">
-        {lenR && (
-          <RangeSlider
-            label="Длина"
-            min={bounds.len[0]}
-            max={bounds.len[1]}
-            lo={lenR[0]}
-            hi={lenR[1]}
-            unit=" фт"
-            onChange={(lo, hi) => setLenR([lo, hi])}
-          />
-        )}
-        {volR && (
-          <RangeSlider
-            label="Объём"
-            min={bounds.vol[0]}
-            max={bounds.vol[1]}
-            lo={volR[0]}
-            hi={volR[1]}
-            step={0.01}
-            unit=" мл"
-            onChange={(lo, hi) => setVolR([lo, hi])}
-          />
-        )}
-        {ratioR && (
-          <RangeSlider
-            label="Ратио"
-            min={bounds.ratio[0]}
-            max={bounds.ratio[1]}
-            lo={ratioR[0]}
-            hi={ratioR[1]}
-            step={0.01}
-            onChange={(lo, hi) => setRatioR([lo, hi])}
-          />
-        )}
-        <BreakdownToggle value={breakdown} onChange={setBreakdown} />
-        {(activeFilters > 0 || breakdown !== 'none') && (
-          <button onClick={resetAll} className="text-xs text-amber-400 hover:underline">
-            Сбросить всё
-          </button>
-        )}
+      {/* Мобайл: кнопка «Фильтры» → bottom sheet */}
+      <div className="md:hidden mb-3">
+        <button
+          onClick={() => setSheetOpen(true)}
+          className="inline-flex items-center gap-2 rounded border border-slate-700 bg-slate-800 px-4 py-2.5 text-sm font-medium text-slate-200"
+        >
+          <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M3 5h18M6 12h12M10 19h4" strokeLinecap="round" />
+          </svg>
+          Фильтры
+          {activeFilters > 0 && (
+            <span className="rounded bg-amber-500 px-1.5 text-xs font-semibold text-slate-900">{activeFilters}</span>
+          )}
+        </button>
       </div>
+
+      {sheetOpen && (
+        <MobileSheet
+          title="Фильтры"
+          onClose={() => setSheetOpen(false)}
+          footer={
+            <div className="flex items-center justify-between gap-3">
+              <button
+                onClick={resetAll}
+                className="px-3 py-2 text-sm text-amber-400 disabled:text-slate-600"
+                disabled={activeFilters === 0 && breakdown === 'none'}
+              >
+                Сбросить всё
+              </button>
+              <button
+                onClick={() => setSheetOpen(false)}
+                className="rounded bg-amber-500 px-5 py-2 text-sm font-semibold text-slate-900"
+              >
+                Показать ({tableRows.length})
+              </button>
+            </div>
+          }
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-wrap gap-2">{dropdownsFrag}</div>
+            <div className="flex flex-col gap-3">{slidersFrag}</div>
+          </div>
+        </MobileSheet>
+      )}
 
       <div className="mb-2 text-sm text-slate-500">{tableRows.length} строк</div>
 
@@ -489,6 +553,7 @@ export default function FilterableFactsTable({ mode }: { mode: Mode }) {
         getKey={r => r._key as string}
         defaultSortKey="avg"
         defaultSortDir="desc"
+        mobileSticky
         onRowClick={r =>
           navigate(
             mode === 'personal'
