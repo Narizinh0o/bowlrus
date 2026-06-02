@@ -161,13 +161,15 @@ def export_klb(out_dir: Path) -> dict:
         counts["team_facts"] = len(team_facts)
 
         # patterns.json — словарь {id: {...}}; путь к фото собираем здесь.
+        # Фото — ручные ассеты, лежат в frontend/public/assets/klb/patterns/
+        # (вне генерируемой data/klb/, чтобы экспорт их не затирал).
         patterns = {
             str(p["id"]): {
                 "name": p["pattern_name"],
                 "length": p["distance_ft"],
                 "volume": p["volume_ml"],
                 "ratio": p["ratio"],
-                "photo": f"/data/klb/patterns/{p['photo_file']}" if p["photo_file"] else None,
+                "photo": f"/assets/klb/patterns/{p['photo_file']}" if p["photo_file"] else None,
             }
             for p in queries.klb_patterns(conn)
         }
