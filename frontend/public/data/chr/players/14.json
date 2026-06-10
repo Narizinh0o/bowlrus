@@ -1,10 +1,10 @@
 {
   "player_id": 14,
   "player_name": "БЕЛЫЙ АЛЕКСАНДР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20710,
-  "average_score": 172.58,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3112,
+  "average_score": 172.89,
   "best_game": 212,
   "worst_game": 122,
   "score_diff": 90,
@@ -18,7 +18,71 @@
   "singles_converted": 34,
   "singles_missed": 4,
   "single_pin_percent": 89.47,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Удмуртская Республика",
   "games": [
+    {
+      "game_id": 2473,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
+    {
+      "game_id": 2474,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 147
+    },
+    {
+      "game_id": 2475,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2476,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
+    {
+      "game_id": 2477,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 211
+    },
+    {
+      "game_id": 2478,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
     {
       "game_id": 79,
       "game_number": 1,

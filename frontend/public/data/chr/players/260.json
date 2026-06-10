@@ -1,0 +1,87 @@
+{
+  "player_id": 260,
+  "player_name": "БЕЛОХВОСТИК ВИТАЛИЙ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 1030,
+  "average_score": 171.67,
+  "best_game": 201,
+  "worst_game": 143,
+  "score_diff": 58,
+  "strike_attempts": 0,
+  "strikes": 0,
+  "strike_percent": null,
+  "spares": 0,
+  "opens": 0,
+  "spare_conversion_percent": null,
+  "singles_left": 0,
+  "singles_converted": 0,
+  "singles_missed": 0,
+  "single_pin_percent": null,
+  "blocks_with_frames": 0,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Санкт-Петербург",
+  "games": [
+    {
+      "game_id": 3241,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 3242,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    },
+    {
+      "game_id": 3243,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 201
+    },
+    {
+      "game_id": 3244,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
+    {
+      "game_id": 3245,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 143
+    },
+    {
+      "game_id": 3246,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 167
+    }
+  ]
+}

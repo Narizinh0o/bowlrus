@@ -1,10 +1,10 @@
 {
   "player_id": 90,
   "player_name": "ЛАВЛЕНЦЕВА ЕЛЕНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 17190,
-  "average_score": 143.25,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2676,
+  "average_score": 148.67,
   "best_game": 196,
   "worst_game": 109,
   "score_diff": 87,
@@ -18,7 +18,71 @@
   "singles_converted": 19,
   "singles_missed": 23,
   "single_pin_percent": 45.24,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 3037,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 195
+    },
+    {
+      "game_id": 3038,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 159
+    },
+    {
+      "game_id": 3039,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 158
+    },
+    {
+      "game_id": 3040,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 132
+    },
+    {
+      "game_id": 3041,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 3042,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
     {
       "game_id": 535,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 137,
   "player_name": "РОМАНОВА КИРА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20540,
-  "average_score": 171.17,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3093,
+  "average_score": 171.83,
   "best_game": 205,
   "worst_game": 114,
   "score_diff": 91,
@@ -18,7 +18,71 @@
   "singles_converted": 29,
   "singles_missed": 10,
   "single_pin_percent": 74.36,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Москва",
   "games": [
+    {
+      "game_id": 2869,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 2870,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 2871,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 191
+    },
+    {
+      "game_id": 2872,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 133
+    },
+    {
+      "game_id": 2873,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 205
+    },
+    {
+      "game_id": 2874,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
     {
       "game_id": 817,
       "game_number": 1,

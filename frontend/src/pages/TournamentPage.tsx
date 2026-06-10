@@ -14,10 +14,18 @@ function StatCard({ label, value }: { label: string; value: string | number }) {
   )
 }
 
-function EventTable({ title, players, onClickPlayer }: { title: string; players: PlayerStats[]; onClickPlayer: (id: number) => void }) {
+// frameStats=true  → колонки X % и Спэа % (зачёты с раскадровкой: парный, микс).
+// frameStats=false → вместо них колонка «Сумма» (личный: фреймов нет почти ни у кого).
+function EventTable({ title, players, frameStats, onClickPlayer }: {
+  title: string
+  players: PlayerStats[]
+  frameStats: boolean
+  onClickPlayer: (id: number) => void
+}) {
   const sorted = [...players].sort((a, b) => b.average_score - a.average_score)
   const tdNum = 'px-3 py-2 text-sm text-right tabular-nums'
   const td = 'px-3 py-2 text-sm'
+  const thR = 'px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide whitespace-nowrap'
 
   return (
     <div className="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden">
@@ -25,40 +33,54 @@ function EventTable({ title, players, onClickPlayer }: { title: string; players:
         <h2 className="text-lg font-semibold text-white">{title}</h2>
         <span className="text-slate-400 text-sm">{sorted.length} игроков</span>
       </div>
-      <table className="w-full">
-        <thead>
-          <tr className="bg-slate-700/50">
-            <th className="px-3 py-2 text-left text-xs font-semibold text-slate-400 uppercase tracking-wide w-8">#</th>
-            <th className="px-3 py-2 text-left text-xs font-semibold text-slate-400 uppercase tracking-wide">Игрок</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">Игр</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">Средний</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">Лучшая</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">Худшая</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">X %</th>
-            <th className="px-3 py-2 text-right text-xs font-semibold text-slate-400 uppercase tracking-wide">Спэа %</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sorted.map((p, i) => (
-            <tr
-              key={p.player_id}
-              onClick={() => onClickPlayer(p.player_id)}
-              className={`border-b border-slate-700/50 cursor-pointer transition-colors ${
-                i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'
-              } hover:bg-slate-700/70`}
-            >
-              <td className={`${td} text-center`}><MedalBadge rank={i + 1} /></td>
-              <td className={`${td} font-medium text-white`}>{p.player_name}</td>
-              <td className={tdNum}>{p.games_played}</td>
-              <td className={`${tdNum} font-semibold text-amber-400`}>{p.average_score.toFixed(2)}</td>
-              <td className={`${tdNum} text-green-400`}>{p.best_game}</td>
-              <td className={`${tdNum} text-red-400`}>{p.worst_game}</td>
-              <td className={`${tdNum} text-amber-300`}>{p.strike_percent?.toFixed(2)}%</td>
-              <td className={`${tdNum} text-amber-300`}>{p.spare_conversion_percent?.toFixed(2)}%</td>
+      <div className="overflow-x-auto">
+        <table className="w-full">
+          <thead>
+            <tr className="bg-slate-700/50">
+              <th className="px-3 py-2 text-left text-xs font-semibold text-slate-400 uppercase tracking-wide w-8">#</th>
+              <th className="px-3 py-2 text-left text-xs font-semibold text-slate-400 uppercase tracking-wide">Игрок</th>
+              <th className={thR}>Игр</th>
+              <th className={thR}>Средний</th>
+              <th className={thR}>Лучшая</th>
+              <th className={thR}>Худшая</th>
+              {frameStats ? (
+                <>
+                  <th className={thR}>X %</th>
+                  <th className={thR}>Спэа %</th>
+                </>
+              ) : (
+                <th className={thR}>Сумма</th>
+              )}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {sorted.map((p, i) => (
+              <tr
+                key={p.player_id}
+                onClick={() => onClickPlayer(p.player_id)}
+                className={`border-b border-slate-700/50 cursor-pointer transition-colors ${
+                  i % 2 === 0 ? 'bg-slate-800/30' : 'bg-slate-800/60'
+                } hover:bg-slate-700/70`}
+              >
+                <td className={`${td} text-center`}><MedalBadge rank={i + 1} /></td>
+                <td className={`${td} font-medium text-white whitespace-nowrap`}>{p.player_name}</td>
+                <td className={tdNum}>{p.games_played}</td>
+                <td className={`${tdNum} font-semibold text-amber-400`}>{p.average_score.toFixed(2)}</td>
+                <td className={`${tdNum} text-green-400`}>{p.best_game}</td>
+                <td className={`${tdNum} text-red-400`}>{p.worst_game}</td>
+                {frameStats ? (
+                  <>
+                    <td className={`${tdNum} text-amber-300`}>{p.strike_percent == null ? '—' : `${p.strike_percent.toFixed(2)}%`}</td>
+                    <td className={`${tdNum} text-amber-300`}>{p.spare_conversion_percent == null ? '—' : `${p.spare_conversion_percent.toFixed(2)}%`}</td>
+                  </>
+                ) : (
+                  <td className={tdNum}>{p.total_pins.toLocaleString('ru-RU')}</td>
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
@@ -68,6 +90,7 @@ export default function TournamentPage() {
   const [tournament, setTournament] = useState<Tournament | null>(null)
   const [doublesPlayers, setDoublesPlayers] = useState<PlayerStats[]>([])
   const [mixPlayers, setMixPlayers] = useState<PlayerStats[]>([])
+  const [singlePlayers, setSinglePlayers] = useState<PlayerStats[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -75,10 +98,12 @@ export default function TournamentPage() {
       fetchTournament(),
       fetchPlayers('doubles'),
       fetchPlayers('doubles mix'),
-    ]).then(([t, dp, mp]) => {
+      fetchPlayers('single'),
+    ]).then(([t, dp, mp, sp]) => {
       setTournament(t)
       setDoublesPlayers(dp)
       setMixPlayers(mp)
+      setSinglePlayers(sp)
     }).catch(console.error).finally(() => setLoading(false))
   }, [])
 
@@ -95,7 +120,7 @@ export default function TournamentPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <StatCard label="Всего игр" value={tournament.summary.games_count} />
         <StatCard label="Участников" value={tournament.summary.players_count} />
         <StatCard label="Средний счёт" value={tournament.summary.avg_score?.toFixed(2) ?? '—'} />
@@ -103,8 +128,9 @@ export default function TournamentPage() {
       </div>
 
       <div className="flex flex-col gap-6">
-        <EventTable title="Doubles" players={doublesPlayers} onClickPlayer={id => navigate(`/players/${id}`)} />
-        <EventTable title="Doubles Mix" players={mixPlayers} onClickPlayer={id => navigate(`/players/${id}`)} />
+        <EventTable title="Парный" players={doublesPlayers} frameStats onClickPlayer={id => navigate(`/chr/players/${id}`)} />
+        <EventTable title="Пары микс" players={mixPlayers} frameStats onClickPlayer={id => navigate(`/chr/players/${id}`)} />
+        <EventTable title="Личный" players={singlePlayers} frameStats={false} onClickPlayer={id => navigate(`/chr/players/${id}`)} />
       </div>
     </div>
   )

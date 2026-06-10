@@ -1,10 +1,10 @@
 {
   "player_id": 151,
   "player_name": "СОЛОНКОВА ЕКАТЕРИНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21550,
-  "average_score": 179.58,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3209,
+  "average_score": 178.28,
   "best_game": 213,
   "worst_game": 132,
   "score_diff": 81,
@@ -18,7 +18,71 @@
   "singles_converted": 27,
   "singles_missed": 9,
   "single_pin_percent": 75.0,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2845,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 183
+    },
+    {
+      "game_id": 2846,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 2847,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 207
+    },
+    {
+      "game_id": 2848,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 193
+    },
+    {
+      "game_id": 2849,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 140
+    },
+    {
+      "game_id": 2850,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
     {
       "game_id": 901,
       "game_number": 1,

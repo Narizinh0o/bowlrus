@@ -94,7 +94,7 @@ bowlrus/
 │   ├── vercel.json         # SPA fallback
 │   └── package.json
 ├── scripts/
-│   ├── migrate_chr.py      # MySQL → SQLite (ЧР, фильтр event IN ('doubles','doubles mix'))
+│   ├── migrate_chr.py      # MySQL → SQLite (ЧР, event IN ('doubles','doubles mix','single'))
 │   ├── migrate_klb.py      # MySQL → SQLite + витрины КЛБ (вкл. факт-витрины)
 │   └── export_to_json.py   # SQLite → JSON для обоих спортов
 ├── data/
@@ -128,17 +128,17 @@ bowlrus/
 
 3 таблицы — гораздо проще:
 
-- **`players`** — `player_id`, `player_name`. 194 строки (после слияния дубликатов).
-- **`games`** — `game_id`, `player_name`, `player_id`, `lane`, `game_number`, `play_date`, `time_start`, `time_end`, `total_score`, `event ('doubles' | 'doubles mix' | 'single')`. 2 100 строк, из них `single` — 6 черновых игр.
-- **`frames`** — `game_id`, `frame_number`, `content`. ~21 000 строк.
+- **`players`** — `player_id`, `player_name`, `gender ('М'/'Ж')`, `sport_rank ('1'/'кмс'/'мс')`, `region` (субъект РФ). 197 строк (у 3 игроков атрибуты NULL).
+- **`games`** — `game_id`, `player_name`, `player_id`, `lane`, `game_number`, `play_date`, `time_start`, `time_end`, `total_score`, `event ('doubles' | 'doubles mix' | 'single')`. ~3 260 строк. У `single` нет дорожки/времени (NULL), `play_date` есть не у всех — поэтому в SQLite эти поля nullable.
+- **`frames`** — `game_id`, `frame_number`, `content`. ~21 000 строк. Раскадровка есть у `doubles`/`doubles mix` и у **Сазонова в `single`** (он выиграл всё золото — оправдан 3-й блок). У остальных `single`-игроков фреймов нет.
 
-**Фильтр на миграции:** в `migrate_chr.py` SQLite-копия исключает `event = 'single'` (черновик, у игр нет дорожки). На проде только `doubles` и `doubles mix`: 2 094 игры, 194 игрока. Если single дозаполнится — снять фильтр (константа `PUBLIC_EVENTS_SQL`).
+**Все три зачёта публичные** (`PUBLIC_EVENTS_SQL` в `migrate_chr.py`). `gender`/`sport_rank`/`region` копируются в SQLite; `gender` → в витрину и срезы (для разбивки по полу), `sport_rank`/`region` → только в карточку игрока (в общий список не выносим).
 
 ## Зачёты (`event`)
 
 КЛБ: `личный`, `командный`, `ветераны`. Все маленькими буквами. **Ветеранов отдельной страницей не показываем**, но в БД они есть и учитываются при разрешении проги масла (см. ниже).
 
-ЧР: `doubles`, `doubles mix`. Фильтр игроков по зачёту через раздельные JSON: `chr/players.json` (агрегат), `chr/players_doubles.json`, `chr/players_doubles_mix.json`.
+ЧР: `doubles` (Парный), `doubles mix` (Пары микс), `single` (Личный). Фильтр игроков по зачёту через раздельные JSON: `chr/players.json` (агрегат), `chr/players_doubles.json`, `chr/players_doubles_mix.json`, `chr/players_single.json`. На UI показываем русские подписи (`EVENT_LABELS`). Доп. переключатель «Разбивка по полу» — рендерит две таблицы (М/Ж) из того же среза, фильтр по `gender` на клиенте.
 
 ## Этапы КЛБ (`stage_type`)
 
@@ -204,7 +204,9 @@ bowlrus/
 
 ## Витрина ЧР (`v_player_stats`)
 
-См. `migrate_chr.py`. Считается из `frames`. Поля: `strike_attempts`, `strike_percent`, `spare_conversion_percent`, `single_pin_percent`. Префикс `S` в `content` нормализуется (удаляется) **только для расчёта агрегатов**.
+См. `migrate_chr.py`. **Игровые агрегаты** (`average_score`, `games_played`, `events_played`, `best_game`, `worst_game`) считаются из `games` НАПРЯМУЮ — по всем зачётам, включая `single` без фреймов. **Фреймовые агрегаты** (`strike_percent`, `spare_conversion_percent`, `single_pin_percent` и счётчики) считаются ОТДЕЛЬНО только по играм с раскадровкой и приджойниваются (LEFT JOIN). Так зачёт без фреймов не искажает средний, а зачёт с фреймами не «весит» больше. Поле `blocks_with_frames` = число блоков с раскадровкой (у большинства 2, у Сазонова 3) — для подписи «проценты по N блокам» в карточке. Префикс `S` в `content` нормализуется (удаляется) **только для расчёта агрегатов**.
+
+⚠️ Раньше витрина считала всё одним `LEFT JOIN frames` и полагалась на то, что `AVG` нечувствителен к дублированию строк-фреймов. Это ломается, когда у части игр игрока фреймов нет (`single`): они получают вес 1, а игры с фреймами — вес 10. Поэтому расчёт разделён (см. выше). Та же логика в `chr_players_by_event`.
 
 ## Фреймы ЧР и сплиты
 
@@ -271,7 +273,7 @@ npm run dev
 - Не показывать ветеранов отдельной страницей в КЛБ (учитывать в расчётах, но не выводить как раздел).
 - Не показывать ID объектов на сайте.
 - Не показывать гандикаповый счёт отдельной колонкой.
-- Не выгружать зачёт `single` в ЧР (черновик, фильтруется в `migrate_chr.py`).
+- Не искажать средний в ЧР: игровые агрегаты считать из `games` напрямую, фреймовые — отдельным джойном (зачёт `single` без фреймов не должен влиять на проценты, а игры с фреймами — перевешивать средний).
 - Не менять логику клиентской агрегации факт-витрин (сверена с Tableau).
 - Не трогать раздел ЧР при работе над КЛБ и наоборот без явной задачи.
 - Не переписывать сырьё `stage_type` при нормализации RR / Round Robin.

@@ -25,14 +25,22 @@ export interface PlayerStats {
   score_diff: number
   strike_attempts: number
   strikes: number
-  strike_percent: number
+  strike_percent: number | null
   spares: number
   opens: number
-  spare_conversion_percent: number
+  spare_conversion_percent: number | null
   singles_left: number
   singles_converted: number
   singles_missed: number
-  single_pin_percent: number
+  single_pin_percent: number | null
+  // Сколько блоков (зачётов) реально имеют раскадровку по фреймам. Игровые
+  // метрики (средний/игры) считаются по всем блокам, а проценты ниже — только
+  // по этим. Для большинства = 2 (парный + микс), у Сазонова = 3 (+ личный).
+  blocks_with_frames: number
+  gender: string | null
+  // Только для карточки игрока (в общую таблицу не выносим).
+  sport_rank: string | null
+  region: string | null
 }
 
 export interface PlayerGame {

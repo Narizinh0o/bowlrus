@@ -1,10 +1,10 @@
 {
   "player_id": 80,
   "player_name": "КОШЕЛЬ МАРИЯ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21520,
-  "average_score": 179.33,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3193,
+  "average_score": 177.39,
   "best_game": 226,
   "worst_game": 149,
   "score_diff": 77,
@@ -18,7 +18,71 @@
   "singles_converted": 38,
   "singles_missed": 3,
   "single_pin_percent": 92.68,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Московская область",
   "games": [
+    {
+      "game_id": 2857,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 161
+    },
+    {
+      "game_id": 2858,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
+    {
+      "game_id": 2859,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
+    {
+      "game_id": 2860,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2861,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 160
+    },
+    {
+      "game_id": 2862,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 192
+    },
     {
       "game_id": 475,
       "game_number": 1,

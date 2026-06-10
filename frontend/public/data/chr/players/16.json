@@ -1,10 +1,10 @@
 {
   "player_id": 16,
   "player_name": "БОНДАРЬ ДМИТРИЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21640,
-  "average_score": 180.33,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3205,
+  "average_score": 178.06,
   "best_game": 220,
   "worst_game": 133,
   "score_diff": 87,
@@ -18,7 +18,71 @@
   "singles_converted": 26,
   "singles_missed": 4,
   "single_pin_percent": 86.67,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Свердловская область",
   "games": [
+    {
+      "game_id": 2461,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 188
+    },
+    {
+      "game_id": 2462,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 148
+    },
+    {
+      "game_id": 2463,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 191
+    },
+    {
+      "game_id": 2464,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 133
+    },
+    {
+      "game_id": 2465,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 192
+    },
+    {
+      "game_id": 2466,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
     {
       "game_id": 91,
       "game_number": 1,

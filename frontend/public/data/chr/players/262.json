@@ -1,0 +1,87 @@
+{
+  "player_id": 262,
+  "player_name": "ЗОРИНА МАРИЯ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 999,
+  "average_score": 166.5,
+  "best_game": 187,
+  "worst_game": 143,
+  "score_diff": 44,
+  "strike_attempts": 0,
+  "strikes": 0,
+  "strike_percent": null,
+  "spares": 0,
+  "opens": 0,
+  "spare_conversion_percent": null,
+  "singles_left": 0,
+  "singles_converted": 0,
+  "singles_missed": 0,
+  "single_pin_percent": null,
+  "blocks_with_frames": 0,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Иркутская область",
+  "games": [
+    {
+      "game_id": 3253,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
+    {
+      "game_id": 3254,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 158
+    },
+    {
+      "game_id": 3255,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 143
+    },
+    {
+      "game_id": 3256,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 187
+    },
+    {
+      "game_id": 3257,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 164
+    },
+    {
+      "game_id": 3258,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    }
+  ]
+}

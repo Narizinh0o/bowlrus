@@ -1,10 +1,10 @@
 {
   "player_id": 25,
   "player_name": "ГАДЕЛЬШИН ТИМУР",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 10240,
-  "average_score": 170.67,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 2017,
+  "average_score": 168.08,
   "best_game": 207,
   "worst_game": 139,
   "score_diff": 68,
@@ -18,7 +18,71 @@
   "singles_converted": 7,
   "singles_missed": 3,
   "single_pin_percent": 70.0,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2569,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 139
+    },
+    {
+      "game_id": 2570,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2571,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 2572,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 183
+    },
+    {
+      "game_id": 2573,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 167
+    },
+    {
+      "game_id": 2574,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    },
     {
       "game_id": 145,
       "game_number": 1,

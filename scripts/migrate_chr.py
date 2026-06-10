@@ -68,18 +68,23 @@ def create_sqlite_schema(sqlite_conn):
 
         CREATE TABLE players (
             player_id   INTEGER PRIMARY KEY,
-            player_name TEXT NOT NULL
+            player_name TEXT NOT NULL,
+            gender      TEXT,
+            sport_rank  TEXT,
+            region      TEXT
         );
 
+        -- lane / time_* / play_date допускают NULL: у зачёта 'single' нет
+        -- дорожки и времени (только результат), дата проставлена не у всех.
         CREATE TABLE games (
             game_id      INTEGER PRIMARY KEY,
             player_name  TEXT NOT NULL,
             player_id    INTEGER,
-            lane         INTEGER NOT NULL,
+            lane         INTEGER,
             game_number  INTEGER NOT NULL,
-            play_date    TEXT NOT NULL,
-            time_start   TEXT NOT NULL,
-            time_end     TEXT NOT NULL,
+            play_date    TEXT,
+            time_start   TEXT,
+            time_end     TEXT,
             total_score  INTEGER NOT NULL,
             event        TEXT
         );
@@ -171,60 +176,54 @@ def build_player_stats_view(sqlite_conn):
         DROP TABLE IF EXISTS v_player_stats;
 
         CREATE TABLE v_player_stats AS
-        WITH normalized AS (
+        /*
+          Игровые агрегаты (средний, кол-во игр, лучшая/худшая) считаются из
+          games НАПРЯМУЮ — по всем играм, включая 'single' без фреймов.
+          Фреймовые агрегаты (страйки/спэа/одиночки) считаются ОТДЕЛЬНО только
+          по играм, где есть фреймы, и приджойниваются. Так зачёт без фреймов
+          не искажает проценты, а зачёт с фреймами — не «весит» больше в среднем.
+        */
+        WITH frame_stats AS (
             SELECT
-                g.game_id,
-                g.player_name,
-                g.player_id,
                 g.event,
+                g.player_id,
                 f.frame_number,
-                REPLACE(f.content, 'S', '') AS frame_content
-            FROM frames f
-            JOIN games g ON g.game_id = f.game_id
-        ),
-        frame_stats AS (
-            SELECT
-                game_id,
-                player_name,
-                player_id,
-                event,
-                frame_number,
-                frame_content,
+                REPLACE(f.content, 'S', '') AS frame_content,
 
                 /* Количество страйков в фрейме */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9 AND frame_content = 'X'
+                    WHEN f.frame_number BETWEEN 1 AND 9 AND REPLACE(f.content, 'S', '') = 'X'
                         THEN 1
-                    WHEN frame_number = 10
-                        THEN length(frame_content) - length(replace(frame_content, 'X', ''))
+                    WHEN f.frame_number = 10
+                        THEN length(REPLACE(f.content, 'S', '')) - length(replace(REPLACE(f.content, 'S', ''), 'X', ''))
                     ELSE 0
                 END AS strikes_count,
 
                 /* Количество спэа в фрейме */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9
-                         AND length(frame_content) = 2
-                         AND substr(frame_content, 2, 1) = '/'
+                    WHEN f.frame_number BETWEEN 1 AND 9
+                         AND length(REPLACE(f.content, 'S', '')) = 2
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '/'
                         THEN 1
-                    WHEN frame_number = 10
-                        THEN length(frame_content) - length(replace(frame_content, '/', ''))
+                    WHEN f.frame_number = 10
+                        THEN length(REPLACE(f.content, 'S', '')) - length(replace(REPLACE(f.content, 'S', ''), '/', ''))
                     ELSE 0
                 END AS spares_count,
 
                 /* Открытый фрейм (ни страйка, ни спэа) */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9
-                         AND frame_content <> 'X'
-                         AND NOT (length(frame_content) = 2 AND substr(frame_content, 2, 1) = '/')
+                    WHEN f.frame_number BETWEEN 1 AND 9
+                         AND REPLACE(f.content, 'S', '') <> 'X'
+                         AND NOT (length(REPLACE(f.content, 'S', '')) = 2 AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '/')
                         THEN 1
-                    WHEN frame_number = 10
+                    WHEN f.frame_number = 10
                          AND (
-                            (substr(frame_content, 1, 1) <> 'X'
-                             AND substr(frame_content, 2, 1) <> '/')
+                            (substr(REPLACE(f.content, 'S', ''), 1, 1) <> 'X'
+                             AND substr(REPLACE(f.content, 'S', ''), 2, 1) <> '/')
                             OR
-                            (substr(frame_content, 1, 1) = 'X'
-                             AND substr(frame_content, 2, 1) <> 'X'
-                             AND substr(frame_content, 3, 1) <> '/')
+                            (substr(REPLACE(f.content, 'S', ''), 1, 1) = 'X'
+                             AND substr(REPLACE(f.content, 'S', ''), 2, 1) <> 'X'
+                             AND substr(REPLACE(f.content, 'S', ''), 3, 1) <> '/')
                          )
                         THEN 1
                     ELSE 0
@@ -232,42 +231,42 @@ def build_player_stats_view(sqlite_conn):
 
                 /* Количество попыток страйка */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9
+                    WHEN f.frame_number BETWEEN 1 AND 9
                         THEN 1
-                    WHEN frame_number = 10
-                         AND substr(frame_content, 1, 1) = 'X'
-                         AND substr(frame_content, 2, 1) = 'X'
+                    WHEN f.frame_number = 10
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) = 'X'
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) = 'X'
                         THEN 3
-                    WHEN frame_number = 10
-                         AND substr(frame_content, 1, 1) = 'X'
-                         AND substr(frame_content, 2, 1) <> 'X'
+                    WHEN f.frame_number = 10
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) = 'X'
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) <> 'X'
                         THEN 2
-                    WHEN frame_number = 10
-                         AND substr(frame_content, 1, 1) <> 'X'
-                         AND substr(frame_content, 2, 1) <> '/'
+                    WHEN f.frame_number = 10
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) <> 'X'
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) <> '/'
                         THEN 1
-                    WHEN frame_number = 10
-                         AND substr(frame_content, 1, 1) <> 'X'
-                         AND substr(frame_content, 2, 1) = '/'
+                    WHEN f.frame_number = 10
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) <> 'X'
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '/'
                         THEN 2
                     ELSE 0
                 END AS strike_attempts,
 
                 /* Single pin spare — остался один кегль (9 + что-то) */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9
-                         AND substr(frame_content, 1, 1) = '9'
-                         AND length(frame_content) = 2
-                         AND substr(frame_content, 2, 1) IN ('-', '/', 'F')
+                    WHEN f.frame_number BETWEEN 1 AND 9
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) = '9'
+                         AND length(REPLACE(f.content, 'S', '')) = 2
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) IN ('-', '/', 'F')
                         THEN 1
-                    WHEN frame_number = 10
+                    WHEN f.frame_number = 10
                          AND (
-                             (substr(frame_content, 1, 1) = '9'
-                              AND substr(frame_content, 2, 1) IN ('-', '/', 'F'))
+                             (substr(REPLACE(f.content, 'S', ''), 1, 1) = '9'
+                              AND substr(REPLACE(f.content, 'S', ''), 2, 1) IN ('-', '/', 'F'))
                              OR
-                             (substr(frame_content, 1, 1) = 'X'
-                              AND substr(frame_content, 2, 1) = '9'
-                              AND substr(frame_content, 3, 1) IN ('-', '/', 'F'))
+                             (substr(REPLACE(f.content, 'S', ''), 1, 1) = 'X'
+                              AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '9'
+                              AND substr(REPLACE(f.content, 'S', ''), 3, 1) IN ('-', '/', 'F'))
                          )
                         THEN 1
                     ELSE 0
@@ -275,69 +274,89 @@ def build_player_stats_view(sqlite_conn):
 
                 /* Из single pin — закрытые (9/) */
                 CASE
-                    WHEN frame_number BETWEEN 1 AND 9
-                         AND substr(frame_content, 1, 1) = '9'
-                         AND substr(frame_content, 2, 1) = '/'
+                    WHEN f.frame_number BETWEEN 1 AND 9
+                         AND substr(REPLACE(f.content, 'S', ''), 1, 1) = '9'
+                         AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '/'
                         THEN 1
-                    WHEN frame_number = 10
+                    WHEN f.frame_number = 10
                          AND (
-                             (substr(frame_content, 1, 1) = '9'
-                              AND substr(frame_content, 2, 1) = '/')
+                             (substr(REPLACE(f.content, 'S', ''), 1, 1) = '9'
+                              AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '/')
                              OR
-                             (substr(frame_content, 1, 1) = 'X'
-                              AND substr(frame_content, 2, 1) = '9'
-                              AND substr(frame_content, 3, 1) = '/')
+                             (substr(REPLACE(f.content, 'S', ''), 1, 1) = 'X'
+                              AND substr(REPLACE(f.content, 'S', ''), 2, 1) = '9'
+                              AND substr(REPLACE(f.content, 'S', ''), 3, 1) = '/')
                          )
                         THEN 1
                     ELSE 0
                 END AS singles_converted
 
-            FROM normalized
+            FROM frames f
+            JOIN games g ON g.game_id = f.game_id
         ),
-        game_scores AS (
-            SELECT player_id, total_score FROM games
+        frame_agg AS (
+            SELECT
+                player_id,
+                COUNT(DISTINCT event)                  AS blocks_with_frames,
+                SUM(strike_attempts)                   AS strike_attempts,
+                SUM(strikes_count)                     AS strikes,
+                ROUND(CAST(SUM(strikes_count) AS REAL) * 100.0
+                      / NULLIF(SUM(strike_attempts), 0), 2)        AS strike_percent,
+                SUM(spares_count)                      AS spares,
+                SUM(opens_count)                       AS opens,
+                ROUND(CAST(SUM(spares_count) AS REAL) * 100.0
+                      / NULLIF(SUM(spares_count) + SUM(opens_count), 0), 2) AS spare_conversion_percent,
+                SUM(singles_left)                      AS singles_left,
+                SUM(singles_converted)                 AS singles_converted,
+                ROUND(CAST(SUM(singles_converted) AS REAL) * 100.0
+                      / NULLIF(SUM(singles_left), 0), 2)           AS single_pin_percent
+            FROM frame_stats
+            GROUP BY player_id
+        ),
+        game_agg AS (
+            SELECT
+                player_id,
+                MAX(player_name)                       AS player_name,
+                COUNT(DISTINCT event)                  AS events_played,
+                COUNT(DISTINCT game_id)                AS games_played,
+                SUM(total_score)                       AS total_pins,
+                ROUND(AVG(total_score), 2)             AS average_score,
+                MAX(total_score)                       AS best_game,
+                MIN(total_score)                       AS worst_game,
+                MAX(total_score) - MIN(total_score)    AS score_diff
+            FROM games
+            GROUP BY player_id
         )
         SELECT
-            g.player_id,
-            MAX(g.player_name) AS player_name,
-            COUNT(DISTINCT g.event)   AS events_played,
-            COUNT(DISTINCT g.game_id) AS games_played,
+            ga.player_id,
+            ga.player_name,
+            ga.events_played,
+            ga.games_played,
+            ga.total_pins,
+            ga.average_score,
+            ga.best_game,
+            ga.worst_game,
+            ga.score_diff,
 
-            /* Очки */
-            SUM(g.total_score)                                     AS total_pins,
-            ROUND(AVG(g.total_score), 2)                           AS average_score,
-            MAX(g.total_score)                                     AS best_game,
-            MIN(g.total_score)                                     AS worst_game,
-            MAX(g.total_score) - MIN(g.total_score)                AS score_diff,
+            COALESCE(fa.strike_attempts, 0)            AS strike_attempts,
+            COALESCE(fa.strikes, 0)                    AS strikes,
+            fa.strike_percent                          AS strike_percent,
+            COALESCE(fa.spares, 0)                     AS spares,
+            COALESCE(fa.opens, 0)                      AS opens,
+            fa.spare_conversion_percent                AS spare_conversion_percent,
+            COALESCE(fa.singles_left, 0)               AS singles_left,
+            COALESCE(fa.singles_converted, 0)          AS singles_converted,
+            COALESCE(fa.singles_left, 0) - COALESCE(fa.singles_converted, 0) AS singles_missed,
+            fa.single_pin_percent                      AS single_pin_percent,
+            COALESCE(fa.blocks_with_frames, 0)         AS blocks_with_frames,
 
-            /* Страйки */
-            SUM(fs.strike_attempts)                                AS strike_attempts,
-            SUM(fs.strikes_count)                                  AS strikes,
-            ROUND(
-                CAST(SUM(fs.strikes_count) AS REAL) * 100.0
-                / NULLIF(SUM(fs.strike_attempts), 0),
-            2)                                                     AS strike_percent,
+            p.gender                                   AS gender,
+            p.sport_rank                               AS sport_rank,
+            p.region                                   AS region
 
-            /* Спэа */
-            SUM(fs.spares_count)                                   AS spares,
-            SUM(fs.opens_count)                                    AS opens,
-            ROUND(
-                CAST(SUM(fs.spares_count) AS REAL) * 100.0
-                / NULLIF(SUM(fs.spares_count) + SUM(fs.opens_count), 0),
-            2)                                                     AS spare_conversion_percent,
-
-            /* Single pin spares */
-            SUM(fs.singles_left)                                   AS singles_left,
-            SUM(fs.singles_converted)                              AS singles_converted,
-            SUM(fs.singles_left) - SUM(fs.singles_converted)       AS singles_missed,
-            ROUND(
-                CAST(SUM(fs.singles_converted) AS REAL) * 100.0
-                / NULLIF(SUM(fs.singles_left), 0),
-            2)                                                     AS single_pin_percent
-
-        FROM games g
-        LEFT JOIN frame_stats fs ON fs.game_id = g.game_id
-        GROUP BY g.player_id;
+        FROM game_agg ga
+        LEFT JOIN frame_agg  fa ON fa.player_id = ga.player_id
+        LEFT JOIN players    p  ON p.player_id  = ga.player_id;
 
         CREATE INDEX idx_vps_player ON v_player_stats(player_id);
     """)
@@ -366,12 +385,12 @@ def main():
     try:
         create_sqlite_schema(sqlite_conn)
 
-        # Зачёты, которые попадают на сайт. 'single' — черновик с
-        # неполными данными (NULL в lane), его не выгружаем.
-        PUBLIC_EVENTS_SQL = "event IN ('doubles', 'doubles mix')"
+        # Зачёты, которые попадают на сайт. 'single' (личный) теперь полноценный
+        # зачёт с результатами; фреймы есть только у Сазонова (3 блок).
+        PUBLIC_EVENTS_SQL = "event IN ('doubles', 'doubles mix', 'single')"
 
         copy_table(mysql_conn, sqlite_conn, "players",
-                   ["player_id", "player_name"])
+                   ["player_id", "player_name", "gender", "sport_rank", "region"])
         copy_table(mysql_conn, sqlite_conn, "games",
                    ["game_id", "player_name", "player_id", "lane",
                     "game_number", "play_date", "time_start", "time_end",

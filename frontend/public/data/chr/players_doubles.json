@@ -4,7 +4,7 @@
     "player_name": "КОПЬЕВ ГЛЕБ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 13420,
+    "total_pins": 1342,
     "average_score": 223.67,
     "best_game": 279,
     "worst_game": 159,
@@ -18,14 +18,15 @@
     "singles_left": 15,
     "singles_converted": 11,
     "singles_missed": 4,
-    "single_pin_percent": 73.33
+    "single_pin_percent": 73.33,
+    "gender": "М"
   },
   {
     "player_id": 141,
     "player_name": "САЗОНОВ ОЛЕГ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 13050,
+    "total_pins": 1305,
     "average_score": 217.5,
     "best_game": 278,
     "worst_game": 166,
@@ -39,14 +40,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 140,
     "player_name": "САЗОНОВ ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12980,
+    "total_pins": 1298,
     "average_score": 216.33,
     "best_game": 259,
     "worst_game": 145,
@@ -60,14 +62,15 @@
     "singles_left": 19,
     "singles_converted": 16,
     "singles_missed": 3,
-    "single_pin_percent": 84.21
+    "single_pin_percent": 84.21,
+    "gender": "М"
   },
   {
     "player_id": 176,
     "player_name": "ЦАРЕНКО СТЕПАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12510,
+    "total_pins": 1251,
     "average_score": 208.5,
     "best_game": 233,
     "worst_game": 181,
@@ -81,14 +84,15 @@
     "singles_left": 20,
     "singles_converted": 17,
     "singles_missed": 3,
-    "single_pin_percent": 85.0
+    "single_pin_percent": 85.0,
+    "gender": "М"
   },
   {
     "player_id": 138,
     "player_name": "РУМЯНЦЕВ АРТЁМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12490,
+    "total_pins": 1249,
     "average_score": 208.17,
     "best_game": 222,
     "worst_game": 191,
@@ -102,14 +106,15 @@
     "singles_left": 19,
     "singles_converted": 19,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 73,
     "player_name": "КОЛОМЕЕЦ ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12420,
+    "total_pins": 1242,
     "average_score": 207.0,
     "best_game": 245,
     "worst_game": 178,
@@ -123,14 +128,15 @@
     "singles_left": 10,
     "singles_converted": 9,
     "singles_missed": 1,
-    "single_pin_percent": 90.0
+    "single_pin_percent": 90.0,
+    "gender": "М"
   },
   {
     "player_id": 4,
     "player_name": "АНДРЕЕВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12270,
+    "total_pins": 1227,
     "average_score": 204.5,
     "best_game": 246,
     "worst_game": 169,
@@ -144,14 +150,15 @@
     "singles_left": 16,
     "singles_converted": 14,
     "singles_missed": 2,
-    "single_pin_percent": 87.5
+    "single_pin_percent": 87.5,
+    "gender": "М"
   },
   {
     "player_id": 43,
     "player_name": "ЕГОРЫЧЕВ МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12260,
+    "total_pins": 1226,
     "average_score": 204.33,
     "best_game": 247,
     "worst_game": 182,
@@ -165,14 +172,15 @@
     "singles_left": 14,
     "singles_converted": 13,
     "singles_missed": 1,
-    "single_pin_percent": 92.86
+    "single_pin_percent": 92.86,
+    "gender": "М"
   },
   {
     "player_id": 193,
     "player_name": "ЯКОВЛЕВ МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12240,
+    "total_pins": 1224,
     "average_score": 204.0,
     "best_game": 243,
     "worst_game": 168,
@@ -186,14 +194,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 47,
     "player_name": "ЕФИМОВ АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12230,
+    "total_pins": 1223,
     "average_score": 203.83,
     "best_game": 243,
     "worst_game": 177,
@@ -207,14 +216,15 @@
     "singles_left": 12,
     "singles_converted": 11,
     "singles_missed": 1,
-    "single_pin_percent": 91.67
+    "single_pin_percent": 91.67,
+    "gender": "М"
   },
   {
     "player_id": 157,
     "player_name": "СТЕПАНЕНКО АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 12100,
+    "total_pins": 1210,
     "average_score": 201.67,
     "best_game": 224,
     "worst_game": 178,
@@ -228,14 +238,15 @@
     "singles_left": 14,
     "singles_converted": 11,
     "singles_missed": 3,
-    "single_pin_percent": 78.57
+    "single_pin_percent": 78.57,
+    "gender": "М"
   },
   {
     "player_id": 82,
     "player_name": "КРАСНОШТАНОВ ДАНИИЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11900,
+    "total_pins": 1190,
     "average_score": 198.33,
     "best_game": 259,
     "worst_game": 147,
@@ -249,14 +260,15 @@
     "singles_left": 12,
     "singles_converted": 11,
     "singles_missed": 1,
-    "single_pin_percent": 91.67
+    "single_pin_percent": 91.67,
+    "gender": "М"
   },
   {
     "player_id": 22,
     "player_name": "ВЛАЕВ ФЕДОР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11880,
+    "total_pins": 1188,
     "average_score": 198.0,
     "best_game": 235,
     "worst_game": 176,
@@ -270,14 +282,15 @@
     "singles_left": 20,
     "singles_converted": 19,
     "singles_missed": 1,
-    "single_pin_percent": 95.0
+    "single_pin_percent": 95.0,
+    "gender": "М"
   },
   {
     "player_id": 79,
     "player_name": "КОСЯКОВА ПОЛИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11800,
+    "total_pins": 1180,
     "average_score": 196.67,
     "best_game": 237,
     "worst_game": 171,
@@ -291,14 +304,15 @@
     "singles_left": 16,
     "singles_converted": 15,
     "singles_missed": 1,
-    "single_pin_percent": 93.75
+    "single_pin_percent": 93.75,
+    "gender": "Ж"
   },
   {
     "player_id": 60,
     "player_name": "ИЛЬИЧЕВ СТАНИСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11750,
+    "total_pins": 1175,
     "average_score": 195.83,
     "best_game": 222,
     "worst_game": 140,
@@ -312,14 +326,15 @@
     "singles_left": 13,
     "singles_converted": 9,
     "singles_missed": 4,
-    "single_pin_percent": 69.23
+    "single_pin_percent": 69.23,
+    "gender": "М"
   },
   {
     "player_id": 38,
     "player_name": "ДРОЖБИН АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11740,
+    "total_pins": 1174,
     "average_score": 195.67,
     "best_game": 212,
     "worst_game": 167,
@@ -333,14 +348,15 @@
     "singles_left": 21,
     "singles_converted": 21,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 170,
     "player_name": "ФЕДОРОВ ФЕДОР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11730,
+    "total_pins": 1173,
     "average_score": 195.5,
     "best_game": 231,
     "worst_game": 154,
@@ -354,14 +370,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 144,
     "player_name": "СВЕРЧКОВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11700,
+    "total_pins": 1170,
     "average_score": 195.0,
     "best_game": 215,
     "worst_game": 161,
@@ -375,14 +392,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 188,
     "player_name": "ШУМИКИН ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11640,
+    "total_pins": 1164,
     "average_score": 194.0,
     "best_game": 232,
     "worst_game": 174,
@@ -396,14 +414,15 @@
     "singles_left": 17,
     "singles_converted": 16,
     "singles_missed": 1,
-    "single_pin_percent": 94.12
+    "single_pin_percent": 94.12,
+    "gender": "М"
   },
   {
     "player_id": 44,
     "player_name": "ЕГУНОВ НИКОЛАЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11560,
+    "total_pins": 1156,
     "average_score": 192.67,
     "best_game": 235,
     "worst_game": 164,
@@ -417,14 +436,15 @@
     "singles_left": 12,
     "singles_converted": 11,
     "singles_missed": 1,
-    "single_pin_percent": 91.67
+    "single_pin_percent": 91.67,
+    "gender": "М"
   },
   {
     "player_id": 45,
     "player_name": "ЕРЕМЕНКО МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11530,
+    "total_pins": 1153,
     "average_score": 192.17,
     "best_game": 214,
     "worst_game": 157,
@@ -438,14 +458,15 @@
     "singles_left": 15,
     "singles_converted": 11,
     "singles_missed": 4,
-    "single_pin_percent": 73.33
+    "single_pin_percent": 73.33,
+    "gender": "М"
   },
   {
     "player_id": 72,
     "player_name": "КОВАЛЬ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11480,
+    "total_pins": 1148,
     "average_score": 191.33,
     "best_game": 244,
     "worst_game": 155,
@@ -459,14 +480,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 88,
     "player_name": "КУЛИКОВ КОНСТАНТИН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11480,
+    "total_pins": 1148,
     "average_score": 191.33,
     "best_game": 245,
     "worst_game": 138,
@@ -480,14 +502,15 @@
     "singles_left": 16,
     "singles_converted": 14,
     "singles_missed": 2,
-    "single_pin_percent": 87.5
+    "single_pin_percent": 87.5,
+    "gender": "М"
   },
   {
     "player_id": 59,
     "player_name": "ИЛЬИН СТАНИСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11460,
+    "total_pins": 1146,
     "average_score": 191.0,
     "best_game": 220,
     "worst_game": 158,
@@ -501,14 +524,15 @@
     "singles_left": 14,
     "singles_converted": 12,
     "singles_missed": 2,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "М"
   },
   {
     "player_id": 93,
     "player_name": "ЛОПИН ЕВГЕНИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11460,
+    "total_pins": 1146,
     "average_score": 191.0,
     "best_game": 235,
     "worst_game": 164,
@@ -522,14 +546,15 @@
     "singles_left": 13,
     "singles_converted": 11,
     "singles_missed": 2,
-    "single_pin_percent": 84.62
+    "single_pin_percent": 84.62,
+    "gender": "М"
   },
   {
     "player_id": 131,
     "player_name": "ПОПОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11460,
+    "total_pins": 1146,
     "average_score": 191.0,
     "best_game": 224,
     "worst_game": 145,
@@ -543,14 +568,15 @@
     "singles_left": 15,
     "singles_converted": 14,
     "singles_missed": 1,
-    "single_pin_percent": 93.33
+    "single_pin_percent": 93.33,
+    "gender": "М"
   },
   {
     "player_id": 32,
     "player_name": "ГРЕБЕННИКОВ ВИКТОР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11350,
+    "total_pins": 1135,
     "average_score": 189.17,
     "best_game": 237,
     "worst_game": 155,
@@ -564,14 +590,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 148,
     "player_name": "СИДОРОВ АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11350,
+    "total_pins": 1135,
     "average_score": 189.17,
     "best_game": 232,
     "worst_game": 173,
@@ -585,14 +612,15 @@
     "singles_left": 13,
     "singles_converted": 12,
     "singles_missed": 1,
-    "single_pin_percent": 92.31
+    "single_pin_percent": 92.31,
+    "gender": "М"
   },
   {
     "player_id": 155,
     "player_name": "СТАРЧЕНКОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11350,
+    "total_pins": 1135,
     "average_score": 189.17,
     "best_game": 223,
     "worst_game": 144,
@@ -606,14 +634,15 @@
     "singles_left": 13,
     "singles_converted": 11,
     "singles_missed": 2,
-    "single_pin_percent": 84.62
+    "single_pin_percent": 84.62,
+    "gender": "М"
   },
   {
     "player_id": 13,
     "player_name": "БЕЛИНСКИЙ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11310,
+    "total_pins": 1131,
     "average_score": 188.5,
     "best_game": 231,
     "worst_game": 153,
@@ -627,14 +656,15 @@
     "singles_left": 15,
     "singles_converted": 12,
     "singles_missed": 3,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "М"
   },
   {
     "player_id": 52,
     "player_name": "ЗОЛОТУХИН ЯРОСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11310,
+    "total_pins": 1131,
     "average_score": 188.5,
     "best_game": 212,
     "worst_game": 167,
@@ -648,14 +678,15 @@
     "singles_left": 17,
     "singles_converted": 15,
     "singles_missed": 2,
-    "single_pin_percent": 88.24
+    "single_pin_percent": 88.24,
+    "gender": "М"
   },
   {
     "player_id": 181,
     "player_name": "ЧЕРНОВ ЮРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11310,
+    "total_pins": 1131,
     "average_score": 188.5,
     "best_game": 211,
     "worst_game": 171,
@@ -669,14 +700,15 @@
     "singles_left": 14,
     "singles_converted": 12,
     "singles_missed": 2,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "М"
   },
   {
     "player_id": 71,
     "player_name": "КОБЕЛЬКОВ МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11280,
+    "total_pins": 1128,
     "average_score": 188.0,
     "best_game": 225,
     "worst_game": 149,
@@ -690,14 +722,15 @@
     "singles_left": 18,
     "singles_converted": 16,
     "singles_missed": 2,
-    "single_pin_percent": 88.89
+    "single_pin_percent": 88.89,
+    "gender": "М"
   },
   {
     "player_id": 117,
     "player_name": "НОВОЖИЛОВ ЛЕОНИД",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11240,
+    "total_pins": 1124,
     "average_score": 187.33,
     "best_game": 205,
     "worst_game": 172,
@@ -711,14 +744,15 @@
     "singles_left": 16,
     "singles_converted": 15,
     "singles_missed": 1,
-    "single_pin_percent": 93.75
+    "single_pin_percent": 93.75,
+    "gender": "М"
   },
   {
     "player_id": 18,
     "player_name": "ВАЙНЕР ЕВГЕНИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11230,
+    "total_pins": 1123,
     "average_score": 187.17,
     "best_game": 234,
     "worst_game": 168,
@@ -732,14 +766,15 @@
     "singles_left": 19,
     "singles_converted": 17,
     "singles_missed": 2,
-    "single_pin_percent": 89.47
+    "single_pin_percent": 89.47,
+    "gender": "М"
   },
   {
     "player_id": 63,
     "player_name": "КАШИРСКАЯ ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11200,
+    "total_pins": 1120,
     "average_score": 186.67,
     "best_game": 207,
     "worst_game": 161,
@@ -753,14 +788,15 @@
     "singles_left": 17,
     "singles_converted": 15,
     "singles_missed": 2,
-    "single_pin_percent": 88.24
+    "single_pin_percent": 88.24,
+    "gender": "Ж"
   },
   {
     "player_id": 75,
     "player_name": "КОНОНОВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11170,
+    "total_pins": 1117,
     "average_score": 186.17,
     "best_game": 235,
     "worst_game": 146,
@@ -774,14 +810,15 @@
     "singles_left": 24,
     "singles_converted": 19,
     "singles_missed": 5,
-    "single_pin_percent": 79.17
+    "single_pin_percent": 79.17,
+    "gender": "М"
   },
   {
     "player_id": 19,
     "player_name": "ВАСЕКИН АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11140,
+    "total_pins": 1114,
     "average_score": 185.67,
     "best_game": 256,
     "worst_game": 137,
@@ -795,14 +832,15 @@
     "singles_left": 15,
     "singles_converted": 15,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 106,
     "player_name": "МЕТЕЛЕВ МИХАИЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11140,
+    "total_pins": 1114,
     "average_score": 185.67,
     "best_game": 211,
     "worst_game": 177,
@@ -816,14 +854,15 @@
     "singles_left": 12,
     "singles_converted": 10,
     "singles_missed": 2,
-    "single_pin_percent": 83.33
+    "single_pin_percent": 83.33,
+    "gender": "М"
   },
   {
     "player_id": 108,
     "player_name": "МИХАЙЛОВ ИГОРЬ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11140,
+    "total_pins": 1114,
     "average_score": 185.67,
     "best_game": 227,
     "worst_game": 140,
@@ -837,14 +876,15 @@
     "singles_left": 19,
     "singles_converted": 18,
     "singles_missed": 1,
-    "single_pin_percent": 94.74
+    "single_pin_percent": 94.74,
+    "gender": "М"
   },
   {
     "player_id": 76,
     "player_name": "КОНОНОВ АЛЕКСАНДР МЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11110,
+    "total_pins": 1111,
     "average_score": 185.17,
     "best_game": 225,
     "worst_game": 164,
@@ -858,14 +898,15 @@
     "singles_left": 17,
     "singles_converted": 16,
     "singles_missed": 1,
-    "single_pin_percent": 94.12
+    "single_pin_percent": 94.12,
+    "gender": "М"
   },
   {
     "player_id": 2,
     "player_name": "АЛИМПИЕВ ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11100,
+    "total_pins": 1110,
     "average_score": 185.0,
     "best_game": 215,
     "worst_game": 124,
@@ -879,14 +920,15 @@
     "singles_left": 17,
     "singles_converted": 15,
     "singles_missed": 2,
-    "single_pin_percent": 88.24
+    "single_pin_percent": 88.24,
+    "gender": "М"
   },
   {
     "player_id": 168,
     "player_name": "ФАВОРСКИЙ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11100,
+    "total_pins": 1110,
     "average_score": 185.0,
     "best_game": 205,
     "worst_game": 148,
@@ -900,14 +942,15 @@
     "singles_left": 18,
     "singles_converted": 16,
     "singles_missed": 2,
-    "single_pin_percent": 88.89
+    "single_pin_percent": 88.89,
+    "gender": "М"
   },
   {
     "player_id": 56,
     "player_name": "ИВАНОВ ВАСИЛИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11090,
+    "total_pins": 1109,
     "average_score": 184.83,
     "best_game": 237,
     "worst_game": 130,
@@ -921,14 +964,15 @@
     "singles_left": 13,
     "singles_converted": 13,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 21,
     "player_name": "ВАСИЛЬЕВ АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11070,
+    "total_pins": 1107,
     "average_score": 184.5,
     "best_game": 210,
     "worst_game": 150,
@@ -942,14 +986,15 @@
     "singles_left": 19,
     "singles_converted": 15,
     "singles_missed": 4,
-    "single_pin_percent": 78.95
+    "single_pin_percent": 78.95,
+    "gender": "М"
   },
   {
     "player_id": 95,
     "player_name": "МАЙЕР МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11060,
+    "total_pins": 1106,
     "average_score": 184.33,
     "best_game": 233,
     "worst_game": 140,
@@ -963,14 +1008,15 @@
     "singles_left": 21,
     "singles_converted": 16,
     "singles_missed": 5,
-    "single_pin_percent": 76.19
+    "single_pin_percent": 76.19,
+    "gender": "М"
   },
   {
     "player_id": 40,
     "player_name": "ЕВДОКИМОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11050,
+    "total_pins": 1105,
     "average_score": 184.17,
     "best_game": 220,
     "worst_game": 166,
@@ -984,14 +1030,15 @@
     "singles_left": 21,
     "singles_converted": 18,
     "singles_missed": 3,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": null
   },
   {
     "player_id": 85,
     "player_name": "КУДРИНА ПОЛИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11050,
+    "total_pins": 1105,
     "average_score": 184.17,
     "best_game": 209,
     "worst_game": 157,
@@ -1005,14 +1052,15 @@
     "singles_left": 28,
     "singles_converted": 22,
     "singles_missed": 6,
-    "single_pin_percent": 78.57
+    "single_pin_percent": 78.57,
+    "gender": "Ж"
   },
   {
     "player_id": 89,
     "player_name": "КУЛИКОВА КСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11050,
+    "total_pins": 1105,
     "average_score": 184.17,
     "best_game": 228,
     "worst_game": 161,
@@ -1026,14 +1074,15 @@
     "singles_left": 11,
     "singles_converted": 8,
     "singles_missed": 3,
-    "single_pin_percent": 72.73
+    "single_pin_percent": 72.73,
+    "gender": "Ж"
   },
   {
     "player_id": 97,
     "player_name": "МАМОНТОВА НАДЕЖДА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11050,
+    "total_pins": 1105,
     "average_score": 184.17,
     "best_game": 218,
     "worst_game": 161,
@@ -1047,14 +1096,15 @@
     "singles_left": 10,
     "singles_converted": 8,
     "singles_missed": 2,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "Ж"
   },
   {
     "player_id": 81,
     "player_name": "КРАВЧЕНКО МАРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 11040,
+    "total_pins": 1104,
     "average_score": 184.0,
     "best_game": 239,
     "worst_game": 140,
@@ -1068,14 +1118,15 @@
     "singles_left": 20,
     "singles_converted": 17,
     "singles_missed": 3,
-    "single_pin_percent": 85.0
+    "single_pin_percent": 85.0,
+    "gender": "Ж"
   },
   {
     "player_id": 109,
     "player_name": "МОХИРЕВА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10990,
+    "total_pins": 1099,
     "average_score": 183.17,
     "best_game": 248,
     "worst_game": 141,
@@ -1089,14 +1140,15 @@
     "singles_left": 14,
     "singles_converted": 10,
     "singles_missed": 4,
-    "single_pin_percent": 71.43
+    "single_pin_percent": 71.43,
+    "gender": "Ж"
   },
   {
     "player_id": 172,
     "player_name": "ХАВЧЕНКО ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10980,
+    "total_pins": 1098,
     "average_score": 183.0,
     "best_game": 208,
     "worst_game": 126,
@@ -1110,14 +1162,15 @@
     "singles_left": 16,
     "singles_converted": 13,
     "singles_missed": 3,
-    "single_pin_percent": 81.25
+    "single_pin_percent": 81.25,
+    "gender": "М"
   },
   {
     "player_id": 136,
     "player_name": "РЕМНЕВ АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10940,
+    "total_pins": 1094,
     "average_score": 182.33,
     "best_game": 211,
     "worst_game": 149,
@@ -1131,14 +1184,15 @@
     "singles_left": 11,
     "singles_converted": 11,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 115,
     "player_name": "НЕДОСЕЕВА ДАРЬЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10910,
+    "total_pins": 1091,
     "average_score": 181.83,
     "best_game": 222,
     "worst_game": 144,
@@ -1152,14 +1206,15 @@
     "singles_left": 16,
     "singles_converted": 15,
     "singles_missed": 1,
-    "single_pin_percent": 93.75
+    "single_pin_percent": 93.75,
+    "gender": "Ж"
   },
   {
     "player_id": 12,
     "player_name": "БАРКАРЬ СТАНИСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10890,
+    "total_pins": 1089,
     "average_score": 181.5,
     "best_game": 233,
     "worst_game": 143,
@@ -1173,14 +1228,15 @@
     "singles_left": 15,
     "singles_converted": 14,
     "singles_missed": 1,
-    "single_pin_percent": 93.33
+    "single_pin_percent": 93.33,
+    "gender": "М"
   },
   {
     "player_id": 151,
     "player_name": "СОЛОНКОВА ЕКАТЕРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10890,
+    "total_pins": 1089,
     "average_score": 181.5,
     "best_game": 207,
     "worst_game": 153,
@@ -1194,14 +1250,15 @@
     "singles_left": 15,
     "singles_converted": 11,
     "singles_missed": 4,
-    "single_pin_percent": 73.33
+    "single_pin_percent": 73.33,
+    "gender": "Ж"
   },
   {
     "player_id": 84,
     "player_name": "КРАЯНОВА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10880,
+    "total_pins": 1088,
     "average_score": 181.33,
     "best_game": 192,
     "worst_game": 169,
@@ -1215,14 +1272,15 @@
     "singles_left": 20,
     "singles_converted": 18,
     "singles_missed": 2,
-    "single_pin_percent": 90.0
+    "single_pin_percent": 90.0,
+    "gender": "Ж"
   },
   {
     "player_id": 39,
     "player_name": "ДУДИНА КСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10870,
+    "total_pins": 1087,
     "average_score": 181.17,
     "best_game": 201,
     "worst_game": 158,
@@ -1236,14 +1294,15 @@
     "singles_left": 14,
     "singles_converted": 14,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "Ж"
   },
   {
     "player_id": 34,
     "player_name": "ГУЩИН АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10860,
+    "total_pins": 1086,
     "average_score": 181.0,
     "best_game": 216,
     "worst_game": 117,
@@ -1257,14 +1316,15 @@
     "singles_left": 15,
     "singles_converted": 14,
     "singles_missed": 1,
-    "single_pin_percent": 93.33
+    "single_pin_percent": 93.33,
+    "gender": "М"
   },
   {
     "player_id": 78,
     "player_name": "КОРЯКОВ ВАДИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10810,
+    "total_pins": 1081,
     "average_score": 180.17,
     "best_game": 201,
     "worst_game": 165,
@@ -1278,14 +1338,15 @@
     "singles_left": 13,
     "singles_converted": 11,
     "singles_missed": 2,
-    "single_pin_percent": 84.62
+    "single_pin_percent": 84.62,
+    "gender": "М"
   },
   {
     "player_id": 87,
     "player_name": "КУЗНЕЦОВ НИКИТА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10810,
+    "total_pins": 1081,
     "average_score": 180.17,
     "best_game": 200,
     "worst_game": 153,
@@ -1299,14 +1360,15 @@
     "singles_left": 14,
     "singles_converted": 13,
     "singles_missed": 1,
-    "single_pin_percent": 92.86
+    "single_pin_percent": 92.86,
+    "gender": "М"
   },
   {
     "player_id": 35,
     "player_name": "ДЕМЬЯШЕВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10790,
+    "total_pins": 1079,
     "average_score": 179.83,
     "best_game": 236,
     "worst_game": 135,
@@ -1320,14 +1382,15 @@
     "singles_left": 14,
     "singles_converted": 13,
     "singles_missed": 1,
-    "single_pin_percent": 92.86
+    "single_pin_percent": 92.86,
+    "gender": "М"
   },
   {
     "player_id": 185,
     "player_name": "ШПАЧИНСКАЯ АЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10780,
+    "total_pins": 1078,
     "average_score": 179.67,
     "best_game": 211,
     "worst_game": 153,
@@ -1341,14 +1404,15 @@
     "singles_left": 16,
     "singles_converted": 14,
     "singles_missed": 2,
-    "single_pin_percent": 87.5
+    "single_pin_percent": 87.5,
+    "gender": "Ж"
   },
   {
     "player_id": 17,
     "player_name": "БРОДЮК ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10750,
+    "total_pins": 1075,
     "average_score": 179.17,
     "best_game": 200,
     "worst_game": 158,
@@ -1362,14 +1426,15 @@
     "singles_left": 20,
     "singles_converted": 16,
     "singles_missed": 4,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "М"
   },
   {
     "player_id": 127,
     "player_name": "ПАШКОВСКИЙ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10730,
+    "total_pins": 1073,
     "average_score": 178.83,
     "best_game": 235,
     "worst_game": 146,
@@ -1383,14 +1448,15 @@
     "singles_left": 19,
     "singles_converted": 12,
     "singles_missed": 7,
-    "single_pin_percent": 63.16
+    "single_pin_percent": 63.16,
+    "gender": "М"
   },
   {
     "player_id": 49,
     "player_name": "ЗАЙКОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10720,
+    "total_pins": 1072,
     "average_score": 178.67,
     "best_game": 208,
     "worst_game": 141,
@@ -1404,14 +1470,15 @@
     "singles_left": 14,
     "singles_converted": 11,
     "singles_missed": 3,
-    "single_pin_percent": 78.57
+    "single_pin_percent": 78.57,
+    "gender": "М"
   },
   {
     "player_id": 55,
     "player_name": "ИВАНОВ АНТОН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10700,
+    "total_pins": 1070,
     "average_score": 178.33,
     "best_game": 212,
     "worst_game": 141,
@@ -1425,14 +1492,15 @@
     "singles_left": 10,
     "singles_converted": 7,
     "singles_missed": 3,
-    "single_pin_percent": 70.0
+    "single_pin_percent": 70.0,
+    "gender": "М"
   },
   {
     "player_id": 83,
     "player_name": "КРАСНОШТАНОВ АНТОН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10700,
+    "total_pins": 1070,
     "average_score": 178.33,
     "best_game": 235,
     "worst_game": 140,
@@ -1446,14 +1514,15 @@
     "singles_left": 20,
     "singles_converted": 19,
     "singles_missed": 1,
-    "single_pin_percent": 95.0
+    "single_pin_percent": 95.0,
+    "gender": "М"
   },
   {
     "player_id": 5,
     "player_name": "АНТОНЕНКО АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10690,
+    "total_pins": 1069,
     "average_score": 178.17,
     "best_game": 199,
     "worst_game": 154,
@@ -1467,14 +1536,15 @@
     "singles_left": 19,
     "singles_converted": 12,
     "singles_missed": 7,
-    "single_pin_percent": 63.16
+    "single_pin_percent": 63.16,
+    "gender": "М"
   },
   {
     "player_id": 178,
     "player_name": "ЦЕГЕЛЬНИК АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10690,
+    "total_pins": 1069,
     "average_score": 178.17,
     "best_game": 226,
     "worst_game": 144,
@@ -1488,14 +1558,15 @@
     "singles_left": 20,
     "singles_converted": 19,
     "singles_missed": 1,
-    "single_pin_percent": 95.0
+    "single_pin_percent": 95.0,
+    "gender": "М"
   },
   {
     "player_id": 80,
     "player_name": "КОШЕЛЬ МАРИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10680,
+    "total_pins": 1068,
     "average_score": 178.0,
     "best_game": 226,
     "worst_game": 153,
@@ -1509,14 +1580,15 @@
     "singles_left": 22,
     "singles_converted": 21,
     "singles_missed": 1,
-    "single_pin_percent": 95.45
+    "single_pin_percent": 95.45,
+    "gender": "Ж"
   },
   {
     "player_id": 7,
     "player_name": "АПАНЯКИНА КСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10670,
+    "total_pins": 1067,
     "average_score": 177.83,
     "best_game": 201,
     "worst_game": 145,
@@ -1530,14 +1602,15 @@
     "singles_left": 22,
     "singles_converted": 18,
     "singles_missed": 4,
-    "single_pin_percent": 81.82
+    "single_pin_percent": 81.82,
+    "gender": "Ж"
   },
   {
     "player_id": 154,
     "player_name": "СОРОКОЛЕТ ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10650,
+    "total_pins": 1065,
     "average_score": 177.5,
     "best_game": 220,
     "worst_game": 143,
@@ -1551,14 +1624,15 @@
     "singles_left": 14,
     "singles_converted": 13,
     "singles_missed": 1,
-    "single_pin_percent": 92.86
+    "single_pin_percent": 92.86,
+    "gender": "Ж"
   },
   {
     "player_id": 64,
     "player_name": "КЕВРУХ ЛЕОНИД",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10640,
+    "total_pins": 1064,
     "average_score": 177.33,
     "best_game": 215,
     "worst_game": 156,
@@ -1572,14 +1646,15 @@
     "singles_left": 11,
     "singles_converted": 8,
     "singles_missed": 3,
-    "single_pin_percent": 72.73
+    "single_pin_percent": 72.73,
+    "gender": "М"
   },
   {
     "player_id": 179,
     "player_name": "ЦУПИК АНГЕЛИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10620,
+    "total_pins": 1062,
     "average_score": 177.0,
     "best_game": 212,
     "worst_game": 155,
@@ -1593,14 +1668,15 @@
     "singles_left": 18,
     "singles_converted": 14,
     "singles_missed": 4,
-    "single_pin_percent": 77.78
+    "single_pin_percent": 77.78,
+    "gender": "Ж"
   },
   {
     "player_id": 36,
     "player_name": "ДЕРУН ТАМАРА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10610,
+    "total_pins": 1061,
     "average_score": 176.83,
     "best_game": 198,
     "worst_game": 141,
@@ -1614,14 +1690,15 @@
     "singles_left": 21,
     "singles_converted": 18,
     "singles_missed": 3,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "Ж"
   },
   {
     "player_id": 111,
     "player_name": "МУСТАФИН АРТЕМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10590,
+    "total_pins": 1059,
     "average_score": 176.5,
     "best_game": 191,
     "worst_game": 159,
@@ -1635,14 +1712,15 @@
     "singles_left": 19,
     "singles_converted": 16,
     "singles_missed": 3,
-    "single_pin_percent": 84.21
+    "single_pin_percent": 84.21,
+    "gender": "М"
   },
   {
     "player_id": 139,
     "player_name": "РУПАСОВ ЕВГЕНИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10580,
+    "total_pins": 1058,
     "average_score": 176.33,
     "best_game": 213,
     "worst_game": 139,
@@ -1656,14 +1734,15 @@
     "singles_left": 15,
     "singles_converted": 12,
     "singles_missed": 3,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "М"
   },
   {
     "player_id": 66,
     "player_name": "КИМ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10550,
+    "total_pins": 1055,
     "average_score": 175.83,
     "best_game": 189,
     "worst_game": 159,
@@ -1677,14 +1756,15 @@
     "singles_left": 11,
     "singles_converted": 10,
     "singles_missed": 1,
-    "single_pin_percent": 90.91
+    "single_pin_percent": 90.91,
+    "gender": "М"
   },
   {
     "player_id": 169,
     "player_name": "ФАДЕЕВА АННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10550,
+    "total_pins": 1055,
     "average_score": 175.83,
     "best_game": 196,
     "worst_game": 163,
@@ -1698,14 +1778,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "Ж"
   },
   {
     "player_id": 92,
     "player_name": "ЛОМТЕВА НАТАЛЬЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10540,
+    "total_pins": 1054,
     "average_score": 175.67,
     "best_game": 204,
     "worst_game": 151,
@@ -1719,14 +1800,15 @@
     "singles_left": 23,
     "singles_converted": 20,
     "singles_missed": 3,
-    "single_pin_percent": 86.96
+    "single_pin_percent": 86.96,
+    "gender": "Ж"
   },
   {
     "player_id": 86,
     "player_name": "КУЗНЕЦОВ КОНСТАНТИН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10520,
+    "total_pins": 1052,
     "average_score": 175.33,
     "best_game": 190,
     "worst_game": 167,
@@ -1740,14 +1822,15 @@
     "singles_left": 22,
     "singles_converted": 18,
     "singles_missed": 4,
-    "single_pin_percent": 81.82
+    "single_pin_percent": 81.82,
+    "gender": "М"
   },
   {
     "player_id": 175,
     "player_name": "ХВОСТОВА ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10510,
+    "total_pins": 1051,
     "average_score": 175.17,
     "best_game": 195,
     "worst_game": 161,
@@ -1761,14 +1844,15 @@
     "singles_left": 20,
     "singles_converted": 17,
     "singles_missed": 3,
-    "single_pin_percent": 85.0
+    "single_pin_percent": 85.0,
+    "gender": "Ж"
   },
   {
     "player_id": 105,
     "player_name": "МЕЛЬНИЧЕНКО МИХАИЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10490,
+    "total_pins": 1049,
     "average_score": 174.83,
     "best_game": 218,
     "worst_game": 129,
@@ -1782,14 +1866,15 @@
     "singles_left": 9,
     "singles_converted": 9,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 116,
     "player_name": "НЕСТЕРЮК СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10480,
+    "total_pins": 1048,
     "average_score": 174.67,
     "best_game": 194,
     "worst_game": 157,
@@ -1803,14 +1888,15 @@
     "singles_left": 16,
     "singles_converted": 14,
     "singles_missed": 2,
-    "single_pin_percent": 87.5
+    "single_pin_percent": 87.5,
+    "gender": "М"
   },
   {
     "player_id": 69,
     "player_name": "КИСЕЛЕВИЧ ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10470,
+    "total_pins": 1047,
     "average_score": 174.5,
     "best_game": 243,
     "worst_game": 159,
@@ -1824,14 +1910,15 @@
     "singles_left": 21,
     "singles_converted": 17,
     "singles_missed": 4,
-    "single_pin_percent": 80.95
+    "single_pin_percent": 80.95,
+    "gender": "Ж"
   },
   {
     "player_id": 118,
     "player_name": "НОВОСЕЛОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10460,
+    "total_pins": 1046,
     "average_score": 174.33,
     "best_game": 253,
     "worst_game": 148,
@@ -1845,14 +1932,15 @@
     "singles_left": 12,
     "singles_converted": 6,
     "singles_missed": 6,
-    "single_pin_percent": 50.0
+    "single_pin_percent": 50.0,
+    "gender": "М"
   },
   {
     "player_id": 96,
     "player_name": "МАМОНТОВА АННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10450,
+    "total_pins": 1045,
     "average_score": 174.17,
     "best_game": 189,
     "worst_game": 160,
@@ -1866,14 +1954,15 @@
     "singles_left": 23,
     "singles_converted": 19,
     "singles_missed": 4,
-    "single_pin_percent": 82.61
+    "single_pin_percent": 82.61,
+    "gender": "Ж"
   },
   {
     "player_id": 26,
     "player_name": "ГЛАЗКОВ КИРИЛЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10440,
+    "total_pins": 1044,
     "average_score": 174.0,
     "best_game": 214,
     "worst_game": 138,
@@ -1887,14 +1976,15 @@
     "singles_left": 12,
     "singles_converted": 11,
     "singles_missed": 1,
-    "single_pin_percent": 91.67
+    "single_pin_percent": 91.67,
+    "gender": "М"
   },
   {
     "player_id": 9,
     "player_name": "АФАНАСЬЕВА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10430,
+    "total_pins": 1043,
     "average_score": 173.83,
     "best_game": 195,
     "worst_game": 128,
@@ -1908,14 +1998,15 @@
     "singles_left": 18,
     "singles_converted": 16,
     "singles_missed": 2,
-    "single_pin_percent": 88.89
+    "single_pin_percent": 88.89,
+    "gender": "Ж"
   },
   {
     "player_id": 102,
     "player_name": "МАХОТИНА ОЛЕСЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10390,
+    "total_pins": 1039,
     "average_score": 173.17,
     "best_game": 202,
     "worst_game": 152,
@@ -1929,14 +2020,15 @@
     "singles_left": 11,
     "singles_converted": 10,
     "singles_missed": 1,
-    "single_pin_percent": 90.91
+    "single_pin_percent": 90.91,
+    "gender": "Ж"
   },
   {
     "player_id": 125,
     "player_name": "ПАХОМОВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10380,
+    "total_pins": 1038,
     "average_score": 173.0,
     "best_game": 199,
     "worst_game": 148,
@@ -1950,14 +2042,15 @@
     "singles_left": 22,
     "singles_converted": 15,
     "singles_missed": 7,
-    "single_pin_percent": 68.18
+    "single_pin_percent": 68.18,
+    "gender": "М"
   },
   {
     "player_id": 15,
     "player_name": "БЕЛЯЕВ МИХАИЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10370,
+    "total_pins": 1037,
     "average_score": 172.83,
     "best_game": 185,
     "worst_game": 161,
@@ -1971,14 +2064,15 @@
     "singles_left": 18,
     "singles_converted": 15,
     "singles_missed": 3,
-    "single_pin_percent": 83.33
+    "single_pin_percent": 83.33,
+    "gender": "М"
   },
   {
     "player_id": 147,
     "player_name": "СЕРЕДЕНКО ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10370,
+    "total_pins": 1037,
     "average_score": 172.83,
     "best_game": 204,
     "worst_game": 141,
@@ -1992,14 +2086,15 @@
     "singles_left": 16,
     "singles_converted": 11,
     "singles_missed": 5,
-    "single_pin_percent": 68.75
+    "single_pin_percent": 68.75,
+    "gender": "М"
   },
   {
     "player_id": 145,
     "player_name": "СЕБУРЕВ КИРИЛЛ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10320,
+    "total_pins": 1032,
     "average_score": 172.0,
     "best_game": 202,
     "worst_game": 138,
@@ -2013,14 +2108,15 @@
     "singles_left": 24,
     "singles_converted": 20,
     "singles_missed": 4,
-    "single_pin_percent": 83.33
+    "single_pin_percent": 83.33,
+    "gender": "М"
   },
   {
     "player_id": 51,
     "player_name": "ЗОЛОТУХИН ГЛЕБ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10300,
+    "total_pins": 1030,
     "average_score": 171.67,
     "best_game": 193,
     "worst_game": 159,
@@ -2034,14 +2130,15 @@
     "singles_left": 20,
     "singles_converted": 13,
     "singles_missed": 7,
-    "single_pin_percent": 65.0
+    "single_pin_percent": 65.0,
+    "gender": "М"
   },
   {
     "player_id": 149,
     "player_name": "СИТЧИХИН СТАНИСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10260,
+    "total_pins": 1026,
     "average_score": 171.0,
     "best_game": 186,
     "worst_game": 150,
@@ -2055,14 +2152,15 @@
     "singles_left": 19,
     "singles_converted": 10,
     "singles_missed": 9,
-    "single_pin_percent": 52.63
+    "single_pin_percent": 52.63,
+    "gender": "М"
   },
   {
     "player_id": 133,
     "player_name": "ПРИЧКО ОЛЕГ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10250,
+    "total_pins": 1025,
     "average_score": 170.83,
     "best_game": 202,
     "worst_game": 139,
@@ -2076,14 +2174,15 @@
     "singles_left": 12,
     "singles_converted": 10,
     "singles_missed": 2,
-    "single_pin_percent": 83.33
+    "single_pin_percent": 83.33,
+    "gender": "М"
   },
   {
     "player_id": 25,
     "player_name": "ГАДЕЛЬШИН ТИМУР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10240,
+    "total_pins": 1024,
     "average_score": 170.67,
     "best_game": 207,
     "worst_game": 139,
@@ -2097,14 +2196,15 @@
     "singles_left": 10,
     "singles_converted": 7,
     "singles_missed": 3,
-    "single_pin_percent": 70.0
+    "single_pin_percent": 70.0,
+    "gender": "М"
   },
   {
     "player_id": 68,
     "player_name": "КИСЕЛЕВА ОКСАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10220,
+    "total_pins": 1022,
     "average_score": 170.33,
     "best_game": 199,
     "worst_game": 127,
@@ -2118,14 +2218,15 @@
     "singles_left": 18,
     "singles_converted": 13,
     "singles_missed": 5,
-    "single_pin_percent": 72.22
+    "single_pin_percent": 72.22,
+    "gender": "Ж"
   },
   {
     "player_id": 103,
     "player_name": "МЕДВЕДЕВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10220,
+    "total_pins": 1022,
     "average_score": 170.33,
     "best_game": 197,
     "worst_game": 127,
@@ -2139,14 +2240,15 @@
     "singles_left": 14,
     "singles_converted": 11,
     "singles_missed": 3,
-    "single_pin_percent": 78.57
+    "single_pin_percent": 78.57,
+    "gender": "М"
   },
   {
     "player_id": 65,
     "player_name": "КЕВРУХ СТАНИСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10150,
+    "total_pins": 1015,
     "average_score": 169.17,
     "best_game": 200,
     "worst_game": 136,
@@ -2160,14 +2262,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 159,
     "player_name": "СУВОРОВ ЮРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10140,
+    "total_pins": 1014,
     "average_score": 169.0,
     "best_game": 195,
     "worst_game": 138,
@@ -2181,14 +2284,15 @@
     "singles_left": 25,
     "singles_converted": 22,
     "singles_missed": 3,
-    "single_pin_percent": 88.0
+    "single_pin_percent": 88.0,
+    "gender": "М"
   },
   {
     "player_id": 121,
     "player_name": "ОПОЛЕВА АНАСТАСИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10130,
+    "total_pins": 1013,
     "average_score": 168.83,
     "best_game": 182,
     "worst_game": 154,
@@ -2202,14 +2306,15 @@
     "singles_left": 13,
     "singles_converted": 11,
     "singles_missed": 2,
-    "single_pin_percent": 84.62
+    "single_pin_percent": 84.62,
+    "gender": "Ж"
   },
   {
     "player_id": 256,
     "player_name": "ГОЛИЦЫНА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10050,
+    "total_pins": 1005,
     "average_score": 167.5,
     "best_game": 202,
     "worst_game": 145,
@@ -2223,14 +2328,15 @@
     "singles_left": 19,
     "singles_converted": 14,
     "singles_missed": 5,
-    "single_pin_percent": 73.68
+    "single_pin_percent": 73.68,
+    "gender": "Ж"
   },
   {
     "player_id": 10,
     "player_name": "БАБЮК НИКОЛАЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10040,
+    "total_pins": 1004,
     "average_score": 167.33,
     "best_game": 182,
     "worst_game": 149,
@@ -2244,14 +2350,15 @@
     "singles_left": 22,
     "singles_converted": 21,
     "singles_missed": 1,
-    "single_pin_percent": 95.45
+    "single_pin_percent": 95.45,
+    "gender": "М"
   },
   {
     "player_id": 107,
     "player_name": "МИНГАЛИЕВ РАИЛЬ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10040,
+    "total_pins": 1004,
     "average_score": 167.33,
     "best_game": 233,
     "worst_game": 141,
@@ -2265,14 +2372,15 @@
     "singles_left": 15,
     "singles_converted": 13,
     "singles_missed": 2,
-    "single_pin_percent": 86.67
+    "single_pin_percent": 86.67,
+    "gender": "М"
   },
   {
     "player_id": 152,
     "player_name": "СОРОКИНА АННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10030,
+    "total_pins": 1003,
     "average_score": 167.17,
     "best_game": 189,
     "worst_game": 146,
@@ -2286,14 +2394,15 @@
     "singles_left": 18,
     "singles_converted": 15,
     "singles_missed": 3,
-    "single_pin_percent": 83.33
+    "single_pin_percent": 83.33,
+    "gender": "Ж"
   },
   {
     "player_id": 160,
     "player_name": "СУПРУНОВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10030,
+    "total_pins": 1003,
     "average_score": 167.17,
     "best_game": 224,
     "worst_game": 120,
@@ -2307,14 +2416,15 @@
     "singles_left": 16,
     "singles_converted": 13,
     "singles_missed": 3,
-    "single_pin_percent": 81.25
+    "single_pin_percent": 81.25,
+    "gender": "М"
   },
   {
     "player_id": 171,
     "player_name": "ФЕДОТОВА ОЛЕСЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10010,
+    "total_pins": 1001,
     "average_score": 166.83,
     "best_game": 182,
     "worst_game": 140,
@@ -2328,14 +2438,15 @@
     "singles_left": 21,
     "singles_converted": 13,
     "singles_missed": 8,
-    "single_pin_percent": 61.9
+    "single_pin_percent": 61.9,
+    "gender": "Ж"
   },
   {
     "player_id": 11,
     "player_name": "БАРАНОВ ВАСИЛИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10000,
+    "total_pins": 1000,
     "average_score": 166.67,
     "best_game": 203,
     "worst_game": 147,
@@ -2349,14 +2460,15 @@
     "singles_left": 17,
     "singles_converted": 11,
     "singles_missed": 6,
-    "single_pin_percent": 64.71
+    "single_pin_percent": 64.71,
+    "gender": "М"
   },
   {
     "player_id": 180,
     "player_name": "ЦЫГАНКОВ АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 10000,
+    "total_pins": 1000,
     "average_score": 166.67,
     "best_game": 233,
     "worst_game": 133,
@@ -2370,14 +2482,15 @@
     "singles_left": 11,
     "singles_converted": 11,
     "singles_missed": 0,
-    "single_pin_percent": 100.0
+    "single_pin_percent": 100.0,
+    "gender": "М"
   },
   {
     "player_id": 173,
     "player_name": "ХВОСТОВ АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9980,
+    "total_pins": 998,
     "average_score": 166.33,
     "best_game": 202,
     "worst_game": 114,
@@ -2391,14 +2504,15 @@
     "singles_left": 10,
     "singles_converted": 7,
     "singles_missed": 3,
-    "single_pin_percent": 70.0
+    "single_pin_percent": 70.0,
+    "gender": "М"
   },
   {
     "player_id": 120,
     "player_name": "ОПОЛЕВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9960,
+    "total_pins": 996,
     "average_score": 166.0,
     "best_game": 202,
     "worst_game": 141,
@@ -2412,14 +2526,15 @@
     "singles_left": 17,
     "singles_converted": 14,
     "singles_missed": 3,
-    "single_pin_percent": 82.35
+    "single_pin_percent": 82.35,
+    "gender": "М"
   },
   {
     "player_id": 53,
     "player_name": "ЗЮЗИНА ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9930,
+    "total_pins": 993,
     "average_score": 165.5,
     "best_game": 190,
     "worst_game": 132,
@@ -2433,14 +2548,15 @@
     "singles_left": 17,
     "singles_converted": 13,
     "singles_missed": 4,
-    "single_pin_percent": 76.47
+    "single_pin_percent": 76.47,
+    "gender": "Ж"
   },
   {
     "player_id": 132,
     "player_name": "ПРАЖАК НАТАЛЬЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9930,
+    "total_pins": 993,
     "average_score": 165.5,
     "best_game": 190,
     "worst_game": 136,
@@ -2454,14 +2570,15 @@
     "singles_left": 18,
     "singles_converted": 12,
     "singles_missed": 6,
-    "single_pin_percent": 66.67
+    "single_pin_percent": 66.67,
+    "gender": "Ж"
   },
   {
     "player_id": 191,
     "player_name": "ЯКОВКИН АНДРЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9930,
+    "total_pins": 993,
     "average_score": 165.5,
     "best_game": 185,
     "worst_game": 145,
@@ -2475,14 +2592,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 14,
     "player_name": "БЕЛЫЙ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9920,
+    "total_pins": 992,
     "average_score": 165.33,
     "best_game": 192,
     "worst_game": 122,
@@ -2496,14 +2614,15 @@
     "singles_left": 14,
     "singles_converted": 12,
     "singles_missed": 2,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "М"
   },
   {
     "player_id": 158,
     "player_name": "СТУПНИЦКАЯ ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9920,
+    "total_pins": 992,
     "average_score": 165.33,
     "best_game": 200,
     "worst_game": 122,
@@ -2517,14 +2636,15 @@
     "singles_left": 25,
     "singles_converted": 21,
     "singles_missed": 4,
-    "single_pin_percent": 84.0
+    "single_pin_percent": 84.0,
+    "gender": "Ж"
   },
   {
     "player_id": 23,
     "player_name": "ВОЛКОВ ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9910,
+    "total_pins": 991,
     "average_score": 165.17,
     "best_game": 200,
     "worst_game": 153,
@@ -2538,14 +2658,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 186,
     "player_name": "ШУБЫРЕВА МАРИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9910,
+    "total_pins": 991,
     "average_score": 165.17,
     "best_game": 179,
     "worst_game": 145,
@@ -2559,14 +2680,15 @@
     "singles_left": 14,
     "singles_converted": 10,
     "singles_missed": 4,
-    "single_pin_percent": 71.43
+    "single_pin_percent": 71.43,
+    "gender": "Ж"
   },
   {
     "player_id": 37,
     "player_name": "ДОЛГИНА ОКСАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9900,
+    "total_pins": 990,
     "average_score": 165.0,
     "best_game": 220,
     "worst_game": 143,
@@ -2580,14 +2702,15 @@
     "singles_left": 21,
     "singles_converted": 14,
     "singles_missed": 7,
-    "single_pin_percent": 66.67
+    "single_pin_percent": 66.67,
+    "gender": "Ж"
   },
   {
     "player_id": 58,
     "player_name": "ИЕВЛЕВА ВЕРОНИКА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9870,
+    "total_pins": 987,
     "average_score": 164.5,
     "best_game": 193,
     "worst_game": 129,
@@ -2601,14 +2724,15 @@
     "singles_left": 18,
     "singles_converted": 12,
     "singles_missed": 6,
-    "single_pin_percent": 66.67
+    "single_pin_percent": 66.67,
+    "gender": "Ж"
   },
   {
     "player_id": 130,
     "player_name": "ПОЛЯНСКАЯ АЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9870,
+    "total_pins": 987,
     "average_score": 164.5,
     "best_game": 204,
     "worst_game": 144,
@@ -2622,14 +2746,15 @@
     "singles_left": 15,
     "singles_converted": 12,
     "singles_missed": 3,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "Ж"
   },
   {
     "player_id": 16,
     "player_name": "БОНДАРЬ ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9850,
+    "total_pins": 985,
     "average_score": 164.17,
     "best_game": 199,
     "worst_game": 133,
@@ -2643,14 +2768,15 @@
     "singles_left": 12,
     "singles_converted": 9,
     "singles_missed": 3,
-    "single_pin_percent": 75.0
+    "single_pin_percent": 75.0,
+    "gender": "М"
   },
   {
     "player_id": 91,
     "player_name": "ЛИПКИНА СВЕТЛАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9830,
+    "total_pins": 983,
     "average_score": 163.83,
     "best_game": 201,
     "worst_game": 139,
@@ -2664,14 +2790,15 @@
     "singles_left": 12,
     "singles_converted": 9,
     "singles_missed": 3,
-    "single_pin_percent": 75.0
+    "single_pin_percent": 75.0,
+    "gender": "Ж"
   },
   {
     "player_id": 62,
     "player_name": "КАФЛЕВСКАЯ АННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9810,
+    "total_pins": 981,
     "average_score": 163.5,
     "best_game": 183,
     "worst_game": 130,
@@ -2685,14 +2812,15 @@
     "singles_left": 23,
     "singles_converted": 18,
     "singles_missed": 5,
-    "single_pin_percent": 78.26
+    "single_pin_percent": 78.26,
+    "gender": "Ж"
   },
   {
     "player_id": 3,
     "player_name": "АНДРЕЕВ ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9800,
+    "total_pins": 980,
     "average_score": 163.33,
     "best_game": 214,
     "worst_game": 135,
@@ -2706,14 +2834,15 @@
     "singles_left": 17,
     "singles_converted": 9,
     "singles_missed": 8,
-    "single_pin_percent": 52.94
+    "single_pin_percent": 52.94,
+    "gender": "М"
   },
   {
     "player_id": 20,
     "player_name": "ВАСЕКИНА АНАСТАСИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9780,
+    "total_pins": 978,
     "average_score": 163.0,
     "best_game": 188,
     "worst_game": 151,
@@ -2727,14 +2856,15 @@
     "singles_left": 14,
     "singles_converted": 12,
     "singles_missed": 2,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "Ж"
   },
   {
     "player_id": 42,
     "player_name": "ЕГОРОВА ЛАРИСА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9770,
+    "total_pins": 977,
     "average_score": 162.83,
     "best_game": 199,
     "worst_game": 147,
@@ -2748,14 +2878,15 @@
     "singles_left": 20,
     "singles_converted": 13,
     "singles_missed": 7,
-    "single_pin_percent": 65.0
+    "single_pin_percent": 65.0,
+    "gender": "Ж"
   },
   {
     "player_id": 164,
     "player_name": "ТРЕТЬЯКОВ СЕРГЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9750,
+    "total_pins": 975,
     "average_score": 162.5,
     "best_game": 205,
     "worst_game": 134,
@@ -2769,14 +2900,15 @@
     "singles_left": 19,
     "singles_converted": 12,
     "singles_missed": 7,
-    "single_pin_percent": 63.16
+    "single_pin_percent": 63.16,
+    "gender": "М"
   },
   {
     "player_id": 163,
     "player_name": "ТОРБА ЛЮДМИЛА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9730,
+    "total_pins": 973,
     "average_score": 162.17,
     "best_game": 179,
     "worst_game": 134,
@@ -2790,14 +2922,15 @@
     "singles_left": 21,
     "singles_converted": 18,
     "singles_missed": 3,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "Ж"
   },
   {
     "player_id": 8,
     "player_name": "АСТАПКОВИЧ ДМИТРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9710,
+    "total_pins": 971,
     "average_score": 161.83,
     "best_game": 189,
     "worst_game": 137,
@@ -2811,14 +2944,15 @@
     "singles_left": 13,
     "singles_converted": 9,
     "singles_missed": 4,
-    "single_pin_percent": 69.23
+    "single_pin_percent": 69.23,
+    "gender": "М"
   },
   {
     "player_id": 6,
     "player_name": "АНТОНОВА АННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9690,
+    "total_pins": 969,
     "average_score": 161.5,
     "best_game": 186,
     "worst_game": 134,
@@ -2832,14 +2966,15 @@
     "singles_left": 16,
     "singles_converted": 12,
     "singles_missed": 4,
-    "single_pin_percent": 75.0
+    "single_pin_percent": 75.0,
+    "gender": "Ж"
   },
   {
     "player_id": 54,
     "player_name": "ИВАНИЩЕВ ЯРОСЛАВ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9690,
+    "total_pins": 969,
     "average_score": 161.5,
     "best_game": 206,
     "worst_game": 120,
@@ -2853,14 +2988,15 @@
     "singles_left": 14,
     "singles_converted": 10,
     "singles_missed": 4,
-    "single_pin_percent": 71.43
+    "single_pin_percent": 71.43,
+    "gender": "М"
   },
   {
     "player_id": 27,
     "player_name": "ГЛАЗКОВ ЮРИЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9640,
+    "total_pins": 964,
     "average_score": 160.67,
     "best_game": 191,
     "worst_game": 133,
@@ -2874,14 +3010,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 28,
     "player_name": "ГОЛОЛОБОВ АЛЕКСЕЙ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9640,
+    "total_pins": 964,
     "average_score": 160.67,
     "best_game": 182,
     "worst_game": 145,
@@ -2895,14 +3032,15 @@
     "singles_left": 16,
     "singles_converted": 10,
     "singles_missed": 6,
-    "single_pin_percent": 62.5
+    "single_pin_percent": 62.5,
+    "gender": "М"
   },
   {
     "player_id": 48,
     "player_name": "ЗАВЕРТЯЕВА ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9640,
+    "total_pins": 964,
     "average_score": 160.67,
     "best_game": 195,
     "worst_game": 135,
@@ -2916,14 +3054,15 @@
     "singles_left": 15,
     "singles_converted": 11,
     "singles_missed": 4,
-    "single_pin_percent": 73.33
+    "single_pin_percent": 73.33,
+    "gender": "Ж"
   },
   {
     "player_id": 182,
     "player_name": "ШАЛИМОВА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9640,
+    "total_pins": 964,
     "average_score": 160.67,
     "best_game": 185,
     "worst_game": 132,
@@ -2937,14 +3076,15 @@
     "singles_left": 18,
     "singles_converted": 13,
     "singles_missed": 5,
-    "single_pin_percent": 72.22
+    "single_pin_percent": 72.22,
+    "gender": "Ж"
   },
   {
     "player_id": 110,
     "player_name": "МУРАВЬЕВ ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9620,
+    "total_pins": 962,
     "average_score": 160.33,
     "best_game": 202,
     "worst_game": 144,
@@ -2958,14 +3098,15 @@
     "singles_left": 15,
     "singles_converted": 7,
     "singles_missed": 8,
-    "single_pin_percent": 46.67
+    "single_pin_percent": 46.67,
+    "gender": null
   },
   {
     "player_id": 112,
     "player_name": "МУХАМЕТОВ РАФИЛЬ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9620,
+    "total_pins": 962,
     "average_score": 160.33,
     "best_game": 201,
     "worst_game": 116,
@@ -2979,14 +3120,15 @@
     "singles_left": 19,
     "singles_converted": 14,
     "singles_missed": 5,
-    "single_pin_percent": 73.68
+    "single_pin_percent": 73.68,
+    "gender": "М"
   },
   {
     "player_id": 161,
     "player_name": "СУРКОВА ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9610,
+    "total_pins": 961,
     "average_score": 160.17,
     "best_game": 197,
     "worst_game": 135,
@@ -3000,14 +3142,15 @@
     "singles_left": 13,
     "singles_converted": 11,
     "singles_missed": 2,
-    "single_pin_percent": 84.62
+    "single_pin_percent": 84.62,
+    "gender": "Ж"
   },
   {
     "player_id": 134,
     "player_name": "ПРОСВЕТОВА ЕЛИЗАВЕТА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9590,
+    "total_pins": 959,
     "average_score": 159.83,
     "best_game": 188,
     "worst_game": 142,
@@ -3021,14 +3164,15 @@
     "singles_left": 15,
     "singles_converted": 11,
     "singles_missed": 4,
-    "single_pin_percent": 73.33
+    "single_pin_percent": 73.33,
+    "gender": "Ж"
   },
   {
     "player_id": 137,
     "player_name": "РОМАНОВА КИРА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9590,
+    "total_pins": 959,
     "average_score": 159.83,
     "best_game": 177,
     "worst_game": 114,
@@ -3042,14 +3186,15 @@
     "singles_left": 15,
     "singles_converted": 10,
     "singles_missed": 5,
-    "single_pin_percent": 66.67
+    "single_pin_percent": 66.67,
+    "gender": "Ж"
   },
   {
     "player_id": 153,
     "player_name": "СОРОКИНА ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9590,
+    "total_pins": 959,
     "average_score": 159.83,
     "best_game": 179,
     "worst_game": 139,
@@ -3063,14 +3208,15 @@
     "singles_left": 19,
     "singles_converted": 16,
     "singles_missed": 3,
-    "single_pin_percent": 84.21
+    "single_pin_percent": 84.21,
+    "gender": "Ж"
   },
   {
     "player_id": 114,
     "player_name": "НАЙЧУКОВ ИГОРЬ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9560,
+    "total_pins": 956,
     "average_score": 159.33,
     "best_game": 183,
     "worst_game": 138,
@@ -3084,14 +3230,15 @@
     "singles_left": 19,
     "singles_converted": 11,
     "singles_missed": 8,
-    "single_pin_percent": 57.89
+    "single_pin_percent": 57.89,
+    "gender": "М"
   },
   {
     "player_id": 31,
     "player_name": "ГОНЧАРИДИ ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9550,
+    "total_pins": 955,
     "average_score": 159.17,
     "best_game": 181,
     "worst_game": 113,
@@ -3105,14 +3252,15 @@
     "singles_left": 21,
     "singles_converted": 17,
     "singles_missed": 4,
-    "single_pin_percent": 80.95
+    "single_pin_percent": 80.95,
+    "gender": "Ж"
   },
   {
     "player_id": 183,
     "player_name": "ШАРАПОВА АЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9540,
+    "total_pins": 954,
     "average_score": 159.0,
     "best_game": 202,
     "worst_game": 129,
@@ -3126,14 +3274,15 @@
     "singles_left": 17,
     "singles_converted": 11,
     "singles_missed": 6,
-    "single_pin_percent": 64.71
+    "single_pin_percent": 64.71,
+    "gender": "Ж"
   },
   {
     "player_id": 142,
     "player_name": "САЗОНОВА ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9490,
+    "total_pins": 949,
     "average_score": 158.17,
     "best_game": 175,
     "worst_game": 125,
@@ -3147,14 +3296,15 @@
     "singles_left": 14,
     "singles_converted": 12,
     "singles_missed": 2,
-    "single_pin_percent": 85.71
+    "single_pin_percent": 85.71,
+    "gender": "Ж"
   },
   {
     "player_id": 123,
     "player_name": "ПАНАСЕНКО МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9470,
+    "total_pins": 947,
     "average_score": 157.83,
     "best_game": 205,
     "worst_game": 108,
@@ -3168,14 +3318,15 @@
     "singles_left": 17,
     "singles_converted": 13,
     "singles_missed": 4,
-    "single_pin_percent": 76.47
+    "single_pin_percent": 76.47,
+    "gender": "М"
   },
   {
     "player_id": 41,
     "player_name": "ЕГОРОВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9420,
+    "total_pins": 942,
     "average_score": 157.0,
     "best_game": 197,
     "worst_game": 115,
@@ -3189,14 +3340,15 @@
     "singles_left": 14,
     "singles_converted": 13,
     "singles_missed": 1,
-    "single_pin_percent": 92.86
+    "single_pin_percent": 92.86,
+    "gender": "М"
   },
   {
     "player_id": 50,
     "player_name": "ЗЕМЕЛЕВ АНТОН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9420,
+    "total_pins": 942,
     "average_score": 157.0,
     "best_game": 180,
     "worst_game": 135,
@@ -3210,14 +3362,15 @@
     "singles_left": 18,
     "singles_converted": 17,
     "singles_missed": 1,
-    "single_pin_percent": 94.44
+    "single_pin_percent": 94.44,
+    "gender": "М"
   },
   {
     "player_id": 174,
     "player_name": "ХВОСТОВА ЕКАТЕРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9370,
+    "total_pins": 937,
     "average_score": 156.17,
     "best_game": 169,
     "worst_game": 141,
@@ -3231,14 +3384,15 @@
     "singles_left": 16,
     "singles_converted": 11,
     "singles_missed": 5,
-    "single_pin_percent": 68.75
+    "single_pin_percent": 68.75,
+    "gender": "Ж"
   },
   {
     "player_id": 61,
     "player_name": "КАМАЛОВА НИГАРА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9340,
+    "total_pins": 934,
     "average_score": 155.67,
     "best_game": 177,
     "worst_game": 145,
@@ -3252,14 +3406,15 @@
     "singles_left": 19,
     "singles_converted": 15,
     "singles_missed": 4,
-    "single_pin_percent": 78.95
+    "single_pin_percent": 78.95,
+    "gender": "Ж"
   },
   {
     "player_id": 104,
     "player_name": "МЕДВЕДИЦКОВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9340,
+    "total_pins": 934,
     "average_score": 155.67,
     "best_game": 207,
     "worst_game": 121,
@@ -3273,14 +3428,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 184,
     "player_name": "ШАТРОВА ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9330,
+    "total_pins": 933,
     "average_score": 155.5,
     "best_game": 165,
     "worst_game": 143,
@@ -3294,14 +3450,15 @@
     "singles_left": 15,
     "singles_converted": 12,
     "singles_missed": 3,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "Ж"
   },
   {
     "player_id": 67,
     "player_name": "КИРИЛЛОВ ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9300,
+    "total_pins": 930,
     "average_score": 155.0,
     "best_game": 193,
     "worst_game": 130,
@@ -3315,14 +3472,15 @@
     "singles_left": 18,
     "singles_converted": 13,
     "singles_missed": 5,
-    "single_pin_percent": 72.22
+    "single_pin_percent": 72.22,
+    "gender": "М"
   },
   {
     "player_id": 70,
     "player_name": "КИСЕЛЕВИЧ ЕЛИЗАВЕТА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9300,
+    "total_pins": 930,
     "average_score": 155.0,
     "best_game": 179,
     "worst_game": 141,
@@ -3336,14 +3494,15 @@
     "singles_left": 18,
     "singles_converted": 16,
     "singles_missed": 2,
-    "single_pin_percent": 88.89
+    "single_pin_percent": 88.89,
+    "gender": "Ж"
   },
   {
     "player_id": 177,
     "player_name": "ЦЕГЕЛЬНИК АЛЕВТИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9280,
+    "total_pins": 928,
     "average_score": 154.67,
     "best_game": 176,
     "worst_game": 138,
@@ -3357,14 +3516,15 @@
     "singles_left": 16,
     "singles_converted": 13,
     "singles_missed": 3,
-    "single_pin_percent": 81.25
+    "single_pin_percent": 81.25,
+    "gender": "Ж"
   },
   {
     "player_id": 98,
     "player_name": "МАРАМЫГИНА СВЕТЛАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9250,
+    "total_pins": 925,
     "average_score": 154.17,
     "best_game": 198,
     "worst_game": 124,
@@ -3378,14 +3538,15 @@
     "singles_left": 16,
     "singles_converted": 12,
     "singles_missed": 4,
-    "single_pin_percent": 75.0
+    "single_pin_percent": 75.0,
+    "gender": "Ж"
   },
   {
     "player_id": 162,
     "player_name": "ТАРАНОВА ИРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9200,
+    "total_pins": 920,
     "average_score": 153.33,
     "best_game": 184,
     "worst_game": 125,
@@ -3399,14 +3560,15 @@
     "singles_left": 26,
     "singles_converted": 18,
     "singles_missed": 8,
-    "single_pin_percent": 69.23
+    "single_pin_percent": 69.23,
+    "gender": "Ж"
   },
   {
     "player_id": 101,
     "player_name": "МАТВЕЕВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9190,
+    "total_pins": 919,
     "average_score": 153.17,
     "best_game": 182,
     "worst_game": 124,
@@ -3420,14 +3582,15 @@
     "singles_left": 17,
     "singles_converted": 12,
     "singles_missed": 5,
-    "single_pin_percent": 70.59
+    "single_pin_percent": 70.59,
+    "gender": "М"
   },
   {
     "player_id": 187,
     "player_name": "ШУМАН ТАТЬЯНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9090,
+    "total_pins": 909,
     "average_score": 151.5,
     "best_game": 166,
     "worst_game": 139,
@@ -3441,14 +3604,15 @@
     "singles_left": 19,
     "singles_converted": 12,
     "singles_missed": 7,
-    "single_pin_percent": 63.16
+    "single_pin_percent": 63.16,
+    "gender": "Ж"
   },
   {
     "player_id": 30,
     "player_name": "ГОНЧАРИДИ ДЕНИС",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9050,
+    "total_pins": 905,
     "average_score": 150.83,
     "best_game": 167,
     "worst_game": 124,
@@ -3462,14 +3626,15 @@
     "singles_left": 14,
     "singles_converted": 7,
     "singles_missed": 7,
-    "single_pin_percent": 50.0
+    "single_pin_percent": 50.0,
+    "gender": "М"
   },
   {
     "player_id": 100,
     "player_name": "МАСЛОВА МАРИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9020,
+    "total_pins": 902,
     "average_score": 150.33,
     "best_game": 185,
     "worst_game": 118,
@@ -3483,14 +3648,15 @@
     "singles_left": 12,
     "singles_converted": 9,
     "singles_missed": 3,
-    "single_pin_percent": 75.0
+    "single_pin_percent": 75.0,
+    "gender": "Ж"
   },
   {
     "player_id": 135,
     "player_name": "ПТИЦЫНА КСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9020,
+    "total_pins": 902,
     "average_score": 150.33,
     "best_game": 185,
     "worst_game": 105,
@@ -3504,14 +3670,15 @@
     "singles_left": 13,
     "singles_converted": 9,
     "singles_missed": 4,
-    "single_pin_percent": 69.23
+    "single_pin_percent": 69.23,
+    "gender": "Ж"
   },
   {
     "player_id": 150,
     "player_name": "СМЕЛКОВА МАРГАРИТА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 9020,
+    "total_pins": 902,
     "average_score": 150.33,
     "best_game": 189,
     "worst_game": 128,
@@ -3525,14 +3692,15 @@
     "singles_left": 14,
     "singles_converted": 7,
     "singles_missed": 7,
-    "single_pin_percent": 50.0
+    "single_pin_percent": 50.0,
+    "gender": "Ж"
   },
   {
     "player_id": 46,
     "player_name": "ЕРМАКОВ ВЛАДИМИР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8990,
+    "total_pins": 899,
     "average_score": 149.83,
     "best_game": 171,
     "worst_game": 125,
@@ -3546,14 +3714,15 @@
     "singles_left": 20,
     "singles_converted": 17,
     "singles_missed": 3,
-    "single_pin_percent": 85.0
+    "single_pin_percent": 85.0,
+    "gender": "М"
   },
   {
     "player_id": 192,
     "player_name": "ЯКОВКИНА ТАТЬЯНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8980,
+    "total_pins": 898,
     "average_score": 149.67,
     "best_game": 168,
     "worst_game": 136,
@@ -3567,14 +3736,15 @@
     "singles_left": 15,
     "singles_converted": 12,
     "singles_missed": 3,
-    "single_pin_percent": 80.0
+    "single_pin_percent": 80.0,
+    "gender": "Ж"
   },
   {
     "player_id": 90,
     "player_name": "ЛАВЛЕНЦЕВА ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8950,
+    "total_pins": 895,
     "average_score": 149.17,
     "best_game": 196,
     "worst_game": 109,
@@ -3588,14 +3758,15 @@
     "singles_left": 22,
     "singles_converted": 9,
     "singles_missed": 13,
-    "single_pin_percent": 40.91
+    "single_pin_percent": 40.91,
+    "gender": "Ж"
   },
   {
     "player_id": 189,
     "player_name": "ШУМИКИНА ЮЛИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8930,
+    "total_pins": 893,
     "average_score": 148.83,
     "best_game": 172,
     "worst_game": 124,
@@ -3609,14 +3780,15 @@
     "singles_left": 21,
     "singles_converted": 15,
     "singles_missed": 6,
-    "single_pin_percent": 71.43
+    "single_pin_percent": 71.43,
+    "gender": "Ж"
   },
   {
     "player_id": 129,
     "player_name": "ПЕРЕПЕЛКИНА ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8870,
+    "total_pins": 887,
     "average_score": 147.83,
     "best_game": 162,
     "worst_game": 124,
@@ -3630,14 +3802,15 @@
     "singles_left": 14,
     "singles_converted": 9,
     "singles_missed": 5,
-    "single_pin_percent": 64.29
+    "single_pin_percent": 64.29,
+    "gender": "Ж"
   },
   {
     "player_id": 190,
     "player_name": "ЭММЕРИХ ЭДУАРД",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8870,
+    "total_pins": 887,
     "average_score": 147.83,
     "best_game": 164,
     "worst_game": 123,
@@ -3651,14 +3824,15 @@
     "singles_left": 13,
     "singles_converted": 8,
     "singles_missed": 5,
-    "single_pin_percent": 61.54
+    "single_pin_percent": 61.54,
+    "gender": "М"
   },
   {
     "player_id": 122,
     "player_name": "ОТМОРСКИЙ ИВАН",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8730,
+    "total_pins": 873,
     "average_score": 145.5,
     "best_game": 166,
     "worst_game": 131,
@@ -3672,14 +3846,15 @@
     "singles_left": 14,
     "singles_converted": 10,
     "singles_missed": 4,
-    "single_pin_percent": 71.43
+    "single_pin_percent": 71.43,
+    "gender": "М"
   },
   {
     "player_id": 128,
     "player_name": "ПЕРВУШИН МАКСИМ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8690,
+    "total_pins": 869,
     "average_score": 144.83,
     "best_game": 196,
     "worst_game": 124,
@@ -3693,14 +3868,15 @@
     "singles_left": 16,
     "singles_converted": 10,
     "singles_missed": 6,
-    "single_pin_percent": 62.5
+    "single_pin_percent": 62.5,
+    "gender": "М"
   },
   {
     "player_id": 24,
     "player_name": "ВОРОНИНА ЕКАТЕРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8660,
+    "total_pins": 866,
     "average_score": 144.33,
     "best_game": 156,
     "worst_game": 133,
@@ -3714,14 +3890,15 @@
     "singles_left": 20,
     "singles_converted": 12,
     "singles_missed": 8,
-    "single_pin_percent": 60.0
+    "single_pin_percent": 60.0,
+    "gender": "Ж"
   },
   {
     "player_id": 1,
     "player_name": "АЛЕХИНА СВЕТЛАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8610,
+    "total_pins": 861,
     "average_score": 143.5,
     "best_game": 167,
     "worst_game": 131,
@@ -3735,14 +3912,15 @@
     "singles_left": 11,
     "singles_converted": 9,
     "singles_missed": 2,
-    "single_pin_percent": 81.82
+    "single_pin_percent": 81.82,
+    "gender": "Ж"
   },
   {
     "player_id": 113,
     "player_name": "НАЗАРЕНКО НАТАЛЬЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8550,
+    "total_pins": 855,
     "average_score": 142.5,
     "best_game": 178,
     "worst_game": 125,
@@ -3756,14 +3934,15 @@
     "singles_left": 12,
     "singles_converted": 5,
     "singles_missed": 7,
-    "single_pin_percent": 41.67
+    "single_pin_percent": 41.67,
+    "gender": "Ж"
   },
   {
     "player_id": 124,
     "player_name": "ПАРЫГИНА ИРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8550,
+    "total_pins": 855,
     "average_score": 142.5,
     "best_game": 162,
     "worst_game": 130,
@@ -3777,14 +3956,15 @@
     "singles_left": 18,
     "singles_converted": 10,
     "singles_missed": 8,
-    "single_pin_percent": 55.56
+    "single_pin_percent": 55.56,
+    "gender": "Ж"
   },
   {
     "player_id": 119,
     "player_name": "ОБУХОВ АЛЕКСАНДР",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8520,
+    "total_pins": 852,
     "average_score": 142.0,
     "best_game": 186,
     "worst_game": 91,
@@ -3798,14 +3978,15 @@
     "singles_left": 13,
     "singles_converted": 10,
     "singles_missed": 3,
-    "single_pin_percent": 76.92
+    "single_pin_percent": 76.92,
+    "gender": "М"
   },
   {
     "player_id": 167,
     "player_name": "УСЕНКО ЖАННА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8500,
+    "total_pins": 850,
     "average_score": 141.67,
     "best_game": 166,
     "worst_game": 113,
@@ -3819,14 +4000,15 @@
     "singles_left": 15,
     "singles_converted": 7,
     "singles_missed": 8,
-    "single_pin_percent": 46.67
+    "single_pin_percent": 46.67,
+    "gender": "Ж"
   },
   {
     "player_id": 33,
     "player_name": "ГУМЕННАЯ ПОЛИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8460,
+    "total_pins": 846,
     "average_score": 141.0,
     "best_game": 155,
     "worst_game": 125,
@@ -3840,14 +4022,15 @@
     "singles_left": 18,
     "singles_converted": 10,
     "singles_missed": 8,
-    "single_pin_percent": 55.56
+    "single_pin_percent": 55.56,
+    "gender": "Ж"
   },
   {
     "player_id": 165,
     "player_name": "ТУЛИНА МАРИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8420,
+    "total_pins": 842,
     "average_score": 140.33,
     "best_game": 162,
     "worst_game": 127,
@@ -3861,14 +4044,15 @@
     "singles_left": 17,
     "singles_converted": 10,
     "singles_missed": 7,
-    "single_pin_percent": 58.82
+    "single_pin_percent": 58.82,
+    "gender": "Ж"
   },
   {
     "player_id": 126,
     "player_name": "ПАХОМОВА ТАТЬЯНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8410,
+    "total_pins": 841,
     "average_score": 140.17,
     "best_game": 186,
     "worst_game": 110,
@@ -3882,14 +4066,15 @@
     "singles_left": 22,
     "singles_converted": 15,
     "singles_missed": 7,
-    "single_pin_percent": 68.18
+    "single_pin_percent": 68.18,
+    "gender": "Ж"
   },
   {
     "player_id": 166,
     "player_name": "ТУЧА ОКСАНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8360,
+    "total_pins": 836,
     "average_score": 139.33,
     "best_game": 169,
     "worst_game": 111,
@@ -3903,14 +4088,15 @@
     "singles_left": 19,
     "singles_converted": 12,
     "singles_missed": 7,
-    "single_pin_percent": 63.16
+    "single_pin_percent": 63.16,
+    "gender": "Ж"
   },
   {
     "player_id": 74,
     "player_name": "КОЛОМЕЕЦ ЕЛЕНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8350,
+    "total_pins": 835,
     "average_score": 139.17,
     "best_game": 163,
     "worst_game": 104,
@@ -3924,14 +4110,15 @@
     "singles_left": 12,
     "singles_converted": 5,
     "singles_missed": 7,
-    "single_pin_percent": 41.67
+    "single_pin_percent": 41.67,
+    "gender": "Ж"
   },
   {
     "player_id": 57,
     "player_name": "ИВАНОВА МАРИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8100,
+    "total_pins": 810,
     "average_score": 135.0,
     "best_game": 161,
     "worst_game": 96,
@@ -3945,14 +4132,15 @@
     "singles_left": 17,
     "singles_converted": 10,
     "singles_missed": 7,
-    "single_pin_percent": 58.82
+    "single_pin_percent": 58.82,
+    "gender": "Ж"
   },
   {
     "player_id": 143,
     "player_name": "САМОЙЛОВА ОЛЬГА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8100,
+    "total_pins": 810,
     "average_score": 135.0,
     "best_game": 159,
     "worst_game": 113,
@@ -3966,14 +4154,15 @@
     "singles_left": 13,
     "singles_converted": 8,
     "singles_missed": 5,
-    "single_pin_percent": 61.54
+    "single_pin_percent": 61.54,
+    "gender": "Ж"
   },
   {
     "player_id": 146,
     "player_name": "СЕРЕДЕНКО ГАЛИНА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 8000,
+    "total_pins": 800,
     "average_score": 133.33,
     "best_game": 167,
     "worst_game": 94,
@@ -3987,14 +4176,15 @@
     "singles_left": 13,
     "singles_converted": 4,
     "singles_missed": 9,
-    "single_pin_percent": 30.77
+    "single_pin_percent": 30.77,
+    "gender": "Ж"
   },
   {
     "player_id": 156,
     "player_name": "СТЕБУНОВА АЛЕКСАНДРА",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 7810,
+    "total_pins": 781,
     "average_score": 130.17,
     "best_game": 184,
     "worst_game": 105,
@@ -4008,14 +4198,15 @@
     "singles_left": 16,
     "singles_converted": 10,
     "singles_missed": 6,
-    "single_pin_percent": 62.5
+    "single_pin_percent": 62.5,
+    "gender": "Ж"
   },
   {
     "player_id": 99,
     "player_name": "МАРКАШОВА КСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 7690,
+    "total_pins": 769,
     "average_score": 128.17,
     "best_game": 189,
     "worst_game": 98,
@@ -4029,14 +4220,15 @@
     "singles_left": 18,
     "singles_converted": 11,
     "singles_missed": 7,
-    "single_pin_percent": 61.11
+    "single_pin_percent": 61.11,
+    "gender": "Ж"
   },
   {
     "player_id": 94,
     "player_name": "МАЙЕР ЕСЕНИЯ",
     "events_played": 1,
     "games_played": 6,
-    "total_pins": 7620,
+    "total_pins": 762,
     "average_score": 127.0,
     "best_game": 154,
     "worst_game": 101,
@@ -4050,6 +4242,7 @@
     "singles_left": 18,
     "singles_converted": 9,
     "singles_missed": 9,
-    "single_pin_percent": 50.0
+    "single_pin_percent": 50.0,
+    "gender": null
   }
 ]

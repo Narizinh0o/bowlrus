@@ -1,10 +1,10 @@
 {
   "player_id": 130,
   "player_name": "ПОЛЯНСКАЯ АЛЕНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20380,
-  "average_score": 169.83,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3047,
+  "average_score": 169.28,
   "best_game": 211,
   "worst_game": 144,
   "score_diff": 67,
@@ -18,7 +18,71 @@
   "singles_converted": 30,
   "singles_missed": 5,
   "single_pin_percent": 85.71,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Санкт-Петербург",
   "games": [
+    {
+      "game_id": 2959,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 152
+    },
+    {
+      "game_id": 2960,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 2961,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2962,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
+    {
+      "game_id": 2963,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 201
+    },
+    {
+      "game_id": 2964,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 155
+    },
     {
       "game_id": 775,
       "game_number": 1,

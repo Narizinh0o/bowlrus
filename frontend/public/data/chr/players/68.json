@@ -1,10 +1,10 @@
 {
   "player_id": 68,
   "player_name": "КИСЕЛЕВА ОКСАНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20900,
-  "average_score": 174.17,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3079,
+  "average_score": 171.06,
   "best_game": 246,
   "worst_game": 127,
   "score_diff": 119,
@@ -18,7 +18,71 @@
   "singles_converted": 32,
   "singles_missed": 9,
   "single_pin_percent": 78.05,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Хабаровский край",
   "games": [
+    {
+      "game_id": 2977,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 159
+    },
+    {
+      "game_id": 2978,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 172
+    },
+    {
+      "game_id": 2979,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 181
+    },
+    {
+      "game_id": 2980,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 148
+    },
+    {
+      "game_id": 2981,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 163
+    },
+    {
+      "game_id": 2982,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
     {
       "game_id": 403,
       "game_number": 1,

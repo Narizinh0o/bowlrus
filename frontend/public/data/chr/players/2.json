@@ -1,10 +1,10 @@
 {
   "player_id": 2,
   "player_name": "АЛИМПИЕВ ДМИТРИЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22910,
-  "average_score": 190.92,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3353,
+  "average_score": 186.28,
   "best_game": 236,
   "worst_game": 124,
   "score_diff": 112,
@@ -18,7 +18,71 @@
   "singles_converted": 32,
   "singles_missed": 3,
   "single_pin_percent": 91.43,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Московская область",
   "games": [
+    {
+      "game_id": 2413,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 185
+    },
+    {
+      "game_id": 2414,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 205
+    },
+    {
+      "game_id": 2415,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 196
+    },
+    {
+      "game_id": 2416,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2417,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 149
+    },
+    {
+      "game_id": 2418,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
     {
       "game_id": 7,
       "game_number": 1,

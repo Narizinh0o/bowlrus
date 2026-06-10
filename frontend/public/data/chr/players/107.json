@@ -1,10 +1,10 @@
 {
   "player_id": 107,
   "player_name": "МИНГАЛИЕВ РАИЛЬ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21320,
-  "average_score": 177.67,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3052,
+  "average_score": 169.56,
   "best_game": 233,
   "worst_game": 141,
   "score_diff": 92,
@@ -18,7 +18,71 @@
   "singles_converted": 24,
   "singles_missed": 5,
   "single_pin_percent": 82.76,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Республика Татарстан",
   "games": [
+    {
+      "game_id": 2731,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 149
+    },
+    {
+      "game_id": 2732,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 155
+    },
+    {
+      "game_id": 2733,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 2734,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 147
+    },
+    {
+      "game_id": 2735,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 162
+    },
+    {
+      "game_id": 2736,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
     {
       "game_id": 637,
       "game_number": 1,

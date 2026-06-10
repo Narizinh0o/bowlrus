@@ -1,10 +1,10 @@
 {
   "player_id": 173,
   "player_name": "ХВОСТОВ АЛЕКСЕЙ",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 9980,
-  "average_score": 166.33,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 1999,
+  "average_score": 166.58,
   "best_game": 202,
   "worst_game": 114,
   "score_diff": 88,
@@ -18,7 +18,71 @@
   "singles_converted": 7,
   "singles_missed": 3,
   "single_pin_percent": 70.0,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Иркутская область",
   "games": [
+    {
+      "game_id": 2545,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 140
+    },
+    {
+      "game_id": 2546,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 2547,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 173
+    },
+    {
+      "game_id": 2548,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 162
+    },
+    {
+      "game_id": 2549,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 2550,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 196
+    },
     {
       "game_id": 1033,
       "game_number": 1,

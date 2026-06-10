@@ -1,10 +1,10 @@
 {
   "player_id": 54,
   "player_name": "ИВАНИЩЕВ ЯРОСЛАВ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20130,
-  "average_score": 167.75,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3140,
+  "average_score": 174.44,
   "best_game": 234,
   "worst_game": 120,
   "score_diff": 114,
@@ -18,7 +18,71 @@
   "singles_converted": 26,
   "singles_missed": 7,
   "single_pin_percent": 78.79,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Москва",
   "games": [
+    {
+      "game_id": 2233,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
+    {
+      "game_id": 2234,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
+    {
+      "game_id": 2235,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 198
+    },
+    {
+      "game_id": 2236,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 152
+    },
+    {
+      "game_id": 2237,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
+    {
+      "game_id": 2238,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 198
+    },
     {
       "game_id": 319,
       "game_number": 1,

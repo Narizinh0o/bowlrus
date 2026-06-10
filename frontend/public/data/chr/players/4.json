@@ -1,10 +1,10 @@
 {
   "player_id": 4,
   "player_name": "АНДРЕЕВ СЕРГЕЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 26080,
-  "average_score": 217.33,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3932,
+  "average_score": 218.44,
   "best_game": 287,
   "worst_game": 169,
   "score_diff": 118,
@@ -18,7 +18,71 @@
   "singles_converted": 27,
   "singles_missed": 3,
   "single_pin_percent": 90.0,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Московская область",
   "games": [
+    {
+      "game_id": 2101,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 2102,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 246
+    },
+    {
+      "game_id": 2103,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 246
+    },
+    {
+      "game_id": 2104,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 202
+    },
+    {
+      "game_id": 2105,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 267
+    },
+    {
+      "game_id": 2106,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
     {
       "game_id": 19,
       "game_number": 1,

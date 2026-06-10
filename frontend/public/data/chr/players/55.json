@@ -1,10 +1,10 @@
 {
   "player_id": 55,
   "player_name": "ИВАНОВ АНТОН",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21300,
-  "average_score": 177.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3169,
+  "average_score": 176.06,
   "best_game": 237,
   "worst_game": 136,
   "score_diff": 101,
@@ -18,7 +18,71 @@
   "singles_converted": 13,
   "singles_missed": 7,
   "single_pin_percent": 65.0,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Хабаровский край",
   "games": [
+    {
+      "game_id": 2479,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 2480,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
+    {
+      "game_id": 2481,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 159
+    },
+    {
+      "game_id": 2482,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2483,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 203
+    },
+    {
+      "game_id": 2484,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
     {
       "game_id": 325,
       "game_number": 1,

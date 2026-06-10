@@ -1,10 +1,10 @@
 {
   "player_id": 170,
   "player_name": "ФЕДОРОВ ФЕДОР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 23660,
-  "average_score": 197.17,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3508,
+  "average_score": 194.89,
   "best_game": 248,
   "worst_game": 154,
   "score_diff": 94,
@@ -18,7 +18,71 @@
   "singles_converted": 24,
   "singles_missed": 3,
   "single_pin_percent": 88.89,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Омская область",
   "games": [
+    {
+      "game_id": 2215,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 207
+    },
+    {
+      "game_id": 2216,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 2217,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 204
+    },
+    {
+      "game_id": 2218,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 192
+    },
+    {
+      "game_id": 2219,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 158
+    },
+    {
+      "game_id": 2220,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 224
+    },
     {
       "game_id": 1015,
       "game_number": 1,

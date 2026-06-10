@@ -1,10 +1,10 @@
 {
   "player_id": 182,
   "player_name": "ШАЛИМОВА ЮЛИЯ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19420,
-  "average_score": 161.83,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2890,
+  "average_score": 160.56,
   "best_game": 185,
   "worst_game": 132,
   "score_diff": 53,
@@ -18,7 +18,71 @@
   "singles_converted": 32,
   "singles_missed": 8,
   "single_pin_percent": 80.0,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Свердловская область",
   "games": [
+    {
+      "game_id": 3055,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 145
+    },
+    {
+      "game_id": 3056,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
+    {
+      "game_id": 3057,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 149
+    },
+    {
+      "game_id": 3058,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 3059,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 3060,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
     {
       "game_id": 1087,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 127,
   "player_name": "ПАШКОВСКИЙ АЛЕКСАНДР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22180,
-  "average_score": 184.83,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3282,
+  "average_score": 182.33,
   "best_game": 255,
   "worst_game": 146,
   "score_diff": 109,
@@ -18,7 +18,71 @@
   "singles_converted": 24,
   "singles_missed": 11,
   "single_pin_percent": 68.57,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Санкт-Петербург",
   "games": [
+    {
+      "game_id": 2401,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 191
+    },
+    {
+      "game_id": 2402,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 2403,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 184
+    },
+    {
+      "game_id": 2404,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
+    {
+      "game_id": 2405,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 2406,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 165
+    },
     {
       "game_id": 757,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 35,
   "player_name": "ДЕМЬЯШЕВ АЛЕКСАНДР",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 10790,
-  "average_score": 179.83,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 2229,
+  "average_score": 185.75,
   "best_game": 236,
   "worst_game": 135,
   "score_diff": 101,
@@ -18,7 +18,71 @@
   "singles_converted": 13,
   "singles_missed": 1,
   "single_pin_percent": 92.86,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2197,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
+    {
+      "game_id": 2198,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 207
+    },
+    {
+      "game_id": 2199,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 186
+    },
+    {
+      "game_id": 2200,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 225
+    },
+    {
+      "game_id": 2201,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2202,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 188
+    },
     {
       "game_id": 205,
       "game_number": 1,

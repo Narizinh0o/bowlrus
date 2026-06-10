@@ -3,7 +3,7 @@
   "player_name": "ЕВДОКИМОВ СЕРГЕЙ",
   "events_played": 2,
   "games_played": 12,
-  "total_pins": 21950,
+  "total_pins": 2195,
   "average_score": 182.92,
   "best_game": 235,
   "worst_game": 153,
@@ -18,6 +18,10 @@
   "singles_converted": 33,
   "singles_missed": 4,
   "single_pin_percent": 89.19,
+  "blocks_with_frames": 2,
+  "gender": null,
+  "sport_rank": null,
+  "region": null,
   "games": [
     {
       "game_id": 235,

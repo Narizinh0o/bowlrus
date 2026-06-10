@@ -1,0 +1,112 @@
+{
+  "game_id": 2095,
+  "player_id": 140,
+  "player_name": "САЗОНОВ ИВАН",
+  "event": "single",
+  "game_number": 1,
+  "play_date": "2026-05-02",
+  "time_start": null,
+  "time_end": null,
+  "lane": null,
+  "total_score": 258,
+  "frames": [
+    {
+      "frame_number": 1,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 2,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 3,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 4,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 5,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 6,
+      "throws": [
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false
+      ]
+    },
+    {
+      "frame_number": 7,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 8,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 9,
+      "throws": [
+        "X"
+      ],
+      "splits": [
+        false
+      ]
+    },
+    {
+      "frame_number": 10,
+      "throws": [
+        "X",
+        "9",
+        "/"
+      ],
+      "splits": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

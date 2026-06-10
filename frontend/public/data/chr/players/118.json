@@ -1,10 +1,10 @@
 {
   "player_id": 118,
   "player_name": "НОВОСЕЛОВ СЕРГЕЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20580,
-  "average_score": 171.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3215,
+  "average_score": 178.61,
   "best_game": 253,
   "worst_game": 124,
   "score_diff": 129,
@@ -18,7 +18,71 @@
   "singles_converted": 19,
   "singles_missed": 7,
   "single_pin_percent": 73.08,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2185,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 211
+    },
+    {
+      "game_id": 2186,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 223
+    },
+    {
+      "game_id": 2187,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 204
+    },
+    {
+      "game_id": 2188,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 141
+    },
+    {
+      "game_id": 2189,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 2190,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
     {
       "game_id": 703,
       "game_number": 1,

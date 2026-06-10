@@ -1,10 +1,10 @@
 {
   "player_id": 160,
   "player_name": "СУПРУНОВ АЛЕКСАНДР",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 10030,
-  "average_score": 167.17,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 1953,
+  "average_score": 162.75,
   "best_game": 224,
   "worst_game": 120,
   "score_diff": 104,
@@ -18,7 +18,71 @@
   "singles_converted": 13,
   "singles_missed": 3,
   "single_pin_percent": 81.25,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2695,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 145
+    },
+    {
+      "game_id": 2696,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 197
+    },
+    {
+      "game_id": 2697,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 162
+    },
+    {
+      "game_id": 2698,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 167
+    },
+    {
+      "game_id": 2699,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 153
+    },
+    {
+      "game_id": 2700,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 126
+    },
     {
       "game_id": 955,
       "game_number": 1,

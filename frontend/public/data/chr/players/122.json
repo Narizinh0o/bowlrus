@@ -1,10 +1,10 @@
 {
   "player_id": 122,
   "player_name": "ОТМОРСКИЙ ИВАН",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 8730,
-  "average_score": 145.5,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 1768,
+  "average_score": 147.33,
   "best_game": 166,
   "worst_game": 131,
   "score_diff": 35,
@@ -18,7 +18,71 @@
   "singles_converted": 10,
   "singles_missed": 4,
   "single_pin_percent": 71.43,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Иркутская область",
   "games": [
+    {
+      "game_id": 2737,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 147
+    },
+    {
+      "game_id": 2738,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 146
+    },
+    {
+      "game_id": 2739,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 2740,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 153
+    },
+    {
+      "game_id": 2741,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 135
+    },
+    {
+      "game_id": 2742,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 164
+    },
     {
       "game_id": 727,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 190,
   "player_name": "ЭММЕРИХ ЭДУАРД",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19840,
-  "average_score": 165.33,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3019,
+  "average_score": 167.72,
   "best_game": 213,
   "worst_game": 123,
   "score_diff": 90,
@@ -18,7 +18,71 @@
   "singles_converted": 26,
   "singles_missed": 7,
   "single_pin_percent": 78.79,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2491,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
+    {
+      "game_id": 2492,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 135
+    },
+    {
+      "game_id": 2493,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 2494,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
+    {
+      "game_id": 2495,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 193
+    },
+    {
+      "game_id": 2496,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 167
+    },
     {
       "game_id": 1135,
       "game_number": 1,

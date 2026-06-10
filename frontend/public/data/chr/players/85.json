@@ -1,10 +1,10 @@
 {
   "player_id": 85,
   "player_name": "КУДРИНА ПОЛИНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21060,
-  "average_score": 175.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3128,
+  "average_score": 173.78,
   "best_game": 209,
   "worst_game": 148,
   "score_diff": 61,
@@ -18,7 +18,71 @@
   "singles_converted": 42,
   "singles_missed": 7,
   "single_pin_percent": 85.71,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Томская область",
   "games": [
+    {
+      "game_id": 2935,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 159
+    },
+    {
+      "game_id": 2936,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 155
+    },
+    {
+      "game_id": 2937,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 165
+    },
+    {
+      "game_id": 2938,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2939,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 191
+    },
+    {
+      "game_id": 2940,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
     {
       "game_id": 505,
       "game_number": 1,

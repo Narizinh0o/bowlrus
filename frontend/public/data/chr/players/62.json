@@ -1,10 +1,10 @@
 {
   "player_id": 62,
   "player_name": "КАФЛЕВСКАЯ АННА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19850,
-  "average_score": 165.42,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2977,
+  "average_score": 165.39,
   "best_game": 183,
   "worst_game": 130,
   "score_diff": 53,
@@ -18,7 +18,71 @@
   "singles_converted": 26,
   "singles_missed": 8,
   "single_pin_percent": 76.47,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2971,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 149
+    },
+    {
+      "game_id": 2972,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 2973,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 165
+    },
+    {
+      "game_id": 2974,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 173
+    },
+    {
+      "game_id": 2975,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2976,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
     {
       "game_id": 367,
       "game_number": 1,

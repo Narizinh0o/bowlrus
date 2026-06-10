@@ -1,10 +1,10 @@
 {
   "player_id": 44,
   "player_name": "ЕГУНОВ НИКОЛАЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 23170,
-  "average_score": 193.08,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3418,
+  "average_score": 189.89,
   "best_game": 244,
   "worst_game": 143,
   "score_diff": 101,
@@ -18,7 +18,71 @@
   "singles_converted": 21,
   "singles_missed": 2,
   "single_pin_percent": 91.3,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Республика Татарстан",
   "games": [
+    {
+      "game_id": 2287,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 160
+    },
+    {
+      "game_id": 2288,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 2289,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 186
+    },
+    {
+      "game_id": 2290,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 208
+    },
+    {
+      "game_id": 2291,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 201
+    },
+    {
+      "game_id": 2292,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
     {
       "game_id": 259,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 67,
   "player_name": "КИРИЛЛОВ ИВАН",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20470,
-  "average_score": 170.58,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3092,
+  "average_score": 171.78,
   "best_game": 221,
   "worst_game": 130,
   "score_diff": 91,
@@ -18,7 +18,71 @@
   "singles_converted": 18,
   "singles_missed": 9,
   "single_pin_percent": 66.67,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2449,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 148
+    },
+    {
+      "game_id": 2450,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 182
+    },
+    {
+      "game_id": 2451,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
+    {
+      "game_id": 2452,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 2453,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 203
+    },
+    {
+      "game_id": 2454,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
     {
       "game_id": 397,
       "game_number": 1,

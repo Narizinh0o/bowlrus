@@ -23,10 +23,10 @@ export default function KlbHomePage() {
         )}
       </div>
 
-      <div className="flex gap-6">
+      <div className="flex flex-col md:flex-row gap-6 w-full max-w-xs md:w-auto md:max-w-none">
         <Link
           to="/klb/personal/players"
-          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-72 hover:border-amber-500 transition-all duration-200"
+          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-full md:w-72 hover:border-amber-500 transition-all duration-200"
         >
           <div className="text-4xl mb-4">🎳</div>
           <h2 className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors mb-1">
@@ -42,7 +42,7 @@ export default function KlbHomePage() {
 
         <Link
           to="/klb/team/teams"
-          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-72 hover:border-amber-500 transition-all duration-200"
+          className="group bg-slate-800 border border-slate-700 rounded-2xl p-8 w-full md:w-72 hover:border-amber-500 transition-all duration-200"
         >
           <div className="text-4xl mb-4">🏆</div>
           <h2 className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors mb-1">

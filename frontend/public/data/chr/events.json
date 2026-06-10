@@ -6,5 +6,9 @@
   {
     "event": "doubles mix",
     "games_count": 936
+  },
+  {
+    "event": "single",
+    "games_count": 1164
   }
 ]
