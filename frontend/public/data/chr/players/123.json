@@ -1,10 +1,10 @@
 {
   "player_id": 123,
   "player_name": "ПАНАСЕНКО МАКСИМ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20050,
-  "average_score": 167.08,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3071,
+  "average_score": 170.61,
   "best_game": 233,
   "worst_game": 108,
   "score_diff": 125,
@@ -18,7 +18,71 @@
   "singles_converted": 23,
   "singles_missed": 8,
   "single_pin_percent": 74.19,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Санкт-Петербург",
   "games": [
+    {
+      "game_id": 2395,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 200
+    },
+    {
+      "game_id": 2396,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 195
+    },
+    {
+      "game_id": 2397,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 222
+    },
+    {
+      "game_id": 2398,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 2399,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 2400,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 145
+    },
     {
       "game_id": 733,
       "game_number": 1,

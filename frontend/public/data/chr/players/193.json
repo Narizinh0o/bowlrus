@@ -1,10 +1,10 @@
 {
   "player_id": 193,
   "player_name": "ЯКОВЛЕВ МАКСИМ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 24150,
-  "average_score": 201.25,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3580,
+  "average_score": 198.89,
   "best_game": 243,
   "worst_game": 168,
   "score_diff": 75,
@@ -18,7 +18,71 @@
   "singles_converted": 23,
   "singles_missed": 6,
   "single_pin_percent": 79.31,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Московская область",
   "games": [
+    {
+      "game_id": 2179,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 183
+    },
+    {
+      "game_id": 2180,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 2181,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 184
+    },
+    {
+      "game_id": 2182,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 217
+    },
+    {
+      "game_id": 2183,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
+    {
+      "game_id": 2184,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
     {
       "game_id": 1153,
       "game_number": 1,

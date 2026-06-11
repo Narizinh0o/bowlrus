@@ -1,10 +1,10 @@
 {
   "player_id": 31,
   "player_name": "ГОНЧАРИДИ ЮЛИЯ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19740,
-  "average_score": 164.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2859,
+  "average_score": 158.83,
   "best_game": 200,
   "worst_game": 113,
   "score_diff": 87,
@@ -18,7 +18,71 @@
   "singles_converted": 33,
   "singles_missed": 9,
   "single_pin_percent": 78.57,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 3187,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 139
+    },
+    {
+      "game_id": 3188,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 143
+    },
+    {
+      "game_id": 3189,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 3190,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 150
+    },
+    {
+      "game_id": 3191,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 3192,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 116
+    },
     {
       "game_id": 181,
       "game_number": 1,

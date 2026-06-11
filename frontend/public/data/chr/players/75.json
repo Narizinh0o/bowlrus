@@ -1,10 +1,10 @@
 {
   "player_id": 75,
   "player_name": "КОНОНОВ АЛЕКСАНДР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22650,
-  "average_score": 188.75,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3420,
+  "average_score": 190.0,
   "best_game": 235,
   "worst_game": 146,
   "score_diff": 89,
@@ -18,7 +18,71 @@
   "singles_converted": 33,
   "singles_missed": 8,
   "single_pin_percent": 80.49,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Удмуртская Республика",
   "games": [
+    {
+      "game_id": 2191,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 173
+    },
+    {
+      "game_id": 2192,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
+    {
+      "game_id": 2193,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 2194,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 185
+    },
+    {
+      "game_id": 2195,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
+    {
+      "game_id": 2196,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
     {
       "game_id": 445,
       "game_number": 1,

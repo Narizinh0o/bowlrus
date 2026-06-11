@@ -1,10 +1,10 @@
 {
   "player_id": 30,
   "player_name": "ГОНЧАРИДИ ДЕНИС",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19950,
-  "average_score": 166.25,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2975,
+  "average_score": 165.28,
   "best_game": 223,
   "worst_game": 123,
   "score_diff": 100,
@@ -18,7 +18,71 @@
   "singles_converted": 17,
   "singles_missed": 7,
   "single_pin_percent": 70.83,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2611,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 182
+    },
+    {
+      "game_id": 2612,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 145
+    },
+    {
+      "game_id": 2613,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 186
+    },
+    {
+      "game_id": 2614,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2615,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 160
+    },
+    {
+      "game_id": 2616,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 132
+    },
     {
       "game_id": 175,
       "game_number": 1,

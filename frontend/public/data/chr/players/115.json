@@ -1,10 +1,10 @@
 {
   "player_id": 115,
   "player_name": "НЕДОСЕЕВА ДАРЬЯ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 21540,
-  "average_score": 179.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3186,
+  "average_score": 177.0,
   "best_game": 222,
   "worst_game": 144,
   "score_diff": 78,
@@ -18,7 +18,71 @@
   "singles_converted": 26,
   "singles_missed": 3,
   "single_pin_percent": 89.66,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Москва",
   "games": [
+    {
+      "game_id": 2911,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 152
+    },
+    {
+      "game_id": 2912,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 182
+    },
+    {
+      "game_id": 2913,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 190
+    },
+    {
+      "game_id": 2914,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 175
+    },
+    {
+      "game_id": 2915,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 2916,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
     {
       "game_id": 685,
       "game_number": 1,

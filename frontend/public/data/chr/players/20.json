@@ -1,10 +1,10 @@
 {
   "player_id": 20,
   "player_name": "ВАСЕКИНА АНАСТАСИЯ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20770,
-  "average_score": 173.08,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3110,
+  "average_score": 172.78,
   "best_game": 201,
   "worst_game": 151,
   "score_diff": 50,
@@ -18,7 +18,71 @@
   "singles_converted": 27,
   "singles_missed": 4,
   "single_pin_percent": 87.1,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Тюменская область",
   "games": [
+    {
+      "game_id": 2905,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 2906,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
+    {
+      "game_id": 2907,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
+    {
+      "game_id": 2908,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
+    {
+      "game_id": 2909,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 185
+    },
+    {
+      "game_id": 2910,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 173
+    },
     {
       "game_id": 115,
       "game_number": 1,

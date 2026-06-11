@@ -1,10 +1,10 @@
 {
   "player_id": 116,
   "player_name": "НЕСТЕРЮК СЕРГЕЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 20950,
-  "average_score": 174.58,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3179,
+  "average_score": 176.61,
   "best_game": 194,
   "worst_game": 154,
   "score_diff": 40,
@@ -18,7 +18,71 @@
   "singles_converted": 22,
   "singles_missed": 2,
   "single_pin_percent": 91.67,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2323,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
+    {
+      "game_id": 2324,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 2325,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 192
+    },
+    {
+      "game_id": 2326,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 2327,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 185
+    },
+    {
+      "game_id": 2328,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
     {
       "game_id": 691,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 144,
   "player_name": "СВЕРЧКОВ ВЛАДИМИР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 24730,
-  "average_score": 206.08,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3669,
+  "average_score": 203.83,
   "best_game": 269,
   "worst_game": 161,
   "score_diff": 108,
@@ -18,7 +18,71 @@
   "singles_converted": 25,
   "singles_missed": 4,
   "single_pin_percent": 86.21,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Республика Татарстан",
   "games": [
+    {
+      "game_id": 2149,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 214
+    },
+    {
+      "game_id": 2150,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 196
+    },
+    {
+      "game_id": 2151,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 228
+    },
+    {
+      "game_id": 2152,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 199
+    },
+    {
+      "game_id": 2153,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    },
+    {
+      "game_id": 2154,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
     {
       "game_id": 859,
       "game_number": 1,

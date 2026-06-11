@@ -3,7 +3,7 @@
   "player_name": "МУРАВЬЕВ ИВАН",
   "events_played": 2,
   "games_played": 12,
-  "total_pins": 18550,
+  "total_pins": 1855,
   "average_score": 154.58,
   "best_game": 202,
   "worst_game": 113,
@@ -18,6 +18,10 @@
   "singles_converted": 15,
   "singles_missed": 12,
   "single_pin_percent": 55.56,
+  "blocks_with_frames": 2,
+  "gender": null,
+  "sport_rank": null,
+  "region": null,
   "games": [
     {
       "game_id": 655,

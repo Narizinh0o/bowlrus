@@ -1,10 +1,10 @@
 {
   "player_id": 71,
   "player_name": "КОБЕЛЬКОВ МАКСИМ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22720,
-  "average_score": 189.33,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3338,
+  "average_score": 185.44,
   "best_game": 225,
   "worst_game": 149,
   "score_diff": 76,
@@ -18,7 +18,71 @@
   "singles_converted": 30,
   "singles_missed": 5,
   "single_pin_percent": 85.71,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Тюменская область",
   "games": [
+    {
+      "game_id": 2389,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 195
+    },
+    {
+      "game_id": 2390,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 182
+    },
+    {
+      "game_id": 2391,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 165
+    },
+    {
+      "game_id": 2392,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
+    {
+      "game_id": 2393,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 193
+    },
+    {
+      "game_id": 2394,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 162
+    },
     {
       "game_id": 421,
       "game_number": 1,

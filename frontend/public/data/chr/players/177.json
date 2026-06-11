@@ -1,10 +1,10 @@
 {
   "player_id": 177,
   "player_name": "ЦЕГЕЛЬНИК АЛЕВТИНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 19020,
-  "average_score": 158.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2863,
+  "average_score": 159.06,
   "best_game": 183,
   "worst_game": 107,
   "score_diff": 76,
@@ -18,7 +18,71 @@
   "singles_converted": 25,
   "singles_missed": 8,
   "single_pin_percent": 75.76,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Санкт-Петербург",
   "games": [
+    {
+      "game_id": 3031,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
+    {
+      "game_id": 3032,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 149
+    },
+    {
+      "game_id": 3033,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 3034,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
+    {
+      "game_id": 3035,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 159
+    },
+    {
+      "game_id": 3036,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 137
+    },
     {
       "game_id": 1057,
       "game_number": 1,

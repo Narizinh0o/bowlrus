@@ -1,10 +1,10 @@
 {
   "player_id": 82,
   "player_name": "КРАСНОШТАНОВ ДАНИИЛ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 24890,
-  "average_score": 207.42,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3595,
+  "average_score": 199.72,
   "best_game": 259,
   "worst_game": 147,
   "score_diff": 112,
@@ -18,7 +18,71 @@
   "singles_converted": 27,
   "singles_missed": 1,
   "single_pin_percent": 96.43,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Иркутская область",
   "games": [
+    {
+      "game_id": 2275,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 206
+    },
+    {
+      "game_id": 2276,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 2277,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
+    {
+      "game_id": 2278,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 2279,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 181
+    },
+    {
+      "game_id": 2280,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 202
+    },
     {
       "game_id": 493,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 77,
   "player_name": "КОПЬЕВ ГЛЕБ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 24780,
-  "average_score": 206.5,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3711,
+  "average_score": 206.17,
   "best_game": 279,
   "worst_game": 159,
   "score_diff": 120,
@@ -18,7 +18,71 @@
   "singles_converted": 23,
   "singles_missed": 13,
   "single_pin_percent": 63.89,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Тюменская область",
   "games": [
+    {
+      "game_id": 2119,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 233
+    },
+    {
+      "game_id": 2120,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
+    {
+      "game_id": 2121,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 202
+    },
+    {
+      "game_id": 2122,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 221
+    },
+    {
+      "game_id": 2123,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 231
+    },
+    {
+      "game_id": 2124,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
     {
       "game_id": 457,
       "game_number": 1,

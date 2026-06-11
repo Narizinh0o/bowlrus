@@ -1,10 +1,10 @@
 {
   "player_id": 168,
   "player_name": "ФАВОРСКИЙ ВЛАДИМИР",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22750,
-  "average_score": 189.58,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3356,
+  "average_score": 186.44,
   "best_game": 222,
   "worst_game": 148,
   "score_diff": 74,
@@ -18,7 +18,71 @@
   "singles_converted": 31,
   "singles_missed": 4,
   "single_pin_percent": 88.57,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Иркутская область",
   "games": [
+    {
+      "game_id": 2341,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 157
+    },
+    {
+      "game_id": 2342,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    },
+    {
+      "game_id": 2343,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 202
+    },
+    {
+      "game_id": 2344,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 2345,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 200
+    },
+    {
+      "game_id": 2346,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 169
+    },
     {
       "game_id": 1003,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 176,
   "player_name": "ЦАРЕНКО СТЕПАН",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 24730,
-  "average_score": 206.08,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3677,
+  "average_score": 204.28,
   "best_game": 233,
   "worst_game": 159,
   "score_diff": 74,
@@ -18,7 +18,71 @@
   "singles_converted": 29,
   "singles_missed": 4,
   "single_pin_percent": 87.88,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Москва",
   "games": [
+    {
+      "game_id": 2143,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 226
+    },
+    {
+      "game_id": 2144,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 212
+    },
+    {
+      "game_id": 2145,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 192
+    },
+    {
+      "game_id": 2146,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 188
+    },
+    {
+      "game_id": 2147,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 218
+    },
+    {
+      "game_id": 2148,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 168
+    },
     {
       "game_id": 1051,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 112,
   "player_name": "МУХАМЕТОВ РАФИЛЬ",
-  "events_played": 1,
-  "games_played": 6,
-  "total_pins": 9620,
-  "average_score": 160.33,
+  "events_played": 2,
+  "games_played": 12,
+  "total_pins": 1942,
+  "average_score": 161.83,
   "best_game": 201,
   "worst_game": 116,
   "score_diff": 85,
@@ -18,7 +18,71 @@
   "singles_converted": 14,
   "singles_missed": 5,
   "single_pin_percent": 73.68,
+  "blocks_with_frames": 1,
+  "gender": "М",
+  "sport_rank": "1",
+  "region": "Красноярский край",
   "games": [
+    {
+      "game_id": 2605,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 166
+    },
+    {
+      "game_id": 2606,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 164
+    },
+    {
+      "game_id": 2607,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 183
+    },
+    {
+      "game_id": 2608,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 142
+    },
+    {
+      "game_id": 2609,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 151
+    },
+    {
+      "game_id": 2610,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
     {
       "game_id": 667,
       "game_number": 1,

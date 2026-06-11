@@ -1,10 +1,10 @@
 {
   "player_id": 146,
   "player_name": "СЕРЕДЕНКО ГАЛИНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 16780,
-  "average_score": 139.83,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2586,
+  "average_score": 143.67,
   "best_game": 184,
   "worst_game": 94,
   "score_diff": 90,
@@ -18,7 +18,71 @@
   "singles_converted": 18,
   "singles_missed": 15,
   "single_pin_percent": 54.55,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "кмс",
+  "region": "Тюменская область",
   "games": [
+    {
+      "game_id": 3145,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 164
+    },
+    {
+      "game_id": 3146,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 122
+    },
+    {
+      "game_id": 3147,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 145
+    },
+    {
+      "game_id": 3148,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 139
+    },
+    {
+      "game_id": 3149,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 177
+    },
+    {
+      "game_id": 3150,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 161
+    },
     {
       "game_id": 871,
       "game_number": 1,

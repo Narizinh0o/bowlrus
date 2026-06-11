@@ -1,10 +1,10 @@
 {
   "player_id": 156,
   "player_name": "СТЕБУНОВА АЛЕКСАНДРА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 16830,
-  "average_score": 140.25,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2441,
+  "average_score": 135.61,
   "best_game": 184,
   "worst_game": 105,
   "score_diff": 79,
@@ -18,7 +18,71 @@
   "singles_converted": 28,
   "singles_missed": 15,
   "single_pin_percent": 65.12,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "1",
+  "region": "ХМАО-Югра",
   "games": [
+    {
+      "game_id": 3229,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 132
+    },
+    {
+      "game_id": 3230,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 133
+    },
+    {
+      "game_id": 3231,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 118
+    },
+    {
+      "game_id": 3232,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 133
+    },
+    {
+      "game_id": 3233,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 118
+    },
+    {
+      "game_id": 3234,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 124
+    },
     {
       "game_id": 931,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 81,
   "player_name": "КРАВЧЕНКО МАРИНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22920,
-  "average_score": 191.0,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3448,
+  "average_score": 191.56,
   "best_game": 239,
   "worst_game": 140,
   "score_diff": 99,
@@ -18,7 +18,71 @@
   "singles_converted": 35,
   "singles_missed": 4,
   "single_pin_percent": 89.74,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "мс",
+  "region": "Новосибирская область",
   "games": [
+    {
+      "game_id": 2767,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 203
+    },
+    {
+      "game_id": 2768,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 232
+    },
+    {
+      "game_id": 2769,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2770,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 176
+    },
+    {
+      "game_id": 2771,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 194
+    },
+    {
+      "game_id": 2772,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 180
+    },
     {
       "game_id": 481,
       "game_number": 1,

@@ -1,10 +1,10 @@
 {
   "player_id": 148,
   "player_name": "СИДОРОВ АЛЕКСЕЙ",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 22550,
-  "average_score": 187.92,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 3354,
+  "average_score": 186.33,
   "best_game": 232,
   "worst_game": 161,
   "score_diff": 71,
@@ -18,7 +18,71 @@
   "singles_converted": 29,
   "singles_missed": 2,
   "single_pin_percent": 93.55,
+  "blocks_with_frames": 2,
+  "gender": "М",
+  "sport_rank": "мс",
+  "region": "Санкт-Петербург",
   "games": [
+    {
+      "game_id": 2293,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 2294,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 189
+    },
+    {
+      "game_id": 2295,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 187
+    },
+    {
+      "game_id": 2296,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 174
+    },
+    {
+      "game_id": 2297,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 213
+    },
+    {
+      "game_id": 2298,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 165
+    },
     {
       "game_id": 883,
       "game_number": 1,

@@ -1,0 +1,87 @@
+{
+  "player_id": 261,
+  "player_name": "ПЛОТНИКОВ АНДРЕЙ",
+  "events_played": 1,
+  "games_played": 6,
+  "total_pins": 1002,
+  "average_score": 167.0,
+  "best_game": 216,
+  "worst_game": 127,
+  "score_diff": 89,
+  "strike_attempts": 0,
+  "strikes": 0,
+  "strike_percent": null,
+  "spares": 0,
+  "opens": 0,
+  "spare_conversion_percent": null,
+  "singles_left": 0,
+  "singles_converted": 0,
+  "singles_missed": 0,
+  "single_pin_percent": null,
+  "blocks_with_frames": 0,
+  "gender": "М",
+  "sport_rank": "кмс",
+  "region": "Удмуртская Республика",
+  "games": [
+    {
+      "game_id": 3247,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 156
+    },
+    {
+      "game_id": 3248,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 171
+    },
+    {
+      "game_id": 3249,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 127
+    },
+    {
+      "game_id": 3250,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 178
+    },
+    {
+      "game_id": 3251,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 154
+    },
+    {
+      "game_id": 3252,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 216
+    }
+  ]
+}

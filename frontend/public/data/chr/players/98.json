@@ -1,10 +1,10 @@
 {
   "player_id": 98,
   "player_name": "МАРАМЫГИНА СВЕТЛАНА",
-  "events_played": 2,
-  "games_played": 12,
-  "total_pins": 18320,
-  "average_score": 152.67,
+  "events_played": 3,
+  "games_played": 18,
+  "total_pins": 2733,
+  "average_score": 151.83,
   "best_game": 198,
   "worst_game": 124,
   "score_diff": 74,
@@ -18,7 +18,71 @@
   "singles_converted": 22,
   "singles_missed": 12,
   "single_pin_percent": 64.71,
+  "blocks_with_frames": 2,
+  "gender": "Ж",
+  "sport_rank": "1",
+  "region": "Свердловская область",
   "games": [
+    {
+      "game_id": 3163,
+      "game_number": 1,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 170
+    },
+    {
+      "game_id": 3164,
+      "game_number": 2,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 136
+    },
+    {
+      "game_id": 3165,
+      "game_number": 3,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 179
+    },
+    {
+      "game_id": 3166,
+      "game_number": 4,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 130
+    },
+    {
+      "game_id": 3167,
+      "game_number": 5,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 151
+    },
+    {
+      "game_id": 3168,
+      "game_number": 6,
+      "play_date": null,
+      "time_start": null,
+      "time_end": null,
+      "lane": null,
+      "event": "single",
+      "total_score": 135
+    },
     {
       "game_id": 583,
       "game_number": 1,
